@@ -1,0 +1,294 @@
+body{font-family: 'Montserrat', sans-serif; color: #2C2627; font-size: 14px;    margin: 0px; line-height: 20px;}
+
+html {scroll-behavior: smooth !important;}
+ul, p, h1, h2, h3, h4, select{margin: 0; padding: 0;}
+ul{list-style: none;}
+h1, h2, h3, h4 {font-weight: 600;}
+h1 {font-size: 36px;}
+h2 {font-size: 24px;}
+/* Removing default CSS from form elements */
+input, select, textarea, button{border: none; -webkit-appearance: none;font-family: 'montserrat' 'sans-serif';}
+
+header{background-color: #f7f3f0;}
+
+a{text-decoration: none; color: black;}
+.logo{background: url(../images/datapkt-logo.svg) no-repeat center center; width: 186px; height: 34px; background-size: contain; display: block; margin: 14px 200px 14px 45px;}
+.nav {display: none;}
+.nav li {display: inline-block; vertical-align: middle; padding: 0 20px;}
+.nav li a {display: block; padding: 20px 0 3px; text-transform: uppercase; transition: all .5s ease; color: #3f3f3f; font-size: 14px; font-weight: 600;}
+.nav li a:hover {}
+/* Common Class */
+.fL {float: left;}
+.fR {float: right;}
+
+.clear {clear: both;}
+.textAC {text-align: center;}
+.textAL {text-align: left;}
+.textAR {text-align: right;}
+.dspBlock {display: block !important;}
+.w100p {width: 100% !important;}
+
+.clear10 {height: 10px;}
+.clear20 {height: 20px;}
+.clear30 {height: 30px;}
+.clear40 {height: 40px;}
+.clear80 {height: 80px;}
+
+
+.twhite {color: #fff;}
+
+.noshow {display: none !important;}
+.scroll {height: 500px; overflow: auto;}
+
+.redbtn {background:#BC2C3D; font-size: 12px; padding: 15px 40px; color: #fff; font-weight: 600; text-transform: uppercase; border-radius: 4px; display: inline-block; font-family: 'Montserrat', sans-serif;}
+.whitebtn {background:#fff; font-size: 12px; padding: 15px 40px; font-weight: 600; text-transform: uppercase; border-radius: 4px; color: #BC2C3D; display: inline-block; font-family: 'Montserrat', sans-serif;}
+
+
+.banner-image {background: url(../images/main-image.png) no-repeat center -60px/cover; height:700px;}
+
+.main-text {padding: 30px 50px 50px; width: 500px;}
+.main-text span {display: block; font-size: 50px; font-weight: bold; line-height: 60px;}
+.main-text label {display: block; font-size: 50px; font-weight: bold; color: #BC2C3D; line-height: 70px;}
+.main-text p {display: block; margin: 20px 0 30px; font-weight: 600;}
+
+.partner-main {height: 600px;}
+.client-logos {margin: 0 0 60px 0; text-align:  center;}
+.client-logos label {display: inline-block; vertical-align: top; margin: 0 60px 0 0; font-weight: 600; width: 100px;}
+.client-logos label:last-child {margin: 0;}
+
+
+.client-logos .nhai {background: url(../images/logo-nhai.png) no-repeat center center; height: 40px; background-size:auto 40px;}
+.client-logos .nhidcl {background: url(../images/logo-nhidcl.jpeg) no-repeat center center; height: 40px; background-size:auto 40px;}
+.client-logos .ginfra {background: url(../images/logo-ginfra.png) no-repeat center center; height: 40px; background-size:auto 40px;}
+.client-logos .soi {background: url(../images/logo-survey-of-india.png) no-repeat center center; height: 40px; background-size:auto 40px;}
+.client-logos .delhimetro {background: url(../images/logo-delhi-metro.png) no-repeat center center; height: 40px; background-size:auto 30px;}
+.client-logos .indianrailways {background: url(../images/logo-indian-railways.png) no-repeat center center; height: 40px; background-size:auto 40px;}
+
+
+
+.whydatapkt {width: 30%; float: left; padding: 0 50px; margin: 80px 0;}
+.whydatapkt h2 {font-size: 24px; font-weight: 700; line-height: 34px; margin: 0 0 20px 0;}
+.whydatapkt p {line-height: 30px;}
+
+.dp-process {width: 60%; float: right; padding: 20px 0;}
+.dp-process .process {display: inline-block; vertical-align: top; width: 260px; padding: 20px 30px; box-sizing: border-box;}
+.dp-process .process i {display: block; height: 80px; width: 80px;}
+
+.dp-process .process i.dataaquisition {background: url(../images/icon-data-aquisition.png) no-repeat center center/auto 80px;}
+.dp-process .process i.dataprocessing {background: url(../images/icon-data-processing.png) no-repeat center center/auto 80px;}
+.dp-process .process i.dataai {background: url(../images/icon-ai-engine.png) no-repeat center center/auto 80px;}
+.dp-process .process i.dataautomation {background: url(../images/icon-automation.png) no-repeat center center/80px;}
+
+
+.dp-process .process span {font-weight: 700; display: block; margin: 10px 0;}
+.dp-process .process label {display: block; line-height: 20px; font-size: 14px;}
+
+
+.service-main {background: #fff9ea; padding: 80px 20px 0;}
+.service-main .service-left {padding: 0 50px 20px; width: 500px;}
+
+.service-main .service-left .bullets {padding: 10px 0;}
+.service-main .service-left .bullets span {display: inline-block; font-weight: 600; margin: 0; padding: 0 10px 0 0;}
+
+.service-main .service-left h2 {font-size: 28px; text-transform: uppercase; line-height: 30px; font-weight: bold; letter-spacing: 2px; padding: 0; margin: 0 0 10px 0;}
+.service-main .service-left p {font-size: 14px; line-height: 24px;}
+
+.service-main .service-right {background: #fff9ea; color: #2C2627; padding-top: 20px; box-sizing: border-box; text-align: center;}
+.service-main .service-right p {display: inline-block; vertical-align: middle; width: 200px; font-weight: 600; text-align: center; margin: 0 0 20px;}
+
+.service-main .service-right p i {width: 80px; height: 80px; display: inline-block;}
+.service-main .service-right p label {display: block; margin: 20px 0;}
+
+.service-main .service-right p i.service-videography {background: url(../images/service-videography.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-photogrammetry {background: url(../images/service-photogrammetry.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-dtm {background: url(../images/service-dtm.png) no-repeat center center/auto 80px;}
+
+.service-main .service-right p i.service-dsm {background: url(../images/service-dsm.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-orthophoto {background: url(../images/service-orthophoto.png) no-repeat center center/auto 80px;}
+.service-main .service-right p i.service-lidar {background: url(../images/service-lidar.png) no-repeat center center/auto 80px;}
+
+
+.ai-image .ind-head {text-align: center; padding: 50px 0;}
+.ai-image .ind-head h2 {text-transform: uppercase; font-weight: bold; margin: 0; font-size: 28px; letter-spacing: 2px; line-height: 30px;}
+.ai-image .ind-head p {font-size: 16px; text-transform: uppercase; margin: 0 0 40px 0; font-weight: 600; color: #bc2c3c; margin: 20px 0 0;}
+
+
+.ai-image {background: url(../images/ai-engine.png) no-repeat center center #f7f3f0; height: 600px; width: 100%; background-size: auto 600px;}
+
+
+
+.industries {padding: 0;}
+
+.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 500px; margin: 0 auto;}
+.industries .ind-names .indus-name {display: block; text-align: left; width: 100%}
+.industries .ind-names .indus-name i {width: 180px; height: 180px; display: inline-block; vertical-align:middle; margin: 0 40px 0 0;}
+.industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 230px;}
+
+.indus-name, .indus-name2 {padding: 30px 0; border-bottom: 1px dashed #efefef; transition: all .2s ease-in-out;}
+.industries .ind-names .indus-name:last-child, .industries .ind-names .indus-name2:last-child {border-bottom: none;}
+
+.indus-name:hover, .indus-name2:hover {transform: scale(1.2);}
+
+.industries .ind-names .indus-name i.highway {background: url(../images/industry-roads.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name i.mining {background: url(../images/industry-minning.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name i.power-plant {background: url(../images/industry-power.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name i.rivers {background: url(../images/industry-rivers.png) no-repeat center center; background-size: auto 200px;}
+
+.industries .ind-names .indus-name p label {font-size: 16px; text-transform: uppercase; font-weight: 600; display: block; margin: 10px 0;}
+.industries .ind-names .indus-name p span {font-size: 14px;}
+
+.industries .ind-names .indus-name2 {display: block; text-align: left; width: 100%;}
+.industries .ind-names .indus-name2 i {width: 180px; height: 180px; display: inline-block; vertical-align:middle;}
+
+.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 250px; text-align: right; margin: 0 40px 0 0;}
+.industries .ind-names .indus-name2 p label {font-size: 16px; text-transform: uppercase; font-weight: 600; display: block; margin: 10px 0;}
+.industries .ind-names .indus-name2 p span {font-size: 14px;}
+
+.industries .ind-names .indus-name2 i.railway {background: url(../images/industry-railway.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name2 i.manufacturing {background: url(../images/industry-manufacturing.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name2 i.oil-gas {background: url(../images/industry-oil-gas.png) no-repeat center center; background-size: auto 200px;}
+.industries .ind-names .indus-name2 i.urban-planning {background: url(../images/industry-urban-planning.png) no-repeat center center; background-size: auto 200px;}
+
+.testimonial {background: #f9f9f9; padding: 50px 0;}
+.testimonial .test-left {text-align: center;}
+.testimonial .test-left h2 {font-size: 28px; line-height: 30px;}
+.testimonial .test-left p {margin: 20px 0;}
+.testimonial .test-left span {display: block;}
+.testimonial .test-left span label {font-weight: 600; font-size: 14px;}
+.testimonial .test-left span i {font-size: 14px; color: #3f3f3f; font-style: normal;}
+
+
+.drone-pilot {background: #F8F3E6;}
+.drone-pilot .pilot-left {float: left; width: 45%; padding: ; background: url(../images/banner-pilot.png) no-repeat center center; height: 600px;}
+.drone-pilot .pilot-right {float: right; width: 35%; padding: 200px 100px;}
+.drone-pilot .pilot-right h2 {font-size: 28px; line-height: 38px;}
+.drone-pilot .pilot-right p {margin: 20px 0; line-height: 26px;}
+.drone-pilot .pilot-right a {}
+
+
+.footer {background: #2C2627; padding: 20px; color: #fff; font-size: 12px;}
+
+.ftrtop {text-align: right; margin: 20px 0;}
+.ftrtop span {display: block;}
+
+.footer p {float: left;}
+.footer p span {}
+.footer label {float: right;}
+.footer label a {color: #fff; font-size: 12px;}
+
+
+/* POP Up */
+.modal-backdrop {
+    background: rgba(0,0,0,.7);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    -webkit-backface-visibility: hidden;
+}
+.modal {
+    position: fixed!important;
+    overflow: auto;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: table!important;
+}
+.modal .modal-dialog {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+.modal .modal-dialog .modal-content {display: inline-block!important;}
+.modal .modal-dialog .modal-content .modalBody {background:#fff; padding: 25px -15px -15px; position: relative; border-radius: 4px;}
+
+.modal .modal-dialog .modal-content .modalBody .cls {
+    position: absolute!important;
+    right: 0;
+    top: 0;
+    background: 0 0;
+    border: none;
+    padding: 10px;
+    color: grey;
+    font-size: 17px;
+    margin: 7px 7px 0 0;
+    font-weight: 100;
+    cursor: pointer;    
+}
+
+.mat-icon-button {
+    padding: 0;
+    min-width: 0;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.whtBlock {width: 600px; padding: 100px 20px; text-align: left; margin: 0 auto;}
+
+.whtBlock h2 {padding: 10px 0; font-size: 28px; text-transform: capitalize; text-align: center; margin: 0 0 30px;}
+
+.wdFull {width: 100%!important;}
+.authUnit {display: table; width: 100%;}
+
+.frm {}
+.frm p {margin: 0 0 15px 0; text-align: left;}
+.frm p label {display: block; font-size: 12px; margin: 0 0 5px 0;}
+.frm p span {display: block;}
+.frm p input {padding: 10px; border: 1px solid #efefef; border-radius: 4px; width: 100%; box-sizing: border-box;}
+
+.contact {}
+
+
+@media only screen and (max-width: 640px) {
+    .client-logos label {margin: 0 20px 30px 0; width: 80px;}
+    .whydatapkt {width: 100%; padding: 0 20px; box-sizing: border-box; margin: 0;}
+    .dp-process {width: 100%; box-sizing: border-box;}
+    .dp-process .process {width: 100%; box-sizing: border-box; float: none;}
+    .partner-main {height: auto;}
+    .service-main {box-sizing: border-box; padding: 50px 30px;}
+    .service-main .service-left {width: 100%; box-sizing: border-box; padding: 0; float: none;}
+    .service-main .service-right {width: 100%; box-sizing: border-box; float: none; text-align: left;}
+    .service-main .service-right p {width: 150px;}
+
+    .testimonial {padding: 50px 30px;}
+    .whtBlock {padding: 50px 20px; box-sizing: border-box; width: 100%;}
+
+    .drone-pilot {}
+    .drone-pilot .pilot-left {width: 100%; height: 450px; background-size: auto 400px;}
+    .drone-pilot .pilot-right {width: 100%; float: none; box-sizing: border-box; padding: 100px 50px 50px;}
+    .banner-image {height: 380px; background:url(../images/main-image.png) no-repeat center bottom/contain #f7f3f0;}
+
+    .main-text {width: 100%; padding: 20px 30px; box-sizing: border-box;}
+    .main-text span {font-size: 30px; line-height: 40px;}
+    .main-text label {font-size: 30px; line-height: 40px;}
+    .main-text p {margin: 10px 0 ; font-size: 12px;}
+
+    .client-logos {margin: 30px 0;}
+    .client-logos .delhimetro {background-size: auto 25px;}
+
+    .logo {margin: 25px 200px 14px 15px;}
+
+    .ai-image .ind-head {box-sizing: border-box; width: 100%; padding: 0;}
+    .ai-image .ind-head h2 {font-size: 26px;}
+    .ai-image .ind-head p {font-size: 18px; line-height: 30px;}
+    .ai-image {padding: 50px 30px; box-sizing: border-box; background: url(../images/ai-engine.png) no-repeat center bottom/contain #f7f3f0; background-size: contain; height: 340px;}
+
+    .industries .ind-names {width: 100%; padding: 30px 15px; box-sizing: border-box;}
+    .industries .ind-names .indus-name {box-sizing: border-box;}
+    .industries .ind-names .indus-name i {margin: 0 10px 0 0; width: 100px; height: 100px; background-size: auto 100px !important;}
+    .industries .ind-names .indus-name2 i {margin: 0 0 0 10px; width: 100px; height: 100px; background-size: auto 100px !important;}
+    .industries .ind-names .indus-name p {width: 220px;}
+    .industries .ind-names .indus-name2 p {margin: 0 10px 0 0; width: 220px;}
+    .testimonial .test-left h2 {font-size: 26px;}
+    .whtBlock h2 {font-size: 22px; margin: 0 0 20px 0;}
+    .authUnit .clear20 {display: none;}
+  }
