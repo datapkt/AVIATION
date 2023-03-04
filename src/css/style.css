@@ -166,7 +166,7 @@ a{text-decoration: none; color: black;}
 
 .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center center/contain; width: 100%; height: 500px;}
 
-.industries {padding: 0; width: 100%; position: relative; background: #f0f0f0;}
+.industries {padding: 0; width: 100%; position: relative; background: url(../images/industry_bg.jpg) repeat-y top center/contain;}
 
 .industries .ind-names {text-align: center; width: 100%; margin: 0 auto; padding: 30px 100px 30px;}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
