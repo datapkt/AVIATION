@@ -164,14 +164,17 @@
 
     <!-- Ai Engine -->
     <section id="ai_engine" class="fullheight">
-        <div class="ai-image fullheight" style="padding: 20px 0 !important;">
+        <div class="ai-image fullheight" style="padding: 20px 0 !important;width: 75%;
+        margin: 0 auto;">
             <div class="ind-head">
                 <h2>DATAPKT AI Engine</h2>
                 <p>is transforming the world we live in.</p>
             </div>
 
-            <div class="ai_engine">
-            </div>
+            <!-- <div class="ai_engine"> -->
+            <!-- <div id="ai"></div> -->
+            <dotlottie-player autoplay mode="normal" style="width: 100%" src="./src/aiengine.json"> </dotlottie-player>
+        </div>
         </div>
     </section>
     <!-- Ai Engine -->
@@ -631,15 +634,15 @@
     // }
 
 
-    function initializeBMLottie() {
-        var animation = bodymovin.loadAnimation({
-            container: document.getElementById('bm'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'motion.json'
-        });
-    }
+    // function initializeBMLottie() {
+    //     var animation = bodymovin.loadAnimation({
+    //         container: document.getElementById('bm'),
+    //         renderer: 'svg',
+    //         loop: true,
+    //         autoplay: true,
+    //         path: 'motion.json'
+    //     });
+    // }
 
     function initializeAILottie() {
         var animationOther = bodymovin.loadAnimation({
@@ -653,7 +656,7 @@
     $(function () {
         console.log("ready!");
         //initializeBMLottie();
-        //initializeAILottie();
+        initializeAILottie();
     });
 
 

@@ -157,7 +157,7 @@ a{text-decoration: none; color: black;}
 
 
 .ai-image {position: relative; background: rgb(231, 174, 7, 0);}
-.ai-image .ind-head {text-align: center; padding: 3% 0; box-sizing: border-box;}
+.ai-image .ind-head {text-align: center; padding: 3% 0 0 0; box-sizing: border-box;}
 .ai-image .ind-head h2 {text-transform: capitalize; margin: 0 0 20px; font-size: 2rem; color: #bc2c3c;}
 .ai-image .ind-head p {font-size: 1rem; text-transform: capitalize;}
 
