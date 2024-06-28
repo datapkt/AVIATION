@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                                <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <h2 class="second-heading text-left">Mining Sector
+                    </h2>
+                    <!-- <h3 class="text-red">INTRODUCTION
+                    </h3> -->
+                    <label class="text-justify pt-11">DATA PKT drones revolutionize mining operations by offering invaluable assistance in inventory management, hotspot detection, and stockpile management. Through drone aerial imagery, detailed digital terrain models, digital surface models, and 3D terrain models of mining sites are effortlessly generated. These UAVs expedite operations, enabling prompt detection of mining block depths and elevations, even in hazardous, remote areas. Their high-resolution images facilitate thorough inspection, precise mapping, and ongoing monitoring of challenging terrains. Additionally, DATA PKT drones play a pivotal role in ensuring operational efficiency, minimizing delays, and enhancing safety measures within mining sites. By leveraging advanced drone technology, mining companies can optimize resource utilization, streamline workflows, and mitigate potential risks, ultimately leading to more sustainable and profitable mining operations.
+
+                    </label>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/mining-2.png" alt="" loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <!-- <section class="pt-50">
+        <div class="container-fluid  ">
+            <div class="row align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/image/pre-construction.webp" alt="" width="100%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="text-red">Stages Of Mining </h2>
+                    <p><b>Drones could serve as a vital instrument in the mining industry's phases that include the
+                            following</b>
+                    </p> <br>
+                    <ul style="list-style-type: circle; padding-left: 20px;">
+                        <li>Exploration and Discovery stage </li>
+                        <li>Development </li>
+                        <li>Production </li>
+                        <li>Reclamation stage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- pre-construction End -->
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#exploration-and-discovery-stage" >
+                    <div class="button">
+                       <p class="font-20">Exploration and Discovery stage</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#development">
+                    <div class="button">
+                        <p class="font-20">Development</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#production">
+                    <div class="button">
+                        <p class="font-20">Production</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#reclamation-stage" >
+                    <div class="button">
+                       <p class="font-20">Reclamation stage</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pt-50" id="exploration-and-discovery-stage"> 
+        <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Stage 1: Exploration and Discovery stage
+                        </span>
+                        <p class="mb-3">The search for evidence of mineralization in the rocks around is the process of mineral exploration. The primary method creates a geological picture by combining geological information from many sites and projecting it across a larger area. The exploration of new regions rises along with the demand for resources. By the end of 2030, the demand will have increased by 60%.</p>
+
+                        <p class="mb-3">
+                            <b>Mining exploration has been revamped via the use of top-notch drones since drone
+                                technology has redefined multiple aspects of the mining industry.</b>
+                        </p>
+
+                        <p>Mining exploration has been revamped via the use of top-notch drones since drone technology has redefined multiple aspects of the mining industry. These advanced drones equipped with DATAPKT AI facilitate the establishment of a fundamental image of the region's geology. Each successive stage of work in an area will build on and relate back to this initial stage, leveraging the insights gathered by the drones. This integration of drone technology significantly enhances the efficiency and accuracy of mineral exploration, leading to more effective resource utilization and sustainable mining practices.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <div class="row">
+                            <img src="src/images/mining/stage-1.webp" alt="" width="100%"                                style="border-radius: 30px;">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-2 pt-50" id="development">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 ">
+                    <img src="src/images/mining/stage-2.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Stage 2: Development Stage
+                    </span>
+                    <p class="pb-3">Using a drone, DATA PKT assists in optimising the following processes throughout the
+                        mining development phase:-
+
+                    </p>
+                    <h4 class="feature-box3-title ">Haulage Road Optimization </h4>
+                    <p class="mb-3"> A haul road is a type of road in the mining industry used to transport heavy and
+                        bulky materials by haul trucks. It is sometimes referred to as a haulage road or a haul track.
+                    </p>
+
+                    <p class="mb-3">Material hauling accounts for a significant portion of a mine's expenses. A safe
+                        transportation system is made possible by well-designed and maintained roads, which immediately
+                        cut cycle times, fuel consumption, tyre prices, and overall cost per tonne transported.</p>
+
+                    <p> Drones are capable of performing a range of activities connected to haulage roads, including
+                        precision mapping, time-sensitive land surveys, and quick road inspections. Drones are necessary
+                        for the long-term and economic management of transportation infrastructure and road upkeep. </p>
+
+                    <h4 class="feature-box3-title pt-3">Surveying and Mapping</h4>
+                    <p> Traditional surveying techniques require careful measuring, planning, and preparation, which
+                        adds delay to the data collection process. Drones, on the other hand, can gather all of this
+                        data in a very short amount of time. A conventional survey would take 70% longer than one using
+                        drones. In addition, as compared to traditional surveys, drone surveys need half the amount of
+                        labour.</p>
+
+                    <h4 class="feature-box3-title pt-3">Tailings dam monitoring </h4>
+                    <p mb-3>Most notably in metallurgical or coal mines, tailings dams are a familiar sight. They may
+                        cover entire square kilometres and are built of earth. They act as a garbage repository for all
+                        the contaminated byproducts of mining activities.
+
+                        When you decide to use a drone to monitor your tailings dam, you instantly cut down on the
+                        dangers of surveying staff by cutting the likelihood of people entering unsafe regions by 48%.
+                        Drone surveying is possible using just line-of-sight distance. There is no longer a need for
+                        them to remain so near to the area's harmful chemicals and dust.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="production">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Stage 3: Production Stage</span>
+                    <h4 class="feature-box3-title">Stockpile management and calculation</h4>
+                    <p class="mb-3">Stockpile management is crucial for minimizing environmental impact and ensuring regulatory compliance in mining and construction activities. By implementing erosion control measures such as proper covering, grading, and vegetation, companies can mitigate the risk of sediment flow from soil stockpiles, preserving nearby waterways and ecosystems. Moreover, stockpile management becomes imperative when dealing with erodible materials, as it helps prevent soil loss, contamination, and potential hazards to surrounding areas.</p>
+
+                    <p> DATA PKT revolutionizes stockpile management by providing comprehensive solutions tailored to the specific needs of miners. Through advanced technology integration, DATA PKT enables transparent operations by providing stakeholders with real-time access to crucial data and analytics. Enhanced inventory management ensures optimal utilization of resources while minimizing waste and redundancy. Real-time quarry monitoring allows for proactive decision-making and risk mitigation, enhancing safety and operational efficiency. Additionally, the use of drones for stockpile evaluation provides accurate volumetric measurements, improving planning and forecasting capabilities. Overall, DATA PKT empowers miners to streamline their stockpile management processes, leading to cost savings, time efficiencies, and sustainable operations.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/mining/stage-3.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="reclamation-stage">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/mining/stage-4.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Stage 4: Land Reclamation </span>
+                    <p class="mb-3">Reclamation of mined land is the process of restoring it to the condition it was in
+                        before mining. When you restore land, you are minimizing the negative environmental consequences
+                        of mining. Reforestation and new development are the most typical methods of reclamation.</p>
+
+                    <p class="mb-3"> The most accurate approach to predict how much work is left to do and when
+                        reclamation will start is to use a drone, which also aids in tracking extraction progress and
+                        material movement. Aerial surveys employing numerous drone flights are the quickest and most
+                        reliable way to get this data.</p>
+
+
+
+
+                    <!-- <p class="pb-3"><b>Benefits of using drones in the mining sector:-</b></p> -->
+                    <h4 class="feature-box3-title">Benefits of using drones in the mining sector:-</h4>
+
+                    <!-- <h4 class="feature-box3-title">Site Safety Management</h4> -->
+                    <p class="pb-3"><b>Site Safety Management</b></p>
+                    <p>Mining sites feature volatile sections with rugged terrain where safety is of the utmost
+                        priority. Drones can give precise, high-quality photogrammetric data of mines, which is
+                        subsequently turned into digital elevation and surface models. This allows for improved
+                        management and task implementation of mining sites</p>
+                    <br>
+                    <!-- <h4 class="feature-box3-title"></h4> -->
+                    <p class="pb-3"><b>Automated Inspection</b></p>
+                    <p>Compared to traditional methods, drones with built-in automation assess mining blast sites
+                        without endangering human lives. The expense associated with employing significant human
+                        resources can be avoided by automating mine inspection using drones. Drones gather an enormous
+                        quantity of data that may be used to create othomosaic maps to provide an updated perspective of
+                        vast tracts of land.
+                    </p>
+                    <br>
+                    <!-- <h4 class="feature-box3-title">Site Monitoring And Mapping
+                    </h4> -->
+                    <p class="pb-3"><b>Site Monitoring And Mapping</b></p>
+                    
+                    <p>DATA PKT drones monitor mining sites with high-quality embedded sensors and give real-time,
+                        cost-effective data access. Deep mining tunnels that are inaccessible manually can be monitored
+                        by UAVs. This aids in site surveillance and the discovery of any leaks that can endanger human
+                        life. Real-time data access guarantees that corrective actions be implemented as soon as
+                        problems are found.
+                    </p>
+                    <br>
+
+                    <p class="pb-3"><b>Mine Survey Using Lidar</b></p>
+
+                    
+                    <p>The use of LiDAR (light detection and ranging) for measuring and inspecting mining pits assists
+                        in the creation of precise topographical maps of mining operations. Drones integrated with LiDAR
+                        sensors to aid in obtaining precise information about the steepness of embankments and unstable
+                        ground foundations. While keeping on-site surveyors secure, drones assist surveyors to navigate
+                        topographically difficult areas.
+                    </p>
+                    <br>
+
+                    <!-- <h4 class="feature-box3-title">Volume Calculation</h4> -->
+
+                    <p class="pb-3"><b>Volume Calculation</b></p>
+
+                    
+                    <p>Volume calculations are important in mining as it helps in determining the cost and efficiency of
+                        machines and mining methods. Traditionally, RTK-GPS systems are required to be installed, the
+                        installation can be life-threatening for the miner, therefore Digital terrain modelling(DTM) can
+                        be used for volume calculations with the help of Drones.
+
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red">Deliverables
+                </h2>
+            </div>
+            <div class="columns">
+                <div class="cards">
+                    <div class="card-head">
+                        <img src="src/images/image/dpr.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text pb-58">
+                        <h2 class="text-subheading ">Detailed Project Reporting (DPR)</h2>
+                        <p>We deliver Detailed project reports for mining endeavors, leveraging drone surveys to furnish detailed insights into terrain mapping, accurate stockpile volume measurement, and ongoing site monitoring. Our reports ensure informed decision-making and optimize operational efficiency in mining projects.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/image/dtm.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text">
+                        <h2 class="text-subheading">DTM</h2>
+                        <p>We offer comprehensive Digital Terrain Models (DTM) derived from drone surveys tailored for mining projects. Our DTM solutions provide detailed elevation data, enabling precise terrain mapping, volume calculations, and site planning to optimize mining operations and support informed decision-making for sustainable resource extraction.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class=""><img src="src/images/mining/stockpile.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text ">
+                        <h2 class="text-subheading ">Stockpile Volume Measurement </h2>
+                        <p> Drones offer rapid and precise volume measurements of mined material stockpiles, including ore, coal, or aggregates. This data is indispensable for efficient inventory management, strategic production planning, and ensuring accurate financial reporting, enhancing operational efficiency and decision-making in the mining industry.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/mining/orthomosaic.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-20">
+
+                        <h2 class="text-subheading">Orthomosaic</h2>
+                        <p>we create orthomosaic for highway construction using drone-captured aerial imagery stitched
+                            together using photogrammetry software for comprehensive site visualization and
+                            analysis.Orthomosaic imagery from drones enhances highway construction by providing
+                            detailed, accurate visual data for planning, monitoring, and quality assurance.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/image/dsm.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading ">DSM</h2>
+                        <p>We specialize in delivering Digital Surface Models (DSM) derived from drone surveys specifically designed for mining projects. Our DSM solutions offer detailed terrain mapping, facilitating accurate stockpile volume measurement and strategic site planning to enhance productivity and efficiency in mining operations.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/image/aerial-photogrammetry-videography.webp" alt=""
+                            width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text">
+                        <h2 class="text-subheading ">Aerial Photogrammetry and Videography</h2>
+                        <p>We specialize in aerial photography and videography services using drones for mining projects. Our high-quality imagery and videos offer valuable visual documentation, aiding in project planning, monitoring, and communication for efficient decision-making throughout the mining process
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/image/topographical-survey.webp" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-97">
+                        <h2 class="text-subheading">Topographical Survey </h2>
+                        <p>We specialize in providing topographic surveys using drone technology integrated with Differential Global Positioning System (DGPS) for mining projects. Our surveys deliver highly accurate terrain mapping, facilitating precise resource estimation, site planning, and operational optimization to enhance productivity and efficiency in mining operations</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class=""><img src="src/images/mining/blast-monitoring.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-51">
+                        <h2 class="text-subheading">Blast Monitoring and Fragmentation Analysis</h2>
+                        <p>We offer blast monitoring and fragmentation analysis services using drones tailored for mining projects. Our solutions provide real-time monitoring of blasting operations and detailed analysis of rock fragmentation, enhancing safety and optimizing productivity in mining activities.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-head"><img src="src/images/mining/lidar-survey.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading">Lidar Survey </h2>
+                        <p>LIDAR surveys for highways yield detailed topographic data crucial for precise route planning, infrastructure design, and safety assessment. This information guarantees the implementation of optimal construction and maintenance practices, enhancing overall efficiency and safety standards.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="mt-2"> <img src="src/images/mining/pit.webp" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-92">
+                        <h2 class="text-subheading">Pit and Highwall Inspections</h2>
+                        <p>We specialize in pit and highwall analysis services using drones for mining projects. Our solutions offer detailed inspections of open-pit mines and highwalls, providing valuable insights to ensure safety, assess stability, and optimize operational efficiency.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/coverage.png" alt="">
+                            <h5 class="heading-four">Comprehensive Coverage</h5>
+                            <p class="mb-3"> With extensive experience in the mining sector, we've surveyed vast areas of mining sites, including open pits, underground tunnels, and exploration zones.</p>
+                            <p class="">Our commitment to comprehensive coverage ensures that we provide actionable insights for all aspects of mining operations, from exploration to production optimization.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/surveying.png" alt="">
+                            <h5 class="heading-four">Efficiency in Surveying</h5>
+                            <p class="mb-3 ">Equipped with cutting-edge drones and skilled personnel, we efficiently cover large mining areas, surpassing traditional surveying methods in speed and accuracy.
+                            </p>
+                            <p class="">Our rapid survey capabilities enable mining companies to access critical data faster, facilitating quicker decision-making and operational adjustments.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/data-processing.png" alt="">
+                            <h5 class="heading-four">Data Processing Expertise</h5>
+                            <p class="mb-3 ">Our dedicated team of data analysts and geospatial experts ensures efficient processing and analysis of drone-collected data.
+                            </p>
+                            <p class="">By delivering timely and accurate insights, we empower mining stakeholders to make informed decisions that enhance productivity, safety, and environmental compliance.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/safety.png" alt="">
+                            <h5 class="heading-four">Precision and Safety</h5>
+                            <p class="mb-3">Leveraging advanced drone technology, we provide precise mapping and monitoring of mining infrastructure, reducing the risk of accidents and optimizing resource utilization.
+                            </p>
+                            <p class="">Our focus on precision and safety underscores our commitment to supporting sustainable and responsible mining practices.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 d-none d-sm-block">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/mining/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

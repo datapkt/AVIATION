@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                          <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                           <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Lidar </h2>
+                    <label class="center-justified pt-11">Drone LiDAR surveying is a cutting-edge technology that utilizes
+                        Light Detection and Ranging (LiDAR) sensors mounted on unmanned aerial vehicles (UAVs) to
+                        capture highly accurate and detailed 3D data of the Earth's surface. This technology offers
+                        significant advantages over traditional surveying methods, providing rapid and cost-effective
+                        data acquisition, especially in areas with challenging terrain or limited accessibility.
+                    </label>
+                    <label class="center-justified pt-11">At DATAPKT Aviation, we provide secure drone operations to ensure
+                        quick data collection, low-cost aerial lidar scanning, and top-notch positional accuracy. We
+                        specialize in providing professional drone LiDAR surveying services to meet the diverse needs of
+                        our clients. Here's how we deliver value through our service:
+                    </label>
+                    
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/lidar/lidar-1.webp" alt="" loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <p class=" "><span class="sub-heading">Data collection</span>
+                        <p class="mb-3">To collect data, LiDAR uses a specialized sensor that emits pulses of light and measures the
+                            time it takes for these signals to bounce back, allowing it to create incredibly detailed 3D
+                            maps of land and terrain with pinpoint accuracy.
+                        </p>
+                        <p class="mb-3">We utilise state-of-the-art LiDAR sensors mounted on our advanced drones to capture precise
+                            3D data of the survey area. LiDAR technology enables us to collect data points with high
+                            accuracy and density, capturing detailed information about terrain elevation, vegetation,
+                            buildings, and other features.
+                        </p>
+                        <p class=" " style="margin: 10px 0;"><span class="f18 formHeads">Customised Survey
+                                Planning</span>
+                        <p>Our team works closely with clients to understand their project requirements and objectives.
+                            We design customised survey plans tailored to each project, considering factors such as area
+                            coverage, point density, and resolution to ensure optimal data quality and relevance.
+                        </p>
+                        <p class="" style="margin: 10px 0;"><span class="f18 formHeads">Efficient Data
+                                Acquisition</span>
+                        <p>Our experienced drone pilots execute the survey missions following carefully planned flight
+                            paths. We leverage the flexibility and manoeuvrability of drones to access remote or
+                            challenging terrain, maximising data coverage while minimising operational costs and risks.
+                        </p>
+
+                        <p class="" style="margin: 10px 0;"> <span class="f18 formHeads">Data Processing</span>
+                        <p>After data capture, we process the raw LiDAR data using specialised software to generate
+                            detailed point clouds. Our team applies sophisticated algorithms to clean, filter, and
+                            classify the point cloud data, enhancing its accuracy and usability for various
+                            applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/lidar/data-collection.webp" alt="" loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="pt-50">
+        <div class="container-fluid text-center ">
+            <div class="p-4">
+                <h2 class="text-red text-center">Lidar Deliverables 
+                </h2>
+                <p>Depending on the particular objectives and specifications of a project, our drone LiDAR (light
+                    detection and ranging) technology offers a broad range of outcomes. Our LiDAR outputs offer the
+                    potential to provide extremely accurate and detailed topography data that is useful for a wide
+                    range of applications across various sectors. The following are potential deliverables we
+                    provide:</p>
+            </div>
+
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/orthomosaic-map.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading">Orthomosaic map  </h2>
+                            <p>Drone photographs are corrected for distortion and seamlessly merged during post-processing to produce a remarkably precise orthomosaic map. Every pixel on this map includes high-quality 2D geographic data (X, Y), allowing exact measurements such as horizontal distances and surface areas to be collected directly.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/point-cloud.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">3D Point Cloud
+                            </h2>
+                            <p>Dense point clouds can be created by processing drone images. Every point in this cloud contains geographic coordinates (X, Y, Z) and colour information, providing an extremely precise model for measuring lengths (horizontal and vertical), as well as areas and volumes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/dsm.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">DSM
+                            </h2>
+                            <p>A DSM captures ‘the natural and built features’ on the earth's surface. DSMs represent the bare earth and all of its above-ground features. Drone images can also be used to create DSM models of the area. Each pixel contains 2D information (X, Y) and the altitude (Z value) of the highest point for this position.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/dtm.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading">DTM  </h2>
+                            <p>DTM’s (Digital Terrain Model) are detected using aerial photography at low heights with a geometrically calibrated camera. This enables the drone to obtain all the heights of the surveyed  terrain.  In these models, each pixel stores 2.5D information, including the X, Y, and Z values corresponding to the highest altitude.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/contour-map.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Contour map 
+                            </h2>
+                            <p>We can obtain a greater understanding of the area the drone photographed by using a contour line map that can be created using the DTM or DSM model with specific contour intervals, depending on the requirements of the project.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/volume-calculations.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Volume Calculations
+
+                            </h2>
+                            <p>Drone LiDAR can be used to calculate the volume of materials, such as soil, rock, and gravel, with a high degree of accuracy. This information can be used for a range of applications, including mining, construction, and environmental studies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center ">
+            <div class="p-4">
+                <h2 class="text-red text-center">LIDAR is used for Infrastructure
+                </h2>
+                <!-- <h4 class="text-red text-center"></h4> -->
+                <p>Lidar drones play a pivotal role in infrastructure development and maintenance. They are used to
+                    create
+                    precise 3D models of roads, bridges, and other critical infrastructure. These models aid in design,
+                    construction, and monitoring, ensuring safety and efficiency.</p>
+            </div>
+
+            <section class="bg-2">
+                <div class="container-fluid">
+                    <div class="text-center pb-3">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <img src="src/images/lidar/topographic-analysis.webp" alt="" width="80%"
+                                style="border-radius: 30px;">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <span class="text-subheading text-start">Topographic analysis and site monitoring
+                            </span>
+                            <p class="text-start pb-3">The utilization of LiDAR drones in construction projects has revolutionized the way engineers gather and utilize critical site information. By deploying LiDAR drones, highly detailed three-dimensional (3D) visualizations of construction sites are generated, providing engineers with precise data on topography, potential hazards, and unstable ground conditions. This invaluable information enables engineers to make informed decisions regarding foundation types, excavation requirements, and site layouts. 
+                            </p>
+
+                            <p class="pb-3 text-start">
+                                With precise knowledge of the site's characteristics, engineers can optimize foundation designs, minimize excavation needs, and improve site planning, ultimately enhancing the safety and efficiency of construction projects. The use of LiDAR drones streamlines the data collection process, reduces risks, and saves costs. By leveraging this cutting-edge technology, construction projects can be completed more quickly, safely, and accurately, resulting in improved outcomes and enhanced project success. The integration of LiDAR drones in construction has transformed the industry, enabling engineers to build with confidence and precision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-50">
+                <div class="container-fluid ">
+                   
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <span class="text-subheading text-start">Infrastructure monitoring
+                                </span>
+                                <p class=" pb-3 text-start">The fusion of LiDAR technology with drones has brought about a paradigm shift in the maintenance and inspection of critical infrastructure, including pipelines, turbines, and power lines. These sophisticated drones are equipped to capture intricate and precise data, enabling comprehensive evaluations that prioritize safety and risk reduction. By leveraging LiDAR technology, inspectors can remotely identify potential issues, such as cracks, deformations, and other defects, without the need for hazardous and time-consuming in-person inspections. 
+                                </p>
+
+                                <p class="pb-3 text-start">
+                                    The captured data empowers maintenance teams to prioritize repairs and maintenance activities, ensuring the long-term durability and safety of vital infrastructure. This proactive approach minimizes the risk of unexpected failures, reduces downtime, and mitigates the potential for environmental damage. By harnessing the capabilities of LiDAR drones, infrastructure managers can optimize maintenance schedules, extend asset lifetimes, and ensure the reliable operation of critical systems. The integration of LiDAR drones has transformed the inspection and maintenance of vital infrastructure, setting a new benchmark for safety, efficiency, and effectiveness. This cutting-edge technology has revolutionized the industry, enabling infrastructure managers to make data-driven decisions, improve asset performance, and ensure the continued reliability of critical infrastructure.
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <div class="row">
+                                    <img src="src/images/lidar/Infrastructure-monitoring.webp" alt="" width="100%"
+                                style="border-radius: 30px;">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center ">
+            <div class="p-4">
+                <h2 class="text-red text-center">Mining 
+                </h2>
+            </div>
+
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/slope-stability-analysis.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading">Slope stability analysis 
+                            </h2>
+                            <p>LiDAR technology is used in mining locations to analyse slope stability. By identifying high walls and unstable slopes, it lowers the chance of collapse. This proactive approach to safety reduces the possibility of catastrophic accidents, which can be especially serious in mining environments, and improves worker safety.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/exploration-and-mapping.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Exploration and mapping of minerals 
+                            </h2>
+                            <p>Mineral mapping and mineral exploration can be assisted by LiDAR technology. It provides geologists with useful information for planning future exploration endeavours and streamlining mining operations by helping them locate possible mineral deposits and map those that already exist. The sustainable management of mineral resources depends on this data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/lidar/stockpile-volume-measurement.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Stockpile volume measurement
+                            </h2>
+                            <p>For accurate estimation of the amount of material placed in mining operations, LiDAR drones are essential. Accurate data is crucial for inventory management since it provides sufficient reserves and lowers the possibility of running out of essential products. Additionally, it facilitates effective resource allocation and logistics. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center ">
+            <div class="pb-4">
+                <h2 class="text-red text-center">Agriculture and forestry  
+                </h2>
+            </div>
+
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card-1">
+                        <div class="">
+                            <img src="src/images/lidar/soil-mapping.webp" alt="" width="100%"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading">Soil mapping  
+                            </h2>
+                            <p>LiDAR technology provides precise data on soil composition, moisture, and nutrient levels, enabling a thorough assessment of soil fertility and quality. This information optimizes fertilization, guides soil management, and ensures resources are allocated effectively. By identifying nutrient deficiencies or excesses, farmers can target inputs, reducing waste and environmental impact. This data-driven approach boosts crop yields, promotes sustainable soil management, and ensures resources are used where needed, leading to improved agricultural productivity and reduced environmental footprint.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-1">
+                        <div class="">
+                            <img src="src/images/lidar/crop-health-analysis.webp" alt=""
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Crop health analysis 
+                            </h2>
+                            <p>In agriculture, LiDAR drones play a vital role in monitoring crop health, enabling early detection of pests, diseases, and water stress. By capturing accurate data on canopy density and crop conditions, farmers can identify areas requiring attention. This insights enable targeted interventions, such as precision irrigation and pest control, to prevent crop damage and optimize yields. With LiDAR drones, farmers can respond promptly to crop stress, reducing waste and environmental impact. By leveraging this technology, farmers can increase efficiency, reduce costs, and boost crop production, ultimately contributing to a more sustainable and productive agricultural practice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-1">
+                        <div class="">
+                            <img src="src/images/lidar/forest-mapping.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Forest mapping 
+                            </h2>
+                            <p>LiDAR drones provide detailed 3D models of forests that provide details about the diversity and basic structure of the forests. Ecosystem knowledge and preservation are made easier by this data. It enables foresters to choose conservation techniques and land use with knowledge, safeguarding the environment in the process. The examination of tree density in forests is made faster by LiDAR data. Identification of heavily populated areas and support for thinning and harvesting decisions are made possible by this method. Workers in forestry can increase timber output and support sustainable forest management techniques by enhancing tree density.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red">Construction 
+                </h2>
+                <p class="margin-top">LiDAR drones help the construction sector generate highly accurate 3D models of construction sites. This increases construction efficiency by allowing conflict resolution, progress tracking, and project planning.
+                </p>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/lidar/modeling.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">3D Modeling of construction areas
+                    </span>
+                    <p class="mb-3">The integration of LiDAR drones in construction site monitoring has brought about a paradigm shift in the industry, transforming the way projects are planned, executed, and delivered. By leveraging LiDAR drone technology, construction professionals can capture highly accurate and detailed data, creating comprehensive 3D models that accurately represent the site's pre-construction and ongoing construction environments. These intricate models facilitate a shared understanding among contractors, engineers, and architects, enabling collaborative decision-making and informed project planning. 
+                    </p>
+
+                    <p class="mb-3">
+                        With access to precise topographic data, stakeholders can proactively identify potential issues, monitor progress, and make data-driven decisions, ensuring projects are completed on time, within budget, and to the required quality standards. The adoption of LiDAR drones in construction site monitoring has led to a significant reduction in errors, improved communication among stakeholders, and increased efficiency. By harnessing the power of LiDAR technology, construction professionals can drive innovation, ensure successful project outcomes, and set new benchmarks for excellence in construction. The use of LiDAR drones has become an essential tool in modern construction, enabling professionals to build with precision, accuracy, and confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container text-center ">
+            <div class="p-4">
+                <h2 class="text-red text-center">Geology  
+                </h2>
+            </div>
+
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card-3">
+                        <div class="">
+                            <img src="src/images/lidar/geological.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading">Geological survey
+                            </h2>
+                            <p>LiDAR drones conduct geological surveys, providing precise topographic data for analyzing the earth's surface and subsurface. This crucial information helps understand geological conditions and features, making LiDAR technology a valuable tool for exploration and research. It aids in identifying structures, monitoring changes, and informing decisions in fields like mining, engineering, and environmental science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-3">
+                        <div class="">
+                            <img src="src/images/lidar/landslide.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Exploration and mapping of minerals 
+                            </h2>
+                            <p>Mineral mapping and mineral exploration can be assisted by LiDAR technology. It provides geologists with useful information for planning future exploration endeavours and streamlining mining operations by helping them locate possible mineral deposits and map those that already exist. The sustainable management of mineral resources depends on this data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-3">
+                        <div class="">
+                            <img src="src/images/lidar/earthquake.webp" alt="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Landslide risk estimation 
+
+                            </h2>
+                            <p>LiDAR technology plays a critical role in monitoring unstable slopes and assessing landslide risk. The data collected helps identify potential landslide locations, enabling the development of mitigation strategies to protect infrastructure and communities. This information is vital for informing measures to prevent or minimize landslide damage and ensure public safety.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center ">
+            <div class="">
+                <h2 class="text-red text-center">Crash scene investigation</h2>
+                <p>LiDAR drones allow accident reconstruction researchers and law enforcement to reconstruct accident scenes with accuracy. This information is utilised to support legal procedures and identify contributing variables and causes.</p>
+            </div>
+
+            <section class="bg-2 pt-50">
+                <div class="container-fluid">
+                    <div class="text-center pb-3">
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <img src="src/images/lidar/accident.webp" alt="" width="600" height="300"
+                                style="border-radius: 30px;">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <span class="text-subheading text-start">Accident scene reconstruction 
+        
+                            </span>
+                            <p class="text-start mb-3">LiDAR-equipped drones excel at creating highly precise 3D reconstructions of accident scenes. These drones capture essential details such as vehicle positions, skid marks, and collision dynamics with remarkable accuracy. The data gathered through these reconstructions plays a vital role in piecing together the events leading up to an accident and comprehending its underlying causes. Such detailed and accurate reconstructions are indispensable for both accident analysis and legal investigations.  </p>
+
+                            <p class="text-start mb-3">
+                                By providing a clear and comprehensive view of the scene, LiDAR drones help investigators determine the sequence of events, establish facts, and support legal proceedings. This technology enhances the accuracy of accident reconstructions, ensuring that every minute detail is documented and analyzed. The use of LiDAR drones not only improves the efficiency of investigations but also aids in delivering justice by providing concrete evidence. Therefore, the integration of LiDAR technology in accident reconstruction represents a significant advancement in forensic science, offering unparalleled precision and reliability in understanding and resolving incidents. 
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </section>
+            <section class="pt-50">
+                <div class="container-fluid ">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <span class="text-subheading text-start ">Visualisation
+                                </span>
+                                <p class=" pb-3 text-start">LiDAR data is invaluable for visualizing accident scenes, aiding in both documentation and estimation processes. From this data, detailed visual representations can be created, depicting crucial aspects such as vehicle speeds, collision angles, and the trajectories of involved objects. These visualizations provide investigators with fresh insights and serve as compelling evidence in legal contexts. By transforming raw data into comprehensible graphics, LiDAR technology enhances the clarity and thoroughness of accident reconstructions. 
+                                </p>
+
+                                <p class="pb-3 text-start">
+                                    These detailed visual aids support investigators in analyzing the sequence of events and understanding the dynamics of the collision. Moreover, they offer robust documentation that can be pivotal in court, presenting clear and accurate depictions of the accident. The ability to visualize such detailed information ensures that all aspects of the incident are thoroughly examined and communicated effectively. Consequently, LiDAR-generated visualizations are an essential tool in both forensic analysis and legal investigations, offering a precise and comprehensive view that supports the pursuit of justice and informed decision-making.
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <div class="row">
+                                    <img src="src/images/lidar/visualisation.webp" alt="" width="600" height="300"
+                                style="border-radius: 30px;">
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </section>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+                      
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

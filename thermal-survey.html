@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                              <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row ">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Thermal Surveys </h2>
+                    <label class="center-justified pt-11">Thermal surveys utilize unmanned aerial vehicles (UAVs) equipped with thermal imaging cameras to capture the infrared radiation emitted by objects and surfaces. This advanced technology enables the detection and visualization of temperature variations across surveyed areas, offering a wide array of applications in various industries. UAVs used for aerial thermal mapping provide essential information regarding the performance of critical assets such as commercial solar farms, solar panel arrays, commercial and industrial roof surfaces, vegetation areas, environmental zones, and commercial crops.
+
+                    </label>
+                    <label class="center-justified pt-11">At DATAPKT Aviation, we specialize in offering comprehensive drone thermal survey services, tailored to the unique needs of clients across diverse sectors. Our approach to drone thermal surveys involves several meticulous steps to ensure we deliver valuable insights and practical solutions.
+
+                    </label>
+                    <label class="center-justified pt-11">We begin by deploying UAVs equipped with high-resolution thermal imaging cameras over the target area. These drones systematically capture thermal data, identifying temperature differentials and potential issues that may not be visible to the naked eye. For commercial solar farms and solar panel arrays, our thermal surveys can pinpoint underperforming panels or areas requiring maintenance, thereby optimizing energy production and efficiency.
+
+                    </label>
+                    <label class="center-justified pt-11"> In the context of commercial and industrial roofs, thermal imaging helps detect insulation failures, leaks, or areas of heat loss, enabling timely repairs and improving energy efficiency. For vegetation and environmental areas, thermal surveys assist in monitoring plant health, identifying water stress, and managing resources more effectively. This is particularly beneficial for agriculture, where understanding crop conditions can lead to better yield management and resource allocation.
+
+                    </label>
+                    <label class="center-justified pt-11">After the data collection phase, we utilize advanced software to analyze and interpret the thermal images. This analysis generates detailed reports highlighting critical findings and actionable insights. Our clients receive these comprehensive reports, which include visualizations of temperature variations and recommendations for addressing any identified issues.
+
+                    </label>  
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/thermal/thermal-1.webp" alt="" loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/planing.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 ">
+                    <span class="text-subheading">Planning and preparation
+
+                    </span>
+                    <p class="mb-3">We begin by adopting a collaborative approach, engaging closely with our clients to thoroughly understand their specific requirements and objectives for the thermal survey. This initial phase includes conducting detailed assessments of the site to identify crucial areas of interest, evaluate potential risks, and establish necessary safety protocols. Through this comprehensive site evaluation, we ensure that all pertinent factors are carefully considered.
+                    </p>
+                    <p class="mb-3"> Following the site assessment, we meticulously develop a detailed flight plan tailored to meet the precise needs of the project. This flight plan takes into account various elements such as weather conditions, optimal flight altitudes, and the extent of survey coverage required. Each aspect is meticulously planned to enhance the efficiency and accuracy of the thermal survey process.</p>
+                    <p> At DATAPKT Aviation, our commitment is centered on delivering precise and actionable insights utilizing advanced thermal imaging technology. We prioritize customization of our approach to align with the distinct requirements of each client, ensuring that our thermal surveys yield valuable information that supports informed decision-making and operational efficiency across diverse industries. By tailoring our services to meet specific client needs, we aim to provide comprehensive solutions that enhance productivity and facilitate strategic decision-making based on reliable thermal data.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="pt-50">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Data Acquisition
+                    </span>
+                    <p class="mb-3">Employing cutting-edge drones equipped with advanced thermal imaging cameras, we perform aerial surveys of designated areas. Our skilled drone operators execute meticulously planned flight missions with accuracy, guaranteeing extensive coverage and superior image resolution. These thermal cameras effectively capture infrared emissions from objects and surfaces, offering valuable insights into temperature fluctuations throughout the surveyed region.</p>
+                    <p class="mb-3">At DATAPKT Aviation, we leverage state-of-the-art technology to deliver detailed thermal data that meets the highest standards of precision. Our approach involves utilizing high-resolution thermal imaging capabilities to generate comprehensive thermal maps. These maps highlight thermal differentials across the landscape, enabling our clients to make informed decisions based on precise thermal data analysis.</p>
+                    <p>Through our specialized drone operations, we ensure thorough and reliable thermal surveys that support various applications across industries. By harnessing the capabilities of our advanced equipment and expertise, we aim to provide actionable insights that enhance operational efficiency and facilitate strategic planning for our clients.</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/thermal/data-acquisition.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/data-processing-and-analysis.webp" alt="" width="100%" 
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Data Processing and Analysis
+                    </span>
+                    <p class="mb-3">After completing the aerial survey, we transfer the thermal imagery to our processing facility for detailed analysis. Our team of proficient technicians employs sophisticated image processing software to convert the raw thermal data into thermal maps and datasets. Through meticulous analysis, we scrutinize the thermal information to detect anomalies, pinpoint hotspots, and identify areas of significance. This process yields valuable insights into potential concerns such as heat loss, equipment malfunctions, or structural defects.</p>
+                    <p class="mb-3">At DATAPKT Aviation, we prioritize accuracy and precision in thermal data interpretation. By leveraging advanced software tools, we ensure that our thermal maps provide comprehensive visual representations of temperature variations across surveyed areas. These maps enable our clients to gain actionable insights and make informed decisions regarding maintenance, efficiency improvements, or risk mitigation strategies.</p>
+                    <p> Through our systematic approach to thermal imaging analysis, we aim to deliver insights that support operational excellence and strategic planning across various sectors. Our commitment to utilizing cutting-edge technology and expertise ensures that our clients receive reliable and insightful thermal assessments tailored to their specific needs and objectives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Reporting and Recommendations
+                    </span>
+                    <p class="mb-3">Equipped with advanced sensors and visual inspection capabilities, DATA PKT drones conduct thorough examinations of roads, bridges, highways, and expressways to facilitate monitoring of pavement and road surface conditions. These drones efficiently navigate through difficult terrain and deliver detailed digital surface models (DSM) and digital terrain models (DTM) with high resolution. This capability is particularly valuable for protecting environmentally sensitive areas during surveys.</p>
+                    <p>At DATAPKT Aviation, our drones are equipped with state-of-the-art sensors and visual inspection systems that enable comprehensive assessments of infrastructure. By utilizing advanced technology, we ensure precise monitoring and evaluation of road conditions, including pavement quality and surface integrity. Our drones capture detailed data that facilitates the generation of accurate DSMs and DTMs, which are essential for planning maintenance activities, identifying areas of concern, and enhancing overall infrastructure management.</p>
+                    </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/reporting.webp" alt="" width="100%">
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Ongoing Support and Monitoring
+                    </span>
+                    <p class="mb-3">At DATA PKT, our dedication to customer satisfaction goes beyond the initial survey, as we provide continuous support and monitoring services to our clients. We offer regular thermal surveys to monitor changes over time, detect new challenges, and evaluate the impact of implemented solutions. Our team remains accessible to address any inquiries or issues our clients may have and collaborate on future initiatives to maximize the advantages of drone thermal imaging technology. </p>
+                    <p class="mb-3">We are committed to ensuring ongoing customer satisfaction by delivering comprehensive support and monitoring services. This includes conducting regular thermal surveys to track temporal variations, identify emerging issues, and assess the effectiveness of remedies deployed. Our team is readily available to respond to client queries and collaborate on upcoming projects to harness the full potential of drone thermal imaging technology.</p>
+                    <p> At DATA PKT, we are committed to exceeding customer expectations by providing continuous support and monitoring services. We conduct regular thermal surveys to monitor changes over time, identify emerging issues, and evaluate the effectiveness of implemented solutions.
+                    </p>
+                </div>
+                <d class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/ongoing-support.webp" alt="" width="100%" style="border-radius: 30px;">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/image/tree-count.png" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div> -->
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="text-red text-center">Thermal survey used for
+                    </h2>
+                    <!-- <span class="text-subheading text-center">Thermal survey used for</span> -->
+                    <p class="mb-3 center-justified">At DATAPKT Aviation, we specialize in providing advanced thermal imaging services using radiometric thermal sensors. These sensors are equipped to capture both thermal images and thermal videos, enabling us to offer precise measurements of both relative and actual temperatures across expansive regions. Our technology ensures accurate detection and analysis, empowering your team to identify and address issues with exceptional centimeter-level precision. Our services cater to a wide range of needs and applications. We excel in delivering comprehensive thermal imaging solutions that meet the specific requirements of our clients. Whether it's conducting Thermal Surveyss for infrastructure, environmental monitoring, or industrial purposes, we customize our approach to deliver actionable insights and support informed decision-making. With our capability to capture thermal data over large areas, we facilitate thorough monitoring and detection of thermal anomalies across diverse landscapes. This capability is crucial for assessing thermal patterns and identifying potential problems efficiently. Furthermore, our commitment extends beyond providing data – we offer expertise and support throughout the process. Our team of skilled professionals ensures that you receive reliable thermal data and valuable insights to optimize operations and maintain performance standards.</p>
+                    <p class="mb-3 center-justified">We provide following services:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Solar panel thermal imaging survey
+
+                    </span>
+                    <p class="mb-3">The use of drones for solar inspections has revolutionized the approach to assessing and maintaining solar installations. By employing thermal radiometric technology, these drones can pinpoint performance issues at incredibly detailed levels—detecting faults at the individual cell level within a solar panel, at the panel level within a sub-array, and at the array level within a panel group. This level of precision surpasses traditional inspection methods, making drone inspections safer, faster, and more effective.</p>
+                    <p class="mb-3">The ability to detect and diagnose issues with such precision enables maintenance teams to promptly enhance energy output and prevent further damage. By swiftly identifying performance faults, teams can take proactive measures to mitigate potential losses and ensure optimal operational efficiency of solar installations.
+                    </p>
+                    <p> To facilitate the identification of performing panels or sub-arrays, we offer raw thermal radiometric imagery for processing. Alternatively, our expert team can handle the thermal data analysis, producing detailed hotspot reports integrated with GPS data. This comprehensive approach ensures that our clients receive actionable insights tailored to their specific needs, supporting informed decision-making and proactive maintenance strategies.</p>
+
+                </div>
+                <d class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/thermal-2.webp" alt="" width="100%" style="border-radius: 30px;">
+            </div>
+            >
+        </div>
+        </div>
+        <!-- <div class="bg-image">
+            <img src="src/images/image/bg-image.webp" alt="">
+        </div> -->
+
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/thermal-3.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Soil moisture estimation </span>
+                    <p class="mb-3">Using drones equipped with thermal sensors, our service provides swift and precise analysis of soil moisture. By capturing thermal images from aerial perspectives, we identify and map fluctuations in soil temperature, allowing for accurate evaluation of moisture levels. This data assists farmers in optimizing irrigation techniques, improving crop vitality, and maximizing harvest yields. Our advanced drone technology streamlines operations, reducing expenses and time investments while delivering crucial agricultural management insights.</p>
+                <p class="mb-3"> At DATAPKT Aviation, our approach revolves around leveraging thermal sensor-equipped drones to conduct rapid and precise soil moisture analysis. Through aerial thermal imaging, we detect and map variations in soil temperature, providing farmers with detailed insights into moisture distribution across their fields. This enables targeted irrigation strategies that promote efficient water usage and support crop health.</p>
+                <p class="mb-3">
+                    Our service is designed to enhance agricultural productivity by offering actionable data that informs decision-making processes. By utilizing state-of-the-art drone technology, we minimize operational costs and time expenditures associated with traditional methods of soil assessment. This efficiency not only improves resource management but also empowers farmers to make informed decisions that positively impact crop yields and overall farm profitability.
+                </p>
+            <p>By partnering with DATAPKT Aviation, farmers gain access to reliable soil moisture analysis that facilitates sustainable agricultural practices. Our commitment to leveraging innovative drone technology ensures that agricultural stakeholders receive timely and accurate information essential for optimizing farming operations and achieving consistent, high-quality yields.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+            
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Thermal Surveys of Power Transmission and Distribution Assets
+
+                        </span>
+                        <p class="mb-3">To reduce downtime caused by equipment malfunctions, modern maintenance practices emphasize the implementation of condition-based techniques for monitoring electrical assets. These methods aim to predict the deterioration of various components or vulnerable areas prone to failure.</p>
+                        <p class="mb-3">Among these techniques, Thermal Surveys stands out as a cutting-edge method for detecting hot spots. The majority of electrical failures stem from component malfunctions or loose connections. Thermal imaging using infrared cameras is highly effective in identifying such issues before they escalate into failures or fire hazards.
+                        </p>
+                        <p class="mb-3"> Thermal Surveys using infrared cameras is a contemporary approach in condition-based maintenance, crucial for early detection of electrical and mechanical issues. It allows for the detection of hot spots, heat build-up on loose connections, and concealed faults that might otherwise go unnoticed. By pinpointing potential problems early, this technology helps prevent costly repairs, minimize downtime, and enhance overall operational reliability.
+                        </p>
+                        <p class="mb-3"> At DATAPKT Aviation, we advocate for proactive maintenance strategies that incorporate advanced thermal imaging technology. Our focus is on empowering asset managers and maintenance teams with timely and actionable insights to optimize equipment performance and mitigate risks associated with electrical failures. By adopting these innovative practices, organizations can effectively safeguard their assets, improve safety standards, and ensure continuous operational efficiency.
+                        </p>
+                    </div>
+                    <d class="col-md-6 col-lg-6 col-sm-6">
+                        <img src="src/images/thermal/thermal-4.webp" alt="" width="100%"
+                                    style="border-radius: 30px;">
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/image/tree-count.png" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div> -->
+
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="text-red text-center">Detect leaks
+                    </h2>
+                    
+                    <p class="mb-3 center-justified">Using thermal sensor-equipped drones, we swiftly identify leaks in diverse infrastructures, including pipelines, roofs, and industrial equipment. These drones capture infrared radiation to detect temperature irregularities that signal leaks or moisture infiltration. Rapid detection plays a crucial role in averting expensive damages, environmental risks, and operational disruptions. Our service facilitates efficient identification of leaks, enabling prompt repairs and maintenance actions that enhance safety and operational reliability.</p>
+                    <p class="mb-3 center-justified">At DATAPKT Aviation, our approach centers on leveraging advanced drone technology equipped with thermal sensors to detect leaks swiftly and accurately. By analyzing infrared radiation data, we identify temperature anomalies associated with leaks or moisture ingress across various infrastructure types. This proactive detection capability helps mitigate potential risks and prevent costly incidents, ensuring continuous operational integrity.</p>
+                    <p class="mb-3 center-justified">Our service is designed to support proactive maintenance strategies by providing timely leak detection. By utilizing state-of-the-art thermal sensor drones, we streamline the process of identifying and locating leaks, facilitating prompt intervention and minimizing downtime. This proactive approach not only safeguards assets but also enhances environmental stewardship by reducing the impact of potential leaks on surrounding ecosystems.</p>
+                    <p class="mb-3 center-justified">DATAPKT Aviation is committed to delivering reliable leak detection services that prioritize safety, efficiency, and sustainability. By leveraging innovative drone technology and thermal imaging capabilities, we empower organizations to maintain operational continuity and mitigate risks associated with infrastructure vulnerabilities. Our goal is to support clients in safeguarding their assets, protecting the environment, and promoting long-term operational reliability through proactive leak detection and management.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+            <div class=" ">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Water leaks and damages
+
+                        </span>
+                        <p class="mb-3">
+                            Utilizing drones equipped with thermal sensors, our service efficiently identifies water leaks and structural damage. These advanced drones capture infrared radiation to detect alterations in ground temperature that signal potential leaks.</p>
+                        <p class="mb-3">At DATAPKT Aviation, we employ state-of-the-art drone technology integrated with thermal sensors to swiftly and accurately detect water leaks and structural issues. By analyzing infrared radiation data, we pinpoint variations in ground temperature indicative of potential water leaks or damage to structures. This proactive approach enables early detection, facilitating timely intervention and preventive measures to mitigate risks and prevent costly damages.</p>
+                        <p class="mb-3">Our specialized service is designed to support proactive maintenance strategies by providing rapid detection of water leaks and structural vulnerabilities. By leveraging the capabilities of thermal sensor-equipped drones, we streamline the process of identifying and assessing potential issues in various infrastructures. This proactive detection capability enhances operational efficiency, minimizes downtime, and reduces the likelihood of extensive repairs or environmental impact associated with water leaks.</p>
+                        <p class="mb-3">DATAPKT Aviation is committed to delivering reliable and efficient detection services that prioritize safety, sustainability, and asset protection. Through innovative drone technology and thermal imaging capabilities, we empower organizations to maintain the integrity of their structures and infrastructure assets. Our goal is to provide actionable insights that enable informed decision-making and proactive management of water-related risks, ensuring long-term operational reliability and environmental responsibility.</p>
+                    </div>
+                    <d class="col-md-6 col-lg-6 col-sm-6">
+                        <img src="src/images/thermal/thermal-5.webp" alt="" width="100%"
+                                    style="border-radius: 30px;">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/thermal/oil-gases.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Oil and gas leaks
+                    </span>
+                    <p class="mb-3">Using drones equipped with thermal sensors, we offer precise aerial inspections of oil and gas infrastructure. Our service swiftly and accurately identifies leaks, damages, and irregularities, enhancing safety measures and minimizing environmental risks.</p>
+                    <p class="mb-3">At DATAPKT Aviation, we specialize in conducting aerial inspections of oil and gas infrastructure using advanced drone technology integrated with thermal sensors. This enables us to promptly and precisely detect leaks, damages, and anomalies that could pose safety hazards or environmental concerns. Our proactive approach includes delivering high-resolution thermal imaging data, facilitating early intervention and preventive maintenance strategies to mitigate potential threats.
+                    </p>
+                    <p class="mb-3"> Our service is tailored to meet regulatory standards in the oil and gas sector, ensuring compliance and operational efficiency. By leveraging thermal sensor-equipped drones, we streamline the inspection process and reduce downtime associated with maintenance activities. This proactive management approach not only enhances safety protocols but also improves overall operational performance and asset integrity.</p>
+                    <p class="mb-3">DATAPKT Aviation is committed to delivering reliable and comprehensive inspection services that prioritize safety, environmental sustainability, and regulatory compliance. Through advanced drone technology and thermal imaging capabilities, we empower oil and gas operators to safeguard their infrastructure assets effectively. Our goal is to provide actionable insights and support proactive maintenance initiatives that optimize operational reliability and mitigate risks associated with infrastructure vulnerabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

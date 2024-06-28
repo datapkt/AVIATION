@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                                <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row ">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Hyperspectral </h2>
+                    <label class="center-justified pt-11">Drone hyperspectral survey is an advanced method of remote sensing that employs unmanned aerial vehicles (UAVs) equipped with hyperspectral sensors. These sensors capture detailed imagery across numerous narrow spectral bands, allowing for precise data collection on the electromagnetic spectrum reflected or emitted by objects on the Earth's surface. This technology provides extensive and specific information that can be analyzed to gain insights into diverse phenomena such as vegetation health, mineral composition, and environmental changes. </label>
+                    <label class="center-justified pt-11">At DATAPKT Aviation, we specialize in offering state-of-the-art drone hyperspectral survey services tailored to meet our clients' specific requirements. Our approach involves deploying cutting-edge UAVs equipped with hyperspectral sensors to conduct comprehensive data collection and analysis. 
+                    </label>
+                    <label class="center-justified pt-11">Our Drone Hyperspectral Survey Service utilizes advanced technology to capture detailed imagery across multiple spectral bands, enabling precise analysis of environmental and geological features. This includes assessing vegetation health, identifying mineral compositions, monitoring land use patterns, and detecting environmental changes over time. The high-resolution data obtained through our surveys facilitates informed decision-making and strategic planning across sectors such as agriculture, forestry, environmental monitoring, and resource management.
+                    </label>
+                    
+
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/hyperspectral/hyperspectral-1.webp" alt="" loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <!-- <div class="text-center pb-3">
+                <h2 class="text-red">Operations And Maintenance
+                </h2>
+                <p class="margin-top">Road laying alone does not mark the end of a highway construction process; rather,
+                    it is the beginning of a continuous process that necessitates ongoing operations and maintenance.
+                    The following services are provided by DATA PKT to its clients to assist them in maintaining their
+                    assets:
+                </p>
+            </div> -->
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/hyperspectral/planning.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Planning and preparation
+
+                    </span>
+                    <p class="mb-3">Our skilled team collaborates closely with clients to grasp their precise goals and needs for the hyperspectral survey. We conduct detailed site assessments to identify the best flight routes, sensor setups, and parameters for data collection.</p>
+                    <p class="mb-3"> At DATAPKT Aviation, our experienced professionals engage in a collaborative process with clients to ensure we fully comprehend their objectives and specific requirements for the hyperspectral survey. This initial phase includes thorough site evaluations where we analyze various factors such as terrain characteristics, environmental conditions, and project scope. By assessing these elements comprehensively, we determine the most effective flight paths, configure sensors accordingly, and establish optimal parameters for acquiring detailed spectral data.
+                    </p>
+                    <p>Our approach emphasizes precision and customization, aiming to deliver tailored hyperspectral survey solutions that meet the unique needs of each client. By integrating client input and leveraging our expertise in remote sensing technology, we ensure that the survey objectives are aligned with operational goals and regulatory requirements. This meticulous planning process sets the foundation for successful data collection and analysis, enabling us to provide actionable insights that support informed decision-making across diverse industries and applications.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="pt-50">
+        <div class="container-fluid ">
+           
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Data Acquisition
+                        </span>
+                        <p class="mb-3">We utilize cutting-edge UAVs equipped with high-resolution hyperspectral sensors to capture intricate imagery across numerous spectral bands. Our pilots adhere to carefully devised flight routes to guarantee thorough survey area coverage, ensuring precise and accurate data acquisition.</p>
+                        <p class="mb-3">At DATAPKT Aviation, we deploy state-of-the-art unmanned aerial vehicles (UAVs) fitted with advanced hyperspectral sensors capable of capturing detailed images across a wide range of spectral bands. Our highly trained pilots meticulously follow meticulously planned flight paths to ensure comprehensive coverage of the survey area. This approach guarantees that we capture data with exceptional precision and accuracy, facilitating detailed analysis and insightful interpretation.</p>
+                        <p>Our commitment to utilizing advanced technology and precise flight planning enables us to deliver comprehensive hyperspectral imaging services tailored to the specific requirements of each project. By leveraging the capabilities of our UAVs and hyperspectral sensors, we collect high-quality data that supports a variety of applications, including environmental monitoring, agriculture, mineral exploration, and more. </p>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                            <img src="src/images/hyperspectral/data.webp" alt="" width="100%" height="auto"
+                                style="border-radius: 30px;">
+                    </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/hyperspectral/data-processing.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Data Processing and Analysis
+
+                    </span>
+                    <p class="mb-3">We employ specialized software and algorithms to analyze the raw hyperspectral data obtained from our surveys. Our team utilizes advanced methodologies like spectral unmixing, classification, and feature extraction to process the data and extract meaningful insights. These techniques enable us to generate informative outputs tailored to meet the specific requirements of our clients, including spectral signatures, vegetation indices, mineral maps, and environmental indicators.</p>
+                    <p class="mb-3">At DATAPKT Aviation, we utilize dedicated software tools and advanced algorithms to process the raw hyperspectral data collected during our surveys. Through meticulous analysis, we apply sophisticated techniques such as spectral unmixing, classification algorithms, and feature extraction methods. This systematic approach allows us to interpret the data effectively and derive valuable insights relevant to our clients' needs.</p>
+                    <p class="mb-3">Our goal is to provide actionable information that supports informed decision-making across various sectors, including agriculture, environmental monitoring, and resource management. By generating outputs such as spectral signatures, which characterize the unique spectral properties of materials, vegetation indices for assessing plant health, mineral maps indicating geological compositions, and environmental indicators for monitoring ecological conditions, we ensure that our clients receive comprehensive and relevant data.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Interpretation and Reporting
+                    </span>
+                    <p class="mb-3">We provide expert interpretation of the analysed hyperspectral data, translating complex
+                        information into actionable insights and recommendations.Our comprehensive reports and
+                        visualisations empower clients to make informed decisions and take appropriate actions based on
+                        the survey findings.
+                    </p>
+                    <p class="mb-3">
+                        Benefits of Our Drone Hyperspectral Survey Service:
+
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                        <ul style="list-style-type: circle; padding: 0px 10px;">
+                            <li class="mb-3"> Precision and Accuracy: Our advanced UAVs and
+                                hyperspectral sensors
+                                ensure precise data collection and analysis, delivering accurate results.
+                            </li>
+                            <li class="mb-3"> Efficiency and cost-effectiveness:
+                                Drone-based surveys offer a faster
+                                and more cost-effective alternative to traditional methods, reducing time and resource
+                                requirements.
+
+                            </li>
+                            <li class="mb-3" > Insights and Intelligence: The rich spectral
+                                information captured by
+                                hyperspectral sensors enables detailed analysis and interpretation, providing valuable
+                                insights for a variety of applications.
+
+                            </li>
+                            <li class="mb-3"> Environmental Monitoring and Resource
+                                Management: Our service supports
+                                environmental monitoring, land management, agriculture, forestry, mining, and other
+                                industries where detailed spectral information is critical for decision-making.
+                            </li>
+
+                           
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/hyperspectral/interpretation.webp" alt="" width="100%">
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row ">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Multispectral </h2>
+                    <label class="center-justified pt-11">Multispectral surveying is an advanced remote sensing technique employing unmanned aerial vehicles (UAVs) equipped with multispectral sensors. These sensors capture imagery across several predefined spectral bands, providing detailed data on the reflectance properties of Earth's surface objects. This technology enables precise analysis of phenomena such as vegetation health, soil composition, and environmental dynamics.
+                    </label>
+                    <label class="center-justified pt-11">At DATAPKT Aviation, we specialize in delivering cutting-edge multispectral survey services tailored to our clients' unique needs. Our approach involves deploying state-of-the-art UAVs equipped with multispectral sensors to conduct comprehensive data collection and analysis. The multispectral survey service utilizes advanced technology to capture high-resolution imagery across multiple spectral bands, facilitating detailed assessment of environmental and geological features. 
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+            <div class=" ">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Survey Planning
+                        </span>
+                        <p class="mb-3">We collaborate closely with our clients to comprehend their goals and establish the parameters for the multispectral survey. Our team of specialists develops tailored flight plans to guarantee thorough coverage of the designated area and enhance the accuracy and quality of the data collected.</p>
+                        <p class="mb-3">At DATAPKT Aviation, we prioritize a collaborative approach with our clients to ensure a clear understanding of their objectives and requirements for the multispectral survey. This initial phase involves detailed discussions to define the specific parameters and scope of the project. Our team of experts then applies their expertise to craft customized flight plans that optimize the aerial coverage of the target area.</p>
+                        <p class="mb-3">By designing precise flight plans, we aim to maximize the effectiveness and reliability of data acquisition during the multispectral survey. This strategic planning process takes into account factors such as terrain characteristics, environmental conditions, and project goals. Through meticulous preparation and coordination, we ensure that our clients receive high-quality data that meets their operational and analytical needs.</p>
+                        <p>DATAPKT Aviation is committed to delivering comprehensive multispectral survey services that align with industry standards and client expectations. By leveraging our expertise and advanced technology, we facilitate informed decision-making and support various applications across sectors such as agriculture, environmental monitoring, and land use planning.</p>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                <img src="src/images/hyperspectral/multi-planning.webp" alt="" width="100%"
+                                    style="border-radius: 30px;"> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/hyperspectral/multi-data.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Data acquisition </span>
+                    <p class="mb-3">Our lineup of high-performance drones is outfitted with multispectral cameras designed to capture high-resolution images across numerous spectral bands. We utilize sophisticated imaging methods that include simultaneous recording of RGB (visible) and near-infrared (NIR) bands, enabling comprehensive analysis of vegetation health, moisture content, and other essential variables.</p>
+                    <p class="mb-3">At DATAPKT Aviation, we employ a fleet of professional-grade drones equipped with state-of-the-art multispectral cameras. These specialized cameras are engineered to capture detailed imagery across multiple spectral wavelengths. Our approach integrates advanced imaging techniques that encompass the simultaneous acquisition of RGB and near-infrared bands. This capability allows us to gather comprehensive data essential for evaluating vegetation conditions, moisture levels, and other critical parameters impacting agricultural productivity and environmental monitoring.</p>
+                    <p class="mb-3">By leveraging these advanced technologies, we enhance our ability to provide precise and actionable insights to our clients. The multispectral imagery obtained enables thorough analysis and interpretation, supporting informed decision-making in agriculture, forestry, and natural resource management. Our commitment to deploying cutting-edge equipment ensures that we deliver reliable data that meets the diverse needs of our clients, facilitating sustainable practices and operational efficiency.</p>
+                    <p>DATAPKT Aviation remains dedicated to maintaining industry-leading standards in multispectral imaging. Through continuous innovation and strategic application of technology, we empower organizations to optimize their land management strategies and environmental stewardship efforts effectively.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+         
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <span class="text-subheading ">Data Processing and Analysis
+                        </span>
+                        <p class="mb-3">After concluding the survey, we utilize advanced software tools to process the multispectral imagery. Our experienced analysts meticulously analyze the data to derive valuable insights, including vegetation indices like NDVI, chlorophyll levels, and soil properties. We deliver detailed reports and visual representations that empower clients to make informed decisions on crop management, irrigation strategies, pest monitoring, and related activities.</p>
+                        <p class="mb-3"> At DATAPKT Aviation, we employ cutting-edge software to handle the multispectral imagery collected during surveys. Our skilled analysts conduct in-depth examinations of the data to extract significant information such as vegetation indices (for example, NDVI), chlorophyll content, and soil characteristics. We provide comprehensive reports and visualizations that offer clients actionable insights for optimizing crop management, planning irrigation systems, detecting pests, and other pertinent tasks.</p>
+                        <p>Our goal is to deliver precise and actionable information that supports informed decision-making in agriculture and environmental management. By leveraging advanced software tools and expertise in multispectral analysis, we ensure that our clients receive detailed reports and visualizations that facilitate effective planning and resource allocation.</p>
+                     
+
+                    </div>
+                    <d class="col-md-6 col-lg-6 col-sm-6">
+                                <img src="src/images/hyperspectral/multi-processing.webp" alt="" width="100%"
+                                    style="border-radius: 30px;">
+                </div>
+            
+        </div>
+        </div>
+
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/hyperspectral/multi-reporting.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Reporting</span>
+                    <p class="mb-3">Drawing from the outcomes of our multispectral surveys, we provide comprehensive reports aimed at enhancing agricultural productivity, promoting environmental stewardship, and fostering sustainable land management practices. Our team works closely with clients to interpret data-driven insights and transform them into actionable strategies that aim to maximize crop yields, reduce input expenditures, and mitigate potential risks.</p>
+                    <p class="mb-3">Our commitment revolves around delivering dependable and top-notch drone multispectral survey services that empower our clients to optimize their operations, boost productivity, and attain sustainable results across diverse sectors. At DATAPKT Aviation, we prioritize delivering thorough reports based on multispectral survey findings. These reports are tailored to optimize agricultural productivity, enhance environmental stewardship, and facilitate sustainable land management practices. Our team collaborates closely with clients to interpret data-driven insights and translate them into practical strategies aimed at maximizing crop yields, minimizing input costs, and mitigating potential risks.</p>
+                    <p>At DATAPKT Aviation, our focus is on providing trustworthy drone multispectral survey services that empower our clients to enhance efficiency, increase productivity, and achieve sustainable outcomes across various industries. Through collaborative efforts and meticulous analysis of survey data, we aim to offer actionable recommendations that support effective decision-making in agriculture, environmental management, and beyond.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+                      
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

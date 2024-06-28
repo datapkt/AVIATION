@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block" id="myHeader" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                             <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Photogrammetry </h2>
+                    <label class="center-justified mb-3">Photogrammetry involves using multiple photographs to map a geographic area. Typically, a camera is installed on an aircraft, aimed towards the ground either directly or at a steep angle. The photographs are captured from different viewpoints and angles, intentionally overlapping each other. This overlap is crucial because it allows for precise measurements and calculations based on the images.    
+                    </label>
+                    <label class="center-justified mb-3">The variation in perspective among the photos is key to this process. By analyzing how specific points or features appear differently in each image, photogrammetry software can perform "image matching." This technique correlates corresponding points in multiple photos, enabling the creation of a detailed 3D model from a sequence of 2D images.
+
+                    </label>
+                    <label class="center-justified mb-3"> 
+                        At DATAPKT Aviation, we offer comprehensive support throughout the photogrammetry process. From planning the aerial surveys to capturing the images and processing them with advanced software, we ensure accurate and high-resolution mapping of terrains and structures. Our expertise in photogrammetry helps clients obtain detailed spatial data for various applications, including urban planning, environmental monitoring, and infrastructure development.
+                    </label>
+                        <p class="center-justified">At DATAPKT Aviation, we help with the following photogrammetry
+                            steps:</p>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/photogrammetry/photogrammetry.webp" alt=""
+                        loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="plr-30 text-center">
+            </div>
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/photogrammetry/data-cquisition.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Data Acquisition</h2>
+                    <p>
+                        <span class="sub-heading">Planning and Preparation</span>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li>Define project objectives and requirements.</li>
+                            <li>Identify survey area and assess potential obstacles.</li>
+                            <li>Determine optimal flight path and altitude.</li>
+                            <li>Ensure 80% image overlap for accurate orthophoto creation.</li>
+                            <li>Check weather conditions and obtain necessary permits.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="sub-heading">Equipment Setup</span>
+                        <ul style="padding: 0 10px; list-style-type: circle; margin-left: 20px;">
+                            <li>Ensure drone and camera are in good working condition.</li>
+                            <li>Calibrate drone sensors and cameras.</li>
+                            <li>Install and configure additional hardware (e.g., GPS).</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="sub-heading">Camera Model Optimization</span>
+                        <p>Camera calibration calculates camera specifications using photos of a 3D object with a geometrical pattern (e.g., checkerboard). Calibration types include Full, Field, Self, and Auto.</p>
+                        <ul style="padding: 0 10px; list-style-type: circle; margin-left: 20px;">
+                            <li>Full calibration sets up a specific camera calibration project.</li>
+                            <li>Field calibration optimizes the camera during normal project processing.</li>
+                            <li>Self-calibration adjusts camera parameters for each photo individually.</li>
+                            <li>Auto calibration integrates with Smart Orientation for field calibration.</li>
+                        </ul>
+                    </p>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/photogrammetry/gcp.webp" alt="" width="100%" height="auto"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                  <div class="sec-one">
+                    <h2 class="text-red">GCP (Ground control points)
+                    </h2>
+                    <p class="mb-3">Ground control points (or GCPs) are known-coordinated places on the ground.
+                        GCPs are points that a surveyor can precisely locate in an aerial mapping survey, allowing
+                        enormous regions to be correctly mapped with just a few known coordinates.
+                    </p>
+                    <p>Anything that may be clearly identified in the photos can be used as a ground control point. They
+                        usually resemble little checkerboard pieces. The form eliminates any doubt about where a ground
+                        control point is.
+                    </p>
+                  </div>
+                  <br>
+                 <!-- new  -->
+               <div class="sec-two">
+                <h3><span class="text-subheading">Is it always necessary to use GCP?
+                </span></h3>
+                <p class="mb-3">GCPs have long been used in aerial mapping operations. However, as new technologies are
+                    introduced to the market, this is changing.
+                </p>
+                <p class="mb-3">Ground control points do not significantly increase accuracy when utilising an RTK or PPK capable
+                    drone.
+                </p>
+                <p>We always advocate using GCPs if your drone does not have RTK or PPK capability.</p>
+                <p>While skipping ground control points may produce absolutely acceptable results, your
+                    reconstruction may lack the necessary scale, orientation, or absolute location data. The GCPs,
+                    RTK, and PPK geotags can aid in the verification of the reconstruction's correctness.
+                </p>
+               </div>
+                 <!-- new  -->
+<br>
+                 <!-- new -->
+                <div class="sec-three">
+                    <h3><span class="text-subheading ">The difference between GCP, Automatic and Manual tie points
+                    </span></h3>
+                    <p class="mb-3">GCP are known as Ground control points. These are known coordinates points on ground
+                        & can be
+                        known using instruments like DGPS & Total-Station.
+                    </p>
+                    <p class="mb-3">
+                        Automatic ties are points that appear in numerous photographs. This is something that the
+                        program can detect. They are frequently used as common spots in picture stitching.
+                    </p>
+                    <p class="mb-3">Any immediately identifiable place that appears in several photos, such as the
+                        corner of a
+                        building or a road, can be used as a manual tie point.
+                    </p>
+                    <p>Manual tie points can assist in enhancing a project's relative accuracy, but they can't help
+                        with
+                        absolute precision because their location in space isn't known.
+                    </p>
+                </div>
+                 <!-- new -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Flight Execution
+                    </h2>
+                    <ul style="padding: 0px 10px; list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2"> Conduct a pre-flight check to verify all systems are functioning correctly.
+
+                        </li>
+                        <li class="mb-2"> Launch the drone and follow the planned flight path, adjusting altitude and
+                            camera settings as needed.
+                        </li>
+                        <li class="mb-2"> Capture overlapping aerial images with sufficient ground coverage and detail.
+                        </li>
+                        <li class="mb-2"> Maintain communication and monitor the drone's position and battery life
+                            throughout the flight.
+                        </li>
+                        <li class="mb-2">Ensure the drone returns to the home point or a safe landing location with ample battery reserve.
+                        </li>
+                        <li class="mb-2">Post-flight inspection to assess drone condition and review any captured data for quality.</li>
+                        <li class="mb-2">Transfer and back up all aerial images and data to a secure storage location.</li>
+                        <li class="mb-2">Analyze the captured images to create a detailed map or 3D model of the surveyed area.</li>
+                        <li class="mb-2">Download and back up all captured images and flight data immediately after landing.</li>
+                        <li class="mb-2">Regularly check the weather conditions and adjust the flight plan if necessary.</li>
+                    </ul>
+                     </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/photogrammetry/flight.webp" alt="" width="100%" height="400px"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/photogrammetry/data-processing.webp" alt="" width="100%" height="400px"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <h2 class="text-red">Data Processing
+                    </h2>
+                    <ul style="padding: 0px 10px; list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2"> Transfer the captured imagery to a computer or processing device.
+
+                        </li>
+                        <li class="mb-2"> Use specialized photogrammetry software to stitch together the individual
+                            images
+                            into a cohesive mosaic.
+
+                        </li>
+                        <li class="mb-2"> Apply algorithms to triangulate image features and generate a dense point
+                            cloud
+                            representing the surveyed area.
+
+                        </li>
+                        <li class="mb-2"> Generate orthomosaics, digital surface models (DSMs), and other derived
+                            products
+                            from the processed data.
+                        </li>
+                        <li class="mb-2">Validate the accuracy of the generated models by comparing them with ground control points (GCPs) or known reference data.</li>
+                        <li class="mb-2">Perform quality checks on the orthomosaics and DSMs to identify and correct any artifacts or inconsistencies.</li>
+                        <li class="mb-2">Export the processed data into various formats suitable for different applications and software platforms.</li>
+                        <li class="mb-2">Integrate the geospatial data with GIS software for further analysis and visualization.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Data Quality Control and Analysis
+                    </h2>
+                    <ul style="padding: 0px 10px; list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2"> Validate the accuracy and completeness of the generated 3D models and maps.
+                        </li>
+                        <li class="mb-2"> Conduct any necessary adjustments or corrections to improve the quality of the
+                            data.
+                        </li>
+                        <li class="mb-2"> Perform measurements, analysis, and interpretation of the photogrammetric
+                            outputs to extract relevant information.
+                        </li>
+                        <li class="mb-2">Share the validated models and maps with stakeholders for feedback and further insights.</li>
+                        <li class="mb-2">Use the extracted information to support decision-making processes in relevant projects or applications.</li>
+                        <li class="mb-2">Document the methodologies and workflows used in the photogrammetric process for reproducibility and future reference.</li>
+                        <li class="mb-2">Train team members or clients on how to utilize the photogrammetric data effectively.</li>
+                        <li class="mb-2">Stay updated with advancements in photogrammetry techniques and software to continuously improve the quality and efficiency of data processing.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <img src="src/images/photogrammetry/data-quality.webp" alt="" width="100%" height="auto"
+                        style="border-radius: 30px;">
+
+                </div>
+
+            </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container text-center ">
+            <h2 class="text-red text-center p-3">Deliverables
+            </h2>
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/orthomosaic-map.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Orthomosaic map</h2>
+                            <p>Drone photographs are corrected for distortion and seamlessly merged during
+                                post-processing
+                                to produce a remarkably precise orthomosaic map. Every pixel on this map includes high
+                                2D
+                                geographic data (X, Y), allowing exact measurements such as horizontal distances and
+                                surface
+                                areas to be collected directly.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/point-cloud.webp" alt="" height="200" width="100%"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">3D Point Cloud</h2>
+                            <p>Drone images processed to create dense point clouds yield precise models with geographic coordinates (X, Y, Z) and color data for accurate measurements of horizontal and vertical lengths, areas, and volumes. These point clouds offer highly detailed representations, enhancing measurement precision in various applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/dsm.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">DSM</h2>
+                            <p>A DSM captures ‘the natural and built features’ on the Earth’s surface. DSMs represent
+                                the bare- earth and all of its above-ground features. Drone images can also be used to
+                                create DSM models of the area. Each pixel contains 2D information (X, Y) and the
+                                altitude (Z value) of the highest point for this position.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/dtm.webp" alt="" width="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">DTM</h2>
+                            <p>DTM’s (Digital Terrain Model) are detected using aerial photography at low heights with a
+                                geometrically calibrated camera. This enables the drone to obtain all the heights of the
+                                surveyed terrain. In these models, each pixel stores 2.5D information, including the X,
+                                Y, and Z values corresponding to the highest altitude.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/contour-map.webp" alt="" width="233" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">Contour map </h2>
+                            <p>By utilizing a contour line map created from a DTM or DSM model with specific contour intervals, we can gain a deeper understanding of the area photographed by the drone. The contour intervals can be adjusted according to the project's requirements, enhancing the detail and accuracy of the analysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="">
+                            <img src="src/images/photogrammetry/textured-mash.webp" alt="" width="" height="200"
+                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                        </div>
+                        <div class="card-text pb-58">
+                            <h2 class="text-subheading ">3D Textured Mash </h2>
+                            <p>A 3D textured mesh generated from drone imagery offers a detailed and accurate representation of the site's surfaces, walls, and edges. This model enhances understanding by providing a comprehensive view of the area, essential for precise analysis and project planning.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+                      
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+</body>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+    
+
+
+</html>

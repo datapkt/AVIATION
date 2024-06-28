@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none"
+        style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item" style="font-size: 18px; ">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="padding: 9px 20px; ">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px; ">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="cinematography.html">Cinematography</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="photogrammetry.html">Photogrammetry</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="lidar-survey.html">Lidar</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="thermal-survey.html">Thermal Surveys</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="hyperspectral.html">Hyperspectral & <br>
+                                        Multispectral</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="#">Bathymatery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="#">Drone
+                                        Delivery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="#">Environmental Survey</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" style="  font-size: 18px;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px;">
+                                Sectors
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="highways-and-roadways.html">Roads & Highways
+                                    </a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="railways-and-metro.html">Railways & Metros</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="energy.html">Energy</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="mining.html">Mining</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="oil-and-gases.html">Oil & Gas</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="water-resource.html">Water Resources</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="urban-planning.html">Urban Planning</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="public-safety.html">Public Safety</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="manufacturing.html">Manufacturing</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="wildlife.html">Wildlife</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="agriculture.html">Agriculture</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="archaeology.html">Archaeology</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" style="  font-size: 18px;">
+                           <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="second-heading text-left">Agriculture </h2>
+                    <label class="text-justify mb-3">Drone technology has had a long-lasting effect on the productivity
+                        of India's agriculture sector. Our cutting-edge UAV technology and knowledge allow farmers to
+                        make data-driven decisions, maximise resource management, and obtain insightful information on
+                        their crops. We provide a range of services that address the main issues that contemporary
+                        farmers confront by combining the power of aerial imaging, cutting-edge analytics, and
+                        sophisticated sensors (Multispectral, Hyperspectral, LiDAR, and Thermal).
+                        To gather precise data, we employ cutting-edge agricultural drones for aerial surveying that are
+                        fitted with sophisticated sensors, including RGB and multispectral ones. Drones with
+                        high-resolution crop data collection capabilities can detect crop problems and alert farmers in
+                        time to prevent harm. Geotagging aerial photos yields useful information that lowers expenses
+                        and increases yield by a considerable margin.
+
+                    </label>
+                    <label class="text-justify">DATA PKT Aviation offers the following services to provide
+                        credible
+                        industry insights
+                        concerning the roads and highways sector. The drones can be used as an ultimate tool in every
+                        stage of highway construction.
+                    </label>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/agriculture-3.png" alt="" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#Pre-planning" >
+                    <div class="button">
+                       <p class="font-20">Pre-Planning</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#mid-season">
+                    <div class="button">
+                       <p class="font-20">Mid-Season</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#msi"> 
+                    <div class="button">
+                       <p class="font-20">(MSI)</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#lidar-technology">
+                    <div class="button">
+                       <p class="font-20">Lidar Technology</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#thermal-imaging" >
+                    <div class="button">
+                      <p class="font-20">Thermal Imaging</p>  
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="Pre-planning">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red mb-40 ">Pre-planting </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Terrain Mapping </span>
+
+                    <p class="pb-3"><b>Site Safety Management:</b></p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Generated using drones with RGB sensors.
+                        </li>
+                        <li class="mb-2">Facilitates field traffic management and seeding decisions.
+                        </li>
+                        <li class="mb-2">Research indicates up to 75% faster crop line planning compared to ground-based
+                            methods.
+                        </li>
+
+                    </ul>
+                    <p class="pb-3"><b>Navigation Enhancement:</b></p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Topographic maps integrated into farm vehicles' navigation and autopilot
+                            systems.
+
+                        </li>
+                        <li class="mb-2">Enables precise and efficient cultivation practices.
+                        </li>
+                        <li class="mb-2">Used for estimating crop heights later in the season.
+                        </li>
+
+                    </ul>
+                    <p class="pb-3"><b>Site Safety Management</b></p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Generated using drones with RGB sensors.
+                        </li>
+                        <li class="mb-2">Facilitates field traffic management and seeding decisions.
+                        </li>
+                        <li class="mb-2">Research indicates up to 75% faster crop line planning compared to ground-based
+                            methods.
+                        </li>
+
+                    </ul>
+
+                    <p class="mb-3">We generate a terrain/slope model of your field using an RGB sensor. This can be
+                        used as a tool for field traffic management and seeding decision-making. Research shows that
+                        utilising topographic maps generated by drones instead of ground-based approaches can result in
+                        up to 75% faster crop line planning.
+                    </p>
+
+                    <p class="mb-3">For more precise and efficient cultivation, farm vehicles' navigation and autopilot
+                        systems can be updated with topographic maps of the fields.
+                        Later in the season, this data will also be required as the starting point for estimating crop
+                        heights.
+                    </p>
+                    <p>
+                        UAVs can create accurate 3D maps and models of fields, pr oviding valuable insights into crop
+                        growth patterns, yield estimation, and spatial variability. This information aids in crop
+                        planning, decision-making, and optimising planting strategies for improved productivity.
+
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/agriculture/1.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/agriculture/2.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Soil mapping & analysis
+                    </span>
+                    <p class="mb-3">Drones offer the potential to improve soil monitoring by quickly collecting vital
+                        soil data. Using this technology eliminates discord about farmland states, allowing for better
+                        decision-making and less time spent on the field.</p>
+                    <p class="mb-3">Drones equipped with an RGB sensor may collect soil data to identify compaction, erosion, and
+                        poaching on your farm. A NIR, or multispectral,thermal sensor can detect various soil types and
+                        moisture levels. </p>
+
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Drones equipped with RGB sensors enable rapid collection of vital soil data,
+                            enhancing soil monitoring capabilities and reducing uncertainties about farmland conditions.
+                        </li>
+
+                        <li class="mb-3">RGB sensors on drones can identify issues such as compaction, erosion, and
+                            poaching, providing valuable insights for informed decision-making in agricultural
+                            management.</li>
+
+                        <li class="mb-3">Integration of NIR or multispectral sensors enhances soil data collection by
+                            detecting different soil types and moisture levels, further refining soil analysis and
+                            management strategies.</li>
+
+                        <li class="mb-3">The use of thermal sensors on drones expands soil monitoring capabilities,
+                            allowing for the detection of temperature variations indicative of soil health and moisture
+                            content.</li>
+
+                        <li class="mb-3">By utilizing drone technology for soil monitoring, farmers can streamline data
+                            collection processes, optimize resource allocation, and make timely interventions to enhance
+                            soil fertility and crop productivity.</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--== Start: Feature About Section Wrapper ==-->
+    <section class="pt-50 sm-pt-15" id="mid-season">
+        <div class=" feature-about-section section-padding">
+        <div class="container-fluid">
+
+            <div class="text-center pb-3 ">
+                <h2 class="text-red mb-40 sm-mb-0">Mid-Season</h2>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-6 col-sm-6 pt-25">
+                    <!--== Start: Section Title ==-->
+
+                    <!--== End: Section Title ==-->
+
+                    <div class="mb-4">
+                        <!--== Start: Feature Box Item ==-->
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <!-- <img class="feature-box3-icon-img" src="src/images/icons/feature3-1.png" width="70"
+                                    height="70" alt="Mobile Device Supported"> -->
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Hyperspectral based species mapping</h4>
+                                <p class="feature-box3-desc mb-3">Utilizing hyperspectral sensors on drones enables
+                                    precise species mapping by capturing spectral signatures. These sensors detect
+                                    unique wavelengths reflected by various vegetation types, aiding in accurate
+                                    species identification. Data processing techniques analyse spectral information
+                                    to map species distribution and abundance. This approach offers efficient and
+                                    non-invasive monitoring of ecosystems for biodiversity conservation and
+                                    management.
+
+                                </p>
+                                <p>Leveraging drone technology with hyperspectral sensors enhances ecological
+                                    research and environmental monitoring capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <!-- <img class="feature-box3-icon-img" src="src/images/icons/feature3-1.png" width="70"
+                                    height="70" alt="Mobile Device Supported"> -->
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Crop health and stress analysis</h4>
+                                <p class="feature-box3-desc mb-3">Our services, equipped with multispectral or
+                                    thermal imaging sensors, can capture detailed aerial imagery of agricultural
+                                    fields. This data helps farmers monitor crop health and detect pests, diseases,
+                                    and nutrient deficiencies, allowing for timely intervention and optimised crop
+                                    management practices.
+                                    Our top-notch drones furnished with Multispectral camera sensors can identify
+                                    disease and stress in the initial stages, sometimes before it is even evident
+                                    from the ground or with standard colour cameras. Our drone surveys also provide
+                                    real-time imagery of the fields for precision agriculture. The data obtained is
+                                    processed and analysed during Irrigation Monitoring, Crop Health Monitoring, and
+                                    other fundamental elements to encourage farmers to focus on treatment plans.
+                                </p>
+                                <p>
+                                    Using RGB sensors, crop variability can be assessed using the visual atmospheric
+                                    resistance index (VARI); however, NIR and multispectral sensors are better at
+                                    detecting and distinguishing crop stress using the Normalized Difference
+                                    Vegetation Index (NDVI). Normalized Difference Red Edge (NDRE) is also often
+                                    used in conjunction with multispectral data, offering more accurate crop health
+                                    analysis in later growing stages. Thermal cameras can also be used to determine
+                                    crop water stress by picking up variations in temperature within a crop,
+                                    indicating irrigation issues.
+                                </p>
+                            </div>
+                        </div>
+                        <!--== End: Feature Box Item ==-->
+
+                    </div>
+                    <!-- <a class="btn btn-primary btn-radius mt-5 mt-xl-10" href="product.html">Explore More</a> -->
+                </div>
+
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/agriculture/3.webp" alt="" width="90%">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--== End: Feature About Section Wrapper ==-->
+
+
+    <!-- pre-construction Start -->
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="plr-30 text-center">
+                <!-- <h2 class="text-red mb-40">Pre-planting</h2> -->
+            </div>
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/agriculture/4.webp" alt="" width="100%">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <!-- <h2 class="sub-heading">
+                    </h2> -->
+
+                    <p><span class="sub-heading sm-p-20">Plant health algorithms explained </span></p>
+                    <p class="mb-3">Healthy plants reflect light differently than unhealthy plants. This allows us to
+                        pick out plants
+                        that may be under stress from disease, pests, dehydration, etc. This is done by using plant
+                        health algorithms such as the <b>Visual Atmospheric Resistance Index (VARI), Normalized
+                            Difference Vegetation Index (NDVI), and Normalized Difference Red Edge (NDRE).</b> These
+                        algorithms are the most commonly used for agricultural purposes.
+
+                    </p>
+                    <p class="mb-3"><b>VARI</b> was designed to be used with RGB sensors and measures how green an image
+                        is. Healthy
+                        plants tend to reflect more green light and less red light. This allows VARI to highlight areas
+                        where less green light is being reflected, suggesting plant stress.</p>
+
+                    <p class="mb-3"><b>NDVI </b> was designed to be used with NIR and multispectral cameras and measures
+                        the ratio
+                        between NIR and red being reflected from a plant. Plants that are healthy should be absorbing
+                        red light for photosynthesis and reflecting more NIR than stressed plants, allowing for this
+                        algorithm to indicate the health of plants.
+
+                    </p>
+
+                    <p class="mb-3"><b>NDRE</b> was designed to be used as an index for multispectral cameras and
+                        measures the ratio
+                        between NIR and red edge being reflected from a plant. This algorithm is typically better in the
+                        later growth stages of crops, as Red edge is absorbed less than red light by surface leaves,
+                        giving a better overview of plant health when plant canopies are dense. NDRE gives a picture of
+                        leaf chlorophyll content, which is a good indicator of foliar nitrogen levels
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+
+    <section class="bg-2 pt-50 sm-pt-20">
+        <div class="container-fluid">
+            <div class="text-center">
+                <div class="text-center pb-3  sm-pb-0">
+                    <h2 class="text-red mb-40 sm-mb-20 ">UAV SERVICES FOR IRRIGATION</h2>
+                </div>
+    
+                <!-- <h2 class="text-red mb-40 ">Pre-planting </h2> -->
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <!-- <span class="text-subheading">UAV SERVICES FOR IRRIGATION</span> -->
+                    <p class="mb-3">DATAPKT AVIATION stands at the forefront of providing comprehensive aerial surveys tailored specifically for irrigation planning, monitoring, and the detection of irrigation-related issues. Our broad range of services primarily focuses on land and soil-related aspects crucial for efficient water management in agriculture. Through the utilization of advanced aerial imaging technology equipped with multispectral, hyperspectral, LiDAR, and thermal sensors, coupled with cutting-edge analytics, we deliver unparalleled insights to optimize irrigation practices.
+
+                    </p>
+                    <p class="mb-3">One key service offered by DATAPKT AVIATION is soil moisture estimation. By capturing high-resolution aerial imagery and utilizing advanced sensors, we accurately assess soil moisture levels across agricultural fields. This information enables farmers to optimize irrigation schedules, preventing both water waste and soil water stress, ultimately enhancing crop yield and quality.
+
+                    </p>
+                    <p class="mb-3">At DATAPKT AVIATION, we understand the critical importance of efficient water management in agriculture. By harnessing the power of aerial imaging and advanced sensors, along with our extensive expertise in UAV technology, we empower farmers and water resource managers to make informed decisions that maximize productivity while minimizing environmental impact. Our commitment to innovation and excellence ensures that we deliver tailored solutions that meet the unique needs of each client, driving sustainable growth and resilience in agriculture and water management sectors. Our services are outlined in the following sections:
+
+                    </p>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/image/agriculture-1.jpg" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/agriculture/5.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">1. Irrigation planning and monitoring
+                    </span>
+                    <p class="mb-2">Our unmanned aerial vehicle services offer real-time data and insights that can be
+                        implemented in action, allowing for more informed decisions that improve irrigation operations.
+                    </p>
+                    <p class="pb-3"><b>Site Safety Management</b></p>
+                    <p class="mb-2">We provide a detailed survey and 3D & 2D maps of the area around the water bodies,
+                        estimate the water coverage, and analyse the need for water to irrigate that part of the ground.
+                        We utilise the power of specialised software that processes the acquired video and data in order
+                        to provide accurate measurements of water volumes and surface areas. This allows us to estimate
+                        the amount of water covered. The management of water resources would benefit significantly from
+                        this information.
+                    </p>
+
+                    <p class="mb-2">The following is a list of some of the most important uses of our drone-based water
+                        mapping and estimating services:
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Monitoring the water levels in lakes and reservoirs in order to obtain the most
+                            efficient distribution of water
+                        </li>
+                        <li class="mb-2">Performing an analysis of river flow rates and variations in water levels in
+                            order to provide input for planning flood management
+                        </li>
+                        <li class="mb-2">Evaluating the quality of the water and locating areas of high contamination in
+                            order to implement targeted interventions
+                        </li>
+                        <li class="mb-3">In order assist with ecological research and conservation initiatives, wetland
+                            and other environmentally valuable area mapping
+                        </li>
+                    </ul>
+
+
+                    <p class="pb-3"><b>Bathymetric Mapping</b></p>
+                    <p class="mb-3">We provide bathymetric mapping to calculate the depths and volumes of rivers, lakes,
+                        and other water bodies. A bathymetric sensor converts sound into image format.
+                    </p>
+
+                    <!-- <p class="pb-3"><b> Watershed area management</b></p>
+                    <p>Our services for watershed project management include runoff estimates and water tables that are
+                        spatiotemporally correct. This integrates with complete 3D models (survey and mapping) that
+                        analyse riverbank migration, erosion, and wetland state (regression or development).
+                    </p>
+                    <p>Drones are able to complete tasks such as accurate planning and surveying of all construction, as
+                        well as the first mapping of drainage lines and contours. They provide more assistance in slope
+                        analysis. This is all integrated with GIS and real-time weather data to forecast the amount of
+                        water that can be effectively gathered and used.
+                    </p> -->
+
+
+                </div>
+
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50 sm-pt-20" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+
+                
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">1. 2 Topographic surveying and mapping of irrigation command area
+
+                    </span>
+                    <p class="pb-3"><b>Soil moisture estimation</b></p>
+                    <p class="mb-2">Our drone services, which are coupled with thermal sensors and remote sensing
+                        capabilities, highlight areas that receive insufficient or excessive moisture. These surveys
+                        provide data for precision irrigation systems.
+                    </p>
+                    <p class="pb-3"><b>Drainage planning
+                        </b></p>
+                    <p class="mb-2">The topography of fields in RGB imagery helps farmers arrange and segregate crops to
+                        improve drainage, follow natural land runoff, and avoid waterlogging.
+                    </p>
+                    <p class="pb-3"><b>Site suitability for water storage
+
+                        </b></p>
+                    <p class="mb-2">By estimating slopes,drainage density, land use, and land cover, we are able to
+                        analyse the area for water storage.
+                    </p>
+
+                    <!-- <p class="pb-3"><b>Site Safety Management</b></p>
+                    <p class="mb-3">We provide bathymetric mapping to calculate the depths and volumes of rivers, lakes,
+                        and other water bodies. A bathymetric sensor converts sound into image format.
+                    </p> -->
+
+                    <p class="pb-3"><b> Watershed area management</b></p>
+                    <p>Our services for watershed project management include runoff estimates and water tables that are
+                        spatiotemporally correct. This integrates with complete 3D models (survey and mapping) that
+                        analyse riverbank migration, erosion, and wetland state (regression or development).
+                    </p>
+                    <p>Drones are able to complete tasks such as accurate planning and surveying of all construction, as
+                        well as the first mapping of drainage lines and contours. They provide more assistance in slope
+                        analysis. This is all integrated with GIS and real-time weather data to forecast the amount of
+                        water that can be effectively gathered and used.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/agriculture/6.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/agriculture/infrastructural-inspection.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">2. Infrastructural Inspection
+                    </span>
+                    <p class="mb-2">We provide services to monitor the infrastructure related to the irrigation
+                        management system.
+                    </p>
+                    <p class="pb-3"><b>Problem detection</b></p>
+                    <p class="mb-2">Leakes and clogged pipes are the primary problems in irrigation plans. We estimate
+                        these problems using thermal and multispectral sensors.
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Thermal sensors detect changes in the ground temperature that indicate leaks.
+                        </li>
+                        <li class="mb-2">Multispectral sensors can detect regions where water is not circulating due to
+                            blockages or clogs.
+                        </li>
+                    </ul>
+                    <p class="pb-3"><b>Canal mapping </b></p>
+                    <p class="mb-3">We offer aerial imagery from drone surveys to produce high-resolution and accurate
+                        orthophotos, digital elevation models (DEM), digital terrain models (DTM), and contour maps.
+                    </p>
+                    <p>The data is used to simulate models and analyse water movement so that canals can be designed
+                        appropriately, so this data is really helpful for Canal route alignment survey and Surface
+                        models of linking canal
+                    </p>
+
+                </div>
+
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+
+                
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">1. 2 Canal Inspection </span>
+                    <p class="pb-3"><b>Canal crack detection [3D model of canal walls]</b></p>
+                    <p class="mb-2">We provide a 3D model of canal walls that gives a total inspection of the canal
+                        walls and their damages.
+                    </p>
+                    <p class="pb-3"><b>Canal water spread estimation
+                        </b></p>
+                    <p class="mb-2">With thermal sensors, we estimate the water spread of the canal, and this data can
+                        be used for the wellness of land with insufficient water or inessential.
+                    </p>
+                    <p class="pb-3"><b>Inspection of water theft
+
+                        </b></p>
+                    <p class="mb-2">Our high-resolution aerial imagery and videos make us strongly able to inspect the
+                        water theft all around the canals and monitor the area.
+                    </p>
+
+                    <p class="pb-3"><b>Tracking the progress of ongoing projects
+                        </b></p>
+                    <p class="mb-3">Our high-resolution data can capture images of the construction site from various
+                        angles. These images can be used to create 3D models of the site, which can be used to monitor
+                        site progress, identify any potential issues, and ensure that our teams are working efficiently
+                        and effectively.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/agriculture/7.webp" alt="" width="100%" style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pt-50" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/agriculture/visual-inspections.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading "> Visual Inspections
+                    </span>
+                    <p class="mb-2">Visual inspections are the most common technique used to discover leaks throughout
+                        the water pipeline system. In this process,our trained professionals visually inspect pipelines,
+                        valves, and other components of the system to look for any indications of damage or leakage. For
+                        the purpose of conducting visual inspections of water pipeline networks, drones that are fitted
+                        with high-resolution cameras are able to supply drones with real-time aerial imagery.
+
+                    </p>
+
+                    <p class="mb-2">This makes it possible to immediately discover any indicators of structural
+                        deterioration or leakage, such as cracks, corrosion, or misalignments in the body of the
+                        structure. Our drone imagery and videos offer:
+
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Monitor regions that are difficult to access without putting staff in danger
+                        </li>
+                        <li class="mb-2">Reduce the amount of time spent on site inspections
+                        </li>
+                        <li class="mb-2">Evaluating the quality of the water and locating areas of high contamination in
+                            order to implement targeted interventions.
+                        </li>
+
+                        <li class="mb-2">Provide real-time aerial imagery for immediate detection of indicators of structural deterioration or leakage, such as cracks, corrosion, or misalignments in the pipeline system.
+                        </li>
+
+                        <li class="mb-2">Enable monitoring of regions that are difficult to access or pose safety risks to staff, ensuring comprehensive coverage of the entire pipeline network.
+                        </li>
+                        
+                       
+                    </ul>
+                </div>
+
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50 sm-pt-20" id="msi">
+        <div class="container-fluid">
+            <div class="row">
+
+                
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading "> Multispectral imaging (MSI)
+
+                    </span>
+                    <p class="mb-2">In multispectral imaging, we capture photos at a variety of wavelengths in order to
+                        analyse different aspects of a scene, such as the plants, the soil, and the water, among other
+                        things.
+
+                    </p>
+
+                    <p class="mb-2">The following are some of the ways in which drones that are equipped with
+                        multispectral sensors can assist us in detecting water leaks, hydrological mapping, and
+                        surveying:
+
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Analysis of the vegetation: An increase in the amount of moisture present in
+                            the soil might cause the vegetation to become greener, which is a possible indication of a
+                            leak.
+                        </li>
+                        <li class="mb-2">Moisture detection: The presence of moisture can be determined by using
+                            multispectral imaging. Water leaks have the potential to change the amount of moisture that
+                            is present in the soil.
+
+                        <li class="mb-2">Change detection: We are able to identify possible leaks and track the course
+                            of breaches that are already present by comparing multispectral data at regular intervals.
+                        </li>
+
+                        <p>Ultimately, we are able to conserve vital water resources and minimise damage to
+                            infrastructure by utilising these cutting-edge drone technologies, which allow us to detect,
+                            monitor, and correct leaks in water distribution systems in an efficient and accurate
+                            manner.</p>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+
+                    <img src="src/images/agriculture/multispectral-imaging.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50" id="lidar-technology">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/agriculture/lidar-technology.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">Lidar Technology
+
+                    </span>
+                    <p class="mb-2">With the use of laser-based remote sensing, Lidar (Light Detection and Ranging)
+                        technology can produce intricate 3D maps of a water distribution system.
+                    </p>
+
+                    <p class="mb-2">A combination of drones and Lidar technology allows us to:
+
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Make sure to get accurate measurements of the pipelines and the areas around
+                            them.
+                        </li>
+                        <li class="mb-2">Determine whether there are any minor shifts in elevation or ground
+                            deformations that could be an indication of leaking.
+
+                        <li class="mb-2">Data should be collected at a higher point density, which will result in a more
+                            precise depiction of the pipeline network to be obtained.
+                        </li>
+
+                        <li class="mb-3">Early detection of leaks will help reduce the amount of water
+                        </li>
+
+                        <li class="mb-3">Identify potential obstructions or encroachments near the water distribution system that could impact its functionality or integrity.
+                        </li>
+
+                        <li class="mb-3">Assess the overall condition of the infrastructure, including the presence of corrosion, cracks, or other signs of deterioration.
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50 sm-pt-20" id="thermal-imaging">
+        <div class="container-fluid">
+            <div class="row">
+
+                
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">Thermal Imaging
+                    </span>
+                    <p class="mb-2">Infrared cameras are utilised by thermal imaging technology in order to identify
+                        temperature changes on the surfaces of water pipelines and the ground.
+                    </p>
+
+                    <p class="mb-2">If drones equipped with thermal imaging capabilities are flown over the water
+                        distribution system, the following will occur:
+
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Warm regions may be an indication of water leakage since the temperature of the
+                            water that is escaping will be different from the temperature of the soil that is
+                            surrounding it.
+
+                        </li>
+
+                        <li class="mb-2">We are able to assess the position and amount of leaks before they get more
+                            severe by using the contrast in temperature data before they become worse.</li>
+
+                        <li class="mb-2">We are able to assess the position and amount of leaks before they get more
+                            severe by using the contrast in temperature data before they become worse.</li>
+
+                        <li class="mb-2">Enable early detection of water leaks by identifying temperature variations on the surfaces of water pipelines and the surrounding ground using thermal imaging technology.</li>
+
+                        <li class="mb-2">Assess the severity and extent of leaks by analyzing temperature contrast data, allowing for proactive intervention before issues escalate.</li>
+
+                        <li class="mb-2">Improve maintenance efficiency and minimize water loss by promptly locating and addressing leaks, reducing the risk of structural damage and service disruptions in the water distribution system.</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/agriculture/thermal-imaging.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red">Deliverables
+                </h2>
+            </div>
+            <div class="columns-6">
+                <div class="cards-7">
+                    <div class="card-head">
+                        <img src="src/images/agriculture/deliver/1.webp" alt="" width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text pb-58">
+                        <h2 class="text-subheading ">Aerial Imagery</h2>
+                        <p>High-resolution aerial photographs and videos provide comprehensive views of crop fields, allowing farmers to monitor crop health, detect pest infestations, and assess overall field conditions.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-7">
+                    <div class="card-head"><img src="src/images/agriculture/deliver/2.webp" alt="" width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text">
+                        <h2 class="text-subheading">Orthomosaic Maps</h2>
+                        <p>Stitched together from hundreds or thousands of individual aerial images, orthomosaic maps offer accurate representations of farm fields, aiding in precise measurement, planning, and analysis.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-7">
+                    <div class=""><img src="src/images/agriculture/deliver/3.webp" alt="" width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text ">
+                        <h2 class="text-subheading ">3D Models</h2>
+                        <p> 
+                            we generate Detailed three-dimensional models of farmland from drone survey data, enabling farmers to visualize terrain, elevation changes, and crop distribution, facilitating better land management decisions.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-7">
+                    <div class="card-head"><img src="src/images/agriculture/deliver/4.webp" alt="" width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-20">
+
+                        <h2 class="text-subheading">Soil Mapping</h2>
+                        <p>we collect data on soil properties, moisture levels, and nutrient content, helping farmers to optimize irrigation, fertilization, and soil management practices for improved crop yields and sustainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-7">
+                    <div class="card-head"><img src="src/images/agriculture/deliver/5.webp" alt="" width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading ">Crop Health Monitoring
+                        </h2>
+                        <p>Multispectral or thermal sensors capture data related to crop health, identifying areas of stress, disease, or nutrient deficiencies early on, allowing for targeted interventions and optimized crop management strategies.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-7">
+                    <div class="card-head"><img src="src/images/agriculture/deliver/6.webp" alt=""
+                            width="100%" 
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-101 ">
+                        <h2 class="text-subheading ">Precision Agriculture</h2>
+                        <p>By integrating drone-derived data with GPS technology and farm machinery, we implement precision agriculture techniques such as variable rate application of inputs, minimizing costs and environmental impact while maximizing crop productivity.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/3.webp" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-97">
+                        <h2 class="text-subheading">Thermal imaging</h2>
+                        <p>Infrared cameras are utilised by thermal imaging technology in order to identify temperature changes on the surfaces of water pipelines and the ground.</p>
+                    </div>
+                </div> -->
+                <!-- <div class="cards-4">
+                    <div class=""><img src="src/images/archaeology/deliver/6.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-51">
+                        <h2 class="text-subheading">Regular Surveillance Reports</h2>
+                        <p>We offer routinely updated reports cataloging observations from surveillance flights over archaeological sites. These reports meticulously document any changes detected, ensuring timely awareness of alterations in site conditions, potential risks, and significant developments, facilitating proactive management and preservation efforts.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- <div class="cards">
+                    <div class="card-head"><img src="src/images/image/lidar-survey.jpg" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading">Lidar Survey </h2>
+                        <p>LIDAR surveys in railway infrastructure yield detailed topographic data crucial for precise route planning, infrastructure design, and safety assessment. This ensures optimal construction and maintenance practices, enhancing efficiency and safety standards along railway corridors.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="mt-2"> <img src="src/images/image/land-use-land-cover.jpg" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-92">
+                        <h2 class="text-subheading">Land Use Land Cover </h2>
+                        <p>Railway land use and land cover mapping offers essential insights for infrastructure planning and environmental management in railway projects, aiding sustainable development and efficient resource allocation along railway corridors.
+
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/coverage.png" alt="">
+                            <h5 class="heading-four">Extensive Coverage</h5>
+                            <p class="mb-3">Over 5000 hectares of farmland surveyed and optimised.</p>
+                            <p class="">In just four years, we've covered vast expanses of agricultural
+                                land, aiding farmers and land managers in enhancing productivity and sustainability.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/rapid.png" alt="">
+                            <h5 class="heading-four"> Rapid Survey Capabilities</h5>
+                            <p class="mb-3">With a team of experienced drone pilots and GIS engineers, we
+                                can survey over 100 hectares of farmland per day.Our high-end survey drones and
+                                efficient workflows ensure swift data collection without compromising on accuracy.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/data.png" alt="">
+                            <h5 class="heading-four">Efficient Data Processing</h5>
+                            <p class="mb-3 ">Our dedicated team of GIS experts works tirelessly to process
+                                and analyze drone survey data promptly.Fast data delivery ensures that farmers and
+                                agricultural stakeholders receive actionable insights in a timely manner, enabling
+                                informed decision-making.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/accuracy.png" alt="">
+                            <h5 class="heading-four"> Accuracy</h5>
+                            <p>Our drone-based surveys offer up to 70% greater accuracy compared to traditional
+                                methods.By leveraging cutting-edge technology and precise data collection techniques, we
+                                provide farmers with reliable information for optimising crop planning, irrigation, and
+                                resource allocation.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="pt-4 d-none d-sm-block">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+              
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/agriculture/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+ 
+   
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

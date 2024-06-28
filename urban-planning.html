@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                             <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="second-heading text-left"> Urban Planning And Construction
+                    </h2>
+                    <label class="text-justify pt-11">DATAPKT Aviation eases the pathway for effective urban planning, and we can help you quickly gather a lot of real-time data. Our advanced UAV technology and wide range of aerial mapping services have helped government agencies and private developers while also planning for and investigating current social and environmental problems. We also assisted city planners, architects, tax collectors, landscape architects, and administrators in gathering data through 3-D surveying.
+                        
+                    </label>
+
+                    <label class="text-justify pt-11">
+                        We also assist the construction sector in gathering fast and reliable visual information from a site. Our clients can use land surveying information to improve safety, make modifications, and increase project efficiency. We offer data from aerial photos to help project managers with real-time construction monitoring. Drones are more efficient at detecting damage and capturing data than traditional methods. Our data processing applications, GIS and photogrammetry, can then rebuild this data into 2D mosaics and 3D models for clients to analyse in detail.
+                    </label>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/urban-2.png" alt="" loading="lazy" width="100%" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#aerial-mapping" >
+                    <div class="button">
+                       <p class="font-20">Aerial Mapping</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#aerial-inspection" >
+                    <div class="button">
+                      <p class="font-20">Aerial Inspection</p> 
+                    </div>
+                </a>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="button">
+                        <a href="#water-quality-monitoring" class="font-20">Water Quality Monitoring</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="button">
+                        <a href="#flood-risk-mapping" class="font-20">Flood Risk Mapping</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="aerial-mapping">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-2.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="text-red">Aerial mapping</h2>
+                    <!-- <span class="text-subheading">Project progress monitoring
+                    </span> -->
+                    <p class="mb-3">We offer services equipped with high-resolution sensors and camera technology to swiftly gather aerial photographs and geographic information. With this data, we generate precise 3D models, land use and land cover maps,urban sprawl,  determine infrastructure requirements, and evaluate the features of the terrain. 
+
+                    </p>
+
+                    <p class="mb-3">
+                        We also assist in urban planning to give planners more precise and thorough terrain models and 3D reconstructions, which will aid in their understanding of the area's topography, vegetation, building structures, etc. Drones can give architects and designers a better understanding of project sites and a source of inspiration for their work by taking panoramic pictures and producing aerial films. 
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Utilization of high-resolution sensors and camera technology for swift aerial data gathering.</li>
+
+                        <li class="mb-3">Generation of precise 3D models, land use and land cover maps, and evaluation of terrain features.</li>
+                       
+                        <li class="mb-3">Assistance in urban planning by providing precise terrain models and 3D reconstructions.</li>
+                        <li >Provision of panoramic pictures and aerial films to architects and designers, aiding in site understanding and project inspiration.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="aerial-inspection">
+        <div class="container-fluid">
+            <div class="text-left">
+                <h2 class="text-red">Aerial Inspection  </h2>
+            </div>
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h4 class="feature-box3-title">Construction site monitoring </h4>
+                    <p class="feature-box3-desc mb-3" >We provide a site monitoring service in which drones fly regularly and take real-time photographs and videos of construction sites. This enables project teams to monitor building progress, work quality, and address possible concerns on time. The drone's bird's-eye view allows monitoring workers to more fully analyse the structure and overall status of the building, ensuring the project's quality and safety. 
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Regular drone flights capture real-time photographs and videos of construction sites for ongoing monitoring.</li>
+
+                        <li class="mb-3">Enables project teams to track building progress, assess work quality, and address concerns promptly.</li>
+                       
+                        <li class="mb-3">Bird's-eye view from drones enhances analysis of structures and overall project status, ensuring quality and safety.</li>
+                        <li class="mb-3">Allows for proactive identification and resolution of potential issues before they escalate.</li>
+                        <li class="mb-3">Provides stakeholders with up-to-date visual documentation of construction activities and milestones.</li>
+                        <li>Enhances communication and collaboration among project teams by providing a comprehensive overview of the construction site.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-3.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-4.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h4 class="feature-box3-title">Building inspection and maintenance </h4>
+                    <p class="feature-box3-desc mb-3">Traditional building inspections and maintenance are time-consuming and risky. Our drone service performs external inspections and captures high-definition photographs or videos without requiring direct human access to hazardous locations. Our non-contact inspection technology increases not just safety but also efficiency and accuracy. Drones can also be used to monitor the structural health of buildings, providing valuable information for maintenance planning.</p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Drone service conducts external inspections of buildings, eliminating the need for risky human access to hazardous locations.</li>
+
+                        <li class="mb-3">High-definition photographs and videos captured by drones provide detailed visual documentation for inspection purposes.</li>
+                       
+                        <li class="mb-3">Non-contact inspection technology enhances safety, efficiency, and accuracy of building inspections.</li>
+                        <li class="mb-3">Drones monitor structural health, detecting potential issues such as cracks, corrosion, or structural weaknesses.</li>
+                        <li class="mb-3">Valuable information gathered by drones aids in proactive maintenance planning and decision-making.</li>
+                        <li>Enhances overall building safety and reduces maintenance costs by identifying issues early and preventing potential hazards.</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red sm-font-24">Transportation improvement for Urban Centers
+                </h2>
+                <p class="margin-top">Expanding infrastructure alternatives is one of the feasible methods of transportation planning. Traditional traffic monitoring technologies use tower-mounted cameras and sensors, but they need to be done more quickly. They also do not account for less-travelled routes. In comparison, our drone services are faster and more efficient in a variety of ways.
+            </div>
+
+            <div class="row ">
+                
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h4 class="feature-box3-title">Traffic flow analysis</h4>
+                    <p class="feature-box3-desc mb-3">Our urban design and transportation planning service is most useful when conducting real-time observations during rush hour. Planners can use their data to make adjustments that increase rider and pedestrian safety.
+                        We offer drone imagery and data to help urban planners create accurate models and simulations of suggested modifications. Our drone-generated data frequently outperforms traditional 2D maps in quality. 
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Real-time observations during rush hour provide crucial data for urban design and transportation planning.</li>
+
+                        <li class="mb-3">Utilization of drone imagery and data enables planners to make adjustments aimed at enhancing rider and pedestrian safety.</li>
+                       
+                        <li class="mb-3">Drone data facilitates the creation of accurate models and simulations for evaluating suggested modifications to urban infrastructure.</li>
+                        <li class="mb-3">The quality of drone-generated data often surpasses that of traditional 2D maps, offering more detailed and comprehensive information.</li>
+                        <li >Enhanced accuracy and detail in drone-generated data improve the effectiveness of urban planning decisions and simulations.</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-5.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+              
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-6.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 pt-4">
+                    <h4 class="feature-box3-title">Parking space planning </h4>
+                    <p class="feature-box3-desc mb-3">Parking space usage can be inefficient and disrupt traffic flow, which is crucial in metropolitan areas. We can help city planners and architects make more informed decisions about urban design and transportation planning.
+                        We offer real-time aerial imagery, which effective software and algorithms may combine into virtual models. These models can take into account not only parking occupancy but also date and time. 
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Real-time aerial imagery provides valuable data on parking space occupancy, aiding city planners and architects in optimizing urban design and transportation planning.</li>
+
+                        <li class="mb-3">Utilization of effective software and algorithms enables the integration of aerial imagery into virtual models, enhancing data visualization and analysis.</li>
+                       
+                        <li class="mb-3">Virtual models incorporate factors such as parking occupancy, date, and time, offering a comprehensive understanding of parking dynamics.</li>
+
+                        <li class="mb-3">By considering temporal variations in parking demand, planners can develop strategies to optimize parking management and alleviate traffic congestion.</li>
+
+                        <li>Informed decisions based on real-time aerial imagery and virtual models lead to more efficient urban mobility solutions, enhancing overall city functionality and livability.</li>
+                       
+                        
+                    </ul>
+                </div>     
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red">Utility network and planning 
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">Water pipeline mapping  
+                    </span>
+                    <p>With drones, we provide swift, accurate water pipeline mapping. Equipped with high-resolution cameras and LiDAR, drones capture detailed aerial imagery and topographic data, aiding in issue identification and maintenance optimization. Access to remote terrain enables thorough inspections without disruption. Integrating our services enhances efficiency, reduces costs, and improves water system management.
+                    </p>
+                    <!-- <p>
+                        Additionally, we provide access to remote or challenging terrain, enabling thorough inspections without disrupting surrounding environments. Overall, integrating services into water pipeline mapping processes enhances efficiency, reduces operational costs, and improves the overall management of water distribution systems.
+                    </p> -->
+
+                    <div class="padding-top">
+                        <span class="sub-title">Sewage mapping 
+                        </span>
+                        <p class="pb-3" style="margin-top: 15px;">We offer services equipped with advanced sensors, Sewage mapping involves capturing aerial imagery and data to identify sewage infrastructure, monitor wastewater flow, detect leaks, and assess the condition of sewage systems. This data aids urban planners and environmental agencies in optimising sewage management, prioritising maintenance efforts, and mitigating environmental risks. By providing detailed insights into sewage networks and potential issues, our drone-based mapping enhances the efficiency and sustainability of urban wastewater systems.
+                        </p>
+                    </div>
+
+                    <div class="">
+                        <span class="sub-title">Drainage  
+                        </span>
+                        <p class="pb-3" style="margin-top: 15px;">We can swiftly survey urban areas to identify drainage issues. By capturing aerial imagery, we can detect areas prone to flooding or poor drainage. Utilising LiDAR sensors, drones generate accurate elevation data crucial for planning drainage infrastructure. Real-time monitoring with drones aids in assessing drainage effectiveness during extreme weather events. Overall, drones streamline drainage management, enhance urban resilience and mitigate flood risks.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/urban/urban-7.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/data-analysis.png" alt="">
+                            <h5 class="heading-four">Expertise in Urban Data Analysis</h5>
+                            <p class="mb-3">With specialized knowledge in urban planning and data analysis, we offer tailored solutions to address the complex challenges of urban development.
+                            </p>
+                            <p class="">Our team of urban planners, GIS specialists, and drone pilots collaborates to provide comprehensive insights into urban landscapes, infrastructure, and development projects.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/drone-technology.png" alt="" >
+                            <h5 class="heading-four">Advanced Drone Technology</h5>
+                            <p class="mb-3">Equipped with cutting-edge drones and sensors, we offer advanced capabilities for urban mapping, surveying, and analysis.
+                            </p>
+                            <p class="">Our drones capture high-resolution imagery, LiDAR data, and thermal imaging, providing detailed information on land use, building structures, and transportation networks.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/cost-effectiveness.png" alt="">
+                            <h5 class="heading-four">Efficiency and Cost-Effectiveness</h5>
+                            <p class="mb-3">By leveraging drones for urban planning, we offer efficient and cost-effective solutions compared to traditional methods.Our drone services streamline data collection, reduce project timelines, and minimize the need for manual surveys, resulting in significant cost savings for our clients.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/urban-development.png" alt="">
+                            <h5 class="heading-four">Sustainable Urban Development</h5>
+                            <p class="mb-3 ">We are committed to promoting sustainable urban development practices that enhance livability, resilience, and inclusivity.</p>
+                            <p class="">Our drone-based solutions support data-driven decision-making for urban design, transportation planning, and environmental management, contributing to the creation of vibrant and resilient cities.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="pt-4 d-none d-sm-block ">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 d-block d-sm-none ">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/urban/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+  <!-- Footer -->
+  <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+<!-- Footer -->
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top"
+        style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                                <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none"
+        style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item" style="font-size: 18px; ">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="padding: 9px 20px; ">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px; ">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="cinematography.html">Cinematography</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="photogrammetry.html">Photogrammetry</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="lidar-survey.html">Lidar</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="thermal-survey.html">Thermal Surveys</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="hyperspectral.html">Hyperspectral & <br>
+                                        Multispectral</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="bathymetry.html">Bathymatery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="drone-delivery.html">Drone Delivery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="environmental.html">Environmental Survey</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" style="  font-size: 18px;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px;">
+                                Sectors
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="highways-and-roadways.html">Roads & Highways
+                                    </a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="railways-and-metro.html">Railways & Metros</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="energy.html">Energy</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="mining.html">Mining</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="oil-and-gases.html">Oil & Gas</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="water-resource.html">Water Resources</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="urban-planning.html">Urban Planning</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="public-safety.html">Public Safety</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="manufacturing.html">Manufacturing</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="wildlife.html">Wildlife</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="agriculture.html">Agriculture</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="archaeology.html">Archaeology</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" style="  font-size: 18px;">
+                            <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Environmental Surveys</h2>
+
+                    <label class="center-justified mb-3">Our cutting-edge drone services are revolutionizing
+                        Environmental Surveys by providing a game-changing combination of cost-effectiveness, accuracy,
+                        and efficiency in data collection. By navigating challenging terrains with ease, our drones
+                        capture high-resolution data that's essential for various environmental applications. Whether
+                        it's monitoring environmental changes, supporting conservation efforts, or responding to
+                        disasters, our drones are invaluable assets. As technology continues to advance, our drone
+                        services are evolving to meet the increasingly complex needs of environmental stakeholders. With
+                        expanding capabilities and applications, we're enabling comprehensive and precise assessments
+                        that support sustainable decision-making. From meticulously mapping habitats and analyzing
+                        forestry dynamics to skillfully managing water resources and responding to disasters, our drones
+                        provide critical insights that drive progress. By harnessing the power of our drone services,
+                        environmental professionals can make informed decisions, optimize resources, and promote a
+                        healthier planet. With our innovative approach, we're transforming the way environmental data is
+                        collected, analyzed, and utilized, ultimately shaping a better future for our planet.
+                    </label>
+
+
+
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/photogrammetry/photogrammetry.webp" alt=""
+                        loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/environmental/habitat.webp" alt=""
+                        loading="lazy" />
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Habitat Mapping and Monitoring</h2>
+
+                    <label class="text-justify">We provide comprehensive drone services tailored for environmental
+                        surveys, offering a wide range of applications to meet your specific needs.</label>
+
+                    <span class="sub-heading">High-Resolution Habitat Mapping and Monitoring</span>
+                    <p class="mb-3">Our drones are equipped with advanced imaging technology that captures
+                        high-resolution aerial images. This capability is essential for</p>
+                    <p>
+                        <!-- <span class="sub-heading">Sonar Technology</span> -->
+                    <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                        <li class="mb-3"><b>Mapping Habitats</b> We create detailed maps of various habitats, providing
+                            a clear overview of their structure and extent.</li>
+                        <li class="mb-3"><b>Monitoring Changes Over Time</b>
+                            Regular drone surveys help track changes in habitats, allowing for early detection of
+                            potential issues and informed decision-making.</li>
+                    </ul>
+                    </p>
+                    <p>These services are crucial for understanding ecosystems, tracking wildlife populations, and
+                        managing conservation efforts effectively. Our high-resolution data enables precise analysis,
+                        ensuring that conservation strategies are based on accurate and up-to-date information.</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="plr-30 text-center">
+            </div>
+            <div class="row align-items-start">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Forestry and Vegetation Analysis</h2>
+                    <label class="text-justify mb-3">
+                        At DATAPKT, we offer cutting-edge drone services equipped with multispectral and thermal cameras
+                        to revolutionize forest health assessment and management. Our advanced drone technology is
+                        capable of:
+                    </label>
+                    <p><span class="sub-heading">Forest Health Assessment</span></p>
+                    <p>
+                        Our drones capture high-resolution multispectral images, providing detailed information on
+                        vegetation health. By analyzing these images, we can identify areas affected by diseases, pests,
+                        or environmental stressors, allowing for timely interventions.
+
+                    </p>
+
+                    <p><span class="sub-heading">Monitoring Tree Growth</span></p>
+                    <p>
+                        With our drone services, continuous monitoring of tree growth becomes efficient and accurate.
+                        High-resolution imagery and data collected over time enable us to track growth patterns, detect
+                        anomalies, and ensure sustainable forest management. </p>
+
+                    <p><span class="sub-heading">Disease and Pest Detection</span></p>
+                    <p> Drones equipped with thermal cameras can detect subtle changes in tree temperature, which often
+                        indicate the presence of diseases or pests. Early detection allows for prompt action to mitigate
+                        damage and preserve forest health. </p>
+
+
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/environmental/forestry.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+    <!-- pre-construction Start -->
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="plr-30 text-center">
+            </div>
+            <div class="row align-items-start">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <h2 class="text-red">Water Resource Management</h2>
+                    <label class="text-justify mb-3">
+                        Our comprehensive drone services for surveying water bodies encompass a range of critical
+                        applications, including water quality monitoring, depth measurement, pollutant detection,
+                        irrigation system management, and flood risk assessment. Here’s an in-depth look at how we use
+                        drone technology to deliver these services effectively
+                    </label>
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading">Water Quality Monitoring</span></p>
+                        <p class="mb-3">
+                            Drones equipped with advanced sensors and cameras are capable of assessing various water
+                            quality parameters. These include:
+
+                        </p>
+                        <p>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3">Temperature: Thermal sensors detect temperature variations in water bodies.
+                            </li>
+                            <li class="mb-3">PH Levels: Specialized sensors measure the acidity or alkalinity of water.
+                            </li>
+                            <li class="mb-3"> Turbidity: High-resolution cameras assess water clarity by detecting the
+                                presence of suspended particles.</li>
+                            <li class="mb-3"> Chemical Contaminants: Drones can identify pollutants such as heavy
+                                metals, nitrates, and phosphates through spectral analysis.</li>
+                        </ul>
+
+                        </p>
+                        <p>Regular monitoring helps in maintaining water safety standards and addressing contamination
+                            issues promptly.</p>
+                    </div>
+
+                    <div class="sec-two">
+                        <p><span class="sub-heading">Depth Measurement</span></p>
+                        <p class="mb-3">
+                            Using sonar and LiDAR technology, drones can accurately measure the depth of water bodies.
+                            This data is crucial for:
+
+                        </p>
+                        <p>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Navigational Charts</b> Providing accurate and up-to-date information
+                                for safe
+                                navigation.</li>
+                            <li class="mb-3"><b> Sediment Analysis</b> Understanding sediment accumulation patterns for
+                                dredging
+                                purposes.</li>
+                            <li class="mb-3"><b> Habitat Studies</b> Assessing the aquatic environment to support marine
+                                life
+                                research and conservation efforts.</li>
+                        </ul>
+                        </p>
+                        <p>Depth measurement via drones is faster and safer compared to traditional methods.</p>
+                    </div>
+
+                    <div class="sec-three">
+                        <p><span class="sub-heading">Pollutant Detection</span></p>
+                        <p class="mb-3">
+                            Drones play a vital role in detecting pollutants in water bodies. Equipped with
+                            multispectral and hyperspectral sensors, they can
+                        </p>
+                        <p>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Identify Oil Spills</b> Detecting the presence and extent of oil
+                                contamination.
+                            </li>
+                            <li class="mb-3"><b>Chemical Spills</b> Spotting areas affected by chemical spills from
+                                industrial
+                                discharges.</li>
+                            <li class="mb-3"><b>Nutrient Loads</b> Measuring levels of nitrogen and phosphorus that
+                                contribute to
+                                algal blooms.</li>
+                        </ul>
+
+                        </p>
+                        <p>Early detection of pollutants helps in mitigating environmental damage and implementing
+                            corrective measures swiftly.</p>
+                    </div>
+
+                    <div class="sec-four">
+                        <p><span class="sub-heading"> Irrigation System Management and Flood Risk Assessment
+                            </span></p>
+                        <p class="mb-3">
+                            Drones are invaluable for managing irrigation systems and assessing flood risks through
+                        </p>
+                        <p>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3">Irrigation Audits: Monitoring the distribution and efficiency of irrigation
+                                systems to
+                                optimize water usage and enhance crop yields. </li>
+                            <li class="mb-3"><b>Flood Mapping</b> Creating detailed topographic maps to predict
+                                flood-prone areas.
+                            </li>
+                            <li class="mb-3"><b> Flood Monitoring</b>Providing real-time data during flood events to
+                                support
+                                emergency response and evacuation planning.</li>
+                            <li class="mb-3"><b>Erosion Control</b> Monitoring riverbanks and coastal areas to identify
+                                erosion
+                                patterns and implement preventive measures.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/environmental/water.webp" alt="" width="100%">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/environmental/soil.webp" alt="" width="100%" height="auto"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Soil and Land Degradation</h2>
+
+                    <p class="mb-3">By capturing detailed topographic data, drones provide precise information on soil
+                        erosion patterns. This data is essential for understanding how soil is being displaced over
+                        time, identifying vulnerable areas, and implementing effective erosion control measures. With
+                        high-resolution imagery and 3D models, we can monitor erosion rates and devise strategies to
+                        prevent further degradation.
+                    </p>
+
+                    <p><span class="sub-heading">Land Degradation Monitoring
+                        </span></p>
+                    <p class="mb-3">
+                        Drones are instrumental in assessing land degradation, which includes loss of vegetation,
+                        soil fertility, and biodiversity. Through aerial surveys, drones can map degraded areas,
+                        track changes over time, and provide insights into the causes of degradation. This
+                        information is crucial for developing targeted restoration plans and evaluating the
+                        effectiveness of land management practices.
+                    </p>
+
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading">Desertification Processes
+                            </span></p>
+                        <p class="mb-3"> In regions prone to desertification, drones offer a reliable method for monitoring changes
+                            in land cover and vegetation health. By analyzing multispectral and thermal images, drones
+                            help in detecting early signs of desertification, such as reduced vegetation cover and
+                            increased soil exposure. This enables timely interventions to combat desertification and
+                            restore affected areas.
+                        </p>
+                    </div>
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading">Land Restoration Projects</span></p>
+                        <p>For land restoration projects, drones play a vital role in planning and monitoring. They
+                            provide accurate data on current land conditions, helping to identify areas that need
+                            intervention. Throughout the restoration process, drones can track progress, assess the
+                            impact of restoration efforts, and ensure that objectives are being met. This continuous
+                            monitoring ensures the success and sustainability of restoration projects.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <!-- new  -->
+                    <div class="sec-two">
+                        <h2 class="text-red">Air Quality Monitoring </h2>
+                        <p>Our Environmental Survey services utilize advanced drone technology equipped with
+                            state-of-the-art sensors capable of measuring crucial air quality parameters. These include
+                        </p>
+                    </div>
+
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading"> Particulate Matter (PM) Detection</span></p>
+                        <ul>
+                            <li>Drones equipped with particulate matter sensors can accurately measure PM1, PM2.5, and
+                                PM10 levels in the atmosphere. This data is vital for assessing air pollution levels and
+                                understanding health risks associated with fine particulate matter.
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading"> CO2 and Gas Monitoring</span></p>
+                        <ul>
+                            <li>Our drones are equipped with sensors to measure carbon dioxide (CO2) levels and other
+                                gases such as methane (CH4), nitrogen dioxide (NO2), sulfur dioxide (SO2), and ozone
+                                (O3). This comprehensive monitoring helps in evaluating greenhouse gas emissions and air
+                                quality compliance.
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading"> Environmental Pollutant Assessment</span></p>
+                        <ul>
+                            <li>They can detect various pollutants, including volatile organic compounds (VOCs),
+                                airborne toxins, and industrial emissions. This capability is essential for identifying
+                                sources of pollution and ensuring regulatory compliance.
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sec-one">
+                        <p><span class="sub-heading"> Real-Time Data Collection</span></p>
+                        <ul>
+                            <li>With the ability to cover large areas swiftly, our drones provide real-time data on air
+                                quality parameters. This enables prompt decision-making for environmental management and
+                                emergency response operations.</li>
+                        </ul>
+                    </div>
+                    <!-- new  -->
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/environmental/air.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone
+                                survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning
+                                techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates
+                                round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying
+                                capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+</body>
+
+
+
+</html>

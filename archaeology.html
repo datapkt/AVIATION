@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row">
+                <div class="custom-text col-6">
+                    <h2 class="second-heading text-left">Archaeology
+                    </h2>
+                    <label class="text-justify ">Datapkt specializes in customized drone services for archaeological endeavors, integrating advanced drone operations, remote sensing technologies, and archaeological methodologies. Our adept team of professionals offers tailored solutions, leveraging expertise to enhance research and site management. With a focus on innovation, we deliver comprehensive support for your projects, ensuring precision, efficiency, and insights previously inaccessible. Trust Datapkt to elevate your archaeological research with cutting-edge aerial capabilities, providing unmatched depth and breadth to uncover historical mysteries and manage sites with unprecedented clarity and efficiency. 
+
+                    </label>
+
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/archaeology-2.png" alt=""
+                        loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#aerial-surveys" >
+                    <div class="button">
+                       <p class="font-20">Aerial Surveys and Mapping</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#advanced-imaging-techniques" >
+                    <div class="button">
+                        <p class="font-20">Advanced Imaging Techniques</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#excavation-planning" >
+                    <div class="button">
+                        <p class="font-20">Excavation Planning and Support</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#remote sensing">
+                    <div class="button">
+                       <p  class="font-20">Remote Sensing in Challenging Terrain</p> 
+                    </div>
+                </a>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="button">
+                        <a href="#flood-risk-mapping" class="font-20">Remote Sensing in Challenging Terrain</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="aerial-surveys">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/archaeology/1.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <span class="text-subheading">Aerial Surveys and Mapping
+                    </span>
+                    <p class="text-justify pr-90 mb-3">Utilizing state-of-the-art drones equipped with high-resolution
+                        cameras, we conduct detailed aerial surveys of archaeological sites. Our mapping services
+                        provide comprehensive visual documentation and precise topographical data, allowing for accurate
+                        analysis and interpretation.
+
+
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Cutting-edge drones with high-resolution cameras capture intricate details of archaeological sites from above.</li>
+
+                        <li class="mb-3">Comprehensive visual documentation ensures no aspect of the site is overlooked during the survey.</li>
+                       
+                        <li class="mb-3">Precise topographical data obtained enables accurate analysis of the site's terrain and features.</li>
+
+                        <li class="mb-3">Detailed aerial surveys facilitate thorough interpretation, enhancing understanding of the site's historical significance.</li>
+
+                        <li class="mb-3">Utilization of state-of-the-art technology ensures accurate and efficient data collection, advancing archaeological research capabilities.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="advanced-imaging-techniques">
+        <div class="container-fluid">
+            <div class="row ">
+
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <span class="text-subheading">Advanced Imaging Techniques
+                    </span>
+                    <p class="text-justify pr-90 mb-3">We offer advanced imaging capabilities such as LiDAR and thermal
+                        imaging to uncover hidden archaeological features. LiDAR technology creates highly accurate 3D
+                        maps of terrain, revealing buried structures and landscapes obscured by vegetation or soil
+                        cover. Thermal imaging detects temperature variations indicative of subsurface anomalies, aiding
+                        in the identification of archaeological targets.
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Advanced imaging technologies like LiDAR and thermal imaging enhance archaeological exploration by revealing hidden features.</li>
+
+                        <li class="mb-3">LiDAR creates precise 3D maps of terrain, uncovering buried structures and landscapes obscured by natural elements like vegetation or soil cover.</li>
+                       
+                        <li class="mb-3">Thermal imaging detects temperature variations, helping to identify subsurface anomalies that may indicate archaeological sites or features.</li>
+
+                        <li class="mb-3">Integration of LiDAR and thermal imaging provides a multi-faceted approach to archaeological surveys, increasing the likelihood of uncovering significant discoveries.</li>
+
+                        <li class="mb-3">These advanced imaging capabilities offer invaluable insights into archaeological sites, enriching understanding and interpretation of past civilizations.</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/archaeology/2.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="excavation-planning">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/archaeology/3.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <span class="text-subheading">Excavation Planning and Support
+                    </span>
+                    <p class="text-justify pr-90 mb-3">Prior to excavation, we assist archaeologists in planning and
+                        strategizing through detailed analysis of aerial imagery and 3D models. Our drones provide
+                        real-time aerial footage during excavation activities, guiding ground crews and ensuring
+                        precision in documentation and data collection.
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Before excavation, we aid archaeologists in strategic planning by conducting thorough analysis of aerial imagery and 3D models, identifying potential excavation targets and areas of interest.</li>
+
+                        <li class="mb-3">Our team provides detailed insights and recommendations based on the analysis of aerial data, optimizing excavation strategies for maximum efficiency and effectiveness.</li>
+                       
+                        <li class="mb-3">During excavation activities, our drones offer real-time aerial footage, providing invaluable guidance to ground crews and assisting in decision-making processes.</li>
+
+                        <li class="mb-3">Real-time aerial footage enhances on-site coordination and communication, ensuring that excavation activities are conducted with precision and adherence to archaeological protocols.</li>
+
+                        <li class="mb-3">The use of drones for real-time monitoring during excavation enhances documentation and data collection processes, capturing important details and facilitating comprehensive analysis post-excavation.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <span class="text-subheading">Remote Sensing in Challenging Terrain
+                    </span>
+                    <p class="text-justify pr-90">Prior to excavation, we assist archaeologists in planning and
+                        strategizing through detailed analysis of aerial imagery and 3D models. Our drones provide
+                        real-time aerial footage during excavation activities, guiding ground crews and ensuring
+                        precision in documentation and data collection.
+
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/railways-and-highways/6.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+    <section class="bg-2 pt-50" id="remote-sensing">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <span class="text-subheading">Remote Sensing in Challenging Terrain
+                    </span>
+                    <p class="text-justify pr-90 mb-3">With expertise in navigating diverse environments, our drones are
+                        equipped to access remote or inaccessible archaeological sites. Whether in dense forests, rugged
+                        mountains, or harsh deserts, we provide safe and efficient aerial surveying solutions,
+                        minimizing environmental impact and maximizing data collection efficiency.
+
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Our drones are specifically designed and equipped to navigate diverse environments, including dense forests, rugged mountains, and harsh deserts, ensuring access to remote or inaccessible archaeological sites.</li>
+
+                        <li class="mb-3">With advanced maneuverability and robust construction, our drones can safely operate in challenging terrain conditions, minimizing risks and ensuring the safety of both the equipment and personnel.</li>
+                       
+                        <li class="mb-3">By accessing remote sites with drones, we eliminate the need for potentially damaging ground access methods, minimizing environmental impact and preserving sensitive archaeological landscapes.</li>
+
+                        <li class="mb-3">Our aerial surveying solutions are tailored to maximize data collection efficiency, leveraging the agility and versatility of drones to capture comprehensive aerial imagery and data.</li>
+
+                        <li class="mb-3">Through the use of drones, we enable archaeologists to explore and document remote archaeological sites with unprecedented detail and accuracy, expanding the scope of archaeological research and discovery.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/archaeology/4.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50 sm-pt-20">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h2 class="text-red">Deliverables
+                </h2>
+            </div>
+            <div class="columns-4">
+                <div class="cards-4">
+                    <div class="card-head">
+                        <img src="src/images/image/dpr.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text pb-58">
+                        <h2 class="text-subheading ">Aerial Imagery</h2>
+                        <p>Our services deliver high-resolution aerial photographs, encompassing the entirety of archaeological sites from diverse perspectives. These detailed images offer comprehensive visual documentation, meticulously capturing the site's features, structures, and the surrounding landscape. Through our imagery, archaeologists gain invaluable insights into the site's layout and context, facilitating thorough analysis and interpretation for a deeper understanding of its significance.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/5.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text">
+                        <h2 class="text-subheading">Orthomosaic Maps</h2>
+                        <p>We create orthomosaic maps by stitching together hundreds or thousands of individual aerial images, eliminating distortions for accurate representation of site terrain and features. These maps are invaluable for precise measurement, planning, and analysis purposes in archaeology. By providing geometrically corrected visuals, orthomosaics enhance understanding and facilitate meticulous exploration and management of archaeological sites.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class=""><img src="src/images/archaeology/deliver/1.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
+                    </div>
+                    <div class="card-text ">
+                        <h2 class="text-subheading ">Topographical Data</h2>
+                        <p> 
+                            Topographical Data Digital Elevation Models (DEMs) and Digital Terrain Models (DTMs) are generated from aerial survey data. DEMs represent ground surface elevation, while DTMs include features like buildings and vegetation. These topographical datasets facilitate terrain analysis, slope calculation, and hydrological modeling, empowering researchers with essential insights for comprehensive understanding and management of archaeological sites.  
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/7.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-20">
+
+                        <h2 class="text-subheading">3D Models</h2>
+                        <p>Utilizing aerial survey data, we craft detailed three-dimensional models of archaeological sites, offering immersive exploration and analysis experiences. These models provide virtual representations of sites, showcasing features like elevation changes, structures, and landscape characteristics. By facilitating  spatial understanding, our 3D models enrich archaeological research, enabling researchers to delve deeper into the complexities of historical landscapes and structures.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/2.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading ">LiDAR Data</h2>
+                        <p>Our services produce highly accurate 3D maps of terrain, showcasing surface features and anomalies. These detailed visualizations reveal buried structures, landscapes, and obscured archaeological features beneath vegetation or soil cover. By offering comprehensive insights into the site's topography, our 3D maps empower archaeologists with invaluable tools for uncovering hidden historical treasures and understanding the complex dynamics of archaeological landscapes.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/4.webp" alt=""
+                            width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-101 ">
+                        <h2 class="text-subheading ">Thermal Imaging Data</h2>
+                        <p>We conduct analysis of temperature variations across archaeological sites, pinpointing subsurface anomalies indicative of potential archaeological features. By identifying temperature differences, we highlight potential targets for further investigation, aiding in the discovery of buried structures or artifacts. This thermal analysis offers valuable insights into the site's hidden treasures, guiding archaeological exploration and enhancing the understanding of past civilizations.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card-head"><img src="src/images/archaeology/deliver/3.webp" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-97">
+                        <h2 class="text-subheading">Aerial Photography and Videography</h2>
+                        <p>We provide high-quality aerial photographs and videos, capturing site conditions, erosion patterns, and instances of looting or encroachment. Additionally, our services offer live or recorded aerial footage during excavation activities, ensuring precision in documentation and data collection. This real-time monitoring enhances on-site coordination and decision-making, facilitating thorough archaeological exploration while safeguarding against potential threats to site integrity.</p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class=""><img src="src/images/archaeology/deliver/6.webp" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-51">
+                        <h2 class="text-subheading">Regular Surveillance Reports</h2>
+                        <p>We offer routinely updated reports cataloging observations from surveillance flights over archaeological sites. These reports meticulously document any changes detected, ensuring timely awareness of alterations in site conditions, potential risks, and significant developments, facilitating proactive management and preservation efforts.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div class="cards">
+                    <div class="card-head"><img src="src/images/image/lidar-survey.jpg" alt="" width="100%" height="200"
+                            style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-100">
+                        <h2 class="text-subheading">Lidar Survey </h2>
+                        <p>LIDAR surveys in railway infrastructure yield detailed topographic data crucial for precise route planning, infrastructure design, and safety assessment. This ensures optimal construction and maintenance practices, enhancing efficiency and safety standards along railway corridors.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="mt-2"> <img src="src/images/image/land-use-land-cover.jpg" alt="" width="100%"
+                            height="200" style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;"></div>
+                    <div class="card-text pb-92">
+                        <h2 class="text-subheading">Land Use Land Cover </h2>
+                        <p>Railway land use and land cover mapping offers essential insights for infrastructure planning and environmental management in railway projects, aiding sustainable development and efficient resource allocation along railway corridors.
+
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <!-- <section class="pt-50">
+        <div class="container-fluid">
+            <div class="text-center">
+                <h2 class="text-red">Deliverables
+                </h2>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-6 col-sm-6 mt-20 mb-100">
+                    <img src="src/images/railways-and-highways/8.webp" alt="" width="100%">
+                </div>
+                <div class="col-lg-6 pt-40 ">
+
+                    <div class="mb-4">
+
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/aerial-imagery.png"
+                                    width="70" height="70" alt="Mobile Device Supported">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Aerial Imagery</h4>
+                                <p class="feature-box3-desc">High-resolution aerial photographs capturing the entire
+                                    archaeological site from various angles and elevations.Detailed images providing
+                                    visual documentation of the site's features, structures, and surrounding landscape.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/orthomosaic-maps.png"
+                                    width="70" height="70" alt="Mobile Device Supported">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Orthomosaic Maps</h4>
+                                <p class="feature-box3-desc">Orthomosaic maps are created by stitching together hundreds
+                                    or thousands of individual aerial images.These maps are geometrically corrected to
+                                    eliminate distortions, providing an accurate representation of the site's terrain
+                                    and features.Orthomosaics are commonly used for precise measurement, planning, and
+                                    analysis purposes.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/topographical-data.png"
+                                    width="70" height="70" alt="Mobile Device Supported">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Topographical Data</h4>
+                                <p class="feature-box3-desc">Digital Elevation Models (DEMs) and Digital Terrain Models
+                                    (DTMs) are generated from aerial survey data.DEMs represent the elevation of the
+                                    ground surface, while DTMs include additional features like buildings and
+                                    vegetation.These topographical data sets offer precise elevation information, aiding
+                                    in terrain analysis, slope calculation, and hydrological modeling.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/3D-models.png" width="70"
+                                    height="70" alt="Easy integrative control">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">3D Models</h4>
+                                <p class="feature-box3-desc">Detailed three-dimensional models of the archaeological
+                                    site are created from the aerial survey data.These models provide a virtual
+                                    representation of the site, allowing for immersive exploration and analysis.3D
+                                    models facilitate visualization of site features, such as elevation changes,
+                                    structures, and landscape characteristics.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/lidar-data.png"
+                                    width="70" height="70" alt="Customized Commands">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">LiDAR Data</h4>
+                                <p class="feature-box3-desc"> Highly accurate 3D maps of the terrain, showcasing the
+                                    surface features and any anomalies.Detailed visualization of buried structures,
+                                    landscapes, and other archaeological features that may be obscured by vegetation or
+                                    soil cover.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4" >
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/thermal-imaging-data.png"
+                                    width="70" height="70" alt="Customized Commands">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Thermal Imaging Data</h4>
+                                <p class="feature-box3-desc"> Analysis of temperature variations across the
+                                    archaeological site, highlighting subsurface anomalies.Identification of potential
+                                    archaeological targets based on temperature differences.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/aerial-photography.png"
+                                    width="70" height="70" alt="Customized Commands">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Aerial Photography and Videography</h4>
+                                <p class="feature-box3-desc">  High-quality aerial photographs and videos capturing site conditions, erosion patterns, and any instances of looting or encroachment.Live or recorded aerial footage during excavation activities, providing guidance and ensuring precision in documentation and data collection.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-icon">
+                                <img class="feature-box3-icon-img" src="src/images/icons/regular-surveillance-reports.png"
+                                    width="70" height="70" alt="Customized Commands">
+                            </div>
+                            <div class="feature-box3-content">
+                                <h4 class="feature-box3-title">Regular Surveillance Reports</h4>
+                                <p class="feature-box3-desc">Regularly updated reports documenting changes observed during surveillance flights over the archaeological site.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section> -->
+    <!-- pre-construction End -->
+
+    <!-- <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-6 col-md-6 text-start">
+                    <img src="src/images/railways-and-highways/6.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    <h2 class="text-red">Construction </h2>
+                    <span class="text-subheading">Project progress monitoring
+                    </span>
+                    <p class="text-justify pr-90">This stage is vital for project budget management. Railway and metro
+                        project managers can use our
+                        aerial construction monitoring solution to save total construction time. The less time invested,
+                        the lower the expense! However, to ensure that we do not compromise on quality and deliver on
+                        time, our great and professional drone pilots are constantly present. They compile aerial data
+                        covering all areas of railway plans while maintaining strict safety standards. Following that,
+                        our post-production team expertly processes the aerial project video, focusing on critical
+                        features such as unfinished overbridge pillars, half-completed construction sites, etc. We also
+                        include track detection and standard measurement in our railway inspections.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+
+                <div class="col-md-6 col-sm-6 col-md-6">
+                    <h2 class="text-red">Inspection </h2>
+                    <span class="text-subheading">Railway bridges and buildings
+                    </span>
+                    <p>Aerial inspection is the best answer since it allows you to access regions that are difficult or
+                        dangerous for humans. Railway bridges, for example, require detailed and accurate assessment. We
+                        provide safe and cost-effective disclosure and study of structural details without putting
+                        workers in danger. Our GIS professionals create multiple 3D models and topographical maps to
+                        assure the structural stability of buildings and bridges.
+                    </p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-md-6 text-end">
+                    <img src="src/images/railways-and-highways/2.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+
+    <!-- <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Railway track
+                    </span>
+                    <p>Drone inspection is the recommended option for scheduled inspection and repair
+                        of high-traffic railway tracks. Our established drone pilots collect Drone Data swiftly
+                        while adhering to all railway safety rules. Our GIS team then reconstructs the
+                        high-resolution aerial pictures into a variety of topographical maps, including 3D models,
+                        3D point clouds, 3D textured meshes, and more. Orthoimagery is the process of perfecting
+                        images obtained by track inspection, Thermal Surveys, structural inspection, and other
+                        methods. The data collected is used to measure the length of the track, detect potential
+                        hazards, and assist railways in avoiding catastrophic damage.
+
+                    </p>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <img src="src/images/railways-and-highways/7.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <span class="text-subheading ">Monitor the vacant land around the railway track
+                    </span>
+                    <p>DATAPKT uses drones equipped with high-resolution cameras to conduct aerial
+                        surveys and monitor vacant land surrounding railway tracks. Deploy drones to capture
+                        detailed imagery of the land adjacent to the railway corridor, covering both sides of the
+                        tracks. We analyze the drone footage to identify vacant parcels, unauthorized encroachments,
+                        or potential areas for development. We conduct regular drone patrols to monitor changes in
+                        land use, illegal activities, or encroachments along the railway right-of-way and generate
+                        comprehensive reports highlighting vacant land parcels, their boundaries, and any observed
+                        encroachments or developments for railway authorities' review and action. This proactive
+                        monitoring approach helps safeguard railway assets, prevent unauthorized land use, and
+                        facilitate strategic land management decisions.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <img src="src/images/railways-and-highways/3.webp" alt="" width="100%"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/precision-mapping-and-surveying.png" alt="">
+                            <h5 class="heading-four">Precision Mapping and Surveying</h5>
+                            <p class="">Our drones offer unparalleled accuracy in mapping archaeological sites, identifying buried structures, and detailing ancient landscapes.
+
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/efficient-data-collection.png" alt="">
+                            <h5 class="heading-four">Efficient Data Collection</h5>
+                            <p class="">Drones cover vast areas swiftly, providing comprehensive data sets without extensive fieldwork, saving time and resources.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/non-invasive-exploration.png" alt="">
+                            <h5 class="heading-four">Non-invasive Exploration</h5>
+                            <p class="">Our high-resolution drones gather data without disturbing delicate sites, preserving cultural heritage for future study.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/cutting-edge-analysis-tools.png" alt="">
+                            <h5 class="heading-four">Cutting-edge Analysis Tools</h5>
+                            <p class="">Advanced tools extract insights from drone data, aiding researchers in uncovering hidden historical patterns and understanding site histories.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="pt-4 d-none d-sm-block">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/archeology/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/archeology/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/archeology/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/archeology/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+               
+               
+                
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+</body>
+
+
+
+</html>

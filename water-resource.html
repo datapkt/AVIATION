@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                              <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="second-heading text-left">UAV Services In Water Resources
+                    </h2>
+                    <label class="text-justify pt-11">At Datapkt, we offer a comprehensive suite of services to meet your environmental and water management needs. Our aerial surveys provide high-resolution imagery and data for precise land and water analysis. We specialize in monitoring irrigation systems to ensure optimal water usage and efficiency. Our bathymetric surveys and water quality assessments deliver detailed insights into the health and characteristics of water bodies. We support river restoration projects with accurate mapping and environmental impact studies. Our flood water visualization and risk assessment services help communities prepare for and mitigate flood risks. Additionally, our hydrological modeling predicts water movement and behavior, aiding in effective water resource management and planning.
+                    </label>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/water-resoures-2.png" alt="" loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#aerial-filming" >
+                    <div class="button">
+                       <p class="font-20">Aerial Filming And Photography</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#river-ecosystem" >
+                    <div class="button">
+                        <p class="font-20">River ecosystem restoration</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#water-quality-monitoring" >
+                    <div class="button">
+                       <p class="font-20">Water Quality Monitoring</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#flood-risk-mapping" >
+                    <div class="button">
+                       <p class="font-20">Flood Risk Mapping</p> 
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="aerial-filming">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <h2 class="text-red sm-font-30">Monitoring Of Natural Water Resources
+                </h2>
+                <p class="margin-top">We offer drone services to monitor natural water resources like rivers and lakes.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/water-resoures/photography.jpg" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">Aerial Filming And Photography
+                    </span>
+                    <p class="mb-3">At , Datapkt we deliver high-quality videos and photographs that enhance the visualization and inspection
+                        of water resources. Our advanced drone technology captures detailed imagery, providing a clear
+                        and comprehensive view of water bodies, irrigation systems, and related infrastructure. These
+                        visuals aid in identifying issues such as erosion, sediment buildup, and vegetation
+                        encroachment. By offering precise and up-to-date visual data, we support effective
+                        decision-making and maintenance planning. Our services are invaluable for environmental
+                        monitoring, project documentation, and stakeholder communication.
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Our drone technology enables efficient and thorough inspection of water resources, allowing for the identification of potential problems before they escalate, thus promoting proactive maintenance and conservation efforts.</li>
+                        <li class="mb-3">The high-resolution imagery captured by our drones facilitates accurate mapping and monitoring of changes in water features over time, contributing to a deeper understanding of environmental dynamics and trends.</li>
+                       
+                        <li class="mb-3">With our services, stakeholders can gain access to real-time visual data, fostering transparency and collaboration in water resource management initiatives, ensuring alignment with regulatory requirements and sustainability goals.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50 sm-pt-20" id="river-ecosystem">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">River ecosystem restoration
+                    </span>
+                    <p class=" mb-3">We provide airborne data for river restoration projects, which can be useful in
+                        numerous aspects of planning, implementation, and monitoring. Here are a few services where we
+                        use this data:
+                    </p>
+
+                    <ul style="list-style-type: circle; padding: 0px 10px; margin-left: 10px;">
+
+                        <li>
+                            <p class="pb-3"><b>Aerial Surveys and Mapping </b></p>
+                            <p class="mb-3">Our drones services with high-resolution cameras and LiDAR sensors can
+                                collect
+                                precise aerial photography and elevation data along river routes. This data can be used
+                                to
+                                construct precise topographic maps, detect areas of erosion and sedimentation, and
+                                evaluate
+                                the overall health of the river ecosystem.</p>
+                        </li>
+
+                        <li>
+                            <p class="pb-3"><b> Watershed area management</b></p>
+                            <p class="mb-3">Our services for watershed project management include runoff estimates and
+                                water
+                                tables that are spatiotemporally correct. This integrates with complete 3D models
+                                (survey
+                                and mapping) that analyze riverbank migration, erosion, and wetland state (regression or
+                                development).
+                            </p>
+                            <p class="mb-3">
+                                Drones are able to complete tasks such as accurate planning and surveying of all
+                                construction, as well as the first mapping of drainage lines and contours. They provide
+                                more
+                                assistance in slope analysis. This is all integrated with GIS and real-time weather data
+                                to
+                                forecast the amount of water that can be effectively gathered and used.
+
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="mb-3"><b>Bathymetric mapping </b></p>
+                            <p class="mb-3">We provide bathymetric mapping to calculate the depths and volumes of
+                                rivers,
+                                lakes, and other water bodies. A bathymetric LiDAR sensor converts sound into image
+                                format.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb-3"><b>Hydrological Analysis</b></p>
+                            <p class="mb-3"> We offer aerial data that can be used to collect information about water
+                                flow,
+                                sediment transport, and erosion patterns in river channels. This information assists our
+                                technical team in understanding the dynamics of the river system and developing
+                                successful
+                                restoration plans to improve flow regimes and sediment balance.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb-3"><b>Monitoring of Vegetation</b></p>
+                            <p class="mb-3">
+                                Our drone services coupled with multispectral or hyperspectral sensors are able to
+                                evaluate
+                                the distribution and health of the vegetation along riverbanks. We monitor shifts in the
+                                amount of vegetation cover that can reveal information about the health of the
+                                ecosystem,
+                                the condition of the habitat, and possible sites for habitat improvement or restoration.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb-3"><b>Sedimentation management</b></p>
+                            <p class="mb-3">
+                                Our aerial data can help with sediment management by tracking the processes of erosion
+                                and
+                                deposition of silt in river channels. With this data we can determine where sediment
+                                removal
+                                or redistribution may be required to preserve channel stability and aquatic habitat by
+                                routinely surveying places where sediment accumulates.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p class="mb-3"><b>Assessment of Habitat</b></p>
+                            <p class="mb-3">
+                                We provide survey and map riparian habitats, wetlands, and other critical habitat types
+                                along the river corridor.. By using this data, restoration activities to improve
+                                ecosystem
+                                resilience and biodiversity can be prioritized in areas with deteriorating habitat
+                                conditions.
+                            </p>
+                            <p class="mb-3">Real-time monitoring allows for timely adjustments and maintenance to
+                                prevent
+                                further erosion and habitat degradation.</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/water-resoures/river-ecosystem.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="water-quality-monitoring">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/water-resoures/water-quality-monitoring-2.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Water Quality Monitoring
+                    </span>
+                    <p class="mb-3">Our drone services with modern sensors, collect information about water quality
+                        characteristics
+                        such as pH, temperature, turbidity,chlorophyll-a and oxygen levels. We can track the growth of
+                        aquatic vegetation, detect erosion on riverbanks, and evaluate the impact of human activities on
+                        the environment and wildlife. This useful information can assist in identifying any changes or
+                        potential risks to the ecosystem and taking appropriate action.
+                    </p>
+                    <p class="mb-3">We also collect water samples from remote regions. This is especially important for water
+                        utilities that cover wide areas or serve rural communities. By utilizing cutting-edge devices,
+                        we can safeguard the health and safety of both our water sources and the people in charge of
+                        their maintenance.</p>
+
+                        <ul style="list-style-type: circle; margin-left: 20px;">
+                            <li class="mb-3">Our drone services equipped with modern sensors offer real-time monitoring of water quality characteristics such as pH, temperature, turbidity, chlorophyll-a, and oxygen levels, providing comprehensive data for environmental assessment and management.</li>
+                            <li class="mb-3">With the capability to collect water samples from remote regions, our services ensure accurate and timely assessment of water quality, crucial for maintaining the integrity of water sources and safeguarding public health, particularly in underserved rural communities and expansive water utility networks</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50 sm-pt-20" id="flood-risk-mapping">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Flood Risk Mapping and Emergency Management
+                    </span>
+                    <p class="mb-3">In our services drones equipped with high-resolution cameras can capture detailed
+                        images of
+                        flood-affected areas, which can be used to create maps and 3D models of the flood zone.
+                    </p>
+                    <p class="mb-3">These maps and models can help water utilities to identify areas that are at risk of
+                        flooding and
+                        prioritize their response efforts accordingly.
+                    </p>
+                    <p class="mb-3">Real-time data can help emergency responders prioritize response efforts and
+                        allocate resources
+                        more effectively during flood events. We quickly assess the extent of flood damage, identify
+                        areas that are at risk of flooding, and monitor water levels in real-time. </p>
+                    <p>
+                        This information can help water utilities to make informed decisions about deploying resources
+                        and personnel to areas that need the most help.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="src/images/water-resoures/flood-risk-mapping.webp" alt="" width="90%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/monitoring.png" alt="">
+                            <h5 class="heading-four">Expertise in Hydrological Monitoring</h5>
+                            <p class="mb-3"> With specialized knowledge and experience in hydrology, we understand the importance of accurate water resource management.
+                            </p>
+                            <p class="text-justify">Our team of hydrologists and drone pilots collaborates to provide comprehensive monitoring solutions for rivers, lakes, reservoirs, and watersheds</p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/drone-technology.png" alt="">
+                            <h5 class="heading-four">Advanced Drone Technology</h5>
+                            <p class="mb-3">Equipped with state-of-the-art drones and sensors, we offer advanced capabilities for water resource monitoring and analysis.
+                            </p>
+                            <p class="">Our drones can capture high-resolution imagery, thermal data, and multispectral images, providing valuable insights into water quality, flow patterns, and vegetation health.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="" >
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/cost-effectiveness.png" alt="">
+                            <h5 class="heading-four">Efficiency and Cost-Effectiveness</h5>
+                            <p class="mb-3">By utilizing drones for water resource monitoring, we offer efficient and cost-effective solutions compared to traditional methods.
+                            </p>
+                            <p class="text-justify">Our drone services minimize the need for manual labor and expensive equipment, reducing operational costs and maximizing ROI for our clients.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/environmental-stewardship.png" alt="">
+                            <h5 class="heading-four">Environmental Stewardship</h5>
+                            <p class=" mb-3">We are committed to environmental stewardship and sustainability in water resource management.</p>
+                            <p class="">Our drone-based monitoring solutions help identify and address environmental concerns such as pollution, erosion, and habitat degradation, contributing to the preservation and conservation of water resources for future generations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 d-none d-sm-block">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/human-resource/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

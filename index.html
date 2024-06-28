@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <section id="main" class="fullheight">
+        <!-- Top Section -->
+        <div class="banner-image">
+
+            <!-- <div id="bm"></div> -->
+            <dotlottie-player loop autoplay mode="normal" style="width: 100%" src="./src/motion.lottie">
+            </dotlottie-player>
+            <div class="main-text">
+                <!-- <a href="#" class="logo"></a> -->
+                <span>We Automate</span>
+                <label></label>
+                <span>with Drones</span>
+                <p>Flying for you. A detailed bird's eye view of your assets.</p>
+                <a href="#contactus" class="redbtn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+    <!-- Top Section -->
+
+
+
+
+    <!-- Partner Section -->
+    
+    
+    <section id="partner">
+        <div class="partner-main">
+            <div class="whydatapkt">
+                <h2>Why DATAPKT?</h2>
+                <p>In a short span of time, DATA PKT Aviation, a DIPP-recognized start-up, has risen to the top of the
+                    drone survey market in India. We employ cutting-edge high-end technology like artificial
+                    intelligence, machine learning, and computer vision, which aids in the creation of business insights
+                    and the subsequent making of crucial business decisions. Only the work ethic of our team, who are
+                    committed to constant innovation and going above and beyond for our clients, could have made this
+                    all possible.</p>
+            </div>
+            <div class="dp-process">
+                <div class="process">
+                    <i class="dataaquisition"></i>
+                    <span>Data Aquisition</span>
+                    <label>DATA PKT drones are the most effective visual asset, collecting consistent data w data into
+                        meaningful insights using machine learning algorithms. our drones capture object data in the
+                        crispest and most precise way possible, resulting in consistent data from the same angle and
+                        height as learned by its deep learning algorithms.</label>
+                </div>
+
+                <div class="process">
+                    <i class="dataprocessing"></i>
+                    <span>Data Processing</span>
+                    <label>With the help of its aerial data processing solutions, DATA PKT gathers photogrammetric data
+                        of the highest possible quality, which is then precisely, swiftly, and affordably processed to
+                        produce ortho-rectified photos, 3D models, Digital terrain models, digital surface models,
+                        geotagging, and many more products. Utilizing its integrated source code systems, the data
+                        collected by OUR drone is analysed and turned into one-of-a-kind solutions for our
+                        clients.</label>
+                </div>
+
+                <div class="process">
+                    <i class="dataai"></i>
+                    <span>Enabling AI Services</span>
+                    <label>Real-time data and analytics are retrieved by utilising AI-driven software to automate
+                        operations. With the aid of AI, DATA PKT drones can facilitate operational tasks in a diverse
+                        range of industries, including but not limited to mining, oil and gas, agriculture, public
+                        safety, roads and highways, trains, and metros.<label>
+                </div>
+
+                <div class="process">
+                    <i class="dataautomation"></i>
+                    <span>Automation</span>
+                    <label>DATA PKT autonomous drones efficiently collect data and, by utilising their built-in
+                        algorithms, streamline complicated large-scale operations across vast areas a recurrent, and
+                        real-time data by eliminating the need for conventional manual operations. Drones with
+                        automation are utilised in a variety of applications, including inspection and monitoring,
+                        surveillance, mapping, and operations.</label>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- Partner Section -->
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="fullheight">
+        <div class="service-main">
+            <div class="service-left">
+                <h2>DATAPKT Services</h2>
+                <p>An all in one integrated platform that converts raw data to insightful actionable data.</p>
+                <p class="bullets">
+                    <span>Integrate</span>
+                    <span>Automate</span>
+                    <span>Collaborate</span>
+                </p>
+                <a href="#" class="whitebtn noshow">Explore services</a>
+            </div>
+
+
+            <div class="service-right">
+                <a href="cinematography.html">
+                <p>
+                    <i class="service-cinematography"></i>
+                    <label>Cinematography</label>
+                </p>
+            </a>
+            <a href="photogrammetry.html">
+                <p>
+                    <i class="service-photogrammetry"></i>
+                    <label>Photogrammetry</label>
+                </p>
+            </a>
+            <a href="lidar-survey.html">
+                <p>
+                    <i class="service-lidar"></i>
+                    <label>Lidar</label>
+                </p>
+            </a>
+            <a href="thermal-survey.html">
+                <p>
+                    <i class="service-thermal"></i>
+                    <label>Thermal Surveys</label>
+                </p>
+                </a>
+
+            </div>
+            <div class="service-right">
+                <a href="hyperspectral.html">
+                <p>
+                    <i class="service-hyper"></i>
+                    <label>Hyperspectral & <br> Multispectral</label>
+                </p>
+            </a>
+<a href="bathymetry.html">
+                <p>
+                    <i class="service-bathymatery"></i>
+                    <label>Bathymatery</label>
+                </p>
+            </a>
+            <a href="drone-delivery.html">
+                <p>
+                    <i class="service-delivery"></i>
+                    <label>Drone Delivery </label>
+                </p>
+            </a>
+            <a href="environmental.html">
+                <p>
+                    <i class="service-environment"></i>
+                    <label>Environmental Survey</label>
+                </p>
+            </a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <!-- Services Section -->
+
+
+
+
+
+    <!-- Ai Engine -->
+    <section id="ai_engine" class="">
+        <div class="ai-image">
+            <div class="ind-head">
+                <h2>DATAPKT AI Engine</h2>
+                <p>is transforming the world we live in.</p>
+            </div>
+        </div>
+
+        <!-- Motion ai -->
+        <!-- <div id="ai"></div> -->
+        <dotlottie-player autoplay loop mode="normal" style="width: 100%" src="./src/aiengine.lottie">
+        </dotlottie-player>
+        <!-- Motion ai -->
+
+
+    </section>
+
+
+    <!-- Industries -->
+    <section id="industries">
+        <div class="industries">
+            <div class="ind-names">
+                <div class="indus-name">
+                    <a href="highways-and-roadways.html">   
+                    <i class="highway"></i>
+                    <p>
+                            <label style="cursor: pointer;">
+                                Roads &amp; Highways
+                            </label>
+                        
+                        <span>DATAPKT enables tracking and monitoring of a road network's condition throughout all
+                            phases of development, from construction to maintenance once it has been operationalized.
+                            Drones can be employed for corridor modelling, bridge inspection, pavement condition
+                            mapping, and road distress tracking in the roadways sector. Data collection via aerial
+                            surveying reduces total expenses by substantially minimising the number of site inspections
+                            needed to record highway conditions as well as challenges in real time with greater
+                            precision.</span>
+                    </p>
+                    <div class="clear"></div>
+                </a>
+                </div>
+
+
+                <a href="railways-and-metro.html">
+                <div class="indus-name2">
+                    <p>
+                    
+                            <label style="cursor: pointer;">Railways &amp; Metros</label>
+                       
+                        
+                        <span>UAV technology has the ability to conduct real-time monitoring, video streaming, and
+                            drone-based surveillance of crucial railway assets. DATA PKT makes it simpler to survey
+                            areas that might be unsafe for human inspectors, such as near live electrical wires or
+                            tracks. Drones assist in the creation of 3D models of stations and landscapes for site
+                            visualisation, as well as contour maps for areas where new railway lines are proposed in
+                            order to create accurate plans.</span>
+                    </p>
+                    <i class="railway"></i>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+
+            <a href="energy.html">
+                <div class="indus-name">
+                    <i class="power-plant"></i>
+                    <p>
+                            <label style="cursor: pointer;">Energy</label>
+                        <span>The DATAPKT predictive algorithm offers a comprehensive visual site inspection of
+                            transmission lines, solar fields, wind farms, and hydropower projects. Drones equipped with
+                            high-resolution, infrared, thermal cameras have the potential to reduce transmission and
+                            distribution losses, lower maintenance costs, and detect anomalies in advance. Drone surveys
+                            can detect faults in power lines in real time, assisting with repairs and maintenance and
+                            drastically reducing power outages and costs.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+            
+            <a href="mining.html">
+                <div class="indus-name2">
+                    <i class="mining"></i>
+                    <p>
+                       
+                            <label style="cursor: pointer;">Mining</label>
+                        
+                       
+                        <span>DATA PKT drone observations lead to more effective mining operations by rendering
+                            assistance such as managing inventory, hotspot detection, and stockpile management. Drone
+                            aerial images can be used to generate digital terrain models, digital surface models, and 3D
+                            terrain models of mining sites. UAVs reduce delays and make it easier to detect the depth
+                            and elevation of mining blocks, making highly toxic, difficult-to-reach areas accessible.
+                            High-resolution images with data pkt drones make the inspection, mapping, and monitoring of
+                            harsh terrain possible.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+
+            <a href="oil-and-gases.html">
+                <div class="indus-name">
+                    <i class="oil-gas"></i>
+                    <p>
+                       
+                            <label style="cursor: pointer;">Oil & Gas</label>
+                       
+                       
+                        <span>Drones from DATAPKT can inspect, monitor, map, and deliver in-depth reports of oil and gas
+                            fields. Our drone pilots can conduct online external and internal visual inspections of
+                            refinery flare stacks. As a result of their ability to access far-flung or challenging
+                            locations, drones are used for remote surveillance during routine operations as well as in
+                            emergency situations. UAVs can be used to conduct rapid, frequent, and real-time aerial
+                            inspections to protect asset integrity by monitoring miles of pipelines for gas emissions or
+                            leaks.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+            </a>
+
+
+
+
+            <a href="water-resource.html">
+                <div class="indus-name2">
+                    <i class="rivers"></i>
+                    <p>
+
+                       
+                            <label style="cursor: pointer;">Water Resources</label>
+                       
+                       
+                        <span>UAV technology aids in the monitoring of rivers and the formation of precise and reliable
+                            landscape models for their preservation and restoration. Drones used for dam inspection,
+                            irrigation canal management, river route mapping, wetland conservation, as well as other
+                            purposes help to safeguard scarce water resources while also allowing for more efficient
+                            water use. The use of drones to detect potential risks towards the sustainability of
+                            freshwater resources is critical for taking timely action and securing future
+                            generations.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+
+            
+            <a href="urban-planning.html">
+                <div class="indus-name">
+                    <i class="urban-planning"></i>
+                    <p>
+                       
+                            <label style="cursor: pointer;">Urban Planning</label>
+                        
+                    
+                        <span>DATA PKT enables planners and developers obtain streamlined data from complex urban areas.
+                            UAVs equipped with 360-degree view 4k resolution cameras produce high-quality 3D aerial
+                            images and orthophoto maps, making project drafting and implementation quite cost-effective.
+                            <br />
+                            In order to examine the current social and ecological conditions of the site using drone
+                            technology, DATA PKT assists in producing high-quality and accurate detailed reports of
+                            environmentally hazardous areas.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+            </a>
+
+
+
+            <a href="public-safety.html">
+                <div class="indus-name2">
+                    <i class="survelliance"></i>
+                    <p>
+                        
+                            <label style="cursor: pointer;">Public Safety</label>
+                        
+                        <span>DATA PKT drones can conduct real-time surveillance of protests and public unrest sites by
+                            keeping an eye on the ground situation to detect threats to public safety. UAVs assist in
+                            tracking and monitoring the movements of people by conducting aerial surveys in high-risk
+                            areas. Drones can fly in all weather conditions, assisting in the saving of lives during
+                            disasters and natural hazards such as floods, tsunamis, and earthquakes among others. Drones
+                            can assist with the delivery of crucial and essential articles in difficult terrain.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+            </a>
+
+
+
+
+            <a href="manufacturing.html">
+                <div class="indus-name">
+                    <i class="manufacturing"></i>
+                    <p>
+
+                       
+                            <label style="cursor: pointer;">Manufacturing</label>
+                        
+                        
+                        <span>DATAPKT's services help to streamline manufacturing services by keeping a real-time record
+                            of on-site activities. By accelerating inspection and monitoring of large areas in a short
+                            amount of time, DATAPKT AI-powered solutions contribute to cost reduction, increased speed,
+                            and scalability of operations. Among other things, sophisticated drone technology assists
+                            the manufacturing industry in monitoring assets, increasing personnel safety, and speeding
+                            up inventory checks. Drones boost manufacturing units output and productivity while also
+                            improving their efficiency and security.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+            </a>
+
+
+
+            <a href="wildlife.html">
+                <div class="indus-name2">
+                    <i class="wildlife"></i>
+                    <p>
+
+                       
+                            <label style="cursor: pointer;">Wildlife</label>
+                        
+                       
+                        <span>Tracking and mapping out the movements of wildlife, especially those of endangered
+                            species, using UAVs helps in-situ conservation. DATAPKT can monitor the wildlife ecosystems
+                            of critical animals without disrupting their native environment. UAVs aid in the accurate
+                            population counting of species and help with aerial imagery capture, both of which are
+                            important for the study of important wildlife. By keeping an eye on the forest's health,
+                            landscapes, and tree cover, drones also contribute to the sustainable conservation of
+                            biodiversity.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+            </a>
+
+
+            <a href="agriculture.html">
+                <div class="indus-name">
+                    <i class="agriculture"></i>
+                    <p>
+
+                      
+                            <label style="cursor: pointer;">Agriculture</label>
+                       
+                        
+                        <span>DATAPKT promotes and conserves the agricultural sector by offering precise and reliable
+                            field mapping and assisting farmers in identifying any irregularities in the field. Farmers
+                            can practise smart farming by using drones to monitor their crops. Using drones for
+                            comprehensive field surveys facilitates producers in addressing soil and crop health while
+                            improving crop production efficiency.
+                            <br />
+                            This aids in the optimization of production and the selection of suitable crops for the
+                            field conditions. Drones assist in cost reduction, improved time management, and better
+                            opportunities for farmers.</span>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+            </a>
+
+            <a href="archaeology.html">
+                <div class="indus-name2">
+                    <p>
+                            <label style="cursor: pointer;">Archaeology</label>
+                        <span>The sensors used in DATAPKT systems provide an in-depth evaluation of historical sites and
+                            aid in the documentation of significant archaeological monuments. Drones aid in the accurate
+                            mapping of protected sites, making features and structures easily identifiable.
+                            This helps archaeologists in their future research regarding the conservation and
+                            preservation of archaeological sites.</span>
+                    </p>
+                    <i class="archaelogy"></i>
+                    <div class="clear"></div>
+                </div>
+            </a>    
+            
+
+            </div>
+        </a>
+
+        </div>
+    </section>
+    <!-- Industries -->
+
+
+    <!-- start section -->
+    <!-- <section class="section section__indent-14">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-xl-4">
+						<div class="section-heading">
+							<h4 class="title">Delivery Products<br>for all Different Goals of Life and Business.</h4>
+							<div class="icon">
+								<svg>
+									<use xlink:href="#drone_delivery"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 col-xl-8">
+						<strong class="base-color-02">Antarctic icefish spotted dogfish; Red whalefish cherry salmon, jewfish conger eel turbot sailfin silverside. Sea chub longfin smelt dace sleeper shark bottlenose anglerfish torpedo, gray reef shark queen danio needlefish. </strong>
+						<p>
+							Deep sea smelt bigscale neon tetra codling snake eel. Humuhumunukunukuapua'a gulf menhaden Red salmon, Asiatic glassfish luderick Bombay duck flabby whalefish spiderfish bull shark boxfishlungfish flathead.
+						</p>
+						<p>
+							danio needlefish. Deep sea smelt bigscale neon tetra codling snake eel. Humuhumunukunukuapua'a gulf menhaden Red salmon, Asiatic glassfish luderick Bombay duck flabby whalefish spiderfish bull shark boxfish--lungfish flathead. North American darter.Rainbowfish jawfish frigate mackerel Atlantic eel cuskfish Pacific saury; porbeagle shark longfin horn shark, longnose dace, long-finned char rough pomfret smelt tarwhine. Pearleye thorny catfish deep sea bonefish; sucker, electric knifefish. Flounder Oriental loach sergeant major jellynose fish surf sardine Siamese fighting fish porcupinefis.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+    <!-- end section -->
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="testimonial">
+
+            <div class="test-left">
+
+                <h2>The Words that matter</h2>
+
+                <div class="test-slider">
+                    <div class="slider-container">
+
+                        <div class="slide">
+                            <p>DATAPKT delivered high quality decision data, some places were so hard to reach, but they
+                                made the whole experience feel effortless and seamless. Kudos to the team!</p>
+                            <span>
+                                <label>Mr. Manoj Jain,</label>
+                                <i>Indian Railways</i>
+                            </span>
+                        </div>
+
+                        <div class="slide">
+                            <p>DATAPKT team made it so simple. Whole experience was seamless.</p>
+                            <span>
+                                <label>Mr. Anuj Sahney,</label>
+                                <i>Delhi Metro</i>
+                            </span>
+                        </div>
+
+                        <div class="slide">
+                            <p>DATAPKT team made it so simple. Whole experience was seamless.</p>
+                            <span>
+                                <label>Ms. Sushma Sharma,</label>
+                                <i>NHAI</i>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client-logos">
+            <h2>Trusted by</h2>
+            <label class="nhai"></label>
+            <label class="nhidcl"></label>
+            <label class="ginfra"></label>
+            <label class="soi"></label>
+            <label class="delhimetro"></label>
+            <label class="indianrailways"></label>
+        </div>
+    </section>
+    <!-- Testimonial -->
+
+    <!-- Contact us -->
+    <section class="contact" id="contactus">
+        <div class="contactWrapper">
+            <div class="contacthead">
+                <h2>Let's Connect!</h2>
+            </div>
+
+
+            <div class="authUnit contactfrm">
+                <p class="f18 formHead">We’d love to hear from you</p>
+                <form
+                action="send.php" method="post" enctype="multipart/form-data">
+                    <div class="frm">
+                        <p>
+                            <label>Enter Full Name*</label>
+                            <span>
+                                <input id="name" type="text" name="name" required placeholder="" />
+                            </span>
+                        </p>
+                        <p>
+                            <label>Enter Mobile Number*</label>
+                            <span style="display: flex!important;">
+                                <select>
+                                    <option>93</option>
+                                    <option>355</option>
+                                    <option>213</option>
+                                    <option>1-684</option>
+                                    <option>376</option>
+                                    <option>244</option>
+                                    <option>1-264</option>
+                                    <option>376</option>
+                                    <option>244</option>
+                                    <option>1-264</option>
+                                    <option>672</option>
+                                    <option>1-268</option>
+                                    <option>54</option>
+                                    <option>374</option>
+                                    <option>297</option>
+                                    <option>61</option>
+                                    <option>43</option>
+                                    <option>994</option>
+                                    <option>1-242</option>
+                                    <option>973</option>
+                                    <option>880</option>
+                                    <option>1-246</option>
+                                    <option>375</option>
+                                    <option>32</option>
+                                    <option>975</option>
+                                    <option>55</option>
+                                    <option>359</option>
+                                    <option>855</option>
+                                    <option>86</option>
+                                    <option>57</option>
+                                    <option>357</option>
+                                    <option>20</option>
+                                    <option>251</option>
+                                    <option>679</option>
+                                    <option>358</option>
+                                    <option>33</option>
+                                    <option>995</option>
+                                    <option>49</option>
+                                    <option>30</option>
+                                    <option>852</option>
+                                    <option>36</option>
+                                    <option>354</option>
+                                    <option selected>91</option>
+                                    <option>62</option>
+                                    <option>964</option>
+                                    <option>353</option>
+                                    <option>972</option>
+                                    <option>39</option>
+                                    <option>225</option>
+                                    <option>1-876</option>
+                                    <option>81</option>
+                                    <option>7</option>
+                                    <option>965</option>
+                                    <option>60</option>
+                                    <option>52</option>
+                                    <option>977</option>
+                                    <option>31</option>
+                                    <option>64</option>
+                                    <option>968</option>
+                                    <option>92</option>
+                                    <option>48</option>
+                                    <option>65</option>
+                                    <option>27</option>
+                                    <option>34</option>
+                                    <option>41</option>
+                                    <option>66</option>
+                                    <option>90</option>
+                                    <option>971</option>
+                                    <option>1</option>
+                                    <option>84</option>
+                                    <option>263</option>
+                                </select>
+                                <input id="mobile" class="" type="tel" name="number" required
+                                    placeholder="" maxlength="10" />
+                            </span>
+                        </p>
+                        <p>
+                            <label>Enter Email Address</label>
+                            <span>
+                                <input id="emailid" type="text" name="email" placeholder="" />
+                            </span>
+                        </p>
+                        <p>
+                            <label>Message</label>
+                            <span>
+                                <textarea id="textarea" name="message" maxlength="150"
+                                    placeholder="Enter your message here"></textarea>
+                            </span>
+                        </p>
+                        <p>
+                            <label></label>
+                            <span>
+                                <button class="redbtn dspBlock w100p" type="submit"  name="send">Submit</button>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="noshow">Thanks for contacting us! We will be in touch with you shortly!</div>
+                </form>
+            </div>
+
+
+            <div class="address_details">
+                <p>DATAPKT Pvt. Ltd</p>
+                <span>434, 4TH FLOOR, JMD MEGAPOLIS, SOHNA ROAD, SECTOR 48, GURUGRAM, 122018</span>
+                <span>Call us: <b class="bold"> <a href="tel:8448559100">+91 8448559100</a></b></span>
+                <span>Drop us an email: <b class="bold"> <a href="mail:consult@datapkt.com">consult@datapkt.com</a></b></span>
+
+                <!-- Google Map -->
+                <div class="gmapWrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.993642842957!2d77.03662691465672!3d28.41944868250232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17ff364b00a3%3A0x2bf27d477f912db6!2sDATAPKT%20AVIATION!5e0!3m2!1sen!2sin!4v1665222682540!5m2!1sen!2sin"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- Google Map -->
+
+            </div>
+            <div class="clear"></div>
+
+        </div>
+
+
+    </section>
+    <!-- Contact us -->
+
+    <!-- Drone pilot network -->
+    <section id="pilot_network" class="">
+        <div class="drone-pilot">
+            <div class="pilot-left"></div>
+            <div class="pilot-right">
+                <h2>DATAPKT Drone's Pilot Network</h2>
+                <p>Be a DATAPKT drone pilot from anywhere and everywhere. We're coming to you! We believe in building a
+                    community where we are there for eachother.</p>
+                <a href="https://docs.google.com/forms/d/1G7_Eb_u_cyJkUAbl57TdbhXrxUWn3QcHZYe6BXmanLc/prefill"
+                    target="_blank" class="redbtn">Fly with us</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- Footer -->
+
+    </section>
+    <!-- Drone pilot network -->
+
+</body>
+
+<!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+<!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script> -->
+<!-- <script defer src="./src/js/lottie.js"></script> -->
+<script src="./dist/bundle.js"></script>
+<script>
+    // function initializeBMLottie() {
+    //     var animation = bodymovin.loadAnimation({
+    //         container: document.getElementById('bm'),
+    //         renderer: 'svg',
+    //         loop: true,
+    //         autoplay: true,
+    //         path: 'motion.json'
+    //     });
+    // }
+
+    // function initializeAILottie() {
+    //     var animationOther = bodymovin.loadAnimation({
+    //         container: document.getElementById('ai'),
+    //         renderer: 'svg',
+    //         loop: true,
+    //         autoplay: true,
+    //         path: 'aiengine.json'
+    //     });
+    // }
+
+    // $(function () {
+    //     console.log("ready!");
+    //     initializeBMLottie();
+    //     initializeAILottie();
+    // });
+</script>
+
+</html>

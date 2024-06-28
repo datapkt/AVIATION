@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                              <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="second-heading text-left">Oil And Gases
+                    </h2>
+                    <label class="text-justify ">At DATAPKT Aviation, we specialize in providing a comprehensive range of services tailored to the needs of the oil and gas industry. Our offerings include thermal and visual plant and pipeline inspections, pipeline surveillance, drone-based aerial videography for change detection, aerial topographical surveys for greenfield projects, drone-based real-time construction progress monitoring, and sensor-based leakage and risk investigations.
+                    </label>
+                    <label class="text-justify pt-11">The oil and gas industry operates within a three-tiered framework consisting of upstream, midstream, and downstream sectors. Upstream activities involve the exploration, production, and extraction of crude oil and gas from natural reservoirs. These resources are then transported via pipelines, tankers, or other means to refineries and processing facilities, which fall within the midstream sector. Here, the raw materials undergo refining, purification, and conversion processes to produce various petroleum-based products and derivatives. Finally, the downstream sector encompasses the distribution and marketing of these products to industrial, commercial, and residential end-users.
+
+                    </label>
+                    <label class="text-justify pt-11">With our advanced drone technology and expertise, DATAPKT Aviation supports each stage of the oil and gas value chain, ensuring efficiency, safety, and compliance with regulatory standards.
+
+                    </label>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/oil-2.png" alt="" loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <a href="#upstream" class="font-20">
+                    <div class="button">
+                       <p class="font-20">Upstream</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#midstream" >
+                    <div class="button">
+                       <p class="font-20">Midstream</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#downstream" >
+                    <div class="button">
+                        <p class="font-20">Downstream</p>
+                    </div>
+                </a>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="button">
+                        <a href="#reclamation-stage" class="font-20">Reclamation stage</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="upstream">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <!-- <h2 class="text-red">Construction </h2> -->
+            </div>
+            <div class="row ">
+                
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Upstream </h2>
+                    <!-- <span class="text-subheading">Project progress monitoring
+                    </span> -->
+                    <div class="col pb-40 ">
+                        <!-- <h2 class="sub-heading">
+                        </h2> -->
+                        <p class=" "><span class="text-red"></span>
+                        <!-- <p class=" "><span class="sub-heading">Pre-Construction Survey
+                            </span> </p> -->
+                        <p class="pb-3" >This process includes determining possible geographical sites, undertaking surveys, drilling and exploring, and producing crude oil and gas. Drones have the potential to transform this previously time-consuming, manual procedure into an efficient and accurate one in the following ways:
+                        </p>
+                        <!-- <p class=" " style="margin: 10px 0;"><span class="f18 formHeads">Detailed project report</span> -->
+                            <!-- <p class="pb-3">Provide real-time data for all the steps. </p> -->
+                            <h4 class="feature-box3-title">Provide real-time data for all the steps. </h4>
+                        <ul style="list-style-type: circle; padding: 0px 10px;">
+                            
+                            <li>Thermal sensors and cameras on drones provide real-time data for identifying optimal transfer routes and relevant infrastructure during midstream operations.</li>
+                            <li>During construction, managers can remotely supervise progress using real-time video feeds from drones, facilitating timely decision-making and project oversight.</li>
+                            <li>Designers can monitor work progress in real-time to ensure adherence to plans and identify any need for adjustments or modifications.</li>
+                            <li>Drones assist in predictive maintenance by continuously gathering real-time vibration data about potential issues such as leakage and corrosion, enabling proactive maintenance actions to be taken.</li>
+                            <li>Real-time relay of data via drones bridges the gap between data collection and action, allowing authorities to respond promptly to potential problems, thereby enhancing output and productivity.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/image/oil-and-gas2.jpg" alt="" width="100%">
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="midstream">
+        <div class="container-fluid">
+            <div class="text-center pb-3">
+                <!-- <h2 class="text-red">Construction </h2> -->
+            </div>
+            <div class="row ">
+                <div class="col">
+                    <img src="src/images/oil-gas/midstream.webp" alt="" width="100% " 
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col ">
+                    <h2 class="text-red">Midstream </h2>
+                    <!-- <span class="text-subheading">Project progress monitoring
+                    </span> -->
+                    <p class="mb-3">Midstream refers to the process of transporting crude oil and gas obtained upstream through pipelines, barges, or oil tankers for downstream processing and storage. Long pipelines that may exist above ground or underwater, transport issues, or surplus storage, all of which necessitate secure storage during treatment and subsequent transit as needed. 
+                    </p>
+
+                    <p class="mb-3">Midstream activities involve transporting crude oil and gas from upstream production sites to downstream processing facilities and storage locations.
+                        Infrastructure for midstream operations includes pipelines, barges, and oil tankers, which transport the resources over long distances, above ground or underwater.
+                        Secure storage is essential during midstream processes to address transport issues, accommodate surplus storage needs, and ensure efficient treatment and transit of crude oil and gas</p>
+
+                        
+<ul style="list-style-type: circle; margin-left: 20px;">
+    <li class="mb-3">Infrastructure for midstream operations also encompasses storage facilities such as tanks, terminals, and depots, strategically located along transportation routes to facilitate smooth transitions between different modes of transportation and accommodate fluctuations in demand.</li>
+
+    <li class="mb-3">- Midstream activities play a critical role in ensuring the reliability and security of the energy supply chain, requiring stringent safety measures and environmental regulations to mitigate risks associated with the transportation and storage of crude oil and gas.</li>
+   
+  
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-2 pt-50 sm-pt-15" id="downstream">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-red">Downstream  </h2>   
+                    <!-- <span class="text-subheading">Railway bridges and buildings
+                    </span> -->
+                    <p class="pb-3">Standing at the conclusion of the cycle, downstream serves as a link between oil and gas businesses and end consumers (B2B, B2C & B2G). At this stage, crude oil and raw natural gas are refined to produce end products such as gasoline, jet fuel, heating oil, natural gas, LPG, and other petrochemicals.   </p>
+                        <p class="pb-3" > As downstream is closest to the supply chain, a significant amount of people and other resources are expended to ensure that the end product is delivered on time and in an environmentally friendly manner. Industrial leftovers must also be appropriately disposed of so that they do not pose a risk to others.</p>
+
+                    <!-- <p>Here, drones can help in the following manner in midstream and downstream</p> -->
+
+                    <h4 class="feature-box3-title">Here, drones can help in the following manner in midstream and downstream</h4>
+
+                    <!--== End: Section Title ==-->
+                        <div class="mb-4">
+                            <div class="feature-box3-item">
+                                
+                                <div class="feature-box3-content">
+                                    <!-- <h4 class="feature-box3-title"> Pipeline Inspections</h4> -->
+                                    <p class="pb-3"><b>Pipeline Inspections</b></p>
+                                    <p class="feature-box3-desc">The inspection of pipelines is one of the most important applications of drones in the oil and gas industry. Drones provide an aerial perspective that allows for comprehensive analysis of pipeline conditions without having to shut down the pipeline. A pipeline inspection drone can spot environmental encroachments, physical damage, corrosion, leaks, and spills.</p>
+                                </div>
+                            </div>
+                            <!--== End: Feature Box Item ==-->
+    
+                        </div>
+                        <div class="mb-4">
+                            <div class="feature-box3-item">
+                                <div class="feature-box3-content">
+                                    <!-- <h4 class="feature-box3-title">Gas Flare Stack Inspections</h4> -->
+                                    <p class="pb-3"><b>Gas Flare Stack Inspections</b></p>
+                                    
+                                    <p class="feature-box3-desc">Gas flare stacks are used to burn off waste gases from oil and gas production. Flare stack inspections are critical to maintaining safety and compliance. A drone can capture high-resolution images and thermal imaging to detect leaks, gas combustion, and other potential safety hazards. Through drone inspections, maintenance checks can be done without having to shut down production.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--== End: Feature Box Item ==-->
+    
+                        </div>
+    
+                        <div class="mb-4">
+                            <!--== Start: Feature Box Item ==-->
+                            <div class="feature-box3-item">
+                                <div class="feature-box3-content">
+                                    <!-- <h4 class="feature-box3-title">Power Line Inspections</h4> -->
+                                    <p class="pb-3"><b>Power Line Inspections</b></p>
+                                    <p class="feature-box3-desc">Power lines are critical to the oil and gas industry. Drones can provide effective visual inspections and thermographic imaging to detect damage, wear and tear, and hot spots on power lines. Inspections can be done much more efficiently than traditional methods, reducing costs and minimising safety risks.</p>
+                                </div>
+                            </div>
+                            <!--== End: Feature Box Item ==-->
+    
+                        </div>
+    
+                        <!--== Start: Feature Box Item ==-->
+                        <div class="mb-4">
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-content">
+                                <!-- <h4 class="feature-box3-title"> Oil Rig Inspections</h4> -->
+                                <p class="pb-3"><b>Oil Rig Inspections</b></p>
+                                <p class="feature-box3-desc">Drones can inspect oil rig platforms, derricks, and equipment. With infrared imaging, drones can detect potential equipment failures and cracks that might not be visible from the ground. A drone inspection of drilling platforms increases cost-effectiveness, efficacy, and safety.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!--== End: Feature Box Item ==-->
+                        
+    
+                        <!--== Start: Feature Box Item ==-->
+                        
+                        <div class="feature-box3-item">
+                            <div class="feature-box3-content">
+                                <!-- <h4 class="feature-box3-title"> Tank Inspections</h4> -->
+                                <p class="pb-3"><b>Tank Inspections</b></p>
+                                <p class="feature-box3-desc">Tanks are crucial elements in the oil and gas industry. Routine inspections are necessary to detect leaks, surface corrosion, or other damage to the tank. Drones can detect surface level changes, leaks, and other issues that might not be visible to the naked eye. A drone inspection of tanks reduces safety risks and maintenance costs.
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <!--== End: Feature Box Item ==-->
+                </div>
+                <div class="col">
+                    <img src="src/images/oil-gas/downstream.webp" alt="" width="100%"
+                        style="border-radius: 30px;">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+ 
+     
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/industry-experience.png" alt="">
+                            <h5 class="heading-four">Extensive Industry Experience</h5>
+                            <p class="mb-3">With years of experience in the oil and gas sector, we understand the unique challenges and requirements of the industry.</p>
+                            <p class="">Our team has successfully completed numerous projects, ranging from pipeline inspections to flare stack monitoring, demonstrating our expertise and reliability.</p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="">
+                            <h5 class="heading-four">Advanced Technology and Equipment</h5>
+                            <p class="mb-3">Equipped with state-of-the-art drones and sensors, we offer cutting-edge solutions for aerial inspections, mapping, and surveillance.</p>
+                            <p class="">Our advanced technology allows us to capture high-resolution images and data, providing accurate and detailed insights into critical infrastructure.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/cost-effectiveness.png" alt="">
+                            <h5 class="heading-four">Efficiency and Cost-Effectiveness</h5>
+                            <p class="mb-3">By utilizing drones for oil and gas operations, we minimize downtime and operational disruptions.
+                            </p>
+                            <p class="text-justify">Our drone services offer a cost-effective alternative to traditional inspection methods, reducing the need for manual labor and expensive equipment.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/safety-and-compliance.png" alt="">
+                            <h5 class="heading-four">Safety and Compliance</h5>
+                            <p class="mb-3 ">Safety is our top priority, and our drone services help mitigate risks associated with hazardous environments.
+                            </p>
+                            <p class="">We adhere to industry regulations and best practices to ensure compliance with safety standards and environmental regulations, safeguarding both personnel and assets.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 d-none d-sm-block ">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/oil-and-gas/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+      <!-- Footer -->
+      <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+</body>
+
+
+
+</html>
+
+

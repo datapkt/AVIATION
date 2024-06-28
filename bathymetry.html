@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h2 class="second-heading text-center">Bathymetry</h2>
+
+                    <label class="center-justified mb-3">DataPKT specializes in state-of-the-art bathymetry services utilizing advanced drone technology. Our expertise lies in deploying high-precision drones equipped with specialized sensors and imaging systems for accurate underwater mapping. We cater to a diverse range of industries and applications, including coastal zone management, hydroelectric projects, environmental monitoring, and infrastructure development. </label>
+                    
+                    <label class="center-justified mb-3">
+                        Our drone-based approach offers significant advantages over traditional methods. We ensure efficient data acquisition over water bodies of varying sizes and complexities, enabling rapid deployment and minimal disruption to aquatic environments. The drones capture detailed underwater terrain with exceptional resolution, providing clients with precise bathymetric data crucial for decision-making processes.
+                    </label>
+                    <label class="center-justified mb-3">
+                        At DataPKT, our commitment to quality is unwavering. Our team of skilled GIS engineers and hydrographic specialists meticulously process and analyze collected data to generate comprehensive reports and actionable insights. We prioritize safety and adhere to stringent operational protocols, ensuring secure and reliable survey operations.
+                    </label>
+                    <label class="center-justified mb-3">
+                        Whether you require detailed underwater topography for project planning or ongoing environmental monitoring, DataPKT delivers reliable, cost-effective, and timely solutions. Contact us today to explore how our drone-based bathymetry services can optimize your underwater mapping needs and propel your projects forward with confidence.
+                    </label>
+
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/photogrammetry/photogrammetry.webp" alt=""
+                        loading="lazy" />
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/bathymetry/mapping.webp" alt=""
+                        loading="lazy" />
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">High-Resolution Mapping</h2>
+
+                    <label class="text-justify"><b>High-Resolution Mapping</b> involves creating detailed maps that accurately represent the underwater terrain. This process utilizes advanced sonar technology and GPS systems mounted on drones to capture precise depth measurements and topographical features of underwater environments. Here's a more detailed explanation of how this service works and its benefits </label>
+
+                    <span class="sub-heading">Data Collection</span>
+                    <p>
+                        <!-- <span class="sub-heading">Sonar Technology</span> -->
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Sonar Technology</b> Drones equipped with sonar sensors emit sound waves that travel through the water and bounce back after hitting the seabed, lakebed, or riverbed. The time taken for the sound waves to return is used to calculate the depth of the water at various points.</li>
+                            <li><b>GPS Integration</b> High-precision GPS systems onboard the drones ensure that each depth measurement is accurately georeferenced, allowing for the creation of detailed spatial maps.</li>
+                        </ul>
+                    </p>
+
+                    <span class="sub-heading"> Data Processing</span>
+                    <p>
+                        <!-- <span class="sub-heading">Sonar Technology</span> -->
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li  class="mb-3" ><b>Depth Contours</b>  The collected depth data is processed to generate depth contours, which are lines connecting points of equal depth. These contours help in understanding the variations in underwater terrain.</li>
+                            <li><b>Feature Identification</b>  Detailed maps can highlight specific underwater features such as trenches, ridges, and submerged objects, providing valuable information for various applications.</li>
+                        </ul>
+                    </p>
+
+                    <span class="sub-heading"> Applications</span>
+                    <p>
+                        <!-- <span class="sub-heading">Sonar Technology</span> -->
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Environmental Studies</b>  High-resolution maps aid in the study of aquatic habitats, helping to monitor and protect ecosystems.</li>
+                            <li class="mb-3"><b>  Engineering Projects</b>Accurate topographical data is crucial for planning and constructing underwater structures like bridges, pipelines, and docks.</li>
+                            <li><b>Navigation</b>Mariners use these maps to navigate safely, avoiding underwater hazards.</li>
+                        </ul>
+                    </p>
+
+                    <span class="sub-heading"> Advantages</span>
+                    <p>
+                        <!-- <span class="sub-heading">Sonar Technology</span> -->
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Precision and Detail</b> High-resolution mapping provides an unparalleled level of detail, which is essential for accurate analysis and decision-making.</li>
+                            <li class="mb-3"><b>Efficiency</b> Drones can cover large areas quickly, significantly reducing the time and cost compared to traditional survey methods..</li>
+                            <li><b>Navigation</b>Mariners use these maps to navigate safely, avoiding underwater hazards.</li>
+                        </ul>
+                    </p>
+                </div>
+             
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="plr-30 text-center">
+            </div>
+            <div class="row align-items-start">
+              
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">3D Modeling </h2>
+                    <label class="text-justify mb-3">
+                        3D Modeling takes underwater mapping to the next level by creating three-dimensional representations of underwater environments. This technique provides a more comprehensive and intuitive understanding of the underwater landscape.
+                    </label>
+                    
+                    <p>
+                        <span class="sub-heading">Data Collection and Integration </span>
+                        <ul style="list-style-type: circle; padding: 0 10px; margin-left: 20px;">
+                            <li class="mb-3"><b>Multi-Angle Scanning</b> Drones perform multiple passes over the survey area, collecting data from different angles. This multi-angle approach ensures that all features are captured accurately.</li>
+                            <li><b>Integrated Sensors</b> Alongside sonar, drones can be equipped with additional sensors like LiDAR (Light Detection and Ranging) and high-resolution cameras to enhance the detail and accuracy of the models.</li>
+                            
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="sub-heading">Model Generation </span>
+                        <ul style="padding: 0 10px; list-style-type: circle; margin-left: 20px;">
+                            <li class="mb-3"><b>Point Cloud Creation</b> The data collected is used to create a point cloud, a set of data points in a three-dimensional coordinate system representing the underwater terrain.</li>
+                            <li><b>Surface Reconstruction</b> Advanced software processes the point cloud to generate a 3D surface model, which can be textured and colored to reflect the actual appearance of the seabed.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="sub-heading">Applications</span>
+                        <ul style="padding: 0 10px; list-style-type: circle; margin-left: 20px;">
+                            <li class="mb-3"> <b>Visualization</b> 3D models provide an immersive view of the underwater environment, useful for presentations, education, and stakeholder engagement.</li>
+                            <li><b>Simulation and Analysis</b> Engineers and scientists can use these models for simulations, such as predicting the impact of construction projects on the underwater landscape.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="sub-heading">Advantages:
+                            </span>
+                        <ul style="padding: 0 10px; list-style-type: circle; margin-left: 20px;">
+                            <li class="mb-3"> <b>Enhanced Understanding</b> 3D models offer a more intuitive and comprehensive view of the underwater environment compared to traditional 2D maps.</li>
+                            <li><b>Versatility</b>  These models can be used in various software applications for further analysis, virtual reality experiences, and detailed planning.</li>
+                           
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/bathymetry/3d-modeling.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+    <section class="bg-2 pt-50">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/bathymetry/coastal.webp" alt="" width="100%" height="auto"
+                        style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                  <div class="sec-one">
+                    <h2 class="text-red">Coastal and Shoreline Surveys
+
+                    </h2>
+                    <p class="mb-3">Tracking shoreline erosion is a critical process that provides valuable insights into the dynamic changes occurring along coastlines. By monitoring erosion patterns and shoreline positions over time, authorities can develop informed coastal management and defense strategies, enabling proactive measures to mitigate the impacts of erosion and protect vulnerable communities. Moreover, habitat mapping is a complementary component of coastal conservation, involving the surveying of sensitive habitats like coral reefs, seagrass beds, and mangrove forests. 
+                    </p>
+                    <p class="mb-3">
+                        This process allows scientists to pinpoint areas in need of protection or restoration, and develop targeted initiatives to preserve these ecosystems. The integration of shoreline erosion monitoring and habitat mapping fosters a comprehensive understanding of coastal dynamics, supporting a holistic approach to coastal management that balances human needs with environmental stewardship. This multi-faceted approach enables the development of effective conservation strategies, ensuring the long-term health and resilience of coastal ecosystems, and the communities that depend on them. By combining these two essential components, we can better manage and protect our valuable coastal resources for future generations.
+                    </p>
+                  </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+              
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                 <!-- new  -->
+               <div class="sec-two">
+                <h2 class="text-red">Environmental Monitoring and Assessment </h2>
+                <p class="mb-3">Monitoring water quality is a crucial process that involves collecting data on various parameters such as temperature, pH, and turbidity, in conjunction with depth measurements. This comprehensive approach provides a detailed understanding of the physical and chemical characteristics of water bodies, enabling the identification of potential pollution sources and areas of concern. Additionally, sediment transport studies are essential for understanding the dynamics of sediment movement in rivers, lakes, and coastal areas. 
+                </p>
+                <p class="mb-3">
+                    By analyzing sediment distribution and movement, scientists can gain valuable insights into the processes that shape our waterways and coastlines. This knowledge is critical for managing sediment transport, preventing erosion and sedimentation, and mitigating the impacts of human activities on aquatic ecosystems. The combination of water quality monitoring and sediment transport studies enables a holistic understanding of aquatic systems, supporting effective management and conservation strategies. By monitoring water quality and sediment transport dynamics, we can better protect and preserve our vital water resources, ensuring the health and sustainability of aquatic ecosystems and the communities that depend on them. 
+                </p>
+               </div>
+                 <!-- new  -->
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/bathymetry/environmental.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/bathymetry/infrastructure.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                 <!-- new -->
+                   <div class="sec-three">
+                    <h2 class="text-red">Infrastructure Planning and Inspection
+                    </h2>
+                            <p class="mb-3">Before breaking ground on infrastructure projects like bridges, piers, and underwater pipelines, site assessments are crucial to ensure optimal placement and design. These pre-construction surveys involve thorough investigations of the site conditions, including the seafloor, water depth, and surrounding environment. By gathering this data, engineers can design infrastructure that is tailored to the specific site conditions, minimizing risks and ensuring successful project outcomes. Additionally, regular structural inspections are essential for evaluating the condition of existing underwater infrastructure, such as dams, levees, and seawalls. 
+                             </p>
+
+                             <p class="mb-3">
+                                These inspections involve a thorough examination of the structure's condition, identifying any damage, deterioration, or required maintenance. This enables proactive repairs and maintenance, preventing catastrophic failures and ensuring the continued safety and functionality of these critical infrastructure assets. By conducting site assessments and structural inspections, engineers can ensure the longevity and integrity of underwater infrastructure, supporting public safety, economic growth, and environmental sustainability.
+                             </p>
+                                
+                    </div>
+                <!-- new -->
+                </div>
+                
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                 <!-- new -->
+                   <div class="sec-three">
+                    <h2 class="text-red">Flood Risk Management
+                    </h2>
+                            <p class="mb-3">Mapping floodplains and assessing flood risk is a critical process that helps identify areas vulnerable to flooding, enabling informed decision-making for flood mitigation strategies. Floodplain mapping involves creating detailed maps of flood-prone areas, taking into account factors such as topography, hydrology, and storm patterns. This information is essential for developing effective flood risk management plans, ensuring that communities are prepared for potential flooding events. Additionally, evaluating the effectiveness of flood defense structures like levees and barriers is crucial for ensuring their ability to protect against flooding. 
+                             </p>
+
+                             <p class="mb-3">
+                                Flood defense assessments involve a thorough examination of these structures, identifying areas of strength and weakness, and recommending upgrades or repairs as needed. By combining floodplain mapping and flood defense assessments, communities can proactively manage flood risk, reduce the impact of flooding events, and protect lives, property, and infrastructure. This integrated approach enables a comprehensive understanding of flood risk, supporting proactive strategies to mitigate the effects of flooding and promote community resilience.
+                             </p>
+                                
+                    </div>
+                <!-- new -->
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/bathymetry/flood.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/bathymetry/aquaculture.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                 <!-- new -->
+                   <div class="sec-three">
+                    <h2 class="text-red"> Aquaculture
+                        </h2>
+                            <p class="mb-3">Conducting fish farm surveys is essential for identifying optimal locations for fish cages, ensuring that aquaculture activities are sustainable and minimally impactful on the surrounding environment. These surveys involve assessing water quality, sea floor topography, and other factors to determine the best placement for fish cages, maximizing growth and minimizing environmental footprint. Additionally, environmental impact studies are crucial for understanding the effects of aquaculture activities on the marine ecosystem. 
+                             </p>
+
+                             <p class="mb-3">
+                                These studies involve monitoring water quality, sedimentation, and biodiversity, as well as assessing the potential for disease and parasite transfer between farmed and wild fish populations. By conducting regular environmental impact studies, fish farms can proactively mitigate any negative effects, ensuring a sustainable and environmentally friendly operation. The combination of fish farm surveys and environmental impact studies enables a holistic approach to aquaculture management, supporting the long-term health of both the fish farming industry and the marine environment. This integrated approach promotes responsible and sustainable aquaculture practices, ensuring a balance between food production and environmental stewardship.
+                             </p>
+                                
+                    </div>
+                <!-- new -->
+                </div>
+               
+
+            </div>
+
+        </div>
+    </section>
+    
+    
+    <section class="pt-50">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                 <!-- new -->
+                   <div class="sec-three">
+                    <h2 class="text-red">Archaeological Surveys
+                        
+                        </h2>
+                            <p class="mb-3">Uncovering the secrets of the past requires precise location and mapping of underwater archaeological sites, such as shipwrecks and submerged settlements. Underwater archaeology involves the use of advanced technologies to identify and document these sites with high accuracy, preserving valuable historical and cultural information. By creating detailed maps and 3D models of these sites, researchers can reconstruct the past and gain insights into the lives of ancient civilizations. This work is crucial for understanding historical events, cultural exchange, and the impact of human activity on the environment.  </p>
+
+                            <p class="mb-3">
+                                Moreover, precise mapping enables the monitoring of site conditions, supporting conservation efforts and protecting these valuable cultural resources for future generations. The application of advanced technologies in underwater archaeology has revolutionized the field, enabling the discovery and exploration of previously inaccessible sites. By exploring and preserving our underwater cultural heritage, we can deepen our understanding of human history and promote a sense of shared identity and responsibility for our collective past.
+
+                            </p>
+                                
+                    </div>
+                <!-- new -->
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/bathymetry/archealogical.webp" alt="" width="100%" height="auto"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+   
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/image/3-image.png" alt="" width="15%">
+                            <h5 class="heading-four">5x Faster Delivery</h5>
+                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/accuracy.png" alt="" width="15%">
+                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
+                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                        </div>
+                      
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/team.png" alt="" width="15%">
+                            <h5 class="heading-four">Team of Experts</h5>
+                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/advanced-technology.png" alt="" width="15%">
+                            <h5 class="heading-four">Advanced Equipment</h5>
+                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+</body>
+
+
+
+</html>

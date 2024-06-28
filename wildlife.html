@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                             <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none"
+        style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item" style="font-size: 18px; ">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="padding: 9px 20px; ">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px; ">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="cinematography.html">Cinematography</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="photogrammetry.html">Photogrammetry</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="lidar-survey.html">Lidar</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="thermal-survey.html">Thermal Surveys</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="hyperspectral.html">Hyperspectral & <br>
+                                        Multispectral</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="#">Bathymatery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="#">Drone
+                                        Delivery</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="#">Environmental Survey</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" style="  font-size: 18px;">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="padding: 9px 20px;">
+                                Sectors
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="highways-and-roadways.html">Roads & Highways
+                                    </a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="railways-and-metro.html">Railways & Metros</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="energy.html">Energy</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="mining.html">Mining</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="oil-and-gases.html">Oil & Gas</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="water-resource.html">Water Resources</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="urban-planning.html">Urban Planning</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="public-safety.html">Public Safety</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="manufacturing.html">Manufacturing</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="wildlife.html">Wildlife</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="agriculture.html">Agriculture</a></li>
+                                <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                        href="archaeology.html">Archaeology</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" style="  font-size: 18px;">
+                          <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+
+                    <h2 class="second-heading text-left">Wildlife
+                    </h2>
+                    <label class="text-justify pt-11">We specialise in UAV-based topographical surveys and monitoring
+                        services for forests, mangroves, and wetlands. With a focus on precision and efficiency, we
+                        offer a comprehensive range of solutions, including tree counting, vegetation health mapping,
+                        encroachment analysis, and biomass estimation. Our expertise extends to forest carbon stock
+                        mapping, biodiversity mapping, and wildlife corridor mapping. We employ a variety of sensors
+                        tailored to the specific needs of forestry, mangrove, and wetland environments, enabling
+                        accurate data collection and analysis for informed decision-making.We use a variety of sensors
+                        depending on the needs of our services in forestry (natural and urban), mangroves, and wetlands.
+                    </label>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/wildlife-3.png" alt="" loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <!-- <h2 class="text-red text-center" style="margin-bottom: 30px;">Stages Of Mining</h2> -->
+            <!-- <p class="text-center mb-4">Drones could serve as a vital instrument in the mining industry's phases that include the
+                following
+        </p> -->
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#forest-mapping" >
+                    <div class="button">
+                       <p class="font-20">Forest Mapping</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#wildlife-monitoring">
+                    <div class="button">
+                       <p class="font-20">Wildlife Monitoring</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#fire-detection">
+                    <div class="button">
+                      <p class="font-20">Fire Detection and Management</p> 
+                    </div>
+                </a>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="button">
+                        <a href="#flood-risk-mapping" class="font-20">Flood Risk Mapping</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <section class="pt-50" id="forest-mapping">
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/wildlife/1.webp" alt="" width="100%">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <h2 class="text-red">Forest mapping </h2>
+                    <p class="mb-3">Drones can be used to create detailed maps of forested areas. Our services equipped
+                        with cameras and other sensors can collect high-resolution imagery, providing data to create
+                        detailed maps of the forest. These maps can be used for various purposes, such as monitoring
+                        changes in the forest over time, identifying areas of deforestation or illegal logging, and
+                        conducting research on the health and growth of the trees.</p>
+
+                    <span class="text-subheading ">Topographic survey & boundary definition </span>
+                    <p class="mb-3">Utilizing drones for topographical surveys enables rapid and precise mapping of land
+                        contours, elevations, and terrain features. High-resolution imagery and LiDAR data captured by
+                        drones facilitate accurate boundary demarcation and property delineation. This technology offers
+                        cost-effective and efficient alternatives to traditional surveying methods, reducing time and
+                        resource requirements. Detailed topographical data obtained from drone surveys aids in land
+                        development, infrastructure planning, and environmental management projects. Overall, drones
+                        streamline topographical surveys and boundary demarcation processes, providing valuable
+                        geospatial information for various applications.</p>
+
+                    <span class="text-subheading ">Forest health mapping </span>
+                    <p>Drones with high-resolution and thermal cameras can be used to closely evaluate individual trees
+                        for signs of disease or damage. This can help forest managers identify and handle possible
+                        issues before they spread. This information can then be used to create plans for preserving and
+                        increasing tree health, ultimately contributing to the preservation and protection of forest
+                        ecosystems.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- pre-construction End -->
+
+
+
+    <section class="pt-50" id="wildlife-monitoring">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading ">Wildlife Monitoring
+                    </span>
+                    <p class="mb-3">Drones can be used to monitor wildlife in forested areas, allowing researchers
+                        to see animal movements and behaviour without bothering them. This can provide crucial
+                        information about the health and well-being of many species. A drone allows researchers to
+                        acquire a bird's-eye perspective of the landscape and track animal movements across a broad
+                        area.
+                    </p>
+                    <p class="mb-3">This is particularly beneficial for investigating animals that are difficult to trace on
+                        foot. Drones can also be equipped with cameras and other sensors to collect data on the
+                        behaviour of animals, monitor species numbers, and detect movement patterns.
+                    </p>
+
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Drones provide a non-intrusive method for observing elusive or nocturnal
+                            species, such as owls or bats, without disturbing their natural habitats.</li>
+
+                        <li class="mb-3">By capturing high-resolution imagery and video footage, drones enable detailed
+                            analysis of animal interactions, feeding behaviors, and habitat preferences.</li>
+
+                        <li class="mb-3">Real-time data streaming capabilities allow researchers to adapt their
+                            observation strategies on the fly, maximizing the efficiency of wildlife monitoring efforts.
+                        </li>
+
+                        <li class="mb-3">Integration of advanced technologies like thermal imaging sensors enhances the
+                            ability to detect animals hidden beneath dense foliage or during low-light conditions,
+                            improving overall research accuracy.</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/wildlife/2.webp" alt="" width="100%" style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50" id="fire-detection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <img src="src/images/wildlife/3.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <span class="text-subheading">Fire Detection and Management</span>
+                    <p class="mb-3">Drones coupled with thermal imaging cameras provide rapid response and important insights into
+                        forest fire detection and management. They can track the spread of fires, assess damage, and
+                        offer real-time data to ground-based firefighters. Drones help suppress fire outbreaks and
+                        reduce their impact on forest ecosystems.</p>
+
+                        
+<ul style="list-style-type: circle; margin-left: 20px;">
+    <li class="mb-3">Rapidly detect and track the spread of forest fires using drones equipped with thermal imaging cameras, enabling early intervention and effective management strategies.
+    </li>
+
+    <li class="mb-3">Provide real-time data on fire behavior, intensity, and direction to ground-based firefighters, facilitating informed decision-making and coordinated response efforts.</li>
+   
+    <li class="mb-3">Assess the extent of fire damage and identify areas of concern within the forest ecosystem, guiding post-fire recovery and restoration efforts.</li>
+    <li class="mb-3">Aid in fire suppression activities by identifying hotspots and directing firefighting resources to areas most in need, optimizing resource allocation and minimizing response times.</li>
+    <li class="mb-3">Support efforts to mitigate the environmental impact of forest fires by monitoring fire behavior and facilitating targeted interventions to protect sensitive habitats and biodiversity.</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/surveillance.png" alt="">
+                            <h5 class="heading-four">Precision Monitoring and Surveillance</h5>
+                            <p class="">Our drone technology enables precise monitoring and surveillance of
+                                wildlife habitats, allowing for accurate data collection on species distribution,
+                                behavior, and habitat health.
+                            </p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/minimized-disturbance.png" alt="">
+                            <h5 class="heading-four">Minimized Disturbance</h5>
+                            <p class="">By utilizing drones, we minimize disturbance to sensitive ecosystems
+                                and wildlife populations. Our drones can observe from a distance without intruding,
+                                ensuring minimal impact on natural behaviors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/emergency-services.png" alt="">
+                            <h5 class="heading-four">Rapid Response and Emergency Services</h5>
+                            <p class="">Our drones provide rapid response capabilities for wildlife
+                                emergencies such as natural disasters or animal distress situations. Equipped with
+                                live-feed cameras and thermal imaging, we can quickly locate and assess critical
+                                situations.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/data-driven-conservation.png" alt="">
+                            <h5 class="heading-four">Data-Driven Conservation</h5>
+                            <p class="">We offer data-driven conservation solutions by analyzing the
+                                information gathered by our drones. From population trends to habitat changes, our
+                                technology provides valuable insights for conservation planning and decision-making.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4 d-none d-sm-block ">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/6.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/forest-and-wildlife/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/6.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>

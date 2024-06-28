@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <meta property="og:title"
+        content="Welcome to DATAPKT :: Hovering for the future. Flying for you. A detailed bird's eye view of your assets.">
+    <meta property="og:description"
+        content="We help the nation's leading public safety, goverment and critical infrastructure organizations survey their assets simply, securely and reliably - All in one integration platform.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datapktaviation.com" />
+    <title>DATAPKT</title>
+    <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/fav-icon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                              <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a href="index.html" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="bathymetry.html">Bathymatery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="environmental.html">Environmental Survey</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="urban-planning.html">Urban Planning</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                              <a class="nav-link" href="contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <section class="pt-50">
+        <div class="container-fluid">
+            <div class=" row ">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="second-heading text-left">Public Safety
+                    </h2>
+                    <label class="text-justify pt-11">
+                        Public safety is being redefined by drones. They are ensuring that incident response procedures
+                        are not only secure and efficient but also understandable and controllable from far off
+                        distance.DATA PKT drones may be deployed swiftly and effortlessly. Within a few minutes, they
+                        move the observer's sight to a position just over the scene of the event, scanning large
+                        surfaces and flying over abrupt, difficult-to-reach, remote, or hazardous terrain for the
+                        personnel working on the ground.  </label>
+                        <label class="text-justify pt-11">
+                        A survey of far more than 250 police officers in India was done in 2021 for a guide on how their
+                        respective departments are using UAVs. The following are the key findings
+                    </label>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">UAVs were used for search and rescue by 83% of users.</li>
+                        <li class="mb-3">UAVs were used for disaster management by 79% of users.</li>
+                        <li class="mb-3"> UAVs were used for police operations by 76% of users.</li>
+                        <li class="mb-3"> UAVs were used to monitor crime and traffic, according to 71% of voters.</li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img class="custom-media--image2" src="src/images/vector-imag/public-4.png" alt="" loading="lazy" style="    height: 420px;" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid" >
+            <h2 class="text-red text-center" style="margin-bottom: 30px;">Uses Of Drones </h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#search-and-rescue" >
+                    <div class="button">
+                        <p class="font-20">Search and Rescue (SAR)</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#firefighting">
+                    <div class="button">
+                        <p class="font-20" >Firefighting</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#security" >
+                    <div class="button">
+                       <p class="font-20">Security</p> 
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#crowd-monitoring" >
+                    <div class="button">
+                        <p class="font-20">Crowd Monitoring</p>
+                    </div>
+                </a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <a href="#disaster-management" >
+                    <div class="button">
+                       <p class="font-20">Disaster Management</p> 
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pre-construction Start -->
+    <!-- <section class="pt-50">
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/image/pre-construction.webp" alt="" width="100%">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="text-red">Uses Of Drones </h2>
+                    <ul style="list-style-type: decimal; margin-left:20px;">
+                        <li>Search and Rescue (SAR) </li>
+                        <li>Firefighting </li>
+                        <li>Security</li>
+                        <li>Crowd monitoring</li>
+                        <li>Disaster management </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+    <!-- pre-construction End -->
+
+
+
+    <section class="pt-50" id="search-and-rescue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading ">1. Search and Rescue
+                    </span>
+                    <p class="mb-2">Drones are frequently employed in search and rescue missions due to their
+                        capacity to provide prompt data. They act as an eagle's eye in the sky, aiding in the
+                        recovery of missing people who have been lost in difficult-to-access terrains like hilly
+                        regions or places impacted by floods, landslides, earthquakes, and other disasters.
+                        Utilizing cutting-edge technology to preserve lives becomes essential in the wake of such
+                        crises.
+                    </p>
+                    <p class="mb-2">Advantages of employing DATA PKT drone services for search and rescue missions:-
+                    </p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-2">Drones are able to reach a crisis situation <b>faster</b> than manual search
+                            and rescue
+                            efforts. UAVs aid rescue crews in saving lives by giving them <b>quick</b> access to
+                            reliable data in real time.</li>
+                        <li class="mb-2">Drones for rescue operations enable security personnel in operating efficiently
+                            and
+                            cost-effectively by allowing them to work with few people and equipment. This allows for
+                            more efficient use of scarce resources.</li>
+                        <li class="mb-2">Drones help rescue teams by streamlining mission planning and execution on a
+                            tricky and
+                            challenging-to-achieve operation. SAR operations may be safely carried out across
+                            <b>inaccessible terrain</b> with the use of UAVs.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                        <img src="src/images/public/sar.webp" alt="" width="600" height="400"
+                            style="border-radius: 30px;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="bg-2 pt-50" id="firefighting">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/public/fire.jpeg" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">2. Firefighting
+                    </span>
+                    <p class="pb-3">Firefighters have access to cutting-edge technology thanks to drones, which are a
+                        useful addition to their arsenal of already-available tools like ladders, fire engines,
+                        specialty gear, and so on. With drones aiding in the planning and execution of their missions,
+                        firefighters can now quickly and affordably gather aerial data. During disasters, people in
+                        their homes and cars are identified using drone data, which speeds up and improves the
+                        efficiency of rescue operations by 78%.
+                    </p>
+                    <h4 class="feature-box3-title">Benefits</h4>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">A concept called "drone swarms in fire suppression activities" describes how drones may be
+                            used to battle wildfires or support conventional firefighting methods. A system with a swarm
+                            of drones that can individually carry a payload weighing between 5 and 50 kg is described in
+                            the idea. The drones would act as a single, cohesive system, doing each task by a grid
+                            network. In this aspect, the drone swarm provides significant advantages over conventional
+                            aerial firefighting methods like helicopters or aircraft.</li>
+                        <li class="mb-3">Rapid airborne intelligence from UAVs directs the optimal response used to safeguard people
+                            and property. Drones can s can huge areas to quickly identify firelines, evaluate their
+                            danger, and improve response.</li>
+                       
+                        <li class="mb-3">Firefighters utilise the UAVs to quickly and safely collect data on major catastrophes like floods, earthquakes, and storms.Incident commanders and emergency managers may utilise this
+                            data to more precisely assess the consequences on communities, infrastructure, and natural
+                            assets.</li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50 sm-pt-0" id="security">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">3. Security </span>
+                    <h4 class="feature-box3-title">Using Drones In Border Security</h4>
+                    <p class="mb-3">Drones can cover huge areas of land and detect activities that fixed or mobile
+                        ground sensors
+                        would miss, especially in remote or mountainous locations, when they are flying at altitudes of
+                        100 feet or more. Drone monitoring eliminates certain physical security concerns like fences
+                        while introducing an invisible security system that transcends beyond state boundaries. Drones
+                        can access locations that are deemed to be too risky and dangerous for humans to access, and
+                        they are quicker and less expensive to deploy than helicopters. Security services may be able to
+                        effectively secure international borders thanks to drone technology.</p>
+
+                    <h4 class="feature-box3-title">Using Drones For Crime Control</h4>
+                    <p>Real-time video transmission and autonomous drones help law enforcement organisations proactively
+                        reduce crime. Additionally, drones may help law enforcement agencies investigate crime scenes
+                        and get a remote airborne perspective of possible bomb threats. This gives the investigators a
+                        fresh viewpoint that they would not have seen during a routine inspection.</p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/public/security.webp" alt="" width="100%">
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-2 pt-50" id="crowd-monitoring">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/public/crowd.webp" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">4.Crowd Monitoring </span>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Drones allow crowd control personnel a wider field of view of huge gatherings and provide
+                            real-time data for crowd monitoring. Drones may zoom in on a particular area of interest,
+                            providing the team with important details about what's happening on the ground. </li>
+                        
+                        <li class="mb-3">When riots and protests erupt, people can utilise this sort of information to guide them in
+                            making important decisions. The team's thorough situational awareness enables them to
+                            respond to emergencies promptly and effectively. As a result, the teams are more proficient
+                            at managing the crowd.</li>
+                        
+                        <li class="mb-3">An inexpensive way to perform aerial surveillance is with drones. The traditional method of
+                            sending out a manned helicopter is expensive and time-consuming, and it might not be the
+                            best option in cases that need for a quick response.</li>
+                       
+                        <li class="mb-3">Drones can potentially save lives. Drones may be loaded with a variety of attachments
+                            depending on the job; these payloads can be operated from a safe distance by a single police
+                            officer. useful in high-risk situations such as counter-insurgency, hostage rescue and so
+                            on, when a police officer may battle a criminal from a safe distance without jeopardising
+                            his or her own life.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 pt-50 sm-pt-20" id="disaster-management">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <span class="text-subheading">5. Disaster Management</span>
+                    <p  class="mb-3">Drones serve as invaluable tools in disaster management operations, offering versatile capabilities that contribute to life-saving efforts during catastrophic events such as earthquakes, wildfires, tsunamis, and floods. Their ability to fly in all weather conditions enables swift response and effective assessment of disaster-stricken areas, facilitating timely deployment of resources and aid. UAVs play a crucial role in transporting necessary items to inaccessible or challenging terrain, supporting government departments' disaster response procedures. The high-quality aerial data gathered by drones during post-disaster response efforts provides valuable insights for developing mitigation strategies and refining subsequent response actions. By reducing hazards and providing reliable data, drones empower decision-makers to act swiftly and wisely, ultimately enhancing the efficiency and effectiveness of disaster management operations.</p>
+                    <ul style="list-style-type: circle; margin-left: 20px;">
+                        <li class="mb-3">Drones can fly in all weather conditions, helping to save lives during catastrophes and
+                            other natural calamities like earthquakes, wildfires, tsunamis, and floods, among others.
+                        </li>
+
+                        <li class="mb-3">
+                            UAVs facilitate the transportation of necessary items in challenging terrain, aiding
+                            government departments' disaster response procedures.</li>
+
+                        <li class="mb-3"> High-quality aerial data gathered during post-disaster response efforts aid in the
+                            development of mitigation strategies for subsequent response actions.</li>
+
+                        <li class="mb-3"> Drones are used in disaster management operations because they reduce hazards and give
+                            reliable data that enables decision-makers to act as wisely as possible.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="src/images/public/disaster.jpeg" alt="" width="100%" style="border-radius: 30px;">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-50">
+        <div class="container-fluid text-center">
+            <h2 class="text-red text-center">Our Features
+            </h2>
+            <div class="d-flex align-items-center sm-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box">
+                            <img src="src/images/features-icons/incident-response.png" alt="">
+                            <h5 class="heading-four">Rapid Incident Response</h5>
+                            <p class=" mb-3"> Our drone fleet is equipped for rapid deployment in emergency situations, enabling swift assessment of incidents such as natural disasters, accidents, or search and rescue operations.
+                            </p>
+                            <p class="text-justify">With our agile response capabilities, we provide real-time aerial footage and data to emergency responders, aiding in decision-making and optimizing resource allocation.</p>
+                        </div>
+                        <div class="content-box">
+                            <img src="src/images/features-icons/surveillance-and-monitoring.png" alt="">
+                            <h5 class="heading-four">Comprehensive Surveillance and Monitoring</h5>
+                            <p class=" mb-3">Utilizing high-resolution cameras and advanced sensors, our drones conduct comprehensive surveillance of public areas, critical infrastructure, and events.
+                            </p>
+                            <p class="">Our surveillance services enhance situational awareness for law enforcement, fire departments, and security agencies, enabling proactive crime prevention and threat detection.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="image-center1">
+                        <img src="src/images/photos/about1.png" 
+                        >
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="boxs">
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/data-driven-insights.png" alt="" >
+                            <h5 class="heading-four">Data-driven Insights</h5>
+                            <p class=" mb-3">Our team of experienced analysts processes drone-collected data to generate actionable insights for public safety agencies.</p>
+                            <p class="">Through geospatial analysis, anomaly detection, and trend identification, we empower decision-makers with valuable information for strategic planning, resource optimization, and risk assessment.
+                            </p>
+                        </div>
+                        <div class="content-box-start">
+                            <img src="src/images/features-icons/collaborative-partnerships.png" alt="">
+                            <h5 class="heading-four">Collaborative Partnerships</h5>
+                            <p class=" mb-3">We collaborate closely with public safety agencies, local governments, and community stakeholders to tailor drone solutions to their specific needs and objectives.
+                            </p>
+                            <p class="">By fostering collaborative partnerships, we ensure that our drone services align with the priorities and requirements of our clients, ultimately enhancing public safety and security in communities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="pt-4 d-none d-sm-block">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="row align-items-center" style="display: flex!important; justify-content: center !important;">
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- <section class="pt-4 d-block d-sm-none">
+        <div class="container text-center">
+            <h2 class="text-red mb-40">Clientele</h2>
+            <div class="d-flex flex-wrap align-items-start">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/5.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/9.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="bannerImg_Wrap">
+                        <div class="banner-thumb">
+                            <img src="src/images/clinet-logo/12.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+    <!-- <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+               
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+            <div class="col-2">
+                
+                 
+                        <img src="src/images/clinet-logo/12.webp" alt="">
+                
+            </div>
+
+        </div>
+    </div> -->
+
+
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a href="index.html" class="logowhite"></a></label>
+                <span>&copy; 2024</span>
+            </p>
+            <div class="ftrtop">
+                <span> 434, 4th Floor JMD Megapolis </span>
+                <span>Sector 48 Gurgaon </span>
+                <a href="tel:8448559100" class="twhite">PH : +91 8448559100</span>
+                    <label><a href="mail:contact@datapkt.com">CONTACT@DATAPKT.COM</a></label>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+</body>
+
+
+
+</html>
