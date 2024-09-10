@@ -903,11 +903,12 @@ a {
 }
 
 .frm p select {
-  background: url(7ebb691251714eefd682.svg) no-repeat 33px;
+  background: url(7ebb691251714eefd682.svg) no-repeat;
   background-size: auto 12px;
   margin: 0 15px 0 0;
   padding: 10px;
-  width: auto
+  width: auto;
+  background-position:200px center;
 }
 
 .frm p input:focus {
@@ -1407,6 +1408,7 @@ a {
   .service-main .service-right p:last-child,
   .service-main .service-right>p {
     margin-bottom: 30px
+    
   }
 
   .ai-image .ind-head {
@@ -1436,6 +1438,7 @@ a {
   }
 
   .redbtn {
+    margin-top: 30px;
     padding: 10px 20px;
     text-transform: capitalize
   }
