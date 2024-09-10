@@ -27,7 +27,7 @@ if (isset($_POST['send'])) {
         echo '<script>alert("Your message was sent successfully!");</script>';
         
         // JavaScript redirect to the home page
-        echo '<script>window.location.replace("https://digitallybird.com/datapkt/");</script>';
+        echo '<script>window.location.replace("https://www.datapktaviation.com");</script>';
         exit;
     } else {
         echo "Failed to send email.";
