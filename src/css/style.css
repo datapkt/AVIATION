@@ -3068,7 +3068,7 @@ P {
   margin-bottom: 20px;
   background-color: #FFFFFF;
   border-radius: 4px;
-  padding: 15px;
+  padding: 54px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 0px 8px #eeeeee;
 }
@@ -3119,7 +3119,7 @@ b {
 
 
 .card {
-  height: 420px;
+  height: 455px;
   background-color: white;
   /* margin-bottom: 1em; */
   margin: 0 0.5em 1.5em;
@@ -3175,59 +3175,6 @@ b {
   padding: 0em;
   margin: 0em;
 }
-
-
-
-
-
-/* agriculture media  start */
-
-/* .lg-mt{
-  margin-top: 50px;
-} */
-
-
-/* a:hover{
-color: #BC2C3C;
-} */
-
-/* 
-.nav-link:focus, .nav-link:hover {
-  color: rgb(208 36 36 / 80%)!important;
-} */
-
-/* 
-.nav-link:focus, .nav-link:hover {
-  color: red!important;
-} */
-
-/* .color-red{
-  color: rgb(0, 0, 0)!important;
-}
-.color-red:hover{
-  color: red!important;
-} */
-
-/* ul.nav a:hover { color: #f00000 !important; } */
-
-/* 
-a:hover {
-  --bs-link-color-rgb: red!important;
-} */
-
-/* 
-.navbar-default .navbar-nav > li > a{
-  color: #000000;
-}
-.navbar-default .navbar-nav > li > a:hover{
-  color: #ff0000;
-} */
-
-/* 
-.nav-link:hover {
-  color: red!important;
-} */
-
 
 .nav-link:focus,
 .nav-link:hover {
@@ -3400,14 +3347,34 @@ a:hover {
 }
 
 
+/* Mobile Media Qurey */
+
 @media only screen and (max-width: 600px) {
 
   .container-fluid {
-    /* width: 1450px; */
-    /* width: 1636px; */
-    /* margin-top: 30px; */
-    /* width: 1578px; */
     width: 100%;
+}
+
+
+.service-main .service-left h2 {
+  font-size: 28px!important;
+}
+
+
+.ai-image .ind-head h2{
+  margin-top: 25px!important;
+}
+
+.text-red {
+  margin-top: 25px;
+}
+
+.content{
+  display: contents!important;
+}
+
+.mb-10{
+  margin-bottom: 10px!important;
 }
 
 
@@ -3460,10 +3427,6 @@ a:hover {
     padding: 0px 0px!important;
   }
 
-  .drone-pilot{
-
-  }
-
   .drone-pilot .pilot-left{
     width: 100%!important;
   }
@@ -3477,7 +3440,7 @@ a:hover {
 
   .sub-heading {
     line-height: 2rem;
-    font-size: 30px!important;
+    font-size: 24px!important;
     text-align: center
   }
 
@@ -3567,15 +3530,7 @@ a:hover {
   display: none;
 }
 
- 
-/* .feature-box3-icon-img{
-  width: 100%;
 
-} */
-
-/* .row-1{
-  display: f;
-} */
 
 .sm-pt-20{
   padding-top: 20px;
@@ -3613,21 +3568,39 @@ a:hover {
 .sm-p-20{
   padding-bottom: 20px ;
 }
+}
 
- 
+@media (max-width: 992px) {
+  .service-main .service-right p:last-child, .service-main .service-right>p {
+      /* margin-bottom: 30px; */
+      width: 48%;
+  }  
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+      /* flex: 0 0 auto; */
+      width: 100%!important;
+  }
+
+  .sub-heading {
+    line-height: 1.2;
+  }
+}
+
+  @media (max-width: 900px) and (min-width: 600px) {
+    .columns {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 1.5rem;
+        -moz-column-count: 2;
+        -moz-column-gap: 1.5rem;
+    }
 }
 
 
-/* .image-oil{
-  height: 400px;
-  width: 100%;
-} */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1236px) {
+  
 
 
-
-
-
-
-
-
-
+}
