@@ -25,10 +25,11 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - WhatsApp: +91 8448559100 (https://wa.me/918448559100)
 - Email: consult@datapkt.com
 - Address: 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana 122018, India
-- Hours: Monday to Friday, 9:00 to 18:00 IST
+- Hours: Monday to Saturday, 9:00 to 20:00 IST; closed Sunday
 - Website: https://datapkt.com/
 - LinkedIn: https://www.linkedin.com/company/datapkt-infra-geomatics/
 - Instagram: https://www.instagram.com/data.pkt/
+- Google Business Profile: DATAPKT Infra & Geomatics, Gurugram
 
 ## Key pages
 - [About](https://datapkt.com/about.html): company facts and how a project runs
@@ -48,3 +49,8 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
 - [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
+
+## Case studies
+- [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
+- [Engineering Scale Plans, yard plans and drainage plans for Indian Railways](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
+- [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
