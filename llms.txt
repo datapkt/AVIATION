@@ -54,3 +54,9 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
 - [Engineering Scale Plans, yard plans and drainage plans for Indian Railways](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
 - [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
+
+## Selected clients
+AIDPL, Apco Infratech, Bharat Petroleum, Border Roads Organisation (BRO), Ceigall India, Delhi Metro Rail Corporation (DMRC), GAIL, Gawar Construction, Hillways Construction Company, Hindustan Petroleum, Indian Oil, Indian Railways, IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, Mumbai Railway Vikas Corporation (MRVC), National Highways Authority of India (NHAI), NHIDCL, NTPC, ONGC, PNC Infratech, RCL, Reliance Industries, Skylark, Uttar Pradesh Metro Rail Corporation (UPMRC).
+
+## More
+- [Full site content for AI tools](https://datapkt.com/llms-full.txt)
