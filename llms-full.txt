@@ -45,10 +45,27 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Bathymetry](https://datapkt.com/bathymetry.html)
 - [Contact](https://datapkt.com/contact.html)
 
+## Services in depth
+- [NHAI monthly drone survey](https://datapkt.com/nhai-drone-survey.html): monthly comparative drone video and survey for NHAI projects, as an agency empanelled in three NHAI zones
+- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
+- [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
+
+## Where we work
+- [Where we work](https://datapkt.com/where-we-work.html)
+- [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html)
+- [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html)
+- [Drone survey in Maharashtra and Mumbai](https://datapkt.com/drone-survey-maharashtra.html)
+- [Drone survey in Northeast India](https://datapkt.com/drone-survey-northeast-india.html)
+
 ## Guides
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
 - [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
+
+- [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html)
+- [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
+- [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
+- [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
 - [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
@@ -1741,6 +1758,282 @@ Advanced tools extract insights from drone data, aiding researchers in uncoverin
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
+=== https://datapkt.com/nhai-drone-survey.html ===
+Home / Highways / NHAI monthly drone survey
+Highways · NHAI
+
+## Monthly drone surveys for NHAI highway projects
+DATA PKT is empanelled with the National Highways Authority of India in three zones for monthly drone survey work. We fly each package along the same path every month and deliver the comparative video and survey records the project needs.
+Short answer: NHAI requires a monthly drone video of every national highway project, comparing this month with last month, uploaded to its Data Lake portal. DATA PKT flies these surveys for NHAI project units and for contractors, as an agency empanelled in three NHAI zones.
+
+### What NHAI requires
+In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ).
+- Comparative video: the current month is shown against the previous month, so progress and changes are clear.
+- Data Lake: videos are uploaded to NHAI's Data Lake portal and stored permanently.
+- Evidence: the videos can be used in disputes before courts and arbitration tribunals.
+- Review: supervision consultants use them in the digital monthly progress report, and NHAI officers use them during site inspections.
+
+### How a monthly cycle runs
+- Package plan: we fix the chainages, the flight path and the camera settings for each package once, so every month is flown the same way.
+- Permissions: stretches in yellow or red zones on the Digital Sky airspace map are cleared before the flight date.
+- Flight: DATA PKT pilots fly the full length of the package on the agreed date.
+- Processing: our team edits the comparative video and, where the scope includes it, the orthomosaic and progress measurements.
+- Hand-over: files are delivered for the monthly progress report and the Data Lake upload.
+
+### What you receive
+
+### Why DATA PKT
+We have flown highway drone surveys since October 2020, starting with aerial imagery and survey for NHIDCL projects in Nagaland and Manipur. Today we hold NHAI empanelment in three zones. Our clients include NHAI, NHIDCL, the Border Roads Organisation and more than 80 highway and infrastructure contractors, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS. Read the NHAI monthly monitoring case study .
+The same survey can feed design work too: see highway drone surveys and DPR survey inputs .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Are monthly drone surveys mandatory on NHAI projects?
+Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal as a comparison of the current and previous month.
+
+Q: Who records the monthly drone video?
+On projects under construction, contractors and concessionaires record it in the presence of the supervision team. NHAI's own project units arrange surveys before construction starts, after completion and on projects it operates and maintains. DATA PKT works for both.
+
+Q: Is DATA PKT empanelled with NHAI?
+Yes. DATA PKT is empanelled with NHAI in three zones for monthly drone survey work, and has flown highway drone surveys since October 2020.
+
+Q: Can a contractor or concessionaire hire DATA PKT for the monthly video?
+Yes. We fly the package every month along the same path and hand over the comparative video and survey outputs in the form the project needs for its monthly reporting.
+
+Q: What if the highway passes through a yellow or red airspace zone?
+The Digital Sky airspace map decides this. Green zones need no flight permission; yellow and red zones need prior permission, which we plan for before the monthly cycle starts.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/drone-survey-cost.html ===
+Home / Drone survey cost
+Pricing guide
+
+## What does a drone survey cost in India?
+Six things decide the price of a drone survey. Here is how each one moves it, why per-acre rates mislead, and what to send for an accurate quote in one reply.
+Short answer: the cost depends on the area or corridor length, the accuracy you need, the ground control, the terrain, the deliverables and the location. The deliverables matter most: a map alone is a fraction of the cost of survey drawings. Send us the site and outputs and we quote for your exact scope.
+
+### The six things that decide the price
+
+### Why per-acre rates mislead
+A per-acre figure hides what is being delivered. One firm's rate may cover only a processed map; another's includes DGPS control, an accuracy report and CAD drawings. Corridors also behave differently from blocks: a 20 km highway is priced by length and width, not by acres. Compare quotes on the same GSD, the same number of control points and checkpoints, and the same list of files.
+
+### Drone survey or ground survey?
+For medium and large sites, a drone survey is usually faster and cheaper than a full ground survey, and it captures everything, not just the points a surveyor chose to measure. Ground survey still wins on very small plots and under dense tree cover, and the two are often combined. See drone survey vs DGPS and total station .
+
+### Get an accurate quote in one reply
+Send us these and we can quote without a site visit in most cases:
+- A KML, KMZ or map of the site or corridor (or start and end chainages)
+- The accuracy you need, or what the survey is for (planning, DPR, design, progress)
+- The coordinate system and height datum, if fixed
+- The deliverables: map, terrain model, contours, CAD drawings, ESP, report
+- The deadline, and whether it is a one-off or a monthly survey
+- Any access, security or airspace constraints you know of
+Not sure what accuracy you need? Use our GSD calculator , or read how accurate a drone survey is .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is the cost of a drone survey per acre in India?
+There is no honest single rate. Price per acre falls as the area grows, rises with tighter accuracy and more ground control, and depends heavily on the deliverables: an orthomosaic alone costs far less than CAD drawings or an Engineering Scale Plan. Share the area and outputs and we will quote for your site.
+
+Q: Is a drone survey cheaper than a conventional survey?
+For medium and large areas and long corridors, usually yes, because a drone captures the whole site in a short time with a small team. On very small plots, or under dense trees, a ground survey can be cheaper or necessary.
+
+Q: Why do two quotes for the same site differ so much?
+Mostly because they are not for the same work. Check the GSD, the number of ground control points and checkpoints, whether an accuracy report is included, and exactly which drawings and files will be delivered.
+
+Q: Does a monthly survey cost the same every month?
+The first month carries the planning work. Later months repeat the same flight plan, so they are simpler to run.
+
+Q: What do you need from me for a quote?
+A KML or map of the site or corridor, the accuracy needed, the coordinate system, the deliverables, the deadline and any access or permission constraints.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/where-we-work.html ===
+Home / Where we work
+Where we work
+
+## Drone surveys across India, from Gurugram
+Our pilots and surveyors travel to projects across India, and our GIS team processes data for clients at home and abroad.
+
+### Drone survey company in Delhi NCR
+Our office and survey teams are in Sector 48, Gurugram, so sites across Delhi, Gurugram, Faridabad, Noida and Manesar are close to home.
+
+### Drone survey in Uttar Pradesh
+From highways and metro corridors to power transmission, DATA PKT surveys and maps infrastructure projects across Uttar Pradesh.
+
+### Drone survey in Maharashtra and Mumbai
+Railway work is the core of our projects in Maharashtra: surveys, Engineering Scale Plans and yard plans for Mumbai's suburban network and the lines beyond it.
+
+### Drone survey in Northeast India
+Our first highway drone work, in October 2020, was for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. Hill roads there are where drone and LiDAR surveys save the most time.
+
+### Across India and beyond
+Our NHAI empanelment covers three zones, and our railway, power and highway work reaches well beyond these regions: clients also include Eastern Railway, Eastern Coalfields, IRCON International, ONGC, NTPC and GAIL. Our GIS team also processes LiDAR, mapping and drafting work remotely for clients outside India.
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Which states does DATA PKT work in?
+We work across India from our Gurugram office. Regions with regular work include Delhi NCR, Uttar Pradesh, Maharashtra and Northeast India, and our NHAI empanelment covers three zones.
+
+Q: Do you work outside India?
+Our GIS team processes survey data remotely for clients outside India: LiDAR classification, mapping and drafting.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/drone-survey-delhi-ncr.html ===
+Home / Where we work / Delhi NCR
+Where we work
+
+## Drone survey company in Delhi NCR
+Our office and survey teams are in Sector 48, Gurugram, so sites across Delhi, Gurugram, Faridabad, Noida and Manesar are close to home.
+
+### Clients in Delhi NCR
+Our clients here include Delhi Metro Rail Corporation (DMRC), Delhi State Industrial and Infrastructure Development Corporation (DSIIDC), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar and Faridabad Metropolitan Development Authority (FMDA). See the full client list .
+
+### What we survey in Delhi NCR
+- Metro and railway corridors: base surveys, progress monitoring and corridor mapping
+- Industrial estates and municipal areas: base maps, property and utility mapping
+- Highways and expressways around the capital: DPR surveys and monthly NHAI monitoring
+- Solar rooftops and plants: drone thermography
+
+### Working in Delhi NCR
+Much of Delhi falls in yellow or red zones on the Digital Sky airspace map, around the airport and central government areas. We check every site on the map and plan permissions before the flight date.
+Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost .
+
+#### Other regions
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Do you have a team in Gurugram?
+Yes. Our office is at 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram 122018, and our survey teams work across Delhi NCR from there.
+
+Q: Can drones fly anywhere in Delhi?
+No. Large parts of Delhi are in yellow or red zones on the Digital Sky airspace map and need prior permission. We check each site and apply before flying.
+
+Q: Which NCR clients have you worked for?
+Clients in the region include DMRC, DSIIDC, the Municipal Corporation of Gurugram, Municipal Corporation Manesar and FMDA.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/drone-survey-uttar-pradesh.html ===
+Home / Where we work / Uttar Pradesh
+Where we work
+
+## Drone survey in Uttar Pradesh
+From highways and metro corridors to power transmission, DATA PKT surveys and maps infrastructure projects across Uttar Pradesh.
+
+### Clients in Uttar Pradesh
+Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway, alongside NHAI and highway contractors working in the state. See the full client list .
+
+### What we survey in Uttar Pradesh
+- Highways: monthly comparative drone video of the Lucknow–Ayodhya section of NH-27 (km 8+000 to 68+900)
+- Power: survey and design for a transmission line and 220/132 kV substation near Prayagraj
+- Metro and railways: corridor surveys , Engineering Scale Plans and yard plans
+- Highways and expressways: DPR surveys and monthly NHAI drone monitoring
+- Rivers and canals: water resources surveys and bathymetry
+
+### Working in Uttar Pradesh
+Uttar Pradesh is largely flat, open ground, where drone photogrammetry with DGPS control is usually the most economical method. LiDAR is added where corridors run through orchards or dense tree cover.
+Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost .
+
+#### Other regions
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Have you worked on power projects in Uttar Pradesh?
+Yes. We carried out the survey and design work for a transmission line project near Prayagraj, including a 220/132 kV substation.
+
+Q: Which railway and metro clients do you work with in Uttar Pradesh?
+Our clients include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway.
+
+Q: Do you survey highways in Uttar Pradesh?
+Yes. We provide highway DPR surveys and monthly drone monitoring as an NHAI-empanelled agency.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/drone-survey-maharashtra.html ===
+Home / Where we work / Maharashtra and Mumbai
+Where we work
+
+## Drone survey in Maharashtra and Mumbai
+Railway work is the core of our projects in Maharashtra: surveys, Engineering Scale Plans and yard plans for Mumbai's suburban network and the lines beyond it.
+
+### Clients in Maharashtra and Mumbai
+Our clients here include Mumbai Railway Vikas Corporation (MRVC), Central Railway and Konkan Railway. See the full client list .
+
+### What we survey in Maharashtra and Mumbai
+- Railway sections and yards: Engineering Scale Plans, yard plans and drainage plans
+- Suburban and mainline corridors: drone and LiDAR corridor surveys
+- Hilly and coastal alignments: LiDAR where slopes and vegetation hide the ground
+- Progress records: aerial video for project reviews
+
+### Working in Maharashtra and Mumbai
+Busy suburban lines leave short windows for work near the track. A drone captures a whole yard or section in one window, which cuts the time staff spend on or beside running lines.
+Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost .
+
+#### Other regions
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Which railway clients have you worked for in Maharashtra?
+Our clients include Mumbai Railway Vikas Corporation (MRVC), Central Railway and Konkan Railway.
+
+Q: Can you prepare Engineering Scale Plans for Mumbai suburban yards?
+Yes. We prepare ESPs and yard plans from drone surveys tied to DGPS control, with critical details verified on the ground.
+
+Q: How do drones help on busy suburban lines?
+They capture a whole yard or section in a short window, so staff spend far less time on or beside running lines.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/drone-survey-northeast-india.html ===
+Home / Where we work / Northeast India
+Where we work
+
+## Drone survey in Northeast India
+Our first highway drone work, in October 2020, was for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. Hill roads there are where drone and LiDAR surveys save the most time.
+
+### Clients in Northeast India
+Our clients here include National Highways & Infrastructure Development Corporation (NHIDCL) and the Border Roads Organisation (BRO). See the full client list .
+
+### What we survey in Northeast India
+- Hill highways: aerial imagery, video and survey for road projects
+- Terrain under forest cover: drone LiDAR for the ground surface under trees
+- Landslide-prone slopes: repeat surveys to compare change between flights
+- Progress monitoring: monthly drone records of each package
+
+### Working in Northeast India
+Steep slopes, cloud and forest make ground survey slow in the hills. A drone covers a long stretch quickly, and LiDAR reaches the ground under trees where photos cannot.
+Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost .
+
+#### Other regions
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Have you worked in Nagaland and Manipur?
+Yes. Since October 2020 we have provided aerial imagery, videography and survey for NHIDCL highway projects in Nagaland and Manipur, around Dimapur and Kohima.
+
+Q: Why use LiDAR in the Northeast?
+Much of the terrain is under forest. LiDAR pulses pass through gaps in the canopy and map the ground surface, which photogrammetry cannot see.
+
+Q: Do you work for NHIDCL and BRO?
+Yes. Both are among our clients.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
 === https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html ===
 Home / Case studies / Highways
 Case study · Highways
@@ -1919,6 +2212,201 @@ Thermal images only show faults clearly when the modules are working hard and co
 Owners and O&M teams use the report to prioritise repairs, support warranty claims with module makers, plan cleaning and vegetation control, and compare plant health year on year. A repeat flight after repairs confirms the faults are fixed.
 See our drone thermal survey and power sector services.
 Planning a survey? Tell us the site and the outputs you need.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/insights/lidar-vs-photogrammetry.html ===
+Home / Insights / LiDAR vs photogrammetry
+Survey methods
+
+## LiDAR vs photogrammetry: which drone survey do you need?
+LiDAR or photogrammetry? How each works, accuracy, vegetation, cost and deliverables compared, with the right choice for highways, railways, power lines, mines and hills.
+By DATA PKT Infra & Geomatics · Published 27 October 2026
+Short answer: choose photogrammetry for open ground when you want a true-colour map at the lowest cost. Choose LiDAR when the ground is under trees, when you need power lines or thin structures in 3D, or when the terrain is steep and forested. Long corridors often use both.
+
+### How each one works
+Photogrammetry builds a map and 3D model from hundreds of overlapping photos. Software matches the same points across photos to work out their positions. LiDAR fires laser pulses from the drone and times their return. Some pulses pass through gaps in leaves and reach the ground, which is why LiDAR can map terrain under a canopy.
+
+### Side by side
+
+### Which to choose, by project
+Not sure? Tell us the site and what the survey is for; we will recommend one method or a combination. See LiDAR surveys and photogrammetry .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Is LiDAR more accurate than photogrammetry?
+On open, hard ground with good control, both reach a few centimetres. LiDAR's advantage is under vegetation and on thin objects like wires, where photogrammetry cannot see the ground or reconstruct the object.
+
+Q: Which is cheaper, LiDAR or photogrammetry?
+Photogrammetry is usually more economical, because the sensor is cheaper and the drones are smaller. LiDAR earns its cost where the ground is hidden by trees or the project needs wires and fine 3D detail.
+
+Q: Can I get a colour map from LiDAR?
+Most survey LiDAR systems carry a camera as well, so the point cloud can be coloured and an orthomosaic produced from the same flight.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html ===
+Home / Insights / Drone vs DGPS and total station
+Survey methods
+
+## Drone survey vs DGPS and total station: which should you use?
+When a drone survey beats DGPS and total station, when it does not, and why most infrastructure surveys combine all three. Coverage, accuracy, safety and deliverables compared.
+By DATA PKT Infra & Geomatics · Published 27 October 2026
+Short answer: they do different jobs. DGPS gives a few points of very high accuracy, a total station measures detail where satellites or drones cannot reach, and a drone captures everything across the whole site. Most infrastructure surveys use all three: DGPS for control, a drone for coverage and a total station for hidden detail.
+
+### What each method does best
+
+### The combined workflow we use
+- DGPS fixes ground control points and independent checkpoints in the project coordinate system.
+- The drone flies the whole site or corridor, with RTK or PPK where available.
+- Total station or DGPS picks up what the drone cannot see: ground under dense trees, inside culverts, structure levels.
+- Processing merges everything into one terrain model and drawing set, and the checkpoints prove the final accuracy.
+
+### When a ground-only survey still makes sense
+- Very small plots, where flight planning and processing outweigh the fieldwork saved
+- Sites under continuous dense canopy, if LiDAR is not in budget
+- Indoor, underground or under-bridge detail
+- Red-zone airspace where flight permission is not available in time
+For the accuracy side, read how accurate a drone survey is ; for budgets, see what decides the cost .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Does a drone survey replace DGPS?
+No. DGPS measures the ground control points and checkpoints that make a drone survey accurate. The drone captures the whole area; DGPS ties it to real coordinates and proves the accuracy.
+
+Q: When is a total station still needed?
+Under dense trees, inside structures, for precise levels of bridge bearings, drains and rail tops, and wherever a drone cannot fly or see.
+
+Q: Is a drone survey accepted for DPRs?
+Drone surveys tied to DGPS control are widely used for DPR topography in India, with ground survey completing the details a drone cannot capture.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html ===
+Home / Insights / How to choose a drone survey company
+Buying guide
+
+## How to choose a drone survey company in India: a 10-point checklist
+A 10-point checklist for hiring a drone survey company in India: DGCA pilots and registered drones, accuracy reports, sample deliverables, references, processing in-house and data ownership.
+By DATA PKT Infra & Geomatics · Published 27 October 2026
+Short answer: look past the drone. The firm should have legally registered drones and certified pilots, prove its accuracy with independent checkpoints, show sample deliverables and references from similar projects, and process the data in-house. Everything else follows from those.
+
+### The checklist
+- Registered drones and certified pilots. Under the Drone Rules, 2021 , drones are registered on the Digital Sky platform and pilots hold a DGCA remote pilot certificate from an authorised drone school.
+- An accuracy report with checkpoints. Ask for RMSE in X, Y and Z measured on checkpoints that were not used in processing. Without it, the accuracy is unproven.
+- The right GSD for the job. The quote should state the ground sample distance. Check it with our GSD calculator .
+- DGPS ground control by surveyors. Who measures the GCPs, with what equipment, in which coordinate system and height datum?
+- Sample deliverables. Ask for a sample orthomosaic, terrain model and drawing from a past project, in the formats your team uses.
+- References from similar projects. A highway DPR, a railway ESP and a solar thermography job need different skills. Ask for named clients.
+- Processing and drafting in-house. Firms that only fly hand the hard part to someone else. Ask who builds the models and drawings.
+- Airspace planning. They should check the Digital Sky zone map for your site and plan any permission before quoting dates.
+- Clear scope and data ownership. The contract should list every deliverable and say that the raw and processed data belong to you.
+- Method honesty. A good firm will tell you when LiDAR or a ground survey is the better tool. See LiDAR vs photogrammetry .
+
+### Questions to ask in the first call
+- What GSD and how many GCPs and checkpoints will you use?
+- Will you give an accuracy report with RMSE?
+- Which similar projects have you done, and for whom?
+- Who processes the data and prepares the drawings?
+- What exactly will I receive, in which formats, and when?
+
+### How DATA PKT answers these
+We are empanelled with NHAI in three zones, have flown highway surveys since October 2020, and our GIS and drafting teams work in-house in Gurugram. Our clients include NHAI, NHIDCL, Indian Railways, DMRC and more than 80 contractors. See our case studies and company facts .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What licences does a drone survey company need in India?
+Under the Drone Rules, 2021, drones are registered on the Digital Sky platform and flown by pilots holding a DGCA remote pilot certificate issued through an authorised drone school. Ask to see both.
+
+Q: What should a drone survey contract include?
+The area, GSD and accuracy, the number of control points and checkpoints, the coordinate system, the list of deliverables and formats, the schedule, and who owns the data.
+
+Q: How do I check a drone survey company's experience?
+Ask for named references on similar projects, sample deliverables and an accuracy report from a past survey.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/insights/drone-survey-deliverables-explained.html ===
+Home / Insights / Drone survey deliverables
+Deliverables
+
+## Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds
+What you get from a drone survey: orthomosaic, DSM, DTM, contours, point cloud and CAD drawings, what each is used for, and the file formats (GeoTIFF, LAS, DWG, SHP, KMZ).
+By DATA PKT Infra & Geomatics · Published 27 October 2026
+Short answer: a drone survey normally delivers an orthomosaic (a measurable aerial map), a surface model and a terrain model, contours, and drawings or GIS layers of the features. LiDAR surveys add a classified point cloud. Each comes in standard formats that open in CAD and GIS software.
+
+### The main deliverables
+
+### DSM or DTM?
+The DSM includes trees and buildings; the DTM removes them to show the ground. Designers and quantity surveyors almost always need the DTM. Under dense vegetation a reliable DTM needs LiDAR or ground survey, because photos only see the canopy.
+
+### Agree these before the survey starts
+- Coordinate system and height datum (for example a UTM zone and the vertical datum the design uses)
+- GSD of the orthomosaic and grid size of the elevation models
+- Contour interval and drawing layers
+- Point-cloud classes, if LiDAR is flown
+- File formats and software versions your team uses
+For accuracy, read how accurate a drone survey is .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is the difference between a DSM and a DTM?
+A DSM (digital surface model) is the top surface, including buildings and trees. A DTM (digital terrain model) is the bare ground with those removed, which is what design and earthwork calculations need.
+
+Q: What file format is an orthomosaic delivered in?
+Usually a GeoTIFF, which carries its coordinates inside the file, often with a compressed copy such as ECW or a KMZ for quick viewing in Google Earth.
+
+Q: Can drone survey data open in AutoCAD and GIS software?
+Yes. Drawings and contours come as DWG or DXF for CAD, layers as shapefiles or GeoPackage for GIS, and point clouds as LAS or LAZ.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/tools/gsd-calculator.html ===
+Home / Tools / GSD calculator
+Free tool
+
+## Drone GSD calculator
+Work out the ground sample distance, the image footprint and the flight height you need for a target GSD. Pick a camera or enter your own sensor.
+
+### How the calculator works
+GSD is the size of one image pixel on the ground. It is set by the camera sensor, the lens and the flying height:
+GSD (cm/px) = sensor width (mm) × height (m) × 100 ÷ ( focal length (mm) × image width (px) )
+The footprint is the ground area covered by one photo. The flight height for a target GSD reverses the same formula. Camera presets use manufacturers' published sensor sizes; check your own camera's specification before planning a project.
+
+### Using GSD to plan a survey
+- Accuracy: with good ground control, horizontal accuracy is typically one to two times the GSD and vertical accuracy one and a half to three times. Read how accurate a drone survey is .
+- Height limit: in India's green zones, flights up to 400 ft (about 120 m) above ground need no permission. Above that, or in yellow and red zones, permission is needed.
+- Overlap: mapping flights usually use about 75 to 80% forward and 65 to 70% side overlap. Lower GSD means more photos and longer processing.
+Want us to plan it? Send the site and the accuracy you need and we will set the GSD, control and flight plan. See what decides the cost .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is ground sample distance (GSD)?
+GSD is the size of one image pixel on the ground. A 2 cm GSD means each pixel covers 2 cm by 2 cm. Smaller GSD means more detail.
+
+Q: How is GSD calculated?
+GSD (cm/pixel) = sensor width (mm) × flight height (m) × 100 ÷ (focal length (mm) × image width (pixels)).
+
+Q: What GSD do I need for a topographic survey?
+It depends on the accuracy required. As a rule of thumb, horizontal accuracy with good ground control is about one to two times the GSD and vertical accuracy about one and a half to three times the GSD.
+
+Q: How high can a survey drone fly in India?
+In green zones of the Digital Sky airspace map, drones can fly up to 400 ft (about 120 m) above ground without permission. Higher flights or yellow and red zones need permission.
+
+#### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
