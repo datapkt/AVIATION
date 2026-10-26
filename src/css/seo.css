@@ -102,5 +102,4 @@ h1.dp-hero-h1::after { display: none !important; }
   #main .banner-image { background: #f7f3f0; height: calc(100vh - var(--dp-nav, 80px)); min-height: 440px; overflow: hidden; display: flex; justify-content: center; align-items: flex-end; }
   #main .banner-image > .main-text { left: 0; }
   #main .banner-image > dotlottie-player { flex: none; width: min(100%, calc((100vh - var(--dp-nav, 80px)) * 16 / 9)) !important; }
-  #main .banner-image.dp-fit > dotlottie-player { -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%); }
 }
