@@ -48,3 +48,8 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
 - [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
+
+## Case studies
+- [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
+- [Engineering Scale Plans, yard plans and drainage plans for Indian Railways](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
+- [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
