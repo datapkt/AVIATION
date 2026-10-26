@@ -96,13 +96,6 @@ h1.dp-hero-h1::after { display: none !important; }
 @media (max-width: 991px) { .logo { width: 180px !important; height: 39px !important; } }
 .logowhite { background: url(/src/images/datapkt-logo-white-v2.svg) no-repeat left center !important; background-size: contain !important; width: 200px !important; height: 44px !important; display: block; }
 
-/* Home hero: whole animation fits one screen on laptops and desktops */
-@media (min-width: 992px) {
-  #main.fullheight { height: auto; }
-  #main .banner-image { background: #f7f3f0; height: calc(100vh - var(--dp-nav, 80px)); min-height: 440px; overflow: hidden; display: flex; justify-content: center; align-items: flex-end; }
-  #main .banner-image > .main-text { left: 0; }
-  #main .banner-image > dotlottie-player { flex: none; width: min(100%, calc((100vh - var(--dp-nav, 80px)) * 16 / 9)) !important; }
-}
 
 /* Responsive safety: theme grid columns and images never wider than their container */
 .row { grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); }
@@ -122,9 +115,4 @@ section img:not([height]):not([style*="height"]) { height: auto; }
   .logo { width: clamp(220px, 12vw, 300px) !important; height: clamp(48px, 2.6vw, 66px) !important; }
   .navbar .nav-item { font-size: clamp(18px, 1vw, 24px) !important; }
   .navbar .nav-link { padding: 9px clamp(20px, 1.2vw, 30px) !important; }
-  .main-text { padding-left: clamp(40px, 3vw, 80px) !important; }
-  .main-text h1 { font-size: clamp(36px, 2.3vw, 60px); line-height: 1.15; }
-  .main-text label { font-size: clamp(3.5rem, 3.7vw, 6rem); line-height: 1.2; }
-  .main-text p { font-size: clamp(.9rem, .85vw, 1.3rem); }
-  .main-text a.redbtn { font-size: clamp(14px, .8vw, 20px); padding: clamp(12px, .8vw, 18px) clamp(28px, 1.6vw, 40px); }
 }
