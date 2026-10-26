@@ -25,25 +25,25 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - Email: consult@datapkt.com
 - Address: 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana 122018, India
 - Hours: Monday to Friday, 9:00 to 18:00 IST
-- Website: https://www.datapkt.com/
+- Website: https://datapkt.com/
 - LinkedIn: https://www.linkedin.com/company/datapkt-infra-geomatics/
 - Instagram: https://www.instagram.com/data.pkt/
 
 ## Key pages
-- [About](https://www.datapkt.com/about.html): company facts and how a project runs
-- [Highways and roads](https://www.datapkt.com/highways-and-roadways.html)
-- [Railways and metro](https://www.datapkt.com/railways-and-metro.html)
-- [Engineering Scale Plans and DPR surveys](https://www.datapkt.com/engineering-scale-planning.html)
-- [Power and solar](https://www.datapkt.com/energy.html)
-- [Drone thermal survey](https://www.datapkt.com/thermal-survey.html)
-- [LiDAR survey](https://www.datapkt.com/lidar-survey.html)
-- [Photogrammetry](https://www.datapkt.com/photogrammetry.html)
-- [Mining](https://www.datapkt.com/mining.html)
-- [Water resources](https://www.datapkt.com/water-resource.html)
-- [Bathymetry](https://www.datapkt.com/bathymetry.html)
-- [Contact](https://www.datapkt.com/contact.html)
+- [About](https://datapkt.com/about.html): company facts and how a project runs
+- [Highways and roads](https://datapkt.com/highways-and-roadways.html)
+- [Railways and metro](https://datapkt.com/railways-and-metro.html)
+- [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html)
+- [Power and solar](https://datapkt.com/energy.html)
+- [Drone thermal survey](https://datapkt.com/thermal-survey.html)
+- [LiDAR survey](https://datapkt.com/lidar-survey.html)
+- [Photogrammetry](https://datapkt.com/photogrammetry.html)
+- [Mining](https://datapkt.com/mining.html)
+- [Water resources](https://datapkt.com/water-resource.html)
+- [Bathymetry](https://datapkt.com/bathymetry.html)
+- [Contact](https://datapkt.com/contact.html)
 
 ## Guides
-- [How accurate is a drone survey? GSD, GCPs and RTK explained](https://www.datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
-- [What is an Engineering Scale Plan (ESP) in railway projects?](https://www.datapkt.com/insights/what-is-an-engineering-scale-plan.html)
-- [Solar plant drone thermography: what the report should include](https://www.datapkt.com/insights/solar-plant-drone-thermography-report.html)
+- [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
+- [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
+- [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
