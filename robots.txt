@@ -38,4 +38,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://www.datapkt.com/sitemap.xml
+Sitemap: https://datapkt.com/sitemap.xml
