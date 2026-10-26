@@ -128,3 +128,15 @@ section img:not([height]):not([style*="height"]) { height: auto; }
   .main-text p { display: none !important; }
   .main-text a.redbtn { font-size: 11px !important; padding: 4px 10px !important; margin-top: 6px !important; display: inline-block; }
 }
+
+/* Cookie notice: small, bottom-left, clear of the WhatsApp button */
+.dp-cookie { position: fixed; left: 20px; bottom: 20px; z-index: 1039; max-width: 420px; background: var(--dp-ink); color: #fff; border-radius: 10px; padding: 14px 16px; box-shadow: 0 8px 24px rgba(0,0,0,.25); font-size: .9rem; line-height: 1.5; }
+.dp-cookie[hidden] { display: none; }
+.dp-cookie p { margin: 0 0 10px; color: #fff; }
+.dp-cookie a { color: #fff; text-decoration: underline; }
+.dp-cookie-btns { display: flex; gap: 8px; justify-content: flex-end; }
+.dp-cookie button { border: 1px solid #fff; background: transparent; color: #fff; border-radius: 6px; padding: 6px 14px; font-weight: 600; cursor: pointer; }
+.dp-cookie button.dp-cookie-ok { background: var(--dp-red); border-color: var(--dp-red); }
+.dp-cookie button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 640px) { .dp-cookie { left: 12px; right: 80px; bottom: 14px; max-width: none; font-size: .82rem; padding: 10px 12px; } }
+@media print { .dp-cookie { display: none; } }
