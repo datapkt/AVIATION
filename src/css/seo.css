@@ -116,3 +116,15 @@ section img:not([height]):not([style*="height"]) { height: auto; }
   .navbar .nav-item { font-size: clamp(18px, 1vw, 24px) !important; }
   .navbar .nav-link { padding: 9px clamp(20px, 1.2vw, 30px) !important; }
 }
+
+/* Client names under the logo strips */
+.dp-clients { max-width: 900px; margin: -24px auto 24px; padding: 0 16px; color: #4a4a4a; font-size: .95rem; line-height: 1.6; text-align: center; }
+
+/* Phones: smaller hero text so it sits in the sky, clear of the drone and the bridge */
+@media (max-width: 575px) {
+  .main-text { padding: 10px 14px !important; }
+  .main-text h1.dp-hero-h1 { font-size: 19px !important; line-height: 23px !important; }
+  .main-text h1.dp-hero-h1 label { font-size: 1.1rem !important; line-height: 1.45rem !important; }
+  .main-text p { display: none !important; }
+  .main-text a.redbtn { font-size: 11px !important; padding: 4px 10px !important; margin-top: 6px !important; display: inline-block; }
+}
