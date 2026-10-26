@@ -45,10 +45,27 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Bathymetry](https://datapkt.com/bathymetry.html)
 - [Contact](https://datapkt.com/contact.html)
 
+## Services in depth
+- [NHAI monthly drone survey](https://datapkt.com/nhai-drone-survey.html): monthly comparative drone video and survey for NHAI projects, as an agency empanelled in three NHAI zones
+- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
+- [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
+
+## Where we work
+- [Where we work](https://datapkt.com/where-we-work.html)
+- [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html)
+- [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html)
+- [Drone survey in Maharashtra and Mumbai](https://datapkt.com/drone-survey-maharashtra.html)
+- [Drone survey in Northeast India](https://datapkt.com/drone-survey-northeast-india.html)
+
 ## Guides
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
 - [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
+
+- [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html)
+- [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
+- [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
+- [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
 - [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
