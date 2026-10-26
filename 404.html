@@ -24,6 +24,9 @@
   <meta name="twitter:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
   <link rel="icon" type="image/png" href="/src/images/fav-icon.png">
   <link rel="apple-touch-icon" href="/src/images/fav-icon.png">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var dpC=null;try{dpC=localStorage.getItem('dp_consent')}catch(e){}
+gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F32DT4VFR"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4F32DT4VFR');</script>
   <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -32,7 +35,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="/src/css/style.css">
   <link rel="stylesheet" href="/dist/main.css">
-  <link rel="stylesheet" href="/src/css/seo.css?v=6c9ad177">
+  <link rel="stylesheet" href="/src/css/seo.css?v=1abe1b47">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://datapkt.com/#organization","name":"DATAPKT Infra & Geomatics","alternateName":["DATA PKT Infra & Geomatics","DATAPKT","DATA PKT","DATAPKT Aviation"],"legalName":"DATAPKT Private Limited","url":"https://datapkt.com/","logo":"https://datapkt.com/src/images/fav-icon.png","image":"https://datapkt.com/src/images/og/datapkt-og.png","description":"Drone survey, mapping, GIS and design company in Gurugram, India. Surveys and maps highways, railways, solar plants, power lines, water and mining projects. Empanelled with NHAI in three zones for monthly drone surveys. DIPP-recognised start-up.","foundingDate":"2020-09-14","telephone":"+91-8448559100","email":"consult@datapkt.com","address":{"@type":"PostalAddress","streetAddress":"434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122018","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":28.41945,"longitude":77.03663},"hasMap":"https://maps.google.com/?cid=3166731234031250870","areaServed":{"@type":"Country","name":"India"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"20:00"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-8448559100","email":"consult@datapkt.com","contactType":"sales","areaServed":"IN","availableLanguage":["English","Hindi"]},"knowsAbout":["Drone survey","Topographic survey","LiDAR survey","Photogrammetry","GIS mapping","Engineering Scale Plan","Detailed Project Report survey","Solar plant thermography","Transmission line route survey","Bathymetry","Orthomosaic","Digital terrain model"],"sameAs":["https://www.linkedin.com/company/datapkt-infra-geomatics/","https://www.instagram.com/data.pkt/"]},{"@type":"WebSite","@id":"https://datapkt.com/#website","url":"https://datapkt.com/","name":"DATAPKT Infra & Geomatics","publisher":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","@id":"https://datapkt.com/404.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://datapkt.com/"},{"@type":"ListItem","position":2,"name":"Not found","item":"https://datapkt.com/404.html"}]},{"@type":"WebPage","@id":"https://datapkt.com/404.html#webpage","url":"https://datapkt.com/404.html","name":"Page Not Found | DATA PKT","description":"The page you were looking for could not be found.","isPartOf":{"@id":"https://datapkt.com/#website"},"about":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN","primaryImageOfPage":{"@type":"ImageObject","url":"https://datapkt.com/src/images/og/datapkt-og.png"},"breadcrumb":{"@id":"https://datapkt.com/404.html#breadcrumb"}}]}</script>
 </head>
 <body>
@@ -347,7 +350,7 @@
                      <label><a href="mailto:consult@datapkt.com"> CONSULT@DATAPKT.COM</a></label>
             </div>
             <nav class="dp-footer-links" aria-label="Footer">
-                <a href="/about.html">About</a><a href="/case-studies/">Case studies</a><a href="/insights/">Insights</a><a href="/engineering-scale-planning.html">ESP &amp; DPR</a><a href="/highways-and-roadways.html">Highways</a><a href="/railways-and-metro.html">Railways</a><a href="/energy.html">Power &amp; Solar</a><a href="/contact.html">Contact</a><a href="https://www.linkedin.com/company/datapkt-infra-geomatics/" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.instagram.com/data.pkt/" rel="noopener" target="_blank">Instagram</a>
+                <a href="/about.html">About</a><a href="/case-studies/">Case studies</a><a href="/insights/">Insights</a><a href="/engineering-scale-planning.html">ESP &amp; DPR</a><a href="/highways-and-roadways.html">Highways</a><a href="/railways-and-metro.html">Railways</a><a href="/energy.html">Power &amp; Solar</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://www.linkedin.com/company/datapkt-infra-geomatics/" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.instagram.com/data.pkt/" rel="noopener" target="_blank">Instagram</a>
             </nav>
             <div class="clear"></div>
         </div>
@@ -356,6 +359,18 @@
 
 
 <a class="dp-wa" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20to%20discuss%20a%20survey%20project." target="_blank" rel="noopener" aria-label="Chat with DATA PKT on WhatsApp" title="Chat on WhatsApp: +91 84485 59100" onclick="if(window.gtag){gtag('event','whatsapp_click',{page_path:location.pathname})}"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.36 4 14.97c0 2.11.56 4.17 1.62 5.99L4 29l8.24-1.6a12.1 12.1 0 0 0 3.8.6C22.68 28 28 22.64 28 16.03 28 9.42 22.68 3 16.04 3zm0 22.9c-1.2 0-2.38-.2-3.5-.6l-.25-.09-4.9.95.98-4.75-.17-.27a9.82 9.82 0 0 1-1.52-5.17c0-5.46 4.45-9.9 9.92-9.9 5.46 0 9.9 4.44 9.9 9.9 0 5.48-4.44 9.93-9.9 9.93zm5.44-7.42c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.47 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg></a>
+
+<div class="dp-cookie" id="dp-cookie" role="region" aria-label="Cookie notice" hidden>
+  <p>We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. <a href="/privacy.html">Privacy</a></p>
+  <div class="dp-cookie-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes" class="dp-cookie-ok">Accept</button></div>
+</div>
+<script>(function(){var K='dp_consent',CL='',b=document.getElementById('dp-cookie'),v=null;try{v=localStorage.getItem(K)}catch(e){}
+function clarity(){if(!CL||window.clarity)return;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",CL);window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'})}
+if(v==='yes')clarity();else if(!v&&b)b.hidden=false;
+if(b)b.addEventListener('click',function(e){var c=e.target.getAttribute('data-c');if(!c)return;try{localStorage.setItem(K,c)}catch(x){}
+if(window.gtag)gtag('consent','update',{analytics_storage:c==='yes'?'granted':'denied'});if(c==='yes')clarity();b.hidden=true});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"],a[href^="mailto:"]');if(!a||!window.gtag)return;
+gtag('event',a.href.indexOf('tel:')===0?'phone_click':'email_click',{page_path:location.pathname})});})();</script>
 </body>
 
 

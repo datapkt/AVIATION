@@ -111,6 +111,7 @@ Lepton Software (BharatNet), Theme Engineering Services, Consulting Engineers Gr
 ### Fly with us
 We work with a network of drone pilots across India. If you are a certified pilot and want to work on survey projects, join the DATA PKT pilot network .
 Have a survey or mapping project?
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/ ===
@@ -177,6 +178,7 @@ DATAPKT Pvt. Ltd
 
 ### DATAPKT Drone's Pilot Network
 Be a DATAPKT drone pilot from anywhere and everywhere. We're coming to you! We believe in building a community where we are there for eachother.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/highways-and-roadways.html ===
@@ -290,6 +292,7 @@ Q: Does DATA PKT work with NHAI?
 Yes. DATA PKT is empanelled with NHAI in three zones for monthly drone survey work.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/railways-and-metro.html ===
@@ -407,6 +410,7 @@ Q: Can metro corridors be surveyed in dense cities?
 Yes, subject to flight permissions. In crowded urban areas the drone survey is planned around permitted zones and timings and is combined with ground survey where flying is restricted.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/engineering-scale-planning.html ===
@@ -448,6 +452,7 @@ Q: Does DATA PKT design the project itself?
 We provide survey, mapping and design inputs such as drawings and plans. We do not construct projects.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/energy.html ===
@@ -548,6 +553,7 @@ Q: What does a solar thermography report include?
 A list of every defect with its type, location, temperature difference and severity, thermal and visual images of each one, and a plant map. See our guide to solar thermography reports for details.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/thermal-survey.html ===
@@ -618,6 +624,7 @@ Q: What is the difference between radiometric and non-radiometric thermal camera
 A radiometric camera records a temperature value for every pixel, so each defect can be measured and compared. A non-radiometric camera only shows relative hot and cold areas. Inspection reports need radiometric data.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/lidar-survey.html ===
@@ -724,6 +731,7 @@ Q: How accurate is drone LiDAR?
 Accuracy depends on the sensor, flying height and ground control. Survey-grade drone LiDAR checked against ground control typically reaches a few centimetres vertically on hard surfaces.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/photogrammetry.html ===
@@ -838,6 +846,7 @@ Q: What file formats will I receive?
 Usually GeoTIFF orthomosaics and elevation models, contours and features in DWG or DXF, GIS layers as shapefiles or GeoPackage, and point clouds in LAS or LAZ.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/mining.html ===
@@ -941,6 +950,7 @@ Q: What mining outputs are typical?
 Orthomosaics, terrain models, contours, pit and dump boundaries, volume reports, haul road profiles and change-detection maps between surveys.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/water-resource.html ===
@@ -1017,6 +1027,7 @@ Q: Can drones help with flood studies?
 Yes. An accurate terrain model of the catchment or floodplain is a key input to flood modelling and planning embankments and drainage.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/bathymetry.html ===
@@ -1093,6 +1104,7 @@ Q: What are the typical deliverables?
 Depth points, a bed surface model, contours, cross-sections and capacity tables, in CAD and GIS formats.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/urban-planning.html ===
@@ -1177,6 +1189,7 @@ Q: Do drone flights in cities need permission?
 Yes. Flights must follow India's drone rules and airspace zones; flights in yellow or red zones need prior permission. Survey plans are made around these limits.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/agriculture.html ===
@@ -1334,6 +1347,7 @@ Q: Is drone mapping useful for agricultural research?
 Yes. Repeated multispectral flights give consistent, measurable data on plots over the season.
 
 #### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/oil-and-gases.html ===
@@ -1380,6 +1394,7 @@ Safety is our top priority, and our drone services help mitigate risks associate
 We adhere to industry regulations and best practices to ensure compliance with safety standards and environmental regulations, safeguarding both personnel and assets.
 
 ### Clientele
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/environmental.html ===
@@ -1452,6 +1467,7 @@ Our dedicated team of GIS experts works tirelessly to swiftly process and analyz
 We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.
 Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.
 Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/hyperspectral.html ===
@@ -1494,6 +1510,7 @@ Our dedicated team of GIS experts works tirelessly to swiftly process and analyz
 We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.
 Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.
 Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/cinematography.html ===
@@ -1515,6 +1532,7 @@ Our dedicated team of GIS experts works tirelessly to swiftly process and analyz
 We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.
 Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.
 Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/drone-delivery.html ===
@@ -1546,6 +1564,7 @@ Our dedicated team of GIS experts works tirelessly to swiftly process and analyz
 We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.
 Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.
 Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/public-safety.html ===
@@ -1598,6 +1617,7 @@ Our team of experienced analysts processes drone-collected data to generate acti
 Through geospatial analysis, anomaly detection, and trend identification, we empower decision-makers with valuable information for strategic planning, resource optimization, and risk assessment.
 We collaborate closely with public safety agencies, local governments, and community stakeholders to tailor drone solutions to their specific needs and objectives.
 By fostering collaborative partnerships, we ensure that our drone services align with the priorities and requirements of our clients, ultimately enhancing public safety and security in communities.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/manufacturing.html ===
@@ -1615,6 +1635,7 @@ With drone-based surveillance solutions, we enhance safety and security measures
 
 ### Clientele
 Clients include National Highways Authority of India (NHAI), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/wildlife.html ===
@@ -1649,6 +1670,7 @@ We offer data-driven conservation solutions by analyzing the information gathere
 
 ### Clientele
 Clients include National Highways Authority of India (NHAI), Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/archaeology.html ===
@@ -1716,6 +1738,7 @@ Our high-resolution drones gather data without disturbing delicate sites, preser
 Advanced tools extract insights from drone data, aiding researchers in uncovering hidden historical patterns and understanding site histories.
 
 ### Clientele
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html ===
@@ -1739,6 +1762,7 @@ Our first highway drone work, in October 2020, was aerial imagery, videography a
 
 #### Related services
 Have a similar project?
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html ===
@@ -1759,6 +1783,7 @@ Staff spend far less time on or near live tracks, the whole yard is captured in 
 
 #### Related services
 Have a similar project?
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html ===
@@ -1779,6 +1804,7 @@ Getting the route and the substation base right at the start avoids redesign and
 
 #### Related services
 Have a similar project?
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html ===
@@ -1819,6 +1845,7 @@ For open ground, photogrammetry is usually the most economical choice and also g
 - Will you supply an accuracy report with RMSE in X, Y and Z?
 - How will vegetated areas, water and structures be handled?
 Planning a survey? Tell us the site and the outputs you need.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/insights/what-is-an-engineering-scale-plan.html ===
@@ -1859,6 +1886,7 @@ Traditionally, survey teams measured the yard on foot with total stations and ta
 - Reuse: the same survey supports drainage plans, land plans and progress monitoring later.
 Learn more about our ESP and DPR surveys and railway survey work .
 Planning a survey? Tell us the site and the outputs you need.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/insights/solar-plant-drone-thermography-report.html ===
@@ -1891,6 +1919,7 @@ Thermal images only show faults clearly when the modules are working hard and co
 Owners and O&M teams use the report to prioritise repairs, support warranty claims with module makers, plan cleaning and vegetation control, and compare plant health year on year. A repeat flight after repairs confirms the faults are fixed.
 See our drone thermal survey and power sector services.
 Planning a survey? Tell us the site and the outputs you need.
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/contact.html ===
@@ -1898,3 +1927,4 @@ Planning a survey? Tell us the site and the outputs you need.
 ## Let's Connect!
 We'd love to hear from you
 DATAPKT Pvt. Ltd
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
