@@ -56,7 +56,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
 
 ## Selected clients
-AIDPL, Apco Infratech, Bharat Petroleum, Border Roads Organisation (BRO), Ceigall India, Delhi Metro Rail Corporation (DMRC), GAIL, Gawar Construction, Hillways Construction Company, Hindustan Petroleum, Indian Oil, Indian Railways, IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, Mumbai Railway Vikas Corporation (MRVC), National Highways Authority of India (NHAI), NHIDCL, NTPC, ONGC, PNC Infratech, RCL, Reliance Industries, Skylark, Uttar Pradesh Metro Rail Corporation (UPMRC).
+AIDPL, Apco Infratech, Bharat Petroleum, Border Roads Organisation (BRO), Ceigall India, Delhi Metro Rail Corporation (DMRC), Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Eastern Railway, GAIL, Gawar Construction, Hillways Construction Company, Hindustan Petroleum, Indian Oil, Indian Railways, IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, Mumbai Railway Vikas Corporation (MRVC), Municipal Corporation Manesar, Municipal Corporation of Gurugram (MCG), National Highways Authority of India (NHAI), NHIDCL, North Central Railway, NTPC, ONGC, PNC Infratech, RCL, Reliance Industries, Skylark, Uttar Pradesh Metro Rail Corporation (UPMRC).
 
 ## More
 - [Full site content for AI tools](https://datapkt.com/llms-full.txt)

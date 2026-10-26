@@ -56,7 +56,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
 
 ## Selected clients
-AIDPL, Apco Infratech, Bharat Petroleum, Border Roads Organisation (BRO), Ceigall India, Delhi Metro Rail Corporation (DMRC), GAIL, Gawar Construction, Hillways Construction Company, Hindustan Petroleum, Indian Oil, Indian Railways, IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, Mumbai Railway Vikas Corporation (MRVC), National Highways Authority of India (NHAI), NHIDCL, NTPC, ONGC, PNC Infratech, RCL, Reliance Industries, Skylark, Uttar Pradesh Metro Rail Corporation (UPMRC).
+AIDPL, Apco Infratech, Bharat Petroleum, Border Roads Organisation (BRO), Ceigall India, Delhi Metro Rail Corporation (DMRC), Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Eastern Railway, GAIL, Gawar Construction, Hillways Construction Company, Hindustan Petroleum, Indian Oil, Indian Railways, IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, Mumbai Railway Vikas Corporation (MRVC), Municipal Corporation Manesar, Municipal Corporation of Gurugram (MCG), National Highways Authority of India (NHAI), NHIDCL, North Central Railway, NTPC, ONGC, PNC Infratech, RCL, Reliance Industries, Skylark, Uttar Pradesh Metro Rail Corporation (UPMRC).
 
 ## More
 - [Full site content for AI tools](https://datapkt.com/llms-full.txt)
@@ -95,6 +95,13 @@ We collect accurate data about the ground and the assets on it, and turn it into
 
 ### Sectors
 Highways and roads , railways and metro , power and solar , water resources , urban planning , mining , oil and gas , environment , agriculture and archaeology .
+
+### Clients
+We have delivered survey, mapping and monitoring work for public authorities and leading infrastructure companies, including:
+- Highways and roads: National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), PNC Infratech, Apco Infratech, Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, AIDPL, RCL and Skylark
+- Railways and metro: Indian Railways (including Eastern Railway and North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International and Konkan Railway
+- Urban and industrial development: Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Municipal Corporation of Gurugram (MCG) and Municipal Corporation Manesar
+- Oil, gas and power: ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum and Reliance Industries
 
 ### Fly with us
 We work with a network of drone pilots across India. If you are a certified pilot and want to work on survey projects, join the DATA PKT pilot network .
@@ -261,7 +268,7 @@ We have team of GIS expert working around clock to process and analyse the Drone
 70% more accurate data than the traditional survey
 
 ### Clientele
-Clients include AIDPL, Apco Infratech, Border Roads Organisation (BRO), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), AIDPL, Apco Infratech, Border Roads Organisation (BRO), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -377,8 +384,8 @@ Revolutionising railway bridge management, our drone services integrate cutting-
 At the core of our services lies an unwavering commitment to accuracy. Whether it's surveying railway corridors or inspecting critical infrastructure, our meticulous approach ensures precise data collection and analysis, setting new benchmarks for reliability and efficiency in drone-based railway solutions.
 
 ### Clientele
-Clients include Indian Railways, Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International and Konkan Railway.
-Clients include Indian Railways, Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include Indian Railways, Eastern Railway, North Central Railway, Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International and Konkan Railway.
+Clients include National Highways Authority of India (NHAI), Indian Railways, Eastern Railway, North Central Railway, Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -419,7 +426,7 @@ We have team of GIS expert working around clock to process and analyse the Drone
 70% more accurate data than the traditional survey
 
 ### Clientele
-Clients include AIDPL, Apco Infratech, Border Roads Organisation (BRO), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), AIDPL, Apco Infratech, Border Roads Organisation (BRO), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -519,7 +526,7 @@ Provides clients with confidence in making informed decisions for asset monitori
 
 ### Clientele
 Clients include ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum and Reliance Industries.
-Clients include ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, Reliance Industries, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, Reliance Industries, NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -912,7 +919,7 @@ Leveraging advanced drone technology, we provide precise mapping and monitoring 
 Our focus on precision and safety underscores our commitment to supporting sustainable and responsible mining practices.
 
 ### Clientele
-Clients include NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -1305,7 +1312,7 @@ Our dedicated team of GIS experts works tirelessly to process and analyze drone 
 Our drone-based surveys offer up to 70% greater accuracy compared to traditional methods.By leveraging cutting-edge technology and precise data collection techniques, we provide farmers with reliable information for optimising crop planning, irrigation, and resource allocation.
 
 ### Clientele
-Clients include NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), NHIDCL, PNC Infratech, RCL and Skylark.
 
 ### Frequently asked questions
 
@@ -1602,7 +1609,7 @@ Our drones provide aerial surveillance for environmental monitoring and complian
 With drone-based surveillance solutions, we enhance safety and security measures within manufacturing plants by monitoring premises for unauthorized access, intrusions, and safety hazards, contributing to risk mitigation and accident prevention.
 
 ### Clientele
-Clients include Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), Ceigall India, Gawar Construction, Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
 
 
 === https://datapkt.com/wildlife.html ===
@@ -1636,7 +1643,7 @@ Our drones provide rapid response capabilities for wildlife emergencies such as 
 We offer data-driven conservation solutions by analyzing the information gathered by our drones. From population trends to habitat changes, our technology provides valuable insights for conservation planning and decision-making.
 
 ### Clientele
-Clients include Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
+Clients include National Highways Authority of India (NHAI), Hillways Construction Company, MIC Mahamarg Infra Consultants, NHIDCL, PNC Infratech, RCL and Skylark.
 
 
 === https://datapkt.com/archaeology.html ===
