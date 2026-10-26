@@ -103,3 +103,28 @@ h1.dp-hero-h1::after { display: none !important; }
   #main .banner-image > .main-text { left: 0; }
   #main .banner-image > dotlottie-player { flex: none; width: min(100%, calc((100vh - var(--dp-nav, 80px)) * 16 / 9)) !important; }
 }
+
+/* Responsive safety: theme grid columns and images never wider than their container */
+.row { grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); }
+section img { max-width: 100%; }
+section img:not([height]):not([style*="height"]) { height: auto; }
+
+/* WhatsApp click-to-chat button (free wa.me link) */
+.dp-wa { position: fixed; right: 20px; bottom: 20px; z-index: 1040; width: 58px; height: 58px; border-radius: 50%; background: #25D366; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 18px rgba(0,0,0,.25); transition: transform .15s; }
+.dp-wa:hover, .dp-wa:focus-visible { transform: scale(1.06); }
+.dp-wa:focus-visible { outline: 3px solid #111; outline-offset: 3px; }
+.dp-wa svg { width: 32px; height: 32px; fill: #fff; }
+@media (max-width: 640px) { .dp-wa { right: 14px; bottom: 14px; width: 52px; height: 52px; } .dp-wa svg { width: 28px; height: 28px; } }
+@media print { .dp-wa { display: none; } }
+
+/* Large monitors: scale the header and home hero text with the screen */
+@media (min-width: 1600px) {
+  .logo { width: clamp(220px, 12vw, 300px) !important; height: clamp(48px, 2.6vw, 66px) !important; }
+  .navbar .nav-item { font-size: clamp(18px, 1vw, 24px) !important; }
+  .navbar .nav-link { padding: 9px clamp(20px, 1.2vw, 30px) !important; }
+  .main-text { padding-left: clamp(40px, 3vw, 80px) !important; }
+  .main-text h1 { font-size: clamp(36px, 2.3vw, 60px); line-height: 1.15; }
+  .main-text label { font-size: clamp(3.5rem, 3.7vw, 6rem); line-height: 1.2; }
+  .main-text p { font-size: clamp(.9rem, .85vw, 1.3rem); }
+  .main-text a.redbtn { font-size: clamp(14px, .8vw, 20px); padding: clamp(12px, .8vw, 18px) clamp(28px, 1.6vw, 40px); }
+}
