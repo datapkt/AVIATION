@@ -1,0 +1,49 @@
+# DATA PKT Infra & Geomatics (DATAPKT)
+
+> Drone survey, mapping, GIS and design company based in Gurugram, Haryana, India, founded on 14 September 2020. We survey, map and design for infrastructure projects; we do not build them. Empanelled with the National Highways Authority of India (NHAI) in three zones for monthly drone survey work. DIPP-recognised start-up. Legal name: DATAPKT Private Limited.
+
+## What we do
+- Drone and DGPS topographic surveys for highways, roads and expressways
+- Railway and metro surveys, including Engineering Scale Plans (ESP), yard plans and drainage plans
+- Survey and design inputs for Detailed Project Reports (DPRs)
+- Drone thermal (infrared) inspection of solar power plants and electrical assets
+- Transmission line route surveys and substation site surveys
+- Water resources surveys and bathymetry for canals, rivers and reservoirs
+- Photogrammetry: orthomosaics, digital terrain and surface models, contours and volumes
+- LiDAR survey and classified point clouds
+- GIS mapping and data processing, including remote GIS work for clients outside India
+- Aerial videography and monthly progress videos for projects
+
+## Sectors
+Highways and roads, railways and metro, power and solar, water resources, urban planning, mining, oil and gas, environment, agriculture, archaeology, public safety, manufacturing and wildlife.
+
+## Where we work
+Projects across India from our Gurugram office. Remote GIS data processing for clients outside India.
+
+## Contact
+- Phone: +91 8448559100
+- Email: consult@datapkt.com
+- Address: 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana 122018, India
+- Hours: Monday to Friday, 9:00 to 18:00 IST
+- Website: https://www.datapkt.com/
+- LinkedIn: https://www.linkedin.com/company/datapkt-infra-geomatics/
+- Instagram: https://www.instagram.com/data.pkt/
+
+## Key pages
+- [About](https://www.datapkt.com/about.html): company facts and how a project runs
+- [Highways and roads](https://www.datapkt.com/highways-and-roadways.html)
+- [Railways and metro](https://www.datapkt.com/railways-and-metro.html)
+- [Engineering Scale Plans and DPR surveys](https://www.datapkt.com/engineering-scale-planning.html)
+- [Power and solar](https://www.datapkt.com/energy.html)
+- [Drone thermal survey](https://www.datapkt.com/thermal-survey.html)
+- [LiDAR survey](https://www.datapkt.com/lidar-survey.html)
+- [Photogrammetry](https://www.datapkt.com/photogrammetry.html)
+- [Mining](https://www.datapkt.com/mining.html)
+- [Water resources](https://www.datapkt.com/water-resource.html)
+- [Bathymetry](https://www.datapkt.com/bathymetry.html)
+- [Contact](https://www.datapkt.com/contact.html)
+
+## Guides
+- [How accurate is a drone survey? GSD, GCPs and RTK explained](https://www.datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
+- [What is an Engineering Scale Plan (ESP) in railway projects?](https://www.datapkt.com/insights/what-is-an-engineering-scale-plan.html)
+- [Solar plant drone thermography: what the report should include](https://www.datapkt.com/insights/solar-plant-drone-thermography-report.html)
