@@ -966,6 +966,20 @@
     </section>
     <!-- Drone pilot network -->
 
+
+<script>
+/* Fit the home hero to one screen: measure the visible navbar, flag when the animation is narrower than the screen */
+(function () {
+  function fit() {
+    var navs = document.querySelectorAll('nav.navbar'), h = 0;
+    for (var i = 0; i < navs.length; i++) { if (navs[i].offsetHeight && getComputedStyle(navs[i]).display !== 'none') { h = navs[i].offsetHeight; break; } }
+    if (h) document.documentElement.style.setProperty('--dp-nav', h + 'px');
+    var box = document.querySelector('#main .banner-image'), pl = box && box.querySelector('dotlottie-player');
+    if (pl) box.classList.toggle('dp-fit', pl.getBoundingClientRect().width < box.clientWidth - 2);
+  }
+  window.addEventListener('resize', fit); window.addEventListener('load', fit); document.addEventListener('DOMContentLoaded', fit);
+})();
+</script>
 </body>
 
 <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
