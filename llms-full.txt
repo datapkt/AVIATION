@@ -68,7 +68,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
-- [Highway drone monitoring: more than 1 lakh km flown for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
+- [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
 - [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
 - [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
 
@@ -1988,7 +1988,7 @@ We use cookies to see which pages help visitors, so we can improve the site. No 
 Home / Case studies / Highways
 Case study · Highways
 
-## Highway drone monitoring: more than 1 lakh km flown for authorities and contractors
+## Highway drone monitoring: more than 3 lakh km of data for authorities and contractors
 For highway authorities, highway contractors and private developers, DATA PKT sets DGPS control, flies drone photogrammetry and aerial videography every month, and turns the data into analytics that show progress and problems on the road.
 In short: every month our pilots fly each highway package along the same path, tied to DGPS ground control. The imagery becomes georeferenced maps (photogrammetry), the video becomes the comparative monthly record, and both feed analytics that measure the rate of completion and flag anomalies on completed highways.
 
@@ -2023,7 +2023,7 @@ Send us the site KML or chainage and the outputs you need. We reply with a scope
 ### Frequently asked questions
 
 Q: How many kilometres of highway has DATA PKT flown?
-More than 1 lakh km of highways, drone imagery and aerial videography combined, for highway authorities, highway contractors and private developers. Across all our projects we have captured about 1.5 lakh km of drone data this year, and more than 4 lakh km in the last six years.
+More than 3 lakh km of highway data in the last six years, drone imagery and aerial videography combined, for highway authorities and private contractors. In this financial year (2026-27) we have already captured more than 70,000 km, and the count is still rising.
 
 Q: How fast can a drone team cover a highway?
 One DATA PKT drone team captures about 35 km of highway imagery for photogrammetry, or about 50 km of aerial video, in a day. We have more than 20 drone pilots, a team of about 22.
