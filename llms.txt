@@ -68,7 +68,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
-- [Highway drone monitoring: more than 1 lakh km flown for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
+- [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
 - [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
 - [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
 
