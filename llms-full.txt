@@ -46,7 +46,6 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Contact](https://datapkt.com/contact.html)
 
 ## Services in depth
-- [NHAI monthly drone survey](https://datapkt.com/nhai-drone-survey.html): monthly comparative drone video and survey for NHAI projects, as an agency empanelled in three NHAI zones
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 
@@ -1758,56 +1757,6 @@ Advanced tools extract insights from drone data, aiding researchers in uncoverin
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
-=== https://datapkt.com/nhai-drone-survey.html ===
-Home / Highways / NHAI monthly drone survey
-Highways · NHAI
-
-## Monthly drone surveys for NHAI highway projects
-DATA PKT is empanelled with the National Highways Authority of India in three zones for monthly drone survey work. We fly each package along the same path every month and deliver the comparative video and survey records the project needs.
-Short answer: NHAI requires a monthly drone video of every national highway project, comparing this month with last month, uploaded to its Data Lake portal. DATA PKT flies these surveys for NHAI project units and for contractors, as an agency empanelled in three NHAI zones.
-
-### What NHAI requires
-In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ).
-- Comparative video: the current month is shown against the previous month, so progress and changes are clear.
-- Data Lake: videos are uploaded to NHAI's Data Lake portal and stored permanently.
-- Evidence: the videos can be used in disputes before courts and arbitration tribunals.
-- Review: supervision consultants use them in the digital monthly progress report, and NHAI officers use them during site inspections.
-
-### How a monthly cycle runs
-- Package plan: we fix the chainages, the flight path and the camera settings for each package once, so every month is flown the same way.
-- Permissions: stretches in yellow or red zones on the Digital Sky airspace map are cleared before the flight date.
-- Flight: DATA PKT pilots fly the full length of the package on the agreed date.
-- Processing: our team edits the comparative video and, where the scope includes it, the orthomosaic and progress measurements.
-- Hand-over: files are delivered for the monthly progress report and the Data Lake upload.
-
-### What you receive
-
-### Why DATA PKT
-We have flown highway drone surveys since October 2020, starting with aerial imagery and survey for NHIDCL projects in Nagaland and Manipur. Today we hold NHAI empanelment in three zones. Our clients include NHAI, NHIDCL, the Border Roads Organisation and more than 80 highway and infrastructure contractors, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS. Read the NHAI monthly monitoring case study .
-The same survey can feed design work too: see highway drone surveys and DPR survey inputs .
-Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
-
-### Frequently asked questions
-
-Q: Are monthly drone surveys mandatory on NHAI projects?
-Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal as a comparison of the current and previous month.
-
-Q: Who records the monthly drone video?
-On projects under construction, contractors and concessionaires record it in the presence of the supervision team. NHAI's own project units arrange surveys before construction starts, after completion and on projects it operates and maintains. DATA PKT works for both.
-
-Q: Is DATA PKT empanelled with NHAI?
-Yes. DATA PKT is empanelled with NHAI in three zones for monthly drone survey work, and has flown highway drone surveys since October 2020.
-
-Q: Can a contractor or concessionaire hire DATA PKT for the monthly video?
-Yes. We fly the package every month along the same path and hand over the comparative video and survey outputs in the form the project needs for its monthly reporting.
-
-Q: What if the highway passes through a yellow or red airspace zone?
-The Digital Sky airspace map decides this. Green zones need no flight permission; yellow and red zones need prior permission, which we plan for before the monthly cycle starts.
-
-#### Related
-We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
-
-
 === https://datapkt.com/drone-survey-cost.html ===
 Home / Drone survey cost
 Pricing guide
@@ -1902,7 +1851,7 @@ Our clients here include Delhi Metro Rail Corporation (DMRC), Delhi State Indust
 ### What we survey in Delhi NCR
 - Metro and railway corridors: base surveys, progress monitoring and corridor mapping
 - Industrial estates and municipal areas: base maps, property and utility mapping
-- Highways and expressways around the capital: DPR surveys and monthly NHAI monitoring
+- Highways and expressways around the capital: DPR surveys and monthly drone monitoring for NHAI
 - Solar rooftops and plants: drone thermography
 
 ### Working in Delhi NCR
@@ -1939,7 +1888,7 @@ Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North 
 - Highways: monthly comparative drone video of the Lucknow–Ayodhya section of NH-27 (km 8+000 to 68+900)
 - Power: survey and design for a transmission line and 220/132 kV substation near Prayagraj
 - Metro and railways: corridor surveys , Engineering Scale Plans and yard plans
-- Highways and expressways: DPR surveys and monthly NHAI drone monitoring
+- Highways and expressways: DPR surveys and monthly drone monitoring for NHAI
 - Rivers and canals: water resources surveys and bathymetry
 
 ### Working in Uttar Pradesh
@@ -2035,26 +1984,51 @@ We use cookies to see which pages help visitors, so we can improve the site. No 
 
 
 === https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html ===
-Home / Case studies / Highways
+Home / Case studies / NHAI
 Case study · Highways
 
 ## Monthly drone monitoring of national highways for NHAI
-DATA PKT is empanelled with the National Highways Authority of India (NHAI) in three zones, the most allowed, to fly monthly drone surveys of highway packages for project implementation units (PIUs).
+For the National Highways Authority of India, DATA PKT flies highway packages every month and delivers two of its services: drone photogrammetry and aerial videography. We are empanelled with NHAI in three zones.
+In short: NHAI requires a monthly drone video of every national highway project, comparing this month with last month. For NHAI's project units, DATA PKT flies each package every month along the same path, and delivers the comparative video (aerial videography) and georeferenced maps and measurements (photogrammetry).
 
-### The need
-NHAI's project implementation units manage long highway packages under construction and in operation. They need a regular, objective record of each stretch: what has been built since last month, where work has stalled, and the condition of the road and its surroundings. Site visits alone cannot cover every kilometre every month.
+### The client's requirement
+In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ).
+- Comparative video: the current month is shown against the previous month, so progress and changes are clear.
+- Data Lake: videos are uploaded to NHAI's Data Lake portal and stored permanently.
+- Evidence: the videos can be used in disputes before courts and arbitration tribunals.
+- Review: supervision consultants use them in the digital monthly progress report, and NHAI officers use them during site inspections.
 
-### What we do
-Every month our pilots fly the full length of each assigned package along the same corridor, so each month's survey can be compared directly with the last. Our GIS team processes the flights into georeferenced outputs and the records each PIU needs for its monthly review.
+### What we deliver, and with which service
 
-### How we run it at scale
-Packages are spread across three NHAI zones, so flights are planned centrally from Gurugram and flown by DATA PKT pilots. Each package keeps the same flight plan month to month, which keeps the data consistent and comparable.
+### How a monthly cycle runs
+- Package plan: we fix the chainages, the flight path and the camera settings for each package once, so every month is flown the same way.
+- Permissions: stretches in yellow or red zones on the Digital Sky airspace map are cleared before the flight date.
+- Flight: DATA PKT pilots fly the full length of the package on the agreed date.
+- Processing: our team edits the comparative video and builds the orthomosaic and progress measurements.
+- Hand-over: files are delivered for the monthly progress report and the Data Lake upload.
 
-### Where it started
-Our first highway drone work, in October 2020, was aerial imagery, videography and survey for highway projects in Nagaland and Manipur (NHIDCL, around Dimapur and Kohima). That work grew into the monthly NHAI monitoring we run today.
+### How it started
+Our first highway drone work, in October 2020, was aerial imagery, videography and survey for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. That work grew into the monthly NHAI monitoring we run today across three zones. Packages are planned centrally from Gurugram and flown by DATA PKT pilots.
 
-#### Related services
-Have a similar project?
+### Other clients for this work
+Besides NHAI and NHIDCL, the Border Roads Organisation and more than 80 highway and infrastructure contractors use the same services for their projects, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS. See more case studies .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Are monthly drone surveys mandatory on NHAI projects?
+Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal as a comparison of the current and previous month.
+
+Q: Which DATA PKT services does this work use?
+Two: drone photogrammetry, for georeferenced maps and progress measurements, and aerial videography, for the monthly comparative video.
+
+Q: Is DATA PKT empanelled with NHAI?
+Yes. DATA PKT is empanelled with NHAI in three zones for monthly drone survey work, and has flown highway drone surveys since October 2020.
+
+Q: Do you do the same work for contractors?
+Yes. Contractors and concessionaires on NHAI projects use the same photogrammetry and aerial videography services for their monthly records.
+
+#### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
