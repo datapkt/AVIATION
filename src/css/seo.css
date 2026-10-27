@@ -208,3 +208,8 @@ section .row > [class*="col"]:has(.banner-thumb){flex:0 0 auto!important;width:a
 .dp-form-frame iframe{display:block;width:100%;height:2300px;border:0}
 .dp-form-alt{text-align:center;margin:14px auto 0;max-width:860px;font-size:14px;color:#555}
 @media (max-width:640px){.dp-form-frame iframe{height:2900px}}
+
+/* Home hero: reserve the animation's 16:9 space and show a still frame until the animation is playing,
+   so the hero is never blank on a slow connection. The still is removed once the player reports playing. */
+#main .banner-image > dotlottie-player { display: block; aspect-ratio: 16 / 9; background: url(/src/images/hero-poster.webp) center / 100% 100% no-repeat; }
+#main .banner-image.dp-hero-ready > dotlottie-player { background: none; }
