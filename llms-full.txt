@@ -68,7 +68,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
-- [Drone service provider for NHAI: 43,873 km of highways in one year](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
+- [Highway drone monitoring: more than 1 lakh km flown for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
 - [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
 - [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
 
@@ -1852,7 +1852,7 @@ Our clients here include Delhi Metro Rail Corporation (DMRC), Delhi State Indust
 ### What we survey in Delhi NCR
 - Metro and railway corridors: base surveys, progress monitoring and corridor mapping
 - Industrial estates and municipal areas: base maps, property and utility mapping
-- Highways and expressways around the capital: DPR surveys and monthly drone monitoring for NHAI
+- Highways and expressways around the capital: DPR surveys and monthly highway drone monitoring
 - Solar rooftops and plants: drone thermography
 
 ### Working in Delhi NCR
@@ -1886,10 +1886,10 @@ From highways and metro corridors to power transmission, DATA PKT surveys and ma
 Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway, alongside NHAI and highway contractors working in the state. See the full client list .
 
 ### What we survey in Uttar Pradesh
-- Highways: monthly comparative drone video of the Lucknow–Ayodhya section of NH-27 (km 8+000 to 68+900)
+- Highways: monthly comparative drone video of national highway improvement projects
 - Power: survey and design of a 220/132 kV substation and its transmission lines
 - Metro and railways: corridor surveys , Engineering Scale Plans and yard plans
-- Highways and expressways: DPR surveys and monthly drone monitoring for NHAI
+- Highways and expressways: DPR surveys and monthly highway drone monitoring
 - Rivers and canals: water resources surveys and bathymetry
 
 ### Working in Uttar Pradesh
@@ -1984,54 +1984,57 @@ Yes. Both are among our clients.
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
-=== https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html ===
-Home / Case studies / NHAI
+=== https://datapkt.com/case-studies/highway-drone-monitoring.html ===
+Home / Case studies / Highways
 Case study · Highways
 
-## Drone service provider for NHAI: 43,873 km of highways in one year
-DATA PKT is a drone service provider (DSP) for the National Highways Authority of India, empanelled in three zones. We set DGPS control, fly drone photogrammetry and aerial videography every month, and turn the data into analytics that show progress and problems on the road.
-In short: every month our pilots fly NHAI's highway packages along the same path, tied to DGPS ground control. The imagery becomes georeferenced maps (photogrammetry), the video becomes the comparative monthly record, and both feed analytics that measure the rate of completion and flag anomalies on completed highways.
+## Highway drone monitoring: more than 1 lakh km flown for authorities and contractors
+For highway authorities, highway contractors and private developers, DATA PKT sets DGPS control, flies drone photogrammetry and aerial videography every month, and turns the data into analytics that show progress and problems on the road.
+In short: every month our pilots fly each highway package along the same path, tied to DGPS ground control. The imagery becomes georeferenced maps (photogrammetry), the video becomes the comparative monthly record, and both feed analytics that measure the rate of completion and flag anomalies on completed highways.
 
-### FY 2025-26 in numbers
+### Scale and speed
 
 ### What a drone service provider does
-NHAI's drone programme separates two roles. The drone service provider (DSP) works in the field and on the data: it flies the highway, captures it and turns it into information. The technology service provider (TSP) runs the technology platform the data goes into. As a DSP, DATA PKT delivers:
+Highway drone programmes separate two roles. The drone service provider (DSP) works in the field and on the data: it flies the highway, captures it and turns it into information. The technology service provider (TSP) runs the technology platform the data goes into. As a DSP, DATA PKT delivers:
 - DGPS ground control , so every map is tied to real coordinates
 - Drone photogrammetry : georeferenced orthomosaics and measurements of each package
-- Aerial videography : the comparative monthly video NHAI requires
+- Aerial videography : the comparative monthly video
 - Analytics on that data, including AI analytics, described below
 
 ### What the analytics find
 
 ### Why drones are faster
-A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. On a linear corridor such as a highway, one team captures about 35 km of drone imagery for photogrammetry, or about 50 km of aerial video, in a day , and DATA PKT has more than 20 drone pilots (a team of about 22) to put in the field. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 
-### The client's requirement
-In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ). Videos compare the current month with the previous one, are uploaded to NHAI's Data Lake portal, and can be used as evidence in disputes.
+### Why highways need a monthly drone record
+In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ). Videos compare the current month with the previous one and can be used as evidence in disputes. Contractors and private developers use the same record for their own progress reports and billing.
 
 ### How a monthly cycle runs
 - Package plan: chainages, flight path and camera settings are fixed once, so every month is flown the same way.
 - Control and permissions: DGPS ground control is set, and stretches in yellow or red airspace zones are cleared before the flight date.
 - Flight: DATA PKT pilots fly the full length of the package.
 - Processing and analytics: orthomosaics, the comparative video and the analytics are prepared in the office.
-- Hand-over: files go to the monthly progress report and the Data Lake.
+- Hand-over: files go to the client's monthly progress report and data portal.
 
 ### How it started
-Our first highway drone work, in October 2020, was aerial imagery, videography and survey for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. It grew into NHAI empanelment in three zones; our current NHAI imagery engagement runs to 2028. Besides NHAI and NHIDCL, the Border Roads Organisation and more than 80 highway contractors use the same services, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS.
+Our first highway drone work, in October 2020, was aerial imagery, videography and survey for highway projects in Nagaland and Manipur. It grew into NHAI empanelment in three zones and a client base that mixes highway authorities, including NHAI, NHIDCL and the Border Roads Organisation, with more than 80 highway contractors and private developers, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS.
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
 ### Frequently asked questions
 
-Q: What is a DSP in NHAI's drone programme?
-A drone service provider (DSP) flies the highways, sets DGPS ground control, captures imagery and video, and processes the data. A technology service provider (TSP) runs the technology platform the data feeds into. DATA PKT works as a DSP for NHAI.
+Q: How many kilometres of highway has DATA PKT flown?
+More than 1 lakh km of highways, drone imagery and aerial videography combined, for highway authorities, highway contractors and private developers. Across all our projects we have captured about 1.5 lakh km of drone data this year, and more than 4 lakh km in the last six years.
 
-Q: How many kilometres does DATA PKT fly for NHAI?
-In FY 2025-26 (April 2025 to March 2026) our pilots flew 43,873 km of national highways for NHAI: 32,227 km of imagery and 11,646 km of videography.
+Q: How fast can a drone team cover a highway?
+One DATA PKT drone team captures about 35 km of highway imagery for photogrammetry, or about 50 km of aerial video, in a day. We have more than 20 drone pilots, a team of about 22.
+
+Q: What is a DSP in a highway drone programme?
+A drone service provider (DSP) flies the highways, sets DGPS ground control, captures imagery and video, and processes the data. A technology service provider (TSP) runs the technology platform the data feeds into. DATA PKT works as a DSP.
 
 Q: What can the analytics find on a highway?
 The rate of completion on projects under construction, and on completed highways: encroachments and broken boundaries, unauthorised U-turns and paths cut by the public, potholes, black spots and accident-prone stretches.
 
-Q: Are monthly drone surveys mandatory on NHAI projects?
+Q: Are monthly drone surveys mandatory on national highway projects?
 Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal.
 
 Q: Is DATA PKT empanelled with NHAI?
@@ -2069,7 +2072,7 @@ For each yard the work covers:
 - Field check and approval: critical details are verified on the ground, and plans are revised until approved.
 
 ### Why drones are faster
-A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. On a linear corridor such as a highway, one team captures about 35 km of drone imagery for photogrammetry, or about 50 km of aerial video, in a day , and DATA PKT has more than 20 drone pilots (a team of about 22) to put in the field. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 
 ### Other railway work
 DATA PKT has also carried out level-crossing surveys in two divisions (18 and more than 15 level crossings), railway bridge inspections, and location plans for traction substations and sectioning posts, described in our 220/132 kV substation and transmission line case study .
@@ -2131,7 +2134,7 @@ The design work covers the general arrangement drawing (GAD) of the 220/132 kV s
 Along the railway, DATA PKT surveys the GSS plot and each proposed traction substation, sectioning post and sub-sectioning post and prepares its location plan with boundary, area, levels, utilities and railway chainage. The 19 sites are the new GSS, 4 traction substations and 14 sectioning and sub-sectioning posts across two sections.
 
 ### Why drones are faster
-A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. On a linear corridor such as a highway, one team captures about 35 km of drone imagery for photogrammetry, or about 50 km of aerial video, in a day , and DATA PKT has more than 20 drone pilots (a team of about 22) to put in the field. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 See the service: transmission line and substation survey and design .
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
