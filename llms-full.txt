@@ -69,8 +69,8 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 
 ## Case studies
 - [Drone service provider for NHAI: 43,873 km of highways in one year](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
-- [Yard plans and drainage plans for Eastern Railway and North Central Railway](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
-- [220/132 kV Chunar substation and transmission lines for North Central Railway](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
+- [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
+- [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
 
 ## Clients (100+ since 2020)
 National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
@@ -1883,11 +1883,11 @@ Where we work
 From highways and metro corridors to power transmission, DATA PKT surveys and maps infrastructure projects across Uttar Pradesh.
 
 ### Clients in Uttar Pradesh
-Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway (including drainage design for 32 yards in the Jhansi division), alongside NHAI and highway contractors working in the state. See the full client list .
+Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway, alongside NHAI and highway contractors working in the state. See the full client list .
 
 ### What we survey in Uttar Pradesh
 - Highways: monthly comparative drone video of the Lucknow–Ayodhya section of NH-27 (km 8+000 to 68+900)
-- Power: survey and design of the 220/132 kV Chunar substation and its transmission lines for North Central Railway
+- Power: survey and design of a 220/132 kV substation and its transmission lines
 - Metro and railways: corridor surveys , Engineering Scale Plans and yard plans
 - Highways and expressways: DPR surveys and monthly drone monitoring for NHAI
 - Rivers and canals: water resources surveys and bathymetry
@@ -1902,7 +1902,7 @@ Send us the site KML or chainage and the outputs you need. We reply with a scope
 ### Frequently asked questions
 
 Q: Have you worked on power projects in Uttar Pradesh?
-Yes. For North Central Railway we are carrying out the survey and design of a 220/132 kV grid substation at Chunar and its 220 kV and 132 kV transmission lines.
+Yes. We are carrying out the survey and design of a 220/132 kV grid substation in Uttar Pradesh and its 220 kV and 132 kV transmission lines.
 
 Q: Which railway and metro clients do you work with in Uttar Pradesh?
 Our clients include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway.
@@ -2045,23 +2045,21 @@ We use cookies to see which pages help visitors, so we can improve the site. No 
 Home / Case studies / Railways
 Case study · Railways
 
-## Yard plans and drainage plans for Eastern Railway and North Central Railway
-For two railway divisions, DATA PKT surveyed station yards with drones and DGPS and turned the data into yard plans and drainage designs: 61 plans for Eastern Railway, Howrah division, and drainage design for 32 yards in North Central Railway, Jhansi division.
+## Yard plans and drainage plans for two railway divisions
+For two railway divisions, DATA PKT surveyed station yards with drones and DGPS and turned the data into yard plans and drainage designs: 61 plans submitted in eastern India, and drainage design for 32 yards in Uttar Pradesh and Madhya Pradesh.
 In short: railways need accurate plans of each yard before remodelling or drainage works. Measuring yards on foot beside running lines is slow and risky. DATA PKT flies each yard, builds an orthomosaic and terrain model, and drafts the yard plan or drainage design from it, with critical details checked on the ground.
 
-### Eastern Railway, Howrah division: 30 yard plans and 31 drainage plans
-Under two contracts awarded in January 2026, each with a six-month completion period, DATA PKT prepared yard plans for 23 yards, plus 7 more added during the work, and drainage plans for 31 yards. All 30 yard plans and all 31 drainage plans have been submitted.
-Yards covered include Belanagar, Rajchandrapur, Bhattanagar, Dankuni, Gobra, Janai Road, Begumpur, Baruipara, Mirzapur-Bankipur, Balarambati, Kamarkundu, Madhusudanpur, Chandanpur, Porabazar, Belmuri, Dhaniakhali, Sibaichandi, Hajigarh, Gurap, Jhapandanga, Jaugram, Nabagram, Masagram, Chanchai, Palla Road, Palsit, Saktigarh, Gangpur, Talit, Khana and Barddhaman.
+### Eastern India: 30 yard plans and 31 drainage plans
+Under two contracts awarded in January 2026, each with a six-month completion period, DATA PKT prepared yard plans for 23 yards, plus 7 more added during the work, and drainage plans for 31 yards, from suburban yards to junctions on the main line. All 30 yard plans and all 31 drainage plans have been submitted.
 
-### North Central Railway, Jhansi division: drainage design for 32 yards
-The contract, awarded in June 2026 for completion in six months, covers planning and design of drainage in 32 existing yards. The railway asked for LiDAR or an equivalent advanced survey method. DATA PKT has completed the ground survey of all 32 yards, and drainage plans are being prepared and submitted for approval.
+### Uttar Pradesh and Madhya Pradesh: drainage design for 32 yards
+The contract, awarded in June 2026 for completion in six months, covers planning and design of drainage in 32 existing yards, from small wayside stations to junctions. The railway asked for LiDAR or an equivalent advanced survey method. DATA PKT has completed the ground survey of all 32 yards, and drainage plans are being prepared and submitted for approval.
 For each yard the work covers:
 - A survey report with site conditions and levels
 - An estimate of waste water generated in the yard
 - Drainage slopes and the disposal location
 - Manholes and septic tanks with dispersal trenches, sized for the yard, with a cleaning arrangement
 - Layout plans for the railway's approval
-Yards: Lalitpur Jn, Jakhalaun, Dhaura, Agasod Jn, Talbenat, Jiron, Bijrotha, Dilwara, Jakhaura, Karonda, Mohasa, Matatila, Basai, Burhpura, Khajraha, Bijauli, Babina, Bhimsen Jn, Pokhrayan, Orai, Pirauna, Ait, Bhua, Sarsoki, Ata, Usargaon, Kalpi, Chaunrach, Malasa, Lalpur, Paman and Rasulpur Gogamau.
 
 ### How the work runs
 - Control: surveyors fix DGPS ground control points around the yard.
@@ -2074,14 +2072,14 @@ Yards: Lalitpur Jn, Jakhalaun, Dhaura, Agasod Jn, Talbenat, Jiron, Bijrotha, Dil
 A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 
 ### Other railway work
-DATA PKT has also carried out level-crossing surveys in the Kolkata and Nagpur divisions (18 and more than 15 level crossings), railway bridge inspections, and the location plans for traction substations and sectioning posts described in our Chunar substation and transmission line case study . Railway clients include Central Railway, Eastern Railway, North Central Railway, DMRC, UPMRC, MRVC, IRCON and Konkan Railway.
+DATA PKT has also carried out level-crossing surveys in two divisions (18 and more than 15 level crossings), railway bridge inspections, and location plans for traction substations and sectioning posts, described in our 220/132 kV substation and transmission line case study .
 Read more: Engineering Scale Plans and DPR surveys and what an ESP is .
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
 ### Frequently asked questions
 
-Q: How many railway yards has DATA PKT planned?
-For Eastern Railway's Howrah division we submitted 30 yard plans and 31 drainage plans. For North Central Railway's Jhansi division we have surveyed all 32 yards in the contract and are preparing their drainage designs.
+Q: How many railway yard plans has DATA PKT prepared?
+For one railway division in eastern India we submitted 30 yard plans and 31 drainage plans. For a second division, in Uttar Pradesh and Madhya Pradesh, we have surveyed all 32 yards in the contract and are preparing their drainage designs.
 
 Q: What does a railway yard drainage plan include?
 Ground levels and slopes, the estimated waste water from the yard, the disposal location, and the design of drains, manholes and septic tanks with dispersal trenches, with a cleaning arrangement.
@@ -2093,13 +2091,13 @@ A drone captures a whole yard in one short window, so staff spend far less time 
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
-=== https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html ===
+=== https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html ===
 Home / Case studies / Power
 Case study · Power transmission
 
-## 220/132 kV Chunar substation and transmission lines for North Central Railway
-For North Central Railway's Prayagraj division, DATA PKT is carrying out the survey and design for a new 220/132 kV grid substation at Chunar, the 220 kV and 132 kV lines that feed it, and location plans for 19 traction sites along the railway.
-In short: the railway needs power for 2x25 kV traction. DATA PKT finds three alternate routes for each new line, compares them on maps made from current drone data laid over khasra maps, surveys the approved route in detail, investigates and designs the substation, and prepares location plans for traction substations and sectioning posts.
+## 220/132 kV substation and transmission lines in Uttar Pradesh
+For a railway traction power project in Uttar Pradesh, DATA PKT is carrying out the survey and design of a new 220/132 kV grid substation, the 220 kV and 132 kV lines that feed it, and location plans for 19 sites along the railway.
+In short: the project needs power for 2x25 kV railway traction. DATA PKT finds three alternate routes for each new line, compares them on maps made from current drone data laid over khasra maps, surveys the approved route in detail, investigates and designs the substation, and prepares location plans for traction substations and sectioning posts.
 
 ### Scope
 
@@ -2126,11 +2124,11 @@ That turns route approval from a debate over old maps into a comparison of facts
 - Tree and crop enumeration along the corridor
 
 ### Substation investigations and design
-At the Chunar GSS site DATA PKT carries out a contour survey, boreholes with standard penetration tests and laboratory testing for the geotechnical report, and Wenner four-electrode soil resistivity tests to IS 3043 for earthing design. HFL data and rail levels set the recommended finished ground level.
+At the GSS site DATA PKT carries out a contour survey, boreholes with standard penetration tests and laboratory testing for the geotechnical report, and Wenner four-electrode soil resistivity tests to IS 3043 for earthing design. HFL data and rail levels set the recommended finished ground level.
 The design work covers the general arrangement drawing (GAD) of the 220/132 kV switchyard (bus-bars, transformers, breakers, isolators, CTs, CVTs, lightning arresters, gantries, roads, drains and fire fighting), the GAD of the GSS building, the general power-supply diagram of the 220 kV, 132 kV and 2x25 kV network, and the LT wiring plan, LT single line diagram and distribution board schedules. The final GAD is vetted by an IIT, NIT or CPRI.
 
-### Location plans for 19 traction sites
-Along the railway, DATA PKT surveys each proposed traction substation, sectioning post and sub-sectioning post and prepares its location plan with boundary, area, levels, utilities and railway chainage. Sites include traction substations at Shankargarh, Dabhaura, Sakteshgarh and Sonbhadra, and posts from New Link Junction to Manikpur and from Chunar towards Sonbhadra.
+### Location plans for 19 sites
+Along the railway, DATA PKT surveys the GSS plot and each proposed traction substation, sectioning post and sub-sectioning post and prepares its location plan with boundary, area, levels, utilities and railway chainage. The 19 sites are the new GSS, 4 traction substations and 14 sectioning and sub-sectioning posts across two sections.
 
 ### Why drones are faster
 A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
@@ -2139,8 +2137,8 @@ Send us the site KML or chainage and the outputs you need. We reply with a scope
 
 ### Frequently asked questions
 
-Q: What is the Chunar project?
-Survey and design for North Central Railway, Prayagraj division: a 220/132 kV grid substation (GSS) at Chunar, a 220 kV double-circuit line from the UPPTCL substation to the GSS, a 132 kV double-circuit line from the GSS to the Naini–Jeonathpur line, and location plans for traction substations and sectioning posts.
+Q: What does this project cover?
+Survey and design of a new 220/132 kV grid substation (GSS) in Uttar Pradesh, a 220 kV double-circuit line from the state grid to the GSS, a 132 kV double-circuit line from the GSS to an existing line, and location plans for 19 sites: the substation, 4 traction substations and 14 sectioning and sub-sectioning posts.
 
 Q: How do drones help choose a transmission line route?
 Drone photogrammetry maps each alternate corridor as it is today. Laid over khasra (revenue) maps, it shows which plots each route crosses and what is on them: farmland, houses, shops or forest. That makes the route comparison and land acquisition planning far easier.
