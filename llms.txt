@@ -46,7 +46,6 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Contact](https://datapkt.com/contact.html)
 
 ## Services in depth
-- [NHAI monthly drone survey](https://datapkt.com/nhai-drone-survey.html): monthly comparative drone video and survey for NHAI projects, as an agency empanelled in three NHAI zones
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 
