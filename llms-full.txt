@@ -48,6 +48,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 ## Services in depth
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
+- [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
 
 ## Where we work
 - [Where we work](https://datapkt.com/where-we-work.html)
@@ -67,9 +68,9 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 
 ## Case studies
-- [Monthly drone monitoring of national highways for NHAI](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
-- [Engineering Scale Plans, yard plans and drainage plans for Indian Railways](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
-- [Transmission line survey and design, with a 220/132 kV substation, near Prayagraj](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
+- [Drone service provider for NHAI: 43,873 km of highways in one year](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
+- [Yard plans and drainage plans for Eastern Railway and North Central Railway](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
+- [220/132 kV Chunar substation and transmission lines for North Central Railway](https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html)
 
 ## Clients (100+ since 2020)
 National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
@@ -1882,11 +1883,11 @@ Where we work
 From highways and metro corridors to power transmission, DATA PKT surveys and maps infrastructure projects across Uttar Pradesh.
 
 ### Clients in Uttar Pradesh
-Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway, alongside NHAI and highway contractors working in the state. See the full client list .
+Our clients here include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway (including drainage design for 32 yards in the Jhansi division), alongside NHAI and highway contractors working in the state. See the full client list .
 
 ### What we survey in Uttar Pradesh
 - Highways: monthly comparative drone video of the Lucknow–Ayodhya section of NH-27 (km 8+000 to 68+900)
-- Power: survey and design for a transmission line and 220/132 kV substation near Prayagraj
+- Power: survey and design of the 220/132 kV Chunar substation and its transmission lines for North Central Railway
 - Metro and railways: corridor surveys , Engineering Scale Plans and yard plans
 - Highways and expressways: DPR surveys and monthly drone monitoring for NHAI
 - Rivers and canals: water resources surveys and bathymetry
@@ -1901,7 +1902,7 @@ Send us the site KML or chainage and the outputs you need. We reply with a scope
 ### Frequently asked questions
 
 Q: Have you worked on power projects in Uttar Pradesh?
-Yes. We carried out the survey and design work for a transmission line project near Prayagraj, including a 220/132 kV substation.
+Yes. For North Central Railway we are carrying out the survey and design of a 220/132 kV grid substation at Chunar and its 220 kV and 132 kV transmission lines.
 
 Q: Which railway and metro clients do you work with in Uttar Pradesh?
 Our clients include Uttar Pradesh Metro Rail Corporation (UPMRC) and North Central Railway.
@@ -1987,46 +1988,54 @@ We use cookies to see which pages help visitors, so we can improve the site. No 
 Home / Case studies / NHAI
 Case study · Highways
 
-## Monthly drone monitoring of national highways for NHAI
-For the National Highways Authority of India, DATA PKT flies highway packages every month and delivers two of its services: drone photogrammetry and aerial videography. We are empanelled with NHAI in three zones.
-In short: NHAI requires a monthly drone video of every national highway project, comparing this month with last month. For NHAI's project units, DATA PKT flies each package every month along the same path, and delivers the comparative video (aerial videography) and georeferenced maps and measurements (photogrammetry).
+## Drone service provider for NHAI: 43,873 km of highways in one year
+DATA PKT is a drone service provider (DSP) for the National Highways Authority of India, empanelled in three zones. We set DGPS control, fly drone photogrammetry and aerial videography every month, and turn the data into analytics that show progress and problems on the road.
+In short: every month our pilots fly NHAI's highway packages along the same path, tied to DGPS ground control. The imagery becomes georeferenced maps (photogrammetry), the video becomes the comparative monthly record, and both feed analytics that measure the rate of completion and flag anomalies on completed highways.
+
+### FY 2025-26 in numbers
+
+### What a drone service provider does
+NHAI's drone programme separates two roles. The drone service provider (DSP) works in the field and on the data: it flies the highway, captures it and turns it into information. The technology service provider (TSP) runs the technology platform the data goes into. As a DSP, DATA PKT delivers:
+- DGPS ground control , so every map is tied to real coordinates
+- Drone photogrammetry : georeferenced orthomosaics and measurements of each package
+- Aerial videography : the comparative monthly video NHAI requires
+- Analytics on that data, including AI analytics, described below
+
+### What the analytics find
+
+### Why drones are faster
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 
 ### The client's requirement
-In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ).
-- Comparative video: the current month is shown against the previous month, so progress and changes are clear.
-- Data Lake: videos are uploaded to NHAI's Data Lake portal and stored permanently.
-- Evidence: the videos can be used in disputes before courts and arbitration tribunals.
-- Review: supervision consultants use them in the digital monthly progress report, and NHAI officers use them during site inspections.
-
-### What we deliver, and with which service
+In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance ( Mobility Outlook, June 2021 ). Videos compare the current month with the previous one, are uploaded to NHAI's Data Lake portal, and can be used as evidence in disputes.
 
 ### How a monthly cycle runs
-- Package plan: we fix the chainages, the flight path and the camera settings for each package once, so every month is flown the same way.
-- Permissions: stretches in yellow or red zones on the Digital Sky airspace map are cleared before the flight date.
-- Flight: DATA PKT pilots fly the full length of the package on the agreed date.
-- Processing: our team edits the comparative video and builds the orthomosaic and progress measurements.
-- Hand-over: files are delivered for the monthly progress report and the Data Lake upload.
+- Package plan: chainages, flight path and camera settings are fixed once, so every month is flown the same way.
+- Control and permissions: DGPS ground control is set, and stretches in yellow or red airspace zones are cleared before the flight date.
+- Flight: DATA PKT pilots fly the full length of the package.
+- Processing and analytics: orthomosaics, the comparative video and the analytics are prepared in the office.
+- Hand-over: files go to the monthly progress report and the Data Lake.
 
 ### How it started
-Our first highway drone work, in October 2020, was aerial imagery, videography and survey for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. That work grew into the monthly NHAI monitoring we run today across three zones. Packages are planned centrally from Gurugram and flown by DATA PKT pilots.
-
-### Other clients for this work
-Besides NHAI and NHIDCL, the Border Roads Organisation and more than 80 highway and infrastructure contractors use the same services for their projects, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS. See more case studies .
+Our first highway drone work, in October 2020, was aerial imagery, videography and survey for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. It grew into NHAI empanelment in three zones; our current NHAI imagery engagement runs to 2028. Besides NHAI and NHIDCL, the Border Roads Organisation and more than 80 highway contractors use the same services, among them G R Infraprojects, PNC Infratech, H.G. Infra Engineering, Ceigall India, IRB Infrastructure and AFCONS.
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
 ### Frequently asked questions
 
-Q: Are monthly drone surveys mandatory on NHAI projects?
-Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal as a comparison of the current and previous month.
+Q: What is a DSP in NHAI's drone programme?
+A drone service provider (DSP) flies the highways, sets DGPS ground control, captures imagery and video, and processes the data. A technology service provider (TSP) runs the technology platform the data feeds into. DATA PKT works as a DSP for NHAI.
 
-Q: Which DATA PKT services does this work use?
-Two: drone photogrammetry, for georeferenced maps and progress measurements, and aerial videography, for the monthly comparative video.
+Q: How many kilometres does DATA PKT fly for NHAI?
+In FY 2025-26 (April 2025 to March 2026) our pilots flew 43,873 km of national highways for NHAI: 32,227 km of imagery and 11,646 km of videography.
+
+Q: What can the analytics find on a highway?
+The rate of completion on projects under construction, and on completed highways: encroachments and broken boundaries, unauthorised U-turns and paths cut by the public, potholes, black spots and accident-prone stretches.
+
+Q: Are monthly drone surveys mandatory on NHAI projects?
+Yes. Since 2021 NHAI has required monthly drone video recording of national highway projects across development, construction, operation and maintenance, uploaded to its Data Lake portal.
 
 Q: Is DATA PKT empanelled with NHAI?
 Yes. DATA PKT is empanelled with NHAI in three zones for monthly drone survey work, and has flown highway drone surveys since October 2020.
-
-Q: Do you do the same work for contractors?
-Yes. Contractors and concessionaires on NHAI projects use the same photogrammetry and aerial videography services for their monthly records.
 
 #### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
@@ -2036,41 +2045,113 @@ We use cookies to see which pages help visitors, so we can improve the site. No 
 Home / Case studies / Railways
 Case study · Railways
 
-## Engineering Scale Plans, yard plans and drainage plans for Indian Railways
-For railway sections and station yards, DATA PKT prepares Engineering Scale Plans (ESP), yard plans and drainage plans from drone survey data, checked on the ground.
+## Yard plans and drainage plans for Eastern Railway and North Central Railway
+For two railway divisions, DATA PKT surveyed station yards with drones and DGPS and turned the data into yard plans and drainage designs: 61 plans for Eastern Railway, Howrah division, and drainage design for 32 yards in North Central Railway, Jhansi division.
+In short: railways need accurate plans of each yard before remodelling or drainage works. Measuring yards on foot beside running lines is slow and risky. DATA PKT flies each yard, builds an orthomosaic and terrain model, and drafts the yard plan or drainage design from it, with critical details checked on the ground.
 
-### The need
-Before a yard is remodelled or a section is changed, the railway needs an accurate, up-to-date drawing of what is on the ground: tracks, turnouts, platforms, structures and levels. Drainage works need the ground levels and existing drains mapped along the section. Measuring all of this on foot next to running lines is slow and exposes staff to traffic.
+### Eastern Railway, Howrah division: 30 yard plans and 31 drainage plans
+Under two contracts awarded in January 2026, each with a six-month completion period, DATA PKT prepared yard plans for 23 yards, plus 7 more added during the work, and drainage plans for 31 yards. All 30 yard plans and all 31 drainage plans have been submitted.
+Yards covered include Belanagar, Rajchandrapur, Bhattanagar, Dankuni, Gobra, Janai Road, Begumpur, Baruipara, Mirzapur-Bankipur, Balarambati, Kamarkundu, Madhusudanpur, Chandanpur, Porabazar, Belmuri, Dhaniakhali, Sibaichandi, Hajigarh, Gurap, Jhapandanga, Jaugram, Nabagram, Masagram, Chanchai, Palla Road, Palsit, Saktigarh, Gangpur, Talit, Khana and Barddhaman.
 
-### What we do
-We fly the yard or section with survey drones tied to DGPS ground control, producing an orthomosaic and terrain model of the whole area. Drafters trace tracks, points and crossings, platforms and structures from this base into the Engineering Scale Plan and yard plan. Ground levels from the same survey give the falls and existing drains for the drainage plan. A field team then verifies critical details, such as turnout positions and chainages, on the ground.
+### North Central Railway, Jhansi division: drainage design for 32 yards
+The contract, awarded in June 2026 for completion in six months, covers planning and design of drainage in 32 existing yards. The railway asked for LiDAR or an equivalent advanced survey method. DATA PKT has completed the ground survey of all 32 yards, and drainage plans are being prepared and submitted for approval.
+For each yard the work covers:
+- A survey report with site conditions and levels
+- An estimate of waste water generated in the yard
+- Drainage slopes and the disposal location
+- Manholes and septic tanks with dispersal trenches, sized for the yard, with a cleaning arrangement
+- Layout plans for the railway's approval
+Yards: Lalitpur Jn, Jakhalaun, Dhaura, Agasod Jn, Talbenat, Jiron, Bijrotha, Dilwara, Jakhaura, Karonda, Mohasa, Matatila, Basai, Burhpura, Khajraha, Bijauli, Babina, Bhimsen Jn, Pokhrayan, Orai, Pirauna, Ait, Bhua, Sarsoki, Ata, Usargaon, Kalpi, Chaunrach, Malasa, Lalpur, Paman and Rasulpur Gogamau.
 
-### Why it works
-Staff spend far less time on or near live tracks, the whole yard is captured in one short window, and the orthomosaic stays on file so any later question can be checked without another site visit. The same survey also supports land and drainage planning.
+### How the work runs
+- Control: surveyors fix DGPS ground control points around the yard.
+- Flight: the drone captures the whole yard in one short window, with little time spent beside running lines.
+- Processing: an orthomosaic and terrain model are built and checked against independent checkpoints.
+- Drafting: tracks, turnouts, platforms, structures, drains and levels are drawn into the yard plan or drainage design.
+- Field check and approval: critical details are verified on the ground, and plans are revised until approved.
 
-#### Related services
-Have a similar project?
+### Why drones are faster
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
+
+### Other railway work
+DATA PKT has also carried out level-crossing surveys in the Kolkata and Nagpur divisions (18 and more than 15 level crossings), railway bridge inspections, and the location plans for traction substations and sectioning posts described in our Chunar substation and transmission line case study . Railway clients include Central Railway, Eastern Railway, North Central Railway, DMRC, UPMRC, MRVC, IRCON and Konkan Railway.
+Read more: Engineering Scale Plans and DPR surveys and what an ESP is .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: How many railway yards has DATA PKT planned?
+For Eastern Railway's Howrah division we submitted 30 yard plans and 31 drainage plans. For North Central Railway's Jhansi division we have surveyed all 32 yards in the contract and are preparing their drainage designs.
+
+Q: What does a railway yard drainage plan include?
+Ground levels and slopes, the estimated waste water from the yard, the disposal location, and the design of drains, manholes and septic tanks with dispersal trenches, with a cleaning arrangement.
+
+Q: Why survey railway yards with drones?
+A drone captures a whole yard in one short window, so staff spend far less time on or beside running lines, and the orthomosaic and terrain model stay on file for later questions.
+
+#### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
 === https://datapkt.com/case-studies/prayagraj-transmission-line-survey.html ===
 Home / Case studies / Power
-Case study · Power
+Case study · Power transmission
 
-## Transmission line survey and design, with a 220/132 kV substation, near Prayagraj
-DATA PKT carried out the survey and design work for a transmission line project near Prayagraj, Uttar Pradesh, including a 220/132 kV substation.
+## 220/132 kV Chunar substation and transmission lines for North Central Railway
+For North Central Railway's Prayagraj division, DATA PKT is carrying out the survey and design for a new 220/132 kV grid substation at Chunar, the 220 kV and 132 kV lines that feed it, and location plans for 19 traction sites along the railway.
+In short: the railway needs power for 2x25 kV traction. DATA PKT finds three alternate routes for each new line, compares them on maps made from current drone data laid over khasra maps, surveys the approved route in detail, investigates and designs the substation, and prepares location plans for traction substations and sectioning posts.
 
-### The need
-A new transmission line needs a route that avoids obstacles, keeps clearances and minimises crossings and land issues, plus tower positions that suit the terrain. The substation site needs an accurate base survey for layout and levels.
+### Scope
 
-### What we do
-We survey the proposed corridor and the substation site, map the terrain, crossings and obstacles, and prepare the survey and design inputs the project needs. Drone mapping covers the corridor quickly, and ground survey completes the detail where needed.
+### Three alternate routes, compared on current drone maps
+For each line the tender asks for three alternate routes and a comparative feasibility report with a techno-economic recommendation. The usual starting point is Survey of India toposheets, satellite imagery and revenue maps, but these are often years out of date. DATA PKT flies each corridor with drone photogrammetry, so every route is compared on how the ground looks today.
+- Route length, angle points and deviation angles
+- Crossings: rivers and canals, national and state highways, railways, power lines from LT to 765 kV, telecom and optical fibre
+- Forest, settlements and obligatory points
+- Right-of-way sensitivity for each alternative
 
-### Why it matters
-Getting the route and the substation base right at the start avoids redesign and delays once construction begins.
+### Drone maps on khasra maps: land acquisition made clear
+The drone orthomosaic of each corridor is superimposed on the khasra (revenue) maps. The khasra gives the plot numbers; the drone data shows what is on each plot today. Together they show, for every alternative:
+- Which plots the line and each tower would fall on
+- Whether the land is residential, commercial, agricultural or forest
+- Where a small shift in an angle point avoids houses, shops or sensitive land
+- The land acquisition and right-of-way picture before the route is approved
+That turns route approval from a debate over old maps into a comparison of facts, and makes the land acquisition (LA) work that follows far easier.
 
-#### Related services
-Have a similar project?
+### Detailed survey of the approved route
+- DGPS and total station survey with levelling, and coordinates (X, Y, Z) of every angle and reference point
+- Longitudinal profiles (horizontal 1 cm = 20 m, vertical 1 cm = 2 m) with tower spotting and optimisation to IS 5613 and IS 802
+- Tower schedules (type, extension, span, deviation angle, chainage, ground level) and the route alignment plan
+- Crossing schedules with chainage, crossing angle and clearance
+- Tree and crop enumeration along the corridor
+
+### Substation investigations and design
+At the Chunar GSS site DATA PKT carries out a contour survey, boreholes with standard penetration tests and laboratory testing for the geotechnical report, and Wenner four-electrode soil resistivity tests to IS 3043 for earthing design. HFL data and rail levels set the recommended finished ground level.
+The design work covers the general arrangement drawing (GAD) of the 220/132 kV switchyard (bus-bars, transformers, breakers, isolators, CTs, CVTs, lightning arresters, gantries, roads, drains and fire fighting), the GAD of the GSS building, the general power-supply diagram of the 220 kV, 132 kV and 2x25 kV network, and the LT wiring plan, LT single line diagram and distribution board schedules. The final GAD is vetted by an IIT, NIT or CPRI.
+
+### Location plans for 19 traction sites
+Along the railway, DATA PKT surveys each proposed traction substation, sectioning post and sub-sectioning post and prepares its location plan with boundary, area, levels, utilities and railway chainage. Sites include traction substations at Shankargarh, Dabhaura, Sakteshgarh and Sonbhadra, and posts from New Link Junction to Manikpur and from Chunar towards Sonbhadra.
+
+### Why drones are faster
+A conventional ground survey with DGPS and total station measures one point at a time, so a team covers a small area each day and a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day , which is then mapped and analysed in the office. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
+See the service: transmission line and substation survey and design .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is the Chunar project?
+Survey and design for North Central Railway, Prayagraj division: a 220/132 kV grid substation (GSS) at Chunar, a 220 kV double-circuit line from the UPPTCL substation to the GSS, a 132 kV double-circuit line from the GSS to the Naini–Jeonathpur line, and location plans for traction substations and sectioning posts.
+
+Q: How do drones help choose a transmission line route?
+Drone photogrammetry maps each alternate corridor as it is today. Laid over khasra (revenue) maps, it shows which plots each route crosses and what is on them: farmland, houses, shops or forest. That makes the route comparison and land acquisition planning far easier.
+
+Q: Does DATA PKT design substations?
+Yes. The scope includes the general arrangement drawing (GAD) of the 220/132 kV switchyard, the GAD of the substation building, the power-supply diagram, the LT single line diagram and LT wiring plan, vetted by an IIT, NIT or CPRI.
+
+Q: Is the project complete?
+No. It is in progress, with field survey under way in October 2026 and a six-month programme from award.
+
+#### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
