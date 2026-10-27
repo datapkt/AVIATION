@@ -2426,6 +2426,69 @@ Yes. Drawings and contours come as DWG or DXF for CAD, layers as shapefiles or G
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
+=== https://datapkt.com/insights/drone-survey-for-highway-dpr.html ===
+Home / Insights / Drone survey for highway DPRs
+Highways
+## Drone survey for highway DPRs: what consultants need
+What a Detailed Project Report survey must deliver under IRC:SP:19, which parts a drone does well, which still need ground instruments, and what to write into the scope so the data passes review.
+By DATA PKT Infra & Geomatics · Published 27 October 2026
+Short answer: a highway DPR needs a strip plan of the whole right of way, contours, cross-sections at set intervals and a levelled benchmark network tied to one datum. A drone survey on DGPS control delivers the strip plan, contours and cross-sections for the whole corridor in one pass. Benchmarks, levelling and hidden detail at culverts and bridges still need DGPS, auto level or total station on the ground.
+### What the DPR survey has to deliver
+The Indian Roads Congress manual IRC:SP:19-2001, Manual for Survey, Investigation and Preparation of Road Projects sets out what the survey behind a road DPR must contain. It specifies outputs and accuracy, not the instrument. The figures below are from the 2001 edition; the consultancy's terms of reference can ask for more.
+- Width of survey: Generally the entire right of way, with allowance for shifting the centre line (clause 8.2.5)
+- Plan scale: 1:1,000 in built-up areas and hilly terrain; 1:2,500 in plain and rolling terrain (8.3.2)
+- Contours at critical locations: 1–3 m interval, especially in rolling or hilly terrain (8.3.1)
+- Cross-sections, final location survey: About 50–100 m in plain terrain, 50–75 m in rolling terrain and about 20 m in hilly terrain, plus curve points and critical locations, out to the right-of-way limit (12.4.2)
+- Benchmarks: Permanent benchmarks every 2 km; temporary benchmarks every 250 m (500 m exceptionally) and at all drainage and underpass structures, on one datum, preferably GTS (12.3.1)
+- Control and traverse: Control pillars about every 500 m to 2 km; distance accuracy of at least 1 in 10,000; GPS is accepted for control (8.2.2, 8.2.3)
+### Which parts a drone does well
+A drone survey captures every visible surface along the corridor, not only the points a surveyor chose to walk to. That suits the parts of a DPR survey that are about coverage.
+- Strip plan of the right of way. The orthomosaic shows the existing carriageway, shoulders, buildings, boundary walls, trees, poles, wells and junctions along the whole length, ready to digitise at 1:1,000 or 1:2,500.
+- Terrain model and contours. A ground-only terrain model (DTM), not the surface model with trees and vehicles on it, gives contours at whatever interval the design needs.
+- Cross-sections at any interval. Once the terrain model exists, sections can be cut every 20 m, 50 m or at each curve point without going back to site, and re-cut if the alignment shifts.
+- Alignment options. Bypasses and realignments can be compared on one map before the final location survey.
+- Safety. Staff stay off a live carriageway for most of the work.
+### Which parts still need ground instruments
+- Control and checkpoints. DGPS fixes the ground control points that tie the drone map to real coordinates, and separate checkpoints that prove its accuracy.
+- Benchmarks and levelling. The permanent and temporary benchmark network, connected to GTS, is still built and levelled on the ground. The drone terrain model is then checked against it.
+- Hidden detail. Culvert inverts, bridge bearings and soffits, ground under dense trees and detail inside built-up stretches need a total station, or LiDAR where the canopy is heavy.
+- Investigations. Soil, material, traffic and hydrological surveys in the same manual are separate work; the drone survey only gives them a better base map.
+### What to write into the survey scope
+Most disputes over drone data in a DPR come from a vague scope. Put these in the work order:
+- Corridor: the alignment as KML with chainages, and the width to cover on each side of the centre line.
+- Datum: the coordinate system and UTM zone, and the GTS benchmarks the levels must be tied to.
+- Control: ground control point spacing, and a separate set of checkpoints with an accuracy report against them.
+- Resolution: the ground sample distance (GSD) of the imagery; work it out with the GSD calculator.
+- Sensor: photogrammetry for open ground, LiDAR where the corridor runs through trees or hills (see LiDAR vs photogrammetry).
+- Deliverables and formats: orthomosaic (GeoTIFF), DTM, contours, strip plan and cross-sections in CAD, point cloud (LAS/LAZ) if LiDAR, and the benchmark register.
+- Ground work included: benchmark levelling, structure details and the stretches the drone cannot see, so nothing is left between two contractors.
+- Permissions: who obtains drone flight permission where the corridor crosses controlled airspace.
+### Common problems that send data back
+- Contours drawn from the surface model, so trees, trucks and buildings appear as humps in the ground.
+- No independent checkpoints, so the accuracy claim cannot be verified.
+- Levels on a local or ellipsoidal height, not tied to the project's GTS benchmarks.
+- Under-canopy stretches left blank or guessed instead of filled with LiDAR or total station.
+- Strip plans missing utilities and structures that were visible in the imagery but not digitised.
+### How DATA PKT works on highway projects
+DATA PKT is a drone service provider to NHAI, empanelled in three zones, and flew 43,873 km of national highways for NHAI in FY 2025-26 (NHAI monitoring case study). For DPR and ESP work we set DGPS control first, fly the corridor, build the terrain model, check it against independent checkpoints and draft the plans in CAD, with ground survey where the drone cannot see. A DATA PKT drone team captures around 5 sq km of survey data in a day. See our roads and highways services and ESP and DPR surveys.
+Related reading: drone survey vs DGPS and total station, how accurate a drone survey is and what decides the cost.
+Source: IRC:SP:19-2001, clauses 8.2–8.3 and 12.2–12.4. Check the edition and terms of reference that apply to your project.
+Send us the alignment KML or chainages and the DPR deliverables you need. We reply with a scope and quote.
+Send an enquiry WhatsApp +91 8448559100
+### Frequently asked questions
+Q: Is a drone survey accepted for a highway DPR?
+IRC:SP:19 sets the outputs and accuracy, not the instrument, and accepts GPS for control. A drone survey tied to DGPS control and proved with checkpoints is widely used for DPR topography. Confirm the method with the client or authority engineer and write it into the terms of reference.
+Q: How wide should the survey corridor be?
+IRC:SP:19-2001 says the survey should generally cover the entire right of way, with allowance for shifting the centre line. Bypasses and realignments need a wider band. State the width on each side of the centre line in the scope.
+Q: Does the drone replace benchmark levelling?
+No. Permanent and temporary benchmarks are still established and levelled on the ground and tied to GTS. The drone terrain model is checked against them.
+Q: Drone photogrammetry or LiDAR for a highway DPR?
+Photogrammetry suits open, flat corridors and gives a true-colour map. LiDAR is better where the alignment runs through trees, hills or dense roadside vegetation, because it records the ground beneath the canopy. Long corridors often use both.
+Q: What cross-section interval can a drone survey give?
+Any interval. Once the terrain model is built, sections can be cut every 20 m in hills, 50–100 m on plains and at every curve point, and cut again if the alignment changes.
+#### Related
+
+
 === https://datapkt.com/tools/gsd-calculator.html ===
 Home / Tools / GSD calculator
 Free tool

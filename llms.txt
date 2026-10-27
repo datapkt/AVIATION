@@ -66,6 +66,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
 - [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
+- [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html)
 
 ## Case studies
 - [Drone service provider for NHAI: 43,873 km of highways in one year](https://datapkt.com/case-studies/nhai-monthly-drone-monitoring.html)
