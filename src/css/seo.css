@@ -177,3 +177,11 @@ section img:not([height]):not([style*="height"]) { height: auto; }
 .dp-cards--4 { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
 .dp-card--img img { height: auto !important; }
 @media (max-width: 640px) { .dp-facts, .dp-prose .dp-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .dp-fact { padding: 12px 12px; } .dp-fact b { font-size: .98rem; } .dp-fact span { font-size: .86rem; } }
+
+/* Simple bar chart (monthly figures) */
+.dp-chart { display: flex; align-items: flex-end; gap: 6px; height: 240px; padding: 28px 14px 0; border: 1px solid var(--dp-line); border-radius: 10px; background: #fff; }
+.dp-chart-col { flex: 1 1 0; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; min-width: 0; }
+.dp-chart-bar { display: block; width: 100%; max-width: 38px; background: var(--dp-red); border-radius: 4px 4px 0 0; }
+.dp-chart-v { font-size: .72rem; color: var(--dp-muted); margin-bottom: 4px; white-space: nowrap; }
+.dp-chart-m { font-size: .8rem; color: var(--dp-ink); font-weight: 600; padding: 6px 0 8px; }
+@media (max-width: 640px) { .dp-chart { gap: 3px; padding: 24px 6px 0; height: 200px; } .dp-chart-v { font-size: .58rem; transform: rotate(-60deg); margin-bottom: 10px; } .dp-chart-m { font-size: .68rem; } }
