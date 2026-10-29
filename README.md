@@ -4,7 +4,7 @@ This branch is not deployed. It holds the regression suite that must pass before
 
 ```
 git clone --depth 50 https://github.com/datapkt/aviation site && cd site
-git fetch origin qa-tools && mkdir -p ../qa && git archive origin/qa-tools | tar -x -C ../qa
+git fetch origin qa-tools && mkdir -p ../qa && git archive FETCH_HEAD | tar -x -C ../qa
 git checkout -b seo/<date>          # make the changes
 bash ../qa/qa/run_qa.sh "$PWD" ../qa-out     # must end with: QA RESULT: PASS
 # speed or other work that must not change how any page looks:
