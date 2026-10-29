@@ -383,14 +383,11 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12">
                     <h1 class="second-heading text-center">Drone Photogrammetry</h1>
-                    <label class="center-justified mb-3">Photogrammetry involves using multiple photographs to map a geographic area. Typically, a camera is installed on an aircraft, aimed towards the ground either directly or at a steep angle. The photographs are captured from different viewpoints and angles, intentionally overlapping each other. This overlap is crucial because it allows for precise measurements and calculations based on the images.    
-                    </label>
+                    <label class="center-justified mb-3">Photogrammetry builds a map of an area from many overlapping photographs. A camera on a drone or aircraft points straight down or at a steep angle and captures images from different positions, each overlapping the next. The overlap is what allows measurements to be calculated from the images.</label>
                     <label class="center-justified mb-3">The variation in perspective among the photos is key to this process. By analyzing how specific points or features appear differently in each image, photogrammetry software can perform "image matching." This technique correlates corresponding points in multiple photos, enabling the creation of a detailed 3D model from a sequence of 2D images.
 
                     </label>
-                    <label class="center-justified mb-3"> 
-                        At DATA PKT Infra &amp; Geomatics, we offer comprehensive support throughout the photogrammetry process. From planning the aerial surveys to capturing the images and processing them with advanced software, we ensure accurate and high-resolution mapping of terrains and structures. Our expertise in photogrammetry helps clients obtain detailed spatial data for various applications, including urban planning, environmental monitoring, and infrastructure development.
-                    </label>
+                    <label class="center-justified mb-3">We handle the full photogrammetry workflow: flight planning, image capture tied to DGPS ground control points, and processing by our in-house GIS team. Outputs include <a href="/insights/drone-survey-deliverables-explained.html">orthomosaics, DSMs, DTMs, contours and point clouds</a> for infrastructure, environmental and urban planning work.</label>
                         <p class="center-justified">At DATA PKT Infra &amp; Geomatics, we help with the following photogrammetry
                             steps:</p>
                 </div>
@@ -462,31 +459,18 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                   <div class="sec-one">
                     <h2 class="text-red">GCP (Ground control points)
                     </h2>
-                    <p class="mb-3">Ground control points (or GCPs) are known-coordinated places on the ground.
-                        GCPs are points that a surveyor can precisely locate in an aerial mapping survey, allowing
-                        enormous regions to be correctly mapped with just a few known coordinates.
-                    </p>
-                    <p>Anything that may be clearly identified in the photos can be used as a ground control point. They
-                        usually resemble little checkerboard pieces. The form eliminates any doubt about where a ground
-                        control point is.
-                    </p>
+                    <p class="mb-3">Ground control points (GCPs) are marked points on the ground with surveyed coordinates. Because each one can be located precisely in the aerial images, a few GCPs are enough to tie a large survey area to real-world coordinates.</p>
+                    <p>Any feature that is clearly visible in the photos can serve as a GCP. Most are checkerboard-style targets, because the pattern leaves no doubt about the exact centre of the point.</p>
                   </div>
                   <br>
                  <!-- new  -->
                <div class="sec-two">
                 <h3><span class="text-subheading">Is it always necessary to use GCP?
                 </span></h3>
-                <p class="mb-3">GCPs have long been used in aerial mapping operations. However, as new technologies are
-                    introduced to the market, this is changing.
-                </p>
-                <p class="mb-3">Ground control points do not significantly increase accuracy when utilising an RTK or PPK capable
-                    drone.
-                </p>
-                <p>We always advocate using GCPs if your drone does not have RTK or PPK capability.</p>
-                <p>While skipping ground control points may produce absolutely acceptable results, your
-                    reconstruction may lack the necessary scale, orientation, or absolute location data. The GCPs,
-                    RTK, and PPK geotags can aid in the verification of the reconstruction's correctness.
-                </p>
+                <p class="mb-3">GCPs have long been standard in aerial mapping, though RTK and PPK drones are changing how many are needed.</p>
+                <p class="mb-3">With an RTK or PPK drone, GCPs add little to accuracy but still serve as <a href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">independent accuracy checks</a>.</p>
+                <p>If the drone does not have RTK or PPK, we always use GCPs.</p>
+                <p>A survey without GCPs can still give a usable model, but it may lack correct scale, orientation or absolute position. GCPs and RTK or PPK geotags allow the result to be checked for accuracy.</p>
                </div>
                  <!-- new  -->
 <br>
@@ -494,14 +478,8 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                 <div class="sec-three">
                     <h3><span class="text-subheading ">The difference between GCP, Automatic and Manual tie points
                     </span></h3>
-                    <p class="mb-3">GCP are known as Ground control points. These are known coordinates points on ground
-                        & can be
-                        known using instruments like DGPS & Total-Station.
-                    </p>
-                    <p class="mb-3">
-                        Automatic ties are points that appear in numerous photographs. This is something that the
-                        program can detect. They are frequently used as common spots in picture stitching.
-                    </p>
+                    <p class="mb-3">GCP coordinates are fixed on the ground with instruments such as DGPS and total stations.</p>
+                    <p class="mb-3">Automatic tie points are features that the software detects in several overlapping photos. They are used to stitch the images together.</p>
                     <p class="mb-3">Any immediately identifiable place that appears in several photos, such as the
                         corner of a
                         building or a road, can be used as a manual tie point.
@@ -618,10 +596,10 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                             outputs to extract relevant information.
                         </li>
                         <li class="mb-2">Share the validated models and maps with stakeholders for feedback and further insights.</li>
-                        <li class="mb-2">Use the extracted information to support decision-making processes in relevant projects or applications.</li>
+                        <li class="mb-2">Use the extracted measurements to inform project design and planning decisions.</li>
                         <li class="mb-2">Document the methodologies and workflows used in the photogrammetric process for reproducibility and future reference.</li>
-                        <li class="mb-2">Train team members or clients on how to utilize the photogrammetric data effectively.</li>
-                        <li class="mb-2">Stay updated with advancements in photogrammetry techniques and software to continuously improve the quality and efficiency of data processing.</li>
+                        <li class="mb-2">Train client teams to use the photogrammetry outputs.</li>
+                        <li class="mb-2">Keep processing methods and software up to date to improve quality and turnaround.</li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-6">
@@ -648,15 +626,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">Orthomosaic map</h2>
-                            <p>Drone photographs are corrected for distortion and seamlessly merged during
-                                post-processing
-                                to produce a remarkably precise orthomosaic map. Every pixel on this map includes high
-                                2D
-                                geographic data (X, Y), allowing exact measurements such as horizontal distances and
-                                surface
-                                areas to be collected directly.
-
-                            </p>
+                            <p>Drone photographs are corrected for distortion and merged into an orthomosaic map. Each pixel carries 2D geographic coordinates (X, Y), so horizontal distances and areas can be measured directly from the map.</p>
                         </div>
                     </div>
                 </div>
@@ -668,8 +638,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">3D Point Cloud</h2>
-                            <p>Drone images processed to create dense point clouds yield precise models with geographic coordinates (X, Y, Z) and color data for accurate measurements of horizontal and vertical lengths, areas, and volumes. These point clouds offer highly detailed representations, enhancing measurement precision in various applications.
-                            </p>
+                            <p>Drone images are processed into dense point clouds in which every point has coordinates (X, Y, Z) and colour. They allow horizontal and vertical distances, areas and volumes to be measured.</p>
                         </div>
                     </div>
                 </div>
@@ -681,11 +650,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">DSM</h2>
-                            <p>A DSM captures the natural and built features&#39; on the Earth&#39;s surface. DSMs represent
-                                the bare- earth and all of its above-ground features. Drone images can also be used to
-                                create DSM models of the area. Each pixel contains 2D information (X, Y) and the
-                                altitude (Z value) of the highest point for this position.
-                            </p>
+                            <p>A DSM (Digital Surface Model) represents the ground together with everything on it, such as buildings and vegetation. In a DSM built from drone images, each pixel holds its position (X, Y) and the elevation (Z) of the highest point at that location.</p>
                         </div>
                     </div>
                 </div>
@@ -699,10 +664,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">DTM</h2>
-                            <p>DTM&#39;s (Digital Terrain Model) are detected using aerial photography at low heights with a
-                                geometrically calibrated camera. This enables the drone to obtain all the heights of the
-                                surveyed terrain. In these models, each pixel stores 2.5D information, including the X,
-                                Y, and Z values corresponding to the highest altitude.</p>
+                            <p>A DTM (Digital Terrain Model) represents the bare ground, with buildings and vegetation removed. It is produced from low-altitude imagery taken with a geometrically calibrated camera, and each pixel stores X, Y and the ground elevation (Z).</p>
                         </div>
                     </div>
                 </div>
@@ -714,8 +676,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">Contour map </h2>
-                            <p>By utilizing a contour line map created from a DTM or DSM model with specific contour intervals, we can gain a deeper understanding of the area photographed by the drone. The contour intervals can be adjusted according to the project's requirements, enhancing the detail and accuracy of the analysis.
-                            </p>
+                            <p>Contour maps are generated from the DTM or DSM at the interval the project requires, showing the shape of the ground across the surveyed area.</p>
                         </div>
                     </div>
                 </div>
@@ -727,7 +688,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">3D Textured Mash </h2>
-                            <p>A 3D textured mesh generated from drone imagery offers a detailed and accurate representation of the site's surfaces, walls, and edges. This model enhances understanding by providing a comprehensive view of the area, essential for precise analysis and project planning.  </p>
+                            <p>A 3D textured mesh built from drone imagery shows the site's surfaces, walls and edges in detail, giving a complete view of the area for analysis and project planning.</p>
                         </div>
                     </div>
                 </div>
@@ -745,14 +706,13 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                     <div class="boxs">
                         <div class="content-box">
                             <img loading="lazy" decoding="async" alt="image – Photogrammetry" src="src/images/image/3-image.png" width="15%">
-                            <h5 class="heading-four">5x Faster Delivery</h5>
-                            <p> Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
-                            </p>
+                            <h5 class="heading-four">Fast Data Delivery</h5>
+                            <p>Our in-house GIS team processes drone survey data quickly, so deliverables reach clients on schedule.</p>
                         </div>
                         <div class="content-box">
                             <img loading="lazy" decoding="async" alt="Accuracy – Photogrammetry" src="src/images/features-icons/accuracy.png" width="15%">
-                            <h5 class="heading-four"> 99% Accurate Measurement</h5>
-                            <p>We achieve up to 99% accuracy in our results, employing advanced machine learning techniques for precise yield estimation, volumetric measurements, and more.</p>
+                            <h5 class="heading-four">Survey-Grade Accuracy</h5>
+                            <p>Every survey is tied to DGPS ground control points, so measurements and volumes can be relied on.</p>
                         </div>
                       
 
@@ -771,12 +731,12 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         <div class="content-box-start">
                             <img loading="lazy" decoding="async" alt="Team – Photogrammetry" src="src/images/features-icons/team.png" width="15%">
                             <h5 class="heading-four">Team of Experts</h5>
-                            <p>Our seasoned team of GIS engineers, drone pilots, and software engineers operates round-the-clock, delivering unparalleled service excellence.</p>
+                            <p>Our GIS engineers, drone pilots and software engineers handle each project from flight to final deliverable.</p>
                         </div>
                         <div class="content-box-start">
                             <img loading="lazy" decoding="async" alt="Advanced technology – Photogrammetry" src="src/images/features-icons/advanced-technology.png" width="15%">
                             <h5 class="heading-four">Advanced Equipment</h5>
-                            <p>Equipped with cutting-edge drones featuring high-resolution sensors, our surveying capabilities are bolstered by both DJI models and custom-made drones.</p>
+                            <p>We fly both DJI and custom-built drones fitted with high-resolution sensors.</p>
                         </div>
 
                     </div>
