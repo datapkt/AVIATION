@@ -213,3 +213,9 @@ section .row > [class*="col"]:has(.banner-thumb){flex:0 0 auto!important;width:a
    so the hero is never blank on a slow connection. The still is removed once the player reports playing. */
 #main .banner-image > dotlottie-player { display: block; aspect-ratio: 16 / 9; background: url(/src/images/hero-poster.webp) center / 100% 100% no-repeat; }
 #main .banner-image.dp-hero-ready > dotlottie-player { background: none; }
+
+/* Phase 1: images carry their real width/height (data-dp-dim) so the browser can
+   reserve space while they load. The width attribute equals the file's natural width,
+   so unstyled images render exactly as before; :where() has zero specificity, so every
+   existing sizing rule still wins. */
+:where(img[data-dp-dim]) { height: auto; }
