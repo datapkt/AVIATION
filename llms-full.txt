@@ -2600,7 +2600,7 @@ Highways
 
 ## Drone survey for highway DPRs: what consultants need
 What a Detailed Project Report survey must deliver under IRC:SP:19, which parts a drone does well, which still need ground instruments, and what to write into the scope so the data passes review.
-By DATA PKT Infra & Geomatics · Published 27 October 2026
+By the DATA PKT survey and GIS engineering team · Published 27 October 2026
 Short answer: a highway DPR needs a strip plan of the whole right of way, contours, cross-sections at set intervals and a levelled benchmark network tied to one datum. A drone survey on DGPS control delivers the strip plan, contours and cross-sections for the whole corridor in one pass. Benchmarks, levelling and hidden detail at culverts and bridges still need DGPS, auto level or total station on the ground.
 
 ### What the DPR survey has to deliver
