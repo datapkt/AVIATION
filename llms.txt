@@ -43,6 +43,9 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Mining](https://datapkt.com/mining.html)
 - [Water resources](https://datapkt.com/water-resource.html)
 - [Bathymetry](https://datapkt.com/bathymetry.html)
+- [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): GIS layers from drone and LiDAR data, khasra and forest map overlays, remote GIS processing for firms abroad
+- [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway ESP and yard plans, substation and transmission lines, groundwater recharge
+- [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs and solar thermography
 - [Contact](https://datapkt.com/contact.html)
 
 ## Services in depth
