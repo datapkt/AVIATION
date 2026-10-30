@@ -1,0 +1,1 @@
+https://github.com/AgriciDaniel/claude-seo @ 6be93f4 (MIT). Markdown only; scripts not vendored.

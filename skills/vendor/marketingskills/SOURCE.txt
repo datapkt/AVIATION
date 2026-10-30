@@ -1,0 +1,1 @@
+https://github.com/coreyhaines31/marketingskills @ 820ad2c (MIT). Markdown only; scripts not vendored.
