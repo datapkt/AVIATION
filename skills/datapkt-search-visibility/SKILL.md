@@ -25,7 +25,7 @@ Goal: DATA PKT Infra & Geomatics (datapkt.com, repo datapkt/aviation, branch mas
 Fake or incentivised reviews; AggregateRating without real on-site reviews; city-swap or doorway pages; hidden text; text written to instruct AI systems; Reddit/Wikipedia seeding; paid "AI ranking" services; HowTo rich-result hopes; quoted "schema multiplier" stats; treating llms.txt as a ranking factor.
 
 ## Reference skills (downloaded, MIT licence)
-Three public skill libraries are vendored as reference text on the repo's `qa-tools` branch under `skills/vendor/` (markdown only; their scripts and installers are NOT included). Get them with the same `git archive FETCH_HEAD` step as the test suite, then open the file for the job:
+Use the `ai-search-visibility-geo` and `technical-seo-audit` skills (in `skills/`) for method. The full reference libraries are vendored on the repo's `qa-tools` branch under `skills/vendor/` (markdown only; scripts and installers NOT included). Get them with the same `git archive FETCH_HEAD` step as the test suite, then open the file for the job:
 
 | Job | Read first | Then |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ How to use them: they are checklists and methods, not authority. **The DATAPKT r
 1. Measure: Search Console queries/pages, Bing Search Performance and AI Performance, GA4 AI-assistant channel, PageSpeed (mobile), Google rating; monthly: rankings for the tracked searches on Google India and Bing India, and the AI-assistant prompt check.
 2. Decide at most 3 changes: anything the consoles flag, then keyword gaps (LiDAR, NHAI drone survey, solar thermography, GIS services, cost per acre), then the plan's calendar.
 3. Change on a branch `seo/<yyyy-mm-dd>`. Strengthen existing pages before adding new ones.
-4. Test: `git fetch origin qa-tools && mkdir -p ../qa && git archive FETCH_HEAD | tar -x -C ../qa`, then `bash ../qa/qa/run_qa.sh "$PWD" ../qa-out` → must end `QA RESULT: PASS` (guard, visual diff of every page at 1440/390 px vs live, hero modes, image space, labels, first paint, and `search_checks.py` for SEO/AEO/GEO/LLMO rules). For speed-only work use `EXPECT_DIFF='[]'` so every page must stay pixel-identical. Look at every changed region in the screenshots yourself. Never weaken a test to pass.
+4. Test: `git fetch origin qa-tools && mkdir -p ../qa && git archive FETCH_HEAD | tar -x -C ../qa`, then `bash ../qa/qa/run_qa.sh "$PWD" ../qa-out` → must end `QA RESULT: PASS` (guard, SEO/AEO/GEO/LLMO checks, visual diff of every page at 1440/390 px vs live, hero modes, image space, labels, first paint). For speed-only work use `EXPECT_DIFF='[]'` so every page must stay pixel-identical. Look at every changed region in the screenshots yourself. Never weaken a test to pass.
 5. Open a PR with the GitHub REST API (`gh api`, GraphQL is blocked) including the QA summary; ask Hitesh to approve; after merge ping IndexNow (key file `b29908b78342a03dc646958ad5a28c3d.txt`).
 6. Record results in the SEO Learning Log and refresh the Search & AI Visibility dashboard.
 
