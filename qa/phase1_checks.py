@@ -62,6 +62,8 @@ with sync_playwright() as p:
                 sizes.append(pg.evaluate(JS_BOXES)); c.close()
             res[port] = (collapsed, sizes, a11y)
         bc, bs, _ = res[8811]; cc, cs, a = res[8803]
+        if not os.path.exists(os.path.join(os.environ.get('BASE_DIR', ''), page)):
+            bc, bs = cc, cs   # new page: nothing live to compare with; landmark/label checks below still apply
         totals['base_collapsed'] += bc; totals['cand_collapsed'] += cc
         if cc > bc:
             fails.append(f'{page}: more collapsed images than live ({cc} > {bc})')
