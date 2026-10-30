@@ -1866,6 +1866,58 @@ A KML or map of the site or corridor, the accuracy needed, the coordinate system
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
+=== https://datapkt.com/gis-mapping-services.html ===
+Home / Services / GIS mapping and data processing
+Service · GIS
+
+## GIS mapping and data processing services
+DATA PKT's in-house GIS team turns drone, LiDAR and survey data into GIS layers, land maps and CAD-ready drawings for projects across India, and processes GIS data remotely for firms abroad.
+In short: we are a GIS mapping company in Gurugram with an in-house team working in ArcGIS, QGIS and AutoCAD. We build GIS layers from our own drone and LiDAR surveys or from your data, overlay them on revenue and forest maps, and deliver files your engineers can use directly. For firms outside India we provide remote GIS data processing and dedicated offshore seats.
+
+### GIS services for projects in India
+- GIS layers from drone and LiDAR surveys: orthomosaics, elevation models and contours brought into GIS with roads, structures, utilities, drainage and land use mapped as layers
+- Drone maps on khasra (revenue) maps: current ground conditions laid over plot boundaries, so land acquisition and right-of-way planning start from facts
+- Forest diversion and approval maps: KML, KMZ and shapefiles of the project boundary and affected land, prepared for forest and other clearances
+- Corridor and asset mapping for highways, railways, transmission lines, canals and pipelines
+- Land-use and land-cover mapping for planning and environmental studies
+- GIS to CAD: survey and GIS data converted into DWG and DXF drawings for design teams
+
+### Remote GIS data processing for firms outside India
+Engineering, survey and GIS firms in the Middle East, Europe, the US and Australia send us their data and we return finished GIS and CAD outputs. This is data processing only; we do not do field survey outside India.
+- Digitisation and vectorisation of maps, plans and imagery
+- Feature extraction from orthomosaics and point clouds
+- Point cloud classification and terrain models
+- Map production, attribute work and data clean-up to your QC rules
+- Dedicated offshore seats: a team in India that works only on your projects, full time or part time, under your procedures and confidentiality terms
+
+### Formats and standards
+We deliver in shapefile, geodatabase, GeoPackage, KML/KMZ, GeoTIFF, DWG or DXF, in the coordinate system, projection and height datum you specify, with layer naming and attribute schemas to your template. Every job is checked against the QC rules agreed at the start.
+
+### Related services
+GIS work often starts with our drone photogrammetry or LiDAR surveys ; see also transmission line route surveys on khasra maps and drone survey deliverables explained .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What GIS services does DATA PKT provide?
+GIS mapping from drone, LiDAR and satellite data; digitisation of maps and drawings; land-use and asset layers; overlays of drone maps on khasra (revenue) and forest maps; KML and shapefile preparation for approvals; and conversion of GIS data into CAD drawings for design teams.
+
+Q: Which software does your GIS team use?
+ArcGIS, QGIS and AutoCAD, with outputs in the formats your team works in: shapefile, geodatabase, GeoPackage, KML/KMZ, GeoTIFF, DWG and DXF, in the coordinate system and projection you specify.
+
+Q: Can you process GIS data for clients outside India?
+Yes. Our in-house GIS team in Gurugram processes data remotely for engineering and GIS firms abroad, including in the Middle East, Europe, the US and Australia. This is data processing only; we do not do field survey outside India.
+
+Q: Can we have a dedicated GIS team for confidential projects?
+Yes. We can set up dedicated offshore seats in India that work only on your projects, under your procedures and confidentiality terms, full time or part time.
+
+Q: What do you need to quote a GIS job?
+A sample of the input data, the outputs and file formats you need, the coordinate system, accuracy or QC rules you follow, the volume of work, and the deadline.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
 === https://datapkt.com/where-we-work.html ===
 Home / Where we work
 Where we work
