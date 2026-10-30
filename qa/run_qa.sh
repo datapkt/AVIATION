@@ -23,6 +23,7 @@ export DP_SITE="$SITE" BASE_DIR="$BASE" EXPECT_DIFF="${EXPECT_DIFF:-$CHANGED}"
 # set EXPECT_DIFF='[]' yourself when a change must leave every page pixel-identical (speed work)
 rc=0
 echo "== guard (content and structure) =="; python3 "$QA/guard.py" || rc=1
+echo "== SEO / AEO / GEO / LLMO checks =="; python3 "$QA/search_checks.py" || rc=1
 echo "== visual + page checks (all pages, 1440 and 390 px, home hero) =="; python3 "$QA/run_tests.py" "$OUT" || rc=1
 echo "== image space, sizes, landmarks and labels =="; python3 "$QA/phase1_checks.py" || rc=1
 [ -f "$QA/first_paint.py" ] && { echo "== first paint (critical CSS) =="; python3 "$QA/first_paint.py" "$OUT" || rc=1; }
