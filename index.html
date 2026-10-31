@@ -747,6 +747,31 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
     <!-- end section -->
 
     <!-- Testimonial -->
+    <section class="dp-proof" id="numbers" aria-labelledby="dp-proof-h">
+  <style>
+    .dp-proof { background: var(--dp-paper, #f7f3f0); padding: 56px 0 48px; }
+    .dp-proof h2 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 700; color: var(--dp-ink, #111); margin: 0 0 8px; }
+    .dp-proof h2::before { content: ""; display: block; width: 56px; height: 4px; background: var(--dp-red, #bc2c3c); margin-bottom: 14px; }
+    .dp-proof .dp-proof-lede { color: var(--dp-muted, #5f5f5f); margin: 0 0 22px; max-width: 760px; line-height: 1.6; }
+    .dp-proof .dp-facts { margin-bottom: 18px; }
+    .dp-proof .dp-facts { grid-template-columns: repeat(4, 1fr); }
+    .dp-proof .dp-fact b { font-size: 1.6rem; color: var(--dp-red, #bc2c3c); }
+    @media (max-width: 900px) { .dp-proof .dp-facts { grid-template-columns: repeat(2, 1fr); } .dp-proof .dp-fact b { font-size: 1.3rem; } }
+    @media (max-width: 340px) { .dp-proof .dp-facts { grid-template-columns: 1fr; } }
+    .dp-proof .dp-proof-more a { color: var(--dp-red, #bc2c3c); font-weight: 600; }
+  </style>
+  <div class="dp-wrap">
+    <h2 id="dp-proof-h">DATA PKT in numbers</h2>
+    <p class="dp-proof-lede">Survey, mapping and design work for highway authorities, railways, power utilities and contractors across India since 2020.</p>
+    <div class="dp-facts">
+      <div class="dp-fact"><b>3 lakh+ km</b><span>of highway data captured in six years for highway authorities and private contractors</span></div>
+      <div class="dp-fact"><b>70,000+ km</b><span>captured so far in FY 2026-27</span></div>
+      <div class="dp-fact"><b>20+ drone pilots</b><span>about 35 km a day of imagery and 50 km a day of video per team</span></div>
+      <div class="dp-fact"><b>100+ clients</b><span>public authorities, railways, PSUs and contractors</span></div>
+    </div>
+    <p class="dp-proof-more">See how the work is done in our <a href="/case-studies/">case studies</a>.</p>
+  </div>
+</section>
     <section id="testimonial">
         <div class="testimonial">
 
@@ -788,12 +813,13 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
         </div>
         <div class="client-logos">
             <h2>Trusted by</h2>
-            <label class="nhai"></label>
-            <label class="nhidcl"></label>
-            <label class="ginfra"></label>
-            <label class="soi"></label>
-            <label class="delhimetro"></label>
-            <label class="indianrailways"></label>
+            <p class="dp-clients-line" style="color:#fff;margin:0 30px 18px 0;font-size:.95rem;line-height:1.5">Clients include NHAI, NHIDCL, G R Infraprojects, Delhi Metro and Indian Railways.</p>
+            <label class="nhai" role="img" aria-label="National Highways Authority of India (NHAI)"></label>
+            <label class="nhidcl" role="img" aria-label="NHIDCL"></label>
+            <label class="ginfra" role="img" aria-label="G R Infraprojects"></label>
+            <label class="soi" role="img" aria-label="Survey of India"></label>
+            <label class="delhimetro" role="img" aria-label="Delhi Metro Rail Corporation"></label>
+            <label class="indianrailways" role="img" aria-label="Indian Railways"></label>
         </div>
     </section>
     <!-- Testimonial -->
