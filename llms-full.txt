@@ -50,6 +50,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR and 3D models, seismic refraction tomography, geological mapping (RMR, GSI, SMR), stability analysis, hazard zonation and slope protection design
+- [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations
 
 ## Where we work
 - [Where we work](https://datapkt.com/where-we-work.html)
@@ -67,6 +68,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
 - [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
+- [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html)
 
 ## Case studies
 - [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
@@ -1937,7 +1939,7 @@ Most slope failures along Indian hill roads and railways come from a few mechani
 RTK/PPK drone LiDAR tied to DGPS ground control captures the slope and the road edge, even under vegetation. Multiple laser returns let the point cloud be classified into ground and vegetation, so we deliver a bare-earth digital terrain model (DTM), a surface model (DSM), contours, an orthophoto, slope-angle and aspect maps, longitudinal and cross-sections, and 3D models of critical stretches. See LiDAR survey .
 
 #### 2. Seismic refraction tomography (SRT)
-A line of geophones (typically 24 channels) is laid on the slope or road edge and a hammer source is struck at several shot points along it. First-arrival times are picked and inverted into a P-wave velocity section that shows the thickness of loose cover, the depth to weathered and fresh rock, and low-velocity zones that are weak or saturated. Every profile is positioned by DGPS so it plots directly on the LiDAR cross-sections.
+A line of geophones (typically 24 channels) is laid on the slope or road edge and a hammer source is struck at several shot points along it. First-arrival times are picked and inverted into a P-wave velocity section that shows the thickness of loose cover, the depth to weathered and fresh rock, and low-velocity zones that are weak or saturated. Every profile is positioned by DGPS so it plots directly on the LiDAR cross-sections. See seismic refraction survey .
 
 #### 3. Engineering geological mapping
 Geologists map lithology and structure at the critical locations, measure joints by scanline and window surveys, test strength in the field with a Schmidt hammer and point-load tester, and classify the rock mass with RMR , GSI and SMR . Stereonets and kinematic analysis show which failure modes are possible: planar sliding, wedge sliding or toppling.
@@ -1988,6 +1990,68 @@ Yes. From the investigation we prepare the design inputs and the design of prote
 
 Q: Which areas of India need this most?
 Hill roads and railways in the Himalaya, the Northeast, the Western Ghats and the Nilgiris, where heavy monsoon rain, weak weathered rock and seismic activity combine. Much of the Northeast lies in seismic Zone V under IS 1893, the highest zone.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/seismic-refraction-survey.html ===
+Home / Services / Seismic refraction survey
+Service · Geophysical
+
+## Seismic refraction survey and tomography (SRT)
+See below the surface without digging: DATA PKT runs seismic refraction surveys to find soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, positioned by DGPS and read together with drone LiDAR and geology.
+In short: seismic refraction measures how fast sound travels through the ground. Sound moves faster in harder material, so the arrival times recorded by a line of geophones show where loose soil ends, where rock begins and where the ground is weak. Tomographic inversion turns those times into a velocity section along each profile, which engineers use to set the depth of slip surfaces, soil nails, anchors and foundations.
+
+### How a seismic refraction survey works
+A line of 24 geophones is laid along the profile, typically 3–5 m apart. A sledgehammer is struck on a steel plate at several shot points along and beyond the line, and the seismograph records the waves at every geophone. Each shot is repeated and stacked to lift the signal above traffic and wind noise. Waves that refract along faster layers reach distant geophones first; the pattern of first-arrival times reveals each layer's depth and velocity.
+
+### What the velocities tell you
+P-wave velocity rises as the ground gets harder and less fractured. The ranges below are typical guides only; every site is calibrated against geology and, where available, boreholes.
+
+### Where we use it
+- Landslides and slopes: thickness of unstable cover and depth of possible slip surfaces. See landslide and slope stability .
+- Roads and railways in hills: cut-slope design, depth to rock along the alignment, rippability for excavation.
+- Tunnels and portals: rock quality and weak zones at portals and shallow sections.
+- Dams, weirs and barrages: depth to bedrock along the axis and at abutments.
+- Bridges, substations and buildings: foundation level between boreholes.
+
+### Why combine it with drone LiDAR
+Every geophone and shot point is surveyed by DGPS, and the ground elevations along the profile come from our drone LiDAR terrain model. The tomogram therefore sits exactly on the true ground surface and plots directly on the LiDAR cross-sections, so surface shape and subsurface layers are read together in one ground model. That is how we work on LiDAR and slope projects.
+
+### Specifications we work to
+
+### What you receive
+- Field data (SEG-2) and observer logs
+- Profile location map (KMZ, DWG) in your coordinate system
+- First-break picks and time–distance plots
+- Velocity tomogram for each profile, with ray coverage and RMS error
+- Interpreted section: soil, weathered and fresh rock, weak or saturated zones
+- Depth to competent strata along each profile, and a short report
+
+### Recent work
+On a ~66 km road corridor in Assam we shot 66 seismic refraction profiles , about one per kilometre, alongside drone LiDAR of the full corridor and geological mapping at 7 critical locations. Read the case study .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is a seismic refraction survey?
+A geophysical survey that measures how fast sound waves travel through the ground. A hammer or other source sends waves into the ground and a line of geophones records them. Waves travel faster in harder material, so the arrival times show the thickness of soil, the depth to weathered and fresh rock, and weak zones, without digging.
+
+Q: What is the difference between seismic refraction and seismic refraction tomography (SRT)?
+Classic refraction interpretation assumes a few flat layers. Tomography divides the ground into many small cells and solves for the velocity of each, so it shows gradual changes, dipping layers and local weak zones. That makes it better suited to slopes and variable ground.
+
+Q: How deep can seismic refraction see?
+Roughly one-third to one-fifth of the spread length. A 24-channel spread with geophones 3 to 5 m apart typically investigates about 20 to 30 m, which covers most slope, road and foundation problems. Longer spreads or stronger sources reach deeper.
+
+Q: Does seismic refraction replace boreholes?
+No. It covers the ground between and beyond boreholes, at far lower cost per metre, and shows where boreholes are most needed. Boreholes then give samples, laboratory strength and a check on the velocity model. The two work best together.
+
+Q: When does seismic refraction not work well?
+Where a hard layer lies above a softer one (a velocity inversion), the softer layer can be missed. Heavy traffic or machinery adds noise. We plan spreads, shot timing and stacking around these limits, and check results against geology and boreholes.
+
+Q: What do you deliver?
+SEG-2 field data, first-break picks, a velocity tomogram for each profile with ray coverage and RMS error, an interpreted section showing soil, weathered and fresh rock and weak zones, depth to competent strata, and a location map in your coordinate system.
 
 #### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
@@ -2754,6 +2818,86 @@ Usually a GeoTIFF, which carries its coordinates inside the file, often with a c
 
 Q: Can drone survey data open in AutoCAD and GIS software?
 Yes. Drawings and contours come as DWG or DXF for CAD, layers as shapefiles or GeoPackage for GIS, and point clouds as LAS or LAZ.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/insights/landslide-survey-india.html ===
+Home / Insights / Landslide survey in India
+Landslides and slopes
+
+## Landslide survey in India: methods, standards and what it costs
+How a landslide survey is done in India: drone LiDAR, seismic refraction, geological mapping, stability analysis, IS codes and what decides the cost.
+By DATA PKT Infra & Geomatics · Published 2 November 2026
+Short answer: a landslide survey finds which slopes may fail, why, and what will hold them. In India it normally combines four things: a drone LiDAR terrain model, seismic refraction and boreholes for the ground below, geological mapping of rock and joints, and a stability analysis in dry, monsoon and earthquake conditions. The result is a hazard map, a priority list and the design inputs for drainage, soil nails, anchors, mesh and rockfall barriers.
+
+### Why landslide surveys matter in India
+The Geological Survey of India estimates that about 12.6% of India's land area, outside snow-covered ground, is prone to landslides, across the Himalaya, the Northeast, the Western Ghats and the Nilgiris. Heavy monsoon rain, steep cut slopes beside new roads and railways, weathered rock and earthquakes combine to trigger failures every year. A survey before protection works are chosen puts money where the risk actually is.
+
+### The four parts of a landslide survey
+
+#### 1. Terrain: drone LiDAR and 3D models
+Slopes beside hill roads are usually under trees. Drone LiDAR records the ground through gaps in the canopy, giving a bare-earth terrain model, contours, slope-angle maps and cross-sections. It also shows cracks, scarps, old slide scars and drainage paths. Repeat flights compare surfaces over time to measure movement. See LiDAR vs photogrammetry .
+
+#### 2. Subsurface: seismic refraction and boreholes
+Seismic refraction tomography measures how fast sound travels through the ground to show the thickness of loose cover, the depth to weathered and fresh rock, and weak or saturated zones, continuously along each profile. Boreholes give samples and laboratory strength at chosen points. See seismic refraction survey .
+
+#### 3. Material: engineering geological mapping
+Geologists map rock types and joints, measure joint orientations, test strength in the field and classify the rock mass with RMR, GSI and SMR. Kinematic analysis on stereonets shows whether planar sliding, wedge sliding or toppling is possible.
+
+#### 4. Stability analysis and hazard zonation
+Geometry from LiDAR, layering from seismic refraction and strength from geology go into a limit-equilibrium analysis that gives a factor of safety for each critical section: dry, saturated (monsoon) and earthquake (pseudo-static, using the IS 1893 seismic zone). Stretches are then ranked Low, Medium, High or Critical.
+
+### Which method answers which question
+
+### Indian standards and guidelines
+- NDMA guidelines on the management of landslides and snow avalanches: the national framework for hazard assessment and mitigation
+- IS 14496 (Part 2) : preparation of landslide hazard zonation maps in mountainous terrain
+- IS 1893 : seismic zones and design seismic coefficients
+- IS 11315 : quantitative description of rock discontinuities
+- IS 13365 : rock mass rating (RMR)
+- IS 8764 : point-load strength of rock
+- IS 15681 : seismic refraction method
+- IRC:SP:55 : traffic management in road work zones; Drone Rules, 2021 for drone operations
+
+### What you should receive
+- LiDAR point cloud, DTM, contours, orthophoto, slope maps, cross-sections and 3D models
+- Seismic refraction field data, tomograms and interpreted sections
+- Geological maps and sections, joint data, stereonets, RMR/GSI/SMR, strength parameters
+- Stability analysis for each critical section, hazard zonation map and priority list
+- Remedial recommendations and protection design inputs, or the protection design itself
+
+### Common protection measures
+
+### What decides the cost
+- Length or area: kilometres of corridor or hectares of slope.
+- Access and vegetation: remote hill roads, forest and traffic slow field work.
+- Number of seismic profiles and boreholes: often one profile per kilometre plus extra at critical slopes.
+- Detailed geology: how many locations need mapping and testing.
+- Accuracy and deliverables: point density, section spacing, 3D models.
+- Design scope: design inputs only, or full protection design with drawings and quantities.
+
+### An example: 66 km of road-side slopes in Assam
+DATA PKT investigated about 66 km of road-side slopes in Assam, in seismic Zone V with heavy monsoon rain: drone LiDAR of the full corridor, 66 seismic refraction profiles, geological mapping at 7 critical locations and a stability report with stretch-wise hazard ranking and protection design inputs, in about nine weeks. Read the case study or see our landslide and slope stability service .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is a landslide survey?
+A study of a slope or corridor to find where it may fail, how, and what will stabilise it. It usually combines a terrain survey (often drone LiDAR), subsurface investigation (seismic refraction and boreholes), geological mapping and a stability analysis, and ends with a hazard map and remedial design.
+
+Q: Which Indian standards apply to landslide and slope investigation?
+Common references include IS 14496 (Part 2) for landslide hazard zonation, IS 1893 for seismic zones and coefficients, IS 11315 for rock discontinuity surveys, IS 13365 for rock mass rating, IS 8764 for point-load testing, IS 15681 for seismic refraction, and IRC:SP:55 for road work-zone safety. The NDMA guidelines on landslide management set the national framework.
+
+Q: How long does a landslide survey take?
+It depends on length and access. As an example, investigating about 66 km of road-side slopes in Assam took about nine weeks, including about three weeks in the field.
+
+Q: What decides the cost of a landslide survey?
+Corridor length or slope area, access and vegetation, the number of seismic profiles and boreholes, how many locations need detailed geology, the accuracy and deliverables required, and whether protection design is included. Send the KML and your objectives for a scoped quote.
+
+Q: Can a drone survey alone assess landslide risk?
+No. A drone LiDAR survey shows the shape of the slope, cracks and scarps, and repeat flights show movement, but it cannot see soil thickness or rock strength. Those need seismic refraction, boreholes and geological mapping before a factor of safety can be calculated.
 
 #### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy

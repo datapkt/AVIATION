@@ -53,6 +53,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR and 3D models, seismic refraction tomography, geological mapping (RMR, GSI, SMR), stability analysis, hazard zonation and slope protection design
+- [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations
 
 ## Where we work
 - [Where we work](https://datapkt.com/where-we-work.html)
@@ -71,6 +72,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
 - [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html)
+- [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html)
 
 ## Case studies
 - [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
