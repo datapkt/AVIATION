@@ -49,6 +49,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
+- [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR and 3D models, seismic refraction tomography, geological mapping (RMR, GSI, SMR), stability analysis, hazard zonation and slope protection design
 
 ## Where we work
 - [Where we work](https://datapkt.com/where-we-work.html)
@@ -72,6 +73,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
 - [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
 - [Groundwater recharge system for Mahendragarh, Haryana](https://datapkt.com/case-studies/groundwater-recharge-mahendragarh.html)
+- [Slope stability investigation of a 66 km road corridor in Assam](https://datapkt.com/case-studies/slope-stability-investigation-assam.html)
 
 ## Clients (100+ since 2020)
 National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
@@ -1918,6 +1920,79 @@ A sample of the input data, the outputs and file formats you need, the coordinat
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
 
 
+=== https://datapkt.com/landslide-slope-stability.html ===
+Home / Services / Landslide and slope stability
+Service · Geotechnical
+
+## Landslide and slope stability investigation and protection design
+For hill roads, railways and project sites, DATA PKT finds which slopes are likely to fail, why, and what will hold them: drone LiDAR and 3D models, seismic refraction, geological mapping, stability analysis and the design of slope protection.
+In short: DATA PKT is a landslide and slope stability investigation company. We combine three independent data sets in one ground model: drone LiDAR for the shape of the slope, seismic refraction tomography for what lies below the surface, and geological mapping for how the soil and rock behave. A stability analysis turns that model into a factor of safety for every critical section, and we design the protection each stretch needs.
+
+### Why slopes fail, and why one method is not enough
+Most slope failures along Indian hill roads and railways come from a few mechanisms: shallow slides in soil and weathered rock after heavy rain, erosion and scour at the toe, and rock blocks sliding or toppling along joints. Each needs different information. A terrain model shows the geometry but not what is underneath; a borehole shows one point; a geologist sees the rock face but not its depth. That is why we combine the methods below and check them against each other.
+
+### What we do
+
+#### 1. Drone LiDAR survey and 3D models
+RTK/PPK drone LiDAR tied to DGPS ground control captures the slope and the road edge, even under vegetation. Multiple laser returns let the point cloud be classified into ground and vegetation, so we deliver a bare-earth digital terrain model (DTM), a surface model (DSM), contours, an orthophoto, slope-angle and aspect maps, longitudinal and cross-sections, and 3D models of critical stretches. See LiDAR survey .
+
+#### 2. Seismic refraction tomography (SRT)
+A line of geophones (typically 24 channels) is laid on the slope or road edge and a hammer source is struck at several shot points along it. First-arrival times are picked and inverted into a P-wave velocity section that shows the thickness of loose cover, the depth to weathered and fresh rock, and low-velocity zones that are weak or saturated. Every profile is positioned by DGPS so it plots directly on the LiDAR cross-sections.
+
+#### 3. Engineering geological mapping
+Geologists map lithology and structure at the critical locations, measure joints by scanline and window surveys, test strength in the field with a Schmidt hammer and point-load tester, and classify the rock mass with RMR , GSI and SMR . Stereonets and kinematic analysis show which failure modes are possible: planar sliding, wedge sliding or toppling.
+
+#### 4. Strength parameters
+Shear strength (cohesion c′ and friction angle φ′) is derived from GSI and field strength through the generalised Hoek–Brown criterion, with Barton–Bandis for joints, cross-checked against the SRT velocities. Laboratory tests on borehole samples are recommended for the most critical sections.
+
+#### 5. Slope stability analysis
+Limit-equilibrium analysis (Bishop, Spencer and Morgenstern–Price methods) gives a factor of safety for each critical section in three cases: dry, saturated (monsoon) and earthquake (pseudo-static, with the seismic coefficient for the site's IS 1893 zone). Rock slopes are also checked for planar and wedge failure.
+
+#### 6. Hazard zonation and protection design
+Every stretch is ranked Low, Medium, High or Critical, so the owner knows where to act first. For each stretch we recommend and design protection matched to its failure mechanism:
+
+### What you receive
+- Classified point cloud, DTM and DSM, contours, orthophoto, slope-angle maps, cross-sections and 3D models (LAS/LAZ, GeoTIFF, DWG/DXF, SHP, OBJ, KMZ)
+- SEG-2 field data, velocity tomograms with interpretation and depth to competent strata for every SRT profile
+- Geological plans and sections, discontinuity database, stereonets, RMR/GSI/SMR sheets and strength parameters
+- Stability analysis for each critical section, hazard zonation map and priority list
+- Protection design: concept and design drawings, design parameters and quantities for each stretch
+- An integrated report with all data on a drive, in your coordinate system
+
+### Standards and practice
+DGPS control tied to Survey of India or CORS; LiDAR accuracy reported against independent check points (ASPRS); discontinuity surveys to IS 11315; point-load testing to IS 8764; RMR to IS 13365; seismic zones and coefficients to IS 1893; roadside work-zone safety to IRC:SP:55; drone operations under the Drone Rules, 2021 with Digital Sky permissions.
+
+### Where this matters
+Hill roads and railways in Assam, Arunachal Pradesh, Meghalaya, Nagaland, Manipur, Mizoram and Sikkim, the Himalayan states, the Western Ghats and the Nilgiris; tunnel portals and cuttings; hydropower, transmission and pipeline corridors through hills. See our work in Northeast India .
+
+### Case study
+For a private client we investigated the road-side slopes of a ~66 km corridor in Assam : drone LiDAR of the full length, 66 seismic refraction profiles, detailed geological mapping at 7 locations, and a stability report with stretch-wise hazard ranking and protection design inputs. Read the full case study .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What does a slope stability investigation include?
+Three independent data sets combined in one ground model: drone LiDAR for the shape of the slope, seismic refraction tomography for what lies below the surface, and geological mapping for how the soil and rock behave. A stability analysis then gives a factor of safety for each critical section, and the slopes are ranked by hazard with remedial measures.
+
+Q: What is seismic refraction tomography (SRT) used for on slopes?
+SRT sends sound waves into the ground from a hammer source and records them on a line of geophones. The speed of the waves shows the thickness of loose soil, the depth to weathered and fresh rock, and weak or saturated zones, which sets the length of soil nails and anchors and the depth of possible slip surfaces.
+
+Q: Why use drone LiDAR instead of a photo survey for slopes?
+Slopes beside hill roads are usually under trees and shrubs. LiDAR records several returns from each laser pulse, so the ground under the vegetation can be classified and a bare-earth terrain model produced. That gives true slope angles, heights, scarps and cross-sections where a photo survey would only see the canopy.
+
+Q: What are RMR, GSI and SMR?
+They are rock mass classification systems. RMR (Rock Mass Rating) and GSI (Geological Strength Index) describe rock quality from strength, joints and groundwater; SMR (Slope Mass Rating) adjusts RMR for how the joints sit relative to the slope face. Together with field strength tests they give the strength parameters used in the stability analysis.
+
+Q: Does DATA PKT design slope protection?
+Yes. From the investigation we prepare the design inputs and the design of protection measures such as drainage, soil nails and anchors, flexible high-tensile mesh, rockfall drapes and barriers, and erosion control, matched to each stretch's failure mechanism and hazard level. We survey, investigate and design; we do not install.
+
+Q: Which areas of India need this most?
+Hill roads and railways in the Himalaya, the Northeast, the Western Ghats and the Nilgiris, where heavy monsoon rain, weak weathered rock and seismic activity combine. Much of the Northeast lies in seismic Zone V under IS 1893, the highest zone.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
 === https://datapkt.com/where-we-work.html ===
 Home / Where we work
 Where we work
@@ -2073,7 +2148,7 @@ Our clients here include National Highways & Infrastructure Development Corporat
 ### What we survey in Northeast India
 - Hill highways: aerial imagery, video and survey for road projects
 - Terrain under forest cover: drone LiDAR for the ground surface under trees
-- Landslide-prone slopes: repeat surveys to compare change between flights
+- Landslide-prone slopes: slope stability investigation with drone LiDAR, seismic refraction and geological mapping, as on a 66 km road corridor in Assam
 - Progress monitoring: monthly drone records of each package
 
 ### Working in Northeast India
@@ -2323,6 +2398,89 @@ One DATA PKT drone team captures about 35 km of linear corridor imagery in a day
 
 Q: Does DATA PKT survey canals and rivers for irrigation departments?
 Yes. We survey canals, distributaries, minors, drains and rivers: longitudinal and cross-sections, bathymetry of the water channel, structures such as regulators, falls and bridges, encroachments, lining condition and command areas.
+
+#### Related
+We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
+
+
+=== https://datapkt.com/case-studies/slope-stability-investigation-assam.html ===
+Home / Case studies / Slope stability, Assam
+Case study · Landslide and slope stability
+
+## Slope stability investigation of a 66 km road corridor in Assam
+For a private client, DATA PKT investigated the road-side slopes of a ~66 km hill road corridor in Assam with drone LiDAR, seismic refraction tomography and geological mapping, and delivered a stability report that ranked every stretch and gave the inputs to design its protection.
+In short: we flew drone LiDAR along the full ~66 km corridor, shot 66 seismic refraction profiles (about one per kilometre), mapped the geology in detail at 7 critical locations (2.12 km) , and combined all three in one ground model. The stability analysis gave a factor of safety for each critical section in dry, monsoon-saturated and earthquake conditions, and every stretch was ranked by hazard with remedial measures and protection design inputs.
+
+### The challenge
+The client needed to know which slopes along the corridor were most likely to fail, how, and what it would take to hold them, so that slope stabilisation and rockfall protection could be selected and dimensioned for the critical stretches. The corridor is a hard place to answer that question:
+- Very heavy monsoon rain , of the order of 2,500–3,500 mm a year, which saturates the slopes
+- Seismic Zone V under IS 1893, the highest seismic zone in India
+- Dense vegetation covering the slopes, hiding the ground from photographs
+- Soft alluvial soils and weathered sedimentary rock in the cut sections
+- Failures mainly through rain-induced shallow slides , erosion and toe scour , and structurally controlled rock failures
+- A narrow, live road: every field crew had to work around traffic
+
+### Scope of work
+
+### Our approach: three data sets, one ground model
+No single method can characterise a slope. We planned three independent investigations, each answering its own question, and brought them together for the analysis:
+- Drone LiDAR showed what the ground surface looks like: slope height and angle, benches, cracks, scarps, drainage paths and changes at the road edge, under the vegetation.
+- Seismic refraction showed what lies below: the thickness of loose cover, the depth to weathered and fresh rock, and low-velocity zones that are weak or saturated.
+- Geological mapping showed how the material behaves: rock mass quality, joint orientations, possible failure mechanisms and shear strength.
+- The stability analysis put the three together: geometry from LiDAR, layering from SRT and strength from geology gave a factor of safety for each critical section.
+Seismic profiles were placed where they gave the most information: high cuts and embankments, visible distress, scour-prone sections beside water, and the seven geology locations. Their exact positions were fixed after reconnaissance and a quick-look LiDAR model, and every profile was surveyed by DGPS so the tomograms plot directly on the LiDAR cross-sections.
+
+### Methods and specifications
+
+### How each stream was processed
+- LiDAR: raw scans and GNSS/IMU data → PPK trajectory from the base station → point cloud and strip adjustment → check against ground control and classification → DTM, DSM and contours → sections, slope maps, 3D models and KMZ.
+- Seismic refraction: SEG-2 shot records → geometry and elevations from LiDAR → first-break picking → delay-time starting model → tomographic inversion → velocity section and interpretation.
+- Geology: field sheets and photographs → discontinuity database → stereonets and kinematics → RMR, SMR and GSI → Hoek–Brown c′ and φ′ → stability input parameters.
+
+### Execution and schedule
+The work took about nine weeks from the work order. The field window was about three weeks, with the LiDAR, geology and seismic crews working in parallel in the post-monsoon dry season.
+A typical field day ran from a 06:30 toolbox talk (safety, traffic, weather and equipment check), through field work by three crews from 07:00 to 16:30 (the LiDAR crew flew in the calm morning air; the seismic crew shot in gaps in the traffic), to data download, dual backup and quality checks in the evening. The client received a daily progress report: chainage covered, profiles done, issues and the next day's plan.
+
+### The team
+
+### Quality assurance
+
+### Safety and environment
+- Roadside work-zone traffic management to IRC:SP:55: cones, signboards, flagmen and reflective jackets at every seismic spread and drone take-off point
+- Drone operations under the Drone Rules, 2021 with Digital Sky permissions; no flying in rain, wind over 10 m/s, poor visibility or over crowds
+- Rock-face mapping only after a check for loose blocks; helmets at all times; an observer watching for rockfall; no climbing without rope access
+- Hammer-source safety: gloves, goggles, ear protection and a clearance zone
+- No tree felling; vegetation cleared by hand only along seismic lines; all waste taken back
+
+### What we delivered
+
+### How the results feed slope protection design
+The investigation was scoped so that its outputs could be used directly to select and dimension flexible high-tensile steel protection systems:
+
+### Why it worked
+- One team, three disciplines: survey, geophysics and geology planned together and positioned on the same DGPS control, so every data set lines up.
+- LiDAR first, then the ground: a quick-look LiDAR model guided where the seismic lines went, putting effort where the risk was.
+- Built for the design that follows: every deliverable was chosen for the protection design it feeds, not for its own sake.
+- Corridor scale, short field window: parallel crews kept about 66 km of field work to about three weeks.
+Planning slope protection on a hill road, railway or project site? See our landslide and slope stability service .
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What did DATA PKT do on the Assam corridor?
+We investigated the road-side cut and fill slopes along about 66 km of road in Assam: a drone LiDAR survey of the full corridor, 66 seismic refraction tomography profiles (about one per kilometre), detailed geological mapping at 7 critical locations totalling 2.12 km, and a slope stability analysis with stretch-wise hazard ranking and remedial recommendations.
+
+Q: Why were three methods combined?
+Each answers a different question. LiDAR shows the shape of the slope, seismic refraction shows what lies below the surface, and geological mapping shows how the material behaves. Combined in one ground model, they give a factor of safety for each critical section that none of them could give alone.
+
+Q: How long did the investigation take?
+About nine weeks from the work order to the final report, with about three weeks in the field. The LiDAR, seismic and geology crews worked in parallel to keep the field window short.
+
+Q: Why is this corridor difficult?
+The region gets very heavy monsoon rain, lies in seismic Zone V under IS 1893, and has dense vegetation, soft alluvial soils and weathered sedimentary rock in the cuts. Slopes fail mainly through rain-induced shallow slides, erosion and toe scour, and failures controlled by rock joints.
+
+Q: How were the results used?
+The report gave the slope geometry, the thickness of unstable layers, shear strength parameters and failure mechanisms needed to select and dimension flexible high-tensile steel protection systems such as soil-nailed mesh, rockfall drapes and barriers, together with a priority list of where to act first.
 
 #### Related
 We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. Privacy
