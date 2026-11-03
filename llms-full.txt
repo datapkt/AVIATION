@@ -46,7 +46,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Contact](https://datapkt.com/contact.html)
 
 ## Services in depth
-- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): the six factors that decide the price, and what to send for a quote
+- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): per acre or hectare for sites, per km for corridors; the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR and 3D models, seismic refraction tomography, geological mapping (RMR, GSI, SMR), stability analysis, hazard zonation and slope protection design
@@ -61,7 +61,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 
 ## Guides
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
-- [What is an Engineering Scale Plan (ESP) in railway projects?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
+- [ESP full form in railways: what is an Engineering Scale Plan?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
 
 - [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html)
