@@ -37,8 +37,8 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Railways and metro](https://datapkt.com/railways-and-metro.html)
 - [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html)
 - [Power and solar](https://datapkt.com/energy.html)
-- [Drone thermal survey](https://datapkt.com/thermal-survey.html)
-- [LiDAR survey](https://datapkt.com/lidar-survey.html)
+- [Solar plant drone thermography and thermal survey](https://datapkt.com/thermal-survey.html): radiometric thermal inspection of solar PV plants, substations and roofs; what the report includes
+- [LiDAR drone survey](https://datapkt.com/lidar-survey.html): classified point clouds, DTM, DSM and contours for corridors, mines and terrain under vegetation; what sets LiDAR survey cost
 - [Photogrammetry](https://datapkt.com/photogrammetry.html)
 - [Mining](https://datapkt.com/mining.html)
 - [Water resources](https://datapkt.com/water-resource.html)
