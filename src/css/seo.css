@@ -233,7 +233,7 @@ body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .frm p input:focus-visible,.frm p select:focus-visible,.frm p textarea:focus-visible{outline:2px solid #bc2c3c;outline-offset:1px;border-color:#bc2c3c}
 .navbar .nav-link:focus-visible,.navbar .dropdown-item:focus-visible,.navbar-toggler:focus-visible{outline:2px solid var(--dp-red);outline-offset:2px;box-shadow:none}
 /* Heading levels fixed (h5 -> h3): keep the old h5 look */
-h3.heading-four{font-size:1.25rem;font-weight:500;line-height:1.2}
+h3.heading-four{font-size:1.25rem;font-weight:500;line-height:1.2;margin-bottom:.5rem}
 /* Named transitions instead of transition:all */
 .service-main .service-right p,.indus-name,.indus-name2{transition:transform .2s ease-in-out}
 .banner-thumb{transition:box-shadow .3s ease-in-out}
