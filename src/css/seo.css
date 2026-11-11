@@ -219,3 +219,50 @@ section .row > [class*="col"]:has(.banner-thumb){flex:0 0 auto!important;width:a
    so unstyled images render exactly as before; :where() has zero specificity, so every
    existing sizing rule still wins. */
 :where(img[data-dp-dim]) { height: auto; }
+
+/* ===== Design pass 2026-11-11 (Impeccable audit, Vercel guidelines, Emil motion review) =====
+   Home hero untouched: no rules here target #main hero, .main-text label::before or .main-text .redbtn. */
+:root{--dp-ease-out:cubic-bezier(0.23,1,0.32,1);--dp-dur-press:160ms;--dp-dur-ui:200ms}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;-webkit-tap-highlight-color:rgba(188,44,60,.15)}
+body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (min-width:576px){html{scroll-padding-top:96px}}
+/* Skip link */
+.dp-skip{position:absolute;left:-9999px;top:0;z-index:2000;background:#111;color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:600;text-decoration:none}
+.dp-skip:focus{left:0;color:#fff}
+/* Visible focus: forms and nav */
+.frm p input:focus-visible,.frm p select:focus-visible,.frm p textarea:focus-visible{outline:2px solid #bc2c3c;outline-offset:1px;border-color:#bc2c3c}
+.navbar .nav-link:focus-visible,.navbar .dropdown-item:focus-visible,.navbar-toggler:focus-visible{outline:2px solid var(--dp-red);outline-offset:2px;box-shadow:none}
+/* Heading levels fixed (h5 -> h3): keep the old h5 look */
+h3.heading-four{font-size:1.25rem;font-weight:500;line-height:1.2}
+/* Named transitions instead of transition:all */
+.service-main .service-right p,.indus-name,.indus-name2{transition:transform .2s ease-in-out}
+.banner-thumb{transition:box-shadow .3s ease-in-out}
+.dp-card{transition:border-color 150ms ease,transform var(--dp-dur-ui) var(--dp-ease-out)}
+.dp-btn{transition:background-color 150ms ease,transform var(--dp-dur-press) var(--dp-ease-out)}
+.dp-wa{transition:transform var(--dp-dur-press) var(--dp-ease-out)}
+/* Press feedback */
+.dp-btn:active,.dp-cookie button:active,.navbar-toggler:active{transform:scale(.97)}
+.dp-wa:active{transform:scale(.96)}
+/* Hover zoom only on real pointers (no sticky zoom after a tap on phones) */
+@media (hover:none),(pointer:coarse){
+ .service-main .service-right p:hover,.industries .ind-names .indus-name:hover,.industries .ind-names .indus-name2:hover,.dp-wa:hover{transform:none}
+ .dp-card:hover:not(:focus-visible){transform:none}
+}
+/* Home testimonials: show the full quote and name, animate with transform, pause on hover/focus */
+.test-slider{height:104px}
+@media (max-width:640px){.test-slider{height:150px}}
+.test-slider .slider-container{left:0;animation-name:dp-testi}
+@keyframes dp-testi{0%,25%,100%{transform:translateX(0)}30%,55%{transform:translateX(-33.3333%)}60%,85%{transform:translateX(-66.6667%)}}
+.test-slider:hover .slider-container,.test-slider:focus-within .slider-container{animation-play-state:paused}
+/* GSD calculator numbers line up */
+.dp-calc-res b{font-variant-numeric:tabular-nums}
+/* Reduced motion: no movement, all content visible */
+@media (prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto!important}
+ .service-main .service-right p:hover,.industries .ind-names .indus-name:hover,.industries .ind-names .indus-name2:hover,
+ .dp-card:hover,.dp-card:focus-visible,.dp-wa:hover,.dp-wa:focus-visible,
+ .dp-btn:active,.dp-cookie button:active,.navbar-toggler:active,.dp-wa:active{transform:none}
+ .test-slider{height:auto}
+ .test-slider .slider-container{position:static;width:auto;animation:none;transform:none}
+ .test-slider .slider-container .slide{float:none;width:auto;height:auto;margin:0 0 16px}
+}
