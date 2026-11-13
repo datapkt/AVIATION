@@ -266,3 +266,16 @@ h3.heading-four{font-size:1.25rem;font-weight:500;line-height:1.2;margin-bottom:
  .test-slider .slider-container{position:static;width:auto;animation:none;transform:none}
  .test-slider .slider-container .slide{float:none;width:auto;height:auto;margin:0 0 16px}
 }
+/* Premium explainer: LiDAR vs photogrammetry (2026-11-13) */
+.dp-lvp-fig svg{display:block;width:100%;height:auto;border:1px solid var(--dp-line);border-radius:10px;background:#fff}
+.dp-tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0 24px;border-radius:8px}
+.dp-tscroll:focus-visible{outline:2px solid var(--dp-red);outline-offset:2px}
+.dp-prose .dp-lvp-table{margin:0;min-width:640px}
+.dp-prose .dp-lvp-table tbody th{background:var(--dp-paper);color:var(--dp-ink);font-weight:700;width:22%}
+.dp-prose .dp-lvp-table tbody tr:nth-child(even) td{background:#fcfbfa}
+.dp-prose .dp-lvp-table td b{color:var(--dp-red)}
+.dp-prose sup a{font-weight:600;font-size:.72em;text-decoration:none;margin-left:1px}
+.dp-prose .dp-sources li{font-size:.92rem;line-height:1.55;margin-bottom:6px}
+.dp-prose .dp-sources li:target{background:var(--dp-paper)}
+.dp-figscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px}
+@media (max-width:640px){.dp-lvp-fig svg{min-width:600px}.dp-lvp-fig figcaption::before{content:"Swipe to see the full figure. ";font-weight:600}}
