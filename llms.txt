@@ -68,6 +68,10 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
 
 - [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html)
+- [Drone vs manual solar panel inspection: which finds more, faster?](https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html)
+- [Highway drone videography for NHAI projects: what the monthly video must show](https://datapkt.com/insights/nhai-highway-drone-videography.html)
+- [Transmission line drone inspection vs foot patrol: what each one catches](https://datapkt.com/insights/transmission-line-drone-inspection.html)
+- [Railway drone inspection: track, OHE, bridges and yards](https://datapkt.com/insights/railway-drone-inspection.html)
 - [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
 - [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
