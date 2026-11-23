@@ -3175,7 +3175,7 @@ NHAI has said the videos are stored permanently on Data Lake and can be used as 
 - Uploaded late, missing the monthly progress report it was meant to support.
 
 ### How DATA PKT runs monthly highway videography
-Highway monitoring is our largest line of work. Over six years our teams have captured more than 3 lakh km of highway data for authorities and private contractors, and more than 70,000 km in FY 2026-27. Each team plans about 50 km of videography or 35 km of survey imagery a day, and we have more than 20 pilots. We are empanelled with NHAI in three zones for monthly drone survey work.
+Over six years our teams have captured more than 3 lakh km of highway data for authorities and private contractors, and more than 70,000 km in FY 2026-27. Each team plans about 50 km of videography or 35 km of survey imagery a day, and we have more than 20 pilots. We are empanelled with NHAI in three zones for monthly drone survey work.
 Every video carries chainage, position and date on screen, follows the same flight plan each month, and is delivered ready for Data Lake, with the originals archived. Read the highway drone monitoring case study and see our highway survey services.
 
 ### Sources
