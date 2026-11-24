@@ -45,6 +45,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 ## Key pages
 - [Home](https://datapkt.com/): drone survey, LiDAR, photogrammetry, thermal inspection and DPR inputs across India; company numbers and FAQs
 - [About](https://datapkt.com/about.html): company facts (founded 14 September 2020, NHAI empanelment in three zones, DIPP recognition), how a project runs, sectors and clients
+- [Services](https://datapkt.com/services.html): every service on one page, grouped into survey and mapping, infrastructure (highways, railways and ESPs, transmission design, slope stability), inspection (solar thermography, power), sectors, and tools and guides
 - [Highways and roads](https://datapkt.com/highways-and-roadways.html): NHAI's monthly drone video rule and our empanelment for it; drone and DGPS survey for highway DPRs, progress monitoring, videography and road mapping; 3 lakh+ km of highway data in six years
 - [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
 - [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html): what an ESP is; ESPs, yard plans and DPR survey data from drone survey on DGPS control, delivered in DWG, SHP, GeoTIFF and LAS
@@ -6021,3 +6022,125 @@ View it coloured by class and as a hillshade of the ground surface, cut profiles
 
 Q: What should I specify when outsourcing point cloud classification?
 The exact class codes you need and which are checked for accuracy, the minimum point density, the vertical accuracy target and checkpoints, a non-overlapping tile scheme, the coordinate system and vertical datum, the output formats such as LAS 1.4 or LAZ, DTM, DSM and contours, and the contents of the QC report.
+
+
+=== https://datapkt.com/services.html ===
+Home / Services
+Services
+
+## Drone survey, LiDAR, GIS and inspection services
+Every DATA PKT service on one page: survey and mapping, infrastructure survey and design, inspection, and the sectors we work in.
+In short: DATA PKT surveys, maps and designs for infrastructure across India. Our 20+ drone pilots fly photogrammetry, LiDAR and thermal surveys tied to DGPS ground control, and our in-house GIS team turns the data into drawings and models. We have collected 3 lakh+ km of highway data in six years and are empanelled with NHAI in three zones.
+Jump to: Survey and mapping · Infrastructure · Inspection · Sectors · Tools and guides
+
+### Survey and mapping
+Survey data tied to DGPS ground control, processed by our in-house GIS team.
+Survey and mapping
+
+#### Photogrammetry
+Drone photogrammetry with ground control: orthomosaics, DSM, DTM, contours, volumes and 3D models.
+Survey and mapping
+
+#### LiDAR survey
+Drone LiDAR for corridors, mines and terrain under vegetation: classified point clouds, DTM, DSM and contours.
+Survey and mapping
+
+#### Topographic survey
+How a drone topographic and contour survey is planned, controlled and checked, and the DTM, CAD and GIS deliverables.
+Survey and mapping
+
+#### GIS mapping and data processing
+Drone and LiDAR data processing: point cloud classification, DTM/DSM, contours, orthomosaics, GIS and CAD files.
+Survey and mapping
+
+#### Bathymetry
+Surveys of rivers, reservoirs, ponds and canals with drone mapping of the banks, in one terrain model.
+Survey and mapping
+
+#### Seismic refraction survey
+Seismic refraction tomography for soil thickness, depth to rock and weak zones, read with drone LiDAR.
+
+### Infrastructure
+Survey and design inputs for highways, railways, power lines and hill slopes.
+Infrastructure
+
+#### Highways and roads
+3 lakh+ km of highway data in six years: drone and DGPS survey for DPRs, monthly monitoring and videography.
+Infrastructure
+
+#### Railways and metro
+Railway and metro surveys: Engineering Scale Plans, yard and drainage plans, LiDAR and corridor mapping.
+Infrastructure
+
+#### Engineering Scale Plans and DPR surveys
+Drone, LiDAR and GIS surveys that produce Engineering Scale Plans, yard plans and DPR survey inputs.
+Infrastructure
+
+#### Transmission line and substation design
+Route surveys with alternate routes, drone maps on khasra maps, tower spotting, and substation GAD and SLD.
+Infrastructure
+
+#### Landslide and slope stability
+Drone LiDAR, seismic refraction and geological mapping, stability analysis and protection design.
+
+### Inspection
+Thermal work is led by an ISO 9712 Level 2 thermographer. Power-sector clients include NTPC and Adani.
+Inspection
+
+#### Solar plant thermography
+Radiometric drone thermography of solar PV plants: hotspot, diode and string faults tagged to their place in the plant.
+Inspection
+
+#### Power and energy
+Thermal inspection of solar plants, transmission line route surveys, tower inspection and substation site surveys.
+Inspection
+
+#### Transmission line inspection guide
+Drone, foot patrol or helicopter: what each finds, hotspot severity, tree clearance by voltage and how to plan it.
+
+### Sectors
+The same survey, GIS and inspection methods applied to other sectors.
+Sectors
+
+#### Mining
+Stockpile volumes, pit and dump mapping, contours, haul road monitoring and periodic progress reports.
+Sectors
+
+#### Agriculture
+Multispectral surveys for crop health (NDVI), field boundaries, drainage planning and plantation counts.
+Sectors
+
+#### Water resources
+Canal and river surveys, reservoir mapping, catchment and flood studies, and bathymetry support.
+Sectors
+
+#### Urban planning
+Drone mapping and GIS for town planning, smart city base maps, land records and construction progress.
+Sectors
+
+#### Environmental surveys
+Land use and land cover, vegetation and habitat mapping, erosion monitoring and baseline studies.
+Sectors
+
+#### Oil and gas
+Pipeline route surveys, right-of-way monitoring, encroachment checks, thermal inspection and facility mapping.
+Sectors
+
+#### Hyperspectral and multispectral
+Multispectral and hyperspectral imaging for crop stress, vegetation and soil studies, with GIS-ready index maps.
+Sectors
+
+#### Aerial videography
+Aerial videography and monthly progress videos for infrastructure projects, video reports and corporate films.
+
+### Tools and guides
+Free tools and practical guides for planning a survey.
+Tools and guides
+
+#### GSD calculator
+Ground sample distance, image footprint and the flight height for a target GSD, with camera presets.
+Tools and guides
+
+#### Insights and guides
+Guides on drone survey accuracy, LiDAR vs photogrammetry, costs, deliverables, ESPs and solar thermography.
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
