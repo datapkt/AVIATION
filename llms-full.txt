@@ -49,7 +49,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
 - [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html): what an ESP is; ESPs, yard plans and DPR survey data from drone survey on DGPS control, delivered in DWG, SHP, GeoTIFF and LAS
 - [Power and solar](https://datapkt.com/energy.html): drone inspection of transmission and distribution lines, substations, solar plants and wind farms; radiometric thermal and LiDAR; ISO 9712 Level 2 thermographer; clients include NTPC and Adani
-- [Solar plant drone thermography and thermal survey](https://datapkt.com/thermal-survey.html): radiometric thermal surveys of solar PV plants, substations and roofs; hotspot and defect classification tagged to location; ISO 9712 Level 2 thermographer
+- [Solar plant drone thermography and inspection](https://datapkt.com/thermal-survey.html): radiometric drone thermography of solar PV plants, flown to IEC TS 62446-3 conditions; hotspot, diode and string faults classified and tagged to their place in the plant; ISO 9712 Level 2 thermographer
 - [LiDAR drone survey](https://datapkt.com/lidar-survey.html): classified point clouds, DTM, DSM and contours for corridors, mines and terrain under vegetation; what sets LiDAR survey cost
 - [Photogrammetry](https://datapkt.com/photogrammetry.html): orthomosaics, DSMs, DTMs, contours and point clouds from drone photos tied to DGPS ground control
 - [Mining](https://datapkt.com/mining.html): stockpile volumes, pit, bench and haul road mapping, and progress monitoring with DTMs, DSMs, 3D models and volume reports
@@ -719,10 +719,15 @@ In our drone surveys of distribution lines we provide Surveys of pillars, conduc
 Drones with artificial intelligence (AI) are employed in distribution lines to estimate demand, analyse the reliability of the state's power plant, and find defects in the smart grid and power systems.
 Deliverable: We provide site topography survey reports with electricity pillar installation and condition feasibility, Higher-resolution visual images of grids, poles, and other components. Elevation data, Contour map of the site and 3D Model with cloud point.
 
+### Thermal Surveys of Power Transmission and Distribution Assets
+To reduce downtime caused by equipment malfunctions, modern maintenance practices emphasize the implementation of condition-based techniques for monitoring electrical assets. These methods aim to predict the deterioration of various components or vulnerable areas prone to failure.
+Thermal survey is one of the most effective ways to find hot spots. Most electrical failures come from faulty components or loose connections, and infrared imaging shows them before they become failures or fire hazards.
+Regular thermal surveys give asset managers early warning, so equipment can be repaired before it fails.
+
 ### Solar Power Plants
 Drones are being used by solar power plants to give an airborne perspective that enables quicker diagnosis of damaged solar panels. Drones equipped with dual-mode high-end thermal cameras and ultra-high-definition video cameras with 16x zoom offer temperature differences and crisp images for quick identification of defective panels, cracks, or shadows. This technology reduces inspection time significantly, allowing for faster maintenance responses and minimized downtime. As a result, solar power plants can maintain optimal efficiency and output.
 By utilizing drone technology for solar plant inspections, DATA PKT significantly reduces inspection costs by 30 to 50 percent compared to traditional methods.
-Our services provide detailed topological maps and thermograms, identifying issues such as hot spots, cracked panels, and bypass diode failures, enabling prompt maintenance and optimization of solar plant performance.
+Our services provide detailed topological maps and thermograms, identifying issues such as hot spots, cracked panels, and bypass diode failures, enabling prompt maintenance and optimization of solar plant performance. See how we carry out solar plant drone thermography, from flight conditions to the defect report.
 Deliverables: include geotagged high-resolution visible and thermal infrared images, Orth mosaics with elevation data and AI/ML-based analytics for quick analysis and provide plant efficiency reports.
 
 ### Wind Farms
@@ -815,70 +820,58 @@ A list of every defect with its type, location, temperature difference and sever
 
 
 === https://datapkt.com/thermal-survey.html ===
-## Drone Thermal Surveys
+## Solar plant drone thermography and inspection
 In short: we carry out solar plant drone thermography and thermal surveys of substations and roofs with radiometric cameras. Solar plants are flown in steady sunlight with the plant running. The report classifies each hotspot, cell, diode or string fault and tags it to its place in the plant, so the O&M team can find and fix it (what the report should include). Our thermal team includes a thermographer certified to ISO 9712 Level 2, and our power-sector clients include NTPC and Adani.
-Thermal surveys utilize unmanned aerial vehicles (UAVs) equipped with thermal imaging cameras to capture the infrared radiation emitted by objects and surfaces. This advanced technology enables the detection and visualization of temperature variations across surveyed areas, offering a wide array of applications in various industries. UAVs used for aerial thermal mapping provide essential information regarding the performance of critical assets such as commercial solar farms, solar panel arrays, commercial and industrial roof surfaces, vegetation areas, environmental zones, and commercial crops. We provide drone thermal surveys for clients across many sectors. Each survey follows the same steps, set out below. We begin by deploying UAVs equipped with high-resolution thermal imaging cameras over the target area. These drones systematically capture thermal data, identifying temperature differentials and potential issues that may not be visible to the naked eye. For commercial solar farms and solar panel arrays, our thermal surveys can pinpoint underperforming panels or areas requiring maintenance, thereby optimizing energy production and efficiency. In the context of commercial and industrial roofs, thermal imaging helps detect insulation failures, leaks, or areas of heat loss, enabling timely repairs and improving energy efficiency. For vegetation and environmental areas, thermal surveys assist in monitoring plant health, identifying water stress, and managing resources more effectively. This is particularly beneficial for agriculture, where understanding crop conditions can lead to better yield management and resource allocation. After the data collection phase, we utilize advanced software to analyze and interpret the thermal images. This analysis generates detailed reports highlighting critical findings and actionable insights. Our clients receive these comprehensive reports, which include visualizations of temperature variations and recommendations for addressing any identified issues.
-Planning and preparation
-We begin by adopting a collaborative approach, engaging closely with our clients to thoroughly understand their specific requirements and objectives for the thermal survey. This initial phase includes conducting detailed assessments of the site to identify crucial areas of interest, evaluate potential risks, and establish necessary safety protocols. Through this comprehensive site evaluation, we ensure that all pertinent factors are carefully considered.
-After the site assessment we prepare a flight plan for the job, allowing for weather, the best flight height and the coverage needed.
-At DATA PKT Infra & Geomatics, our commitment is centered on delivering precise and actionable insights utilizing advanced thermal imaging technology. We prioritize customization of our approach to align with the distinct requirements of each client, ensuring that our thermal surveys yield valuable information that supports informed decision-making and operational efficiency across diverse industries. By tailoring our services to meet specific client needs, we aim to provide comprehensive solutions that enhance productivity and facilitate strategic decision-making based on reliable thermal data.
-Data Acquisition
-Our drones carry thermal imaging cameras that record infrared emission from surfaces. Pilots fly the planned missions for full coverage at the required image resolution, capturing temperature variation across the site.
-We process the imagery into high-resolution thermal maps that show temperature differences across the site, so decisions are based on measured data.
-Through our specialized drone operations, we ensure thorough and reliable thermal surveys that support various applications across industries. By harnessing the capabilities of our advanced equipment and expertise, we aim to provide actionable insights that enhance operational efficiency and facilitate strategic planning for our clients.
-Data Processing and Analysis
-After the flight, our team processes the raw thermal data into thermal maps and datasets and analyses them to find anomalies and hotspots, such as heat loss, equipment faults or structural defects.
-Our thermal maps show temperature variation across the surveyed area clearly, for decisions on maintenance, efficiency and risk.
-Each report is tailored to the asset and the decision it needs to support.
+Thermal surveys utilize unmanned aerial vehicles (UAVs) equipped with thermal imaging cameras to capture the infrared radiation emitted by objects and surfaces. This advanced technology enables the detection and visualization of temperature variations across surveyed areas, offering a wide array of applications in various industries. On a solar plant, each inspection follows the steps set out in how we inspect a solar plant, from site assessment to the defect report.
 Reporting and Recommendations
-Equipped with advanced sensors and visual inspection capabilities, DATA PKT drones conduct thorough examinations of roads, bridges, highways, and expressways to facilitate monitoring of pavement and road surface conditions. These drones efficiently navigate through difficult terrain and deliver detailed digital surface models (DSM) and digital terrain models (DTM) with high resolution. This capability is particularly valuable for protecting environmentally sensitive areas during surveys.
-For roads and other infrastructure, our drones combine visual and thermal sensors to assess pavement and surface condition and to produce DSMs and DTMs for maintenance planning.
-Ongoing Support and Monitoring
-At DATA PKT, our dedication to customer satisfaction goes beyond the initial survey, as we provide continuous support and monitoring services to our clients. We offer regular thermal surveys to monitor changes over time, detect new challenges, and evaluate the impact of implemented solutions. Our team remains accessible to address any inquiries or issues our clients may have and collaborate on future initiatives to maximize the advantages of drone thermal imaging technology.
-We are committed to ensuring ongoing customer satisfaction by delivering comprehensive support and monitoring services. This includes conducting regular thermal surveys to track temporal variations, identify emerging issues, and assess the effectiveness of remedies deployed. Our team is readily available to respond to client queries and collaborate on upcoming projects to harness the full potential of drone thermal imaging technology.
-At DATA PKT, we are committed to exceeding customer expectations by providing continuous support and monitoring services. We conduct regular thermal surveys to monitor changes over time, identify emerging issues, and evaluate the effectiveness of implemented solutions.
+Each report lists every defect with its class and its position on the plant layout, with the thermal and visual images and the temperature difference to healthy modules, and a summary by block or inverter so repairs can be planned. See what a solar thermography report should include.
 
-### Thermal survey used for
-We use radiometric thermal sensors that capture thermal images and video with relative and actual temperature values over large areas, with centimetre-level detail. We tailor the survey to infrastructure, environmental or industrial needs and support you through interpretation of the results.
-We provide following services:
+### When to inspect
+- At commissioning or handover, to record the condition of every module before the plant changes hands or the warranty period runs on.
+- In routine O&M cycles, to track changes over time, find new faults and check that earlier repairs worked.
+- After storms or a drop in performance, when hail, wind or an unexplained fall in yield points to damage that needs locating.
+- Before a warranty claim, so each defect is documented with its class, its position and radiometric images.
+
+### What a solar thermal inspection covers
+We use radiometric thermal cameras that record thermal images and video with a temperature value for every pixel, at centimetre-level detail. On a solar plant the inspection covers every module and string, from single cells up to whole blocks, and we support your O&M team through interpretation of the results.
 Solar panel thermal imaging survey
 With radiometric thermal imaging, a drone survey finds faults at cell level within a panel, panel level within a sub-array and array level within a block, faster and more safely than manual inspection. See our guide to solar thermography reports.
 The ability to detect and diagnose issues with such precision enables maintenance teams to promptly enhance energy output and prevent further damage. By swiftly identifying performance faults, teams can take proactive measures to mitigate potential losses and ensure optimal operational efficiency of solar installations.
 To facilitate the identification of performing panels or sub-arrays, we offer raw thermal radiometric imagery for processing. Alternatively, our expert team can handle the thermal data analysis, producing detailed hotspot reports integrated with GPS data. This comprehensive approach ensures that our clients receive actionable insights tailored to their specific needs, supporting informed decision-making and proactive maintenance strategies.
-Soil moisture estimation
-Using drones equipped with thermal sensors, our service provides swift and precise analysis of soil moisture. By capturing thermal images from aerial perspectives, we identify and map fluctuations in soil temperature, allowing for accurate evaluation of moisture levels. This data assists farmers in optimizing irrigation techniques, improving crop vitality, and maximizing harvest yields. Our advanced drone technology streamlines operations, reducing expenses and time investments while delivering crucial agricultural management insights.
-Thermal imaging maps variation in soil temperature across a field, which shows how moisture is distributed and where irrigation is needed.
-This is faster and cheaper than traditional soil assessment and supports decisions that affect yield.
-Farmers get timely moisture maps that support efficient water use and consistent yields.
-Thermal Surveys of Power Transmission and Distribution Assets
-To reduce downtime caused by equipment malfunctions, modern maintenance practices emphasize the implementation of condition-based techniques for monitoring electrical assets. These methods aim to predict the deterioration of various components or vulnerable areas prone to failure.
-Thermal survey is one of the most effective ways to find hot spots. Most electrical failures come from faulty components or loose connections, and infrared imaging shows them before they become failures or fire hazards.
-Thermal Surveys using infrared cameras is a contemporary approach in condition-based maintenance, crucial for early detection of electrical and mechanical issues. It allows for the detection of hot spots, heat build-up on loose connections, and concealed faults that might otherwise go unnoticed. By pinpointing potential problems early, this technology helps prevent costly repairs, minimize downtime, and enhance overall operational reliability.
-Regular thermal surveys give asset managers early warning, so equipment can be repaired before it fails.
 
-### Detect leaks
-Using thermal sensor-equipped drones, we swiftly identify leaks in diverse infrastructures, including pipelines, roofs, and industrial equipment. These drones capture infrared radiation to detect temperature irregularities that signal leaks or moisture infiltration. Rapid detection plays a crucial role in averting expensive damages, environmental risks, and operational disruptions. Our service facilitates efficient identification of leaks, enabling prompt repairs and maintenance actions that enhance safety and operational reliability.
-Thermal drones find leaks and moisture ingress by detecting the temperature anomalies they cause across pipelines, roofs and other infrastructure.
-Leaks are located quickly, so repairs can start sooner, with less downtime and less environmental impact.
-The result is safer operation and fewer costly incidents.
-Water leaks and damages
-Utilizing drones equipped with thermal sensors, our service efficiently identifies water leaks and structural damage. These advanced drones capture infrared radiation to detect alterations in ground temperature that signal potential leaks.
-Variations in ground temperature reveal water leaks and damage to buried or hidden structures, so they can be found and fixed early.
-Early detection means smaller repairs, less downtime and less water lost.
-Our reports show where each problem is and how serious it looks, so maintenance can be prioritised.
-Oil and gas leaks
-Using drones equipped with thermal sensors, we offer precise aerial inspections of oil and gas infrastructure. Our service swiftly and accurately identifies leaks, damages, and irregularities, enhancing safety measures and minimizing environmental risks.
-At DATA PKT Infra & Geomatics, we specialize in conducting aerial inspections of oil and gas infrastructure using advanced drone technology integrated with thermal sensors. This enables us to promptly and precisely detect leaks, damages, and anomalies that could pose safety hazards or environmental concerns. Our proactive approach includes delivering high-resolution thermal imaging data, facilitating early intervention and preventive maintenance strategies to mitigate potential threats.
-Thermal inspections for oil and gas are planned around the sector's regulatory requirements and reduce downtime during maintenance.
-Operators get clear evidence of asset condition to plan maintenance and protect safety and the environment.
+### How we inspect a solar plant
+We fly to the conditions and requirements of IEC TS 62446-3, the technical specification for outdoor infrared thermography of PV modules and plants. A thermal image taken outside these conditions can hide faults or show faults that are not there.
+- Site assessment and flight plan. We agree the requirements with the plant team, assess the site for areas of interest, risks and safety needs, and plan the flights for weather, flight height and coverage.
+- Plant running, conditions stable. The plant is in normal operation and the flight is made in clear, steady sunlight, because a fault only shows as heat when the modules are producing power.
+- Irradiance of at least 600 W/m². Irradiance in the plane of the modules is checked before and during the flight. If it drops below the minimum, flying stops until it recovers.
+- Wind and cloud within limits. Cloud cover of no more than 2 okta (2/8 of the sky) and wind of no more than 4 Beaufort (about 28 km/h), so that passing shadows and wind cooling do not mask or mimic faults.
+- Resolution of about 3 cm per pixel. The flight height is set so that each thermal pixel covers about 3 cm of the module, which puts roughly five pixels across each cell.
+- Viewing angle above 30° to the module plane. At shallower angles the glass reflects the sky and the sun, and the temperature reading is no longer reliable.
+- Radiometric camera. Every pixel carries a temperature value, so each anomaly can be measured against healthy modules and compared from one year to the next.
+- Certified personnel. IEC TS 62446-3 expects the thermographer to hold a recognised certification. Our thermal team includes a thermographer certified to ISO 9712 Level 2.
+- Processing and analysis. After the flight, our team processes the raw thermal data into thermal maps and analyses them for hotspots and other anomalies. Each one is classified and tagged to its place in the plant for the report.
+
+### Solar plant defects a thermal inspection finds
+Each fault has its own thermal pattern. The table shows the common ones, what usually causes them and what is usually done about them.
+Defect | How it looks in the thermal image | Likely cause | Usual action | Priority
+Single-cell hotspot | One cell clearly warmer than the cells around it | Cracked or damaged cell, local shading or dirt | Check the visual image; clean, or replace the module if the hotspot persists | Medium; high if very hot
+Bypass diode (hot substring) | One third of the module evenly warmer than the rest | Bypass diode active or failed | Replace the diode or the module; check for a shorted diode | High
+String off | A full string of modules warmer than the strings next to it | Blown fuse, open connector or other string fault | Check the fuse and connections at the combiner box | High
+PID or patchwork heating | Several warm cells in an irregular, patchwork pattern | Cell degradation, potential-induced degradation (PID) | Group the affected modules by string and inverter; investigate PID | Medium
+Soiling and shading | Irregular warm areas with soft edges | Dust, bird droppings, vegetation, nearby structures | Clean, trim, or plan around fixed shade | Low to medium
+Junction box or connector | A small, very hot point at the junction box or cable | Loose, corroded or poorly crimped connection | Repair promptly; it can be a fire risk | High
+
+### What thermal imaging does not show
+Thermography finds faults that make heat. It does not reliably find cell cracks that have not yet cut a cell off; electroluminescence (EL) imaging shows those. It estimates, but does not measure, the power a string is losing; an IV-curve trace measures it. And it cannot see inside combiner boxes or inverters, or tell whether a connector is loose before it heats up; those need physical checks on the ground.
+A good inspection plan uses the drone to find and map every fault, then sends the ground team only where the drone points. Read the full comparison in drone vs manual solar panel inspection.
 
 ### Our Features
 
 #### Fast Data Delivery
 Our dedicated team of GIS experts works tirelessly to swiftly process and analyze drone survey data, ensuring prompt delivery, often ahead of schedule.
 
-#### Survey-Grade Accuracy
-Every survey is tied to DGPS ground control points, so measurements and volumes can be relied on.
+#### Certified Thermographer
+Our thermal team includes a thermographer certified to ISO 9712 Level 2, as IEC TS 62446-3 expects for PV plant thermography.
 
 #### Team of Experts
 Our GIS engineers, drone pilots and software engineers work in shifts so survey data is processed without delay.
@@ -902,6 +895,15 @@ A radiometric camera records a temperature value for every pixel, so each defect
 
 Q: What does a solar thermography report include?
 Each defect with its class, its position on the plant layout, the thermal and visual images, and the temperature difference to healthy modules, with a summary by block or inverter so repairs can be planned.
+
+Q: Does the plant need to shut down for a drone thermal inspection?
+No. The plant must be running, because a fault only shows as heat when the modules are producing power. The flight is made during normal operation, in steady sunlight, and is coordinated with the plant team so that no blocks are switched off or curtailed.
+
+Q: Is a drone thermal inspection compliant with IEC TS 62446-3?
+Only if it meets the standard's conditions, resolution, personnel and reporting requirements; a drone does not make an inspection compliant by itself. The conditions include irradiance of at least 600 W/m² on the modules, cloud cover of no more than 2 okta, wind of no more than 4 Beaufort and a resolution of about 3 cm per pixel, and the thermographer should hold a recognised certification such as ISO 9712.
+
+Q: What can a drone thermal inspection not find?
+Cell cracks that have not yet cut a cell off, which electroluminescence (EL) imaging shows; the exact power a string is losing, which an IV-curve trace measures; and faults inside combiner boxes and inverters, which need a physical check on the ground.
 
 
 === https://datapkt.com/lidar-survey.html ===
@@ -1287,6 +1289,11 @@ Our drones carry sensors that record water quality parameters such as pH, temper
 We also collect water samples from remote areas, which matters for utilities serving wide areas or rural communities. Drone sampling protects both the water sources and the staff who maintain them.
 - Sensor-equipped drones record pH, temperature, turbidity, chlorophyll-a and oxygen levels for environmental assessment and management.
 - Remote water sampling gives timely water quality results for rural communities and large utility networks.
+Water leaks and damages
+Utilizing drones equipped with thermal sensors, our service efficiently identifies water leaks and structural damage. These advanced drones capture infrared radiation to detect alterations in ground temperature that signal potential leaks.
+Variations in ground temperature reveal water leaks and damage to buried or hidden structures, so they can be found and fixed early.
+Early detection means smaller repairs, less downtime and less water lost.
+Our reports show where each problem is and how serious it looks, so maintenance can be prioritised.
 Flood Risk Mapping and Emergency Management
 Our drones capture detailed images of flood-affected areas, which are used to build maps and 3D models of the flood zone.
 These maps and models can help water utilities to identify areas that are at risk of flooding and prioritize their response efforts accordingly.
@@ -1638,6 +1645,11 @@ When drones with thermal cameras are flown over a water distribution system:
 - Detect leaks early from temperature variations on pipeline surfaces and the surrounding ground.
 - Assess how severe and extensive leaks are from temperature contrast, so they can be fixed before they escalate.
 - Locate leaks promptly to reduce water loss, structural damage and service disruption.
+Soil moisture estimation
+Using drones equipped with thermal sensors, our service provides swift and precise analysis of soil moisture. By capturing thermal images from aerial perspectives, we identify and map fluctuations in soil temperature, allowing for accurate evaluation of moisture levels. This data assists farmers in optimizing irrigation techniques, improving crop vitality, and maximizing harvest yields. Our advanced drone technology streamlines operations, reducing expenses and time investments while delivering crucial agricultural management insights.
+Thermal imaging maps variation in soil temperature across a field, which shows how moisture is distributed and where irrigation is needed.
+This is faster and cheaper than traditional soil assessment and supports decisions that affect yield.
+Farmers get timely moisture maps that support efficient water use and consistent yields.
 
 ### Deliverables
 
@@ -1729,6 +1741,12 @@ Oil Rig Inspections
 Drones can inspect oil rig platforms, derricks, and equipment. With infrared imaging, drones can detect potential equipment failures and cracks that might not be visible from the ground. A drone inspection of drilling platforms increases cost-effectiveness, efficacy, and safety.
 Tank Inspections
 Tanks are crucial elements in the oil and gas industry. Routine inspections are necessary to detect leaks, surface corrosion, or other damage to the tank. Drones can detect surface level changes, leaks, and other issues that might not be visible to the naked eye. A drone inspection of tanks reduces safety risks and maintenance costs.
+
+### Oil and gas leaks
+Using drones equipped with thermal sensors, we offer precise aerial inspections of oil and gas infrastructure. Our service swiftly and accurately identifies leaks, damages, and irregularities, enhancing safety measures and minimizing environmental risks.
+At DATA PKT Infra & Geomatics, we specialize in conducting aerial inspections of oil and gas infrastructure using advanced drone technology integrated with thermal sensors. This enables us to promptly and precisely detect leaks, damages, and anomalies that could pose safety hazards or environmental concerns. Our proactive approach includes delivering high-resolution thermal imaging data, facilitating early intervention and preventive maintenance strategies to mitigate potential threats.
+Thermal inspections for oil and gas are planned around the sector's regulatory requirements and reduce downtime during maintenance.
+Operators get clear evidence of asset condition to plan maintenance and protect safety and the environment.
 
 ### Our Features
 
@@ -2105,6 +2123,11 @@ Drone in factory monitoring and maintenance:
 One of the most useful applications is factory monitoring and maintenance. Drones with high-resolution cameras and sensors can monitor machinery and detect problems early, saving maintenance time and cost and reducing downtime.
 Drones can also reach areas that are difficult or unsafe for people, such as tall structures or hazardous zones. They can inspect equipment without stopping operations, giving a clearer assessment of the problem while keeping staff safe.
 Drones also allow remote inspection: off-site specialists can review the live video feed and advise on repairs or changes. Overall, drones can raise productivity, cut costs and improve safety in factory operations.
+Roof and industrial leak detection
+Using thermal sensor-equipped drones, we swiftly identify leaks in roofs and industrial equipment. These drones capture infrared radiation to detect temperature irregularities that signal leaks or moisture infiltration. Rapid detection plays a crucial role in averting expensive damages, environmental risks, and operational disruptions. Our service facilitates efficient identification of leaks, enabling prompt repairs and maintenance actions that enhance safety and operational reliability.
+Thermal drones find leaks and moisture ingress by detecting the temperature anomalies they cause across roofs and industrial equipment.
+Leaks are located quickly, so repairs can start sooner, with less downtime and less environmental impact.
+The result is safer operation and fewer costly incidents.
 
 ### Our Features
 
@@ -2297,7 +2320,7 @@ Location and permissions | Remote sites, yellow or red airspace zones needing pe
 Ground control points tie the map to real coordinates. Their number is one of the biggest cost drivers.
 
 ### Why per-acre rates mislead
-A per-acre figure hides what is being delivered. One firm's rate may cover only a processed map; another's includes DGPS control, an accuracy report and CAD drawings. Corridors also behave differently from blocks: a 20 km highway is priced by length and width, not by acres. Compare quotes on the same GSD, the same number of control points and checkpoints, and the same list of files.
+A per-acre figure hides what is being delivered. One firm's rate may cover only a processed map; another's includes DGPS control, an accuracy report and CAD drawings. Corridors also behave differently from blocks: a 20 km highway is priced by length and width, not by acres. On a solar plant, for example, a topographic survey and a solar plant drone thermography inspection are different jobs with different outputs. Compare quotes on the same GSD, the same number of control points and checkpoints, and the same list of files.
 
 ### Drone survey or ground survey?
 For medium and large sites, a drone survey is usually faster and cheaper than a full ground survey, and it captures everything, not just the points a surveyor chose to measure. Ground survey still wins on very small plots and under dense tree cover, and the two are often combined. See drone survey vs DGPS and total station.
@@ -3349,7 +3372,7 @@ Soiling and shading | Irregular warm areas | Dust, bird droppings, vegetation, s
 
 ### What the report is used for
 Owners and O&M teams use the report to prioritise repairs, support warranty claims with module makers, plan cleaning and vegetation control, and compare plant health year on year. A repeat flight after repairs confirms the faults are fixed.
-See our drone thermal survey and power sector services.
+See our solar plant drone thermography and power sector services.
 Planning a survey? Tell us the site and the outputs you need.
 
 ### Frequently asked questions
