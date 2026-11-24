@@ -192,7 +192,7 @@ section .row > [class*="col"]:has(.banner-thumb){flex:0 0 auto!important;width:a
 .bannerImg_Wrap{width:160px!important;margin:7px!important;flex:0 0 160px}
 .banner-thumb{width:100%!important;height:110px!important;margin:0!important;padding:12px}
 .banner-thumb img{width:auto!important;max-width:85%!important;height:72px!important;object-fit:contain;flex:0 0 auto}
-@media (max-width:480px){.bannerImg_Wrap{width:44vw!important;flex-basis:44vw}}
+@media (max-width:480px){.bannerImg_Wrap{width:calc(50% - 14px)!important;flex:0 0 calc(50% - 14px)!important}}
 
 /* railway authorities on the ESP page */
 .dp-authorities{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;max-width:1100px;margin:24px auto 0}
