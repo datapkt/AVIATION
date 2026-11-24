@@ -4900,35 +4900,81 @@ Case studies
 Real projects, described plainly: what the client needed, how we used drones and DGPS to do it, and what we delivered or are delivering.
 3 lakh+ km: Highway data captured in six years for authorities and private contractors
 About 5 sq km a day: Survey data captured by one drone team
-60+ railway plans: Yard plans (ESPs) and drainage plans submitted, and drainage design for 32 more yards in progress, in two railway divisions
+60+ yard plans: Yard plans (ESPs) and drainage plans submitted, plus drainage design for 32 yards
 220/132 kV: Substation, two transmission lines and 19 site plans in Uttar Pradesh
-Highways
+These five projects show how we survey and design infrastructure in India: monthly drone monitoring of highways, yard and drainage plans for railway divisions, a 220/132 kV substation and its lines, a canal-fed groundwater recharge system, and a slope stability investigation of a hill road. Each case study sets out the need, the methods, the quantities from the project and the deliverables, so you can judge how we would handle a similar site.
+Highways · Multiple states
 
 ### Highway drone monitoring: more than 3 lakh km of data for authorities and contractors
-DGPS-controlled drone photogrammetry, aerial videography and AI analytics for highway authorities, contractors and private developers: progress, encroachments, unauthorised U-turns, potholes and black spots.
-Railways
-
-### Engineering Scale Plans and DPR surveys
-How drone, LiDAR and GIS surveys produce Engineering Scale Plans, yard plans and DPR survey inputs for railway and road projects.
-Railways
+For highway authorities, highway contractors and private developers, DATA PKT sets DGPS control, flies drone photogrammetry and aerial videography every month, and turns the data into analytics on progress and problems on the road.
+Surveyed
+Highway packages flown along the same path every month, at the development, construction, and operation and maintenance stages
+Methods
+DGPS ground control, drone photogrammetry, aerial videography, AI analytics
+Key figures
+3 lakh+ km of highway data in six years; about 35 km a day of imagery and about 50 km a day of video per team; 20+ pilots
+Deliverables
+Georeferenced orthomosaics, the comparative monthly video, and analytics on rate of completion, encroachments, unauthorised U-turns, potholes and black spots
+Read the case study: highway drone monitoring →
+Railways · Eastern India, Uttar Pradesh, Madhya Pradesh
 
 ### Yard plans and drainage plans for two railway divisions
-61 yard and drainage plans submitted in eastern India, and drainage design for 32 yards in Uttar Pradesh and Madhya Pradesh, from drone and DGPS surveys.
-Power
+Station yards surveyed with drones and DGPS for two railway divisions, and turned into yard plans and drainage designs, with critical details checked on the ground.
+Surveyed
+Station yards, from suburban yards and small wayside stations to main-line junctions
+Methods
+Drone survey with DGPS control, orthomosaic and terrain model, CAD drafting, field checks
+Key figures
+60+ yard plans (ESPs) and drainage plans in eastern India (30 yard plans and 31 drainage plans, all submitted); drainage design for 32 yards in Uttar Pradesh and Madhya Pradesh; six-month contract periods
+Deliverables
+Yard plans, drainage plans, and for each drainage yard a survey report, waste-water estimate, drainage slopes and disposal location, manholes and septic tanks, and layout plans
+Read the case study: railway yard and drainage plans →
+Power transmission · Uttar Pradesh
 
 ### 220/132 kV substation and transmission lines in Uttar Pradesh
-Three alternate routes per line on drone maps laid over khasra maps, detailed route survey, substation investigations and GAD/SLD design, and location plans for 19 sites.
-Water and irrigation
+Survey and design for a railway traction power project: a new 220/132 kV grid substation, the 220 kV and 132 kV lines that feed it, and location plans along the railway. In progress.
+Surveyed
+Three alternate routes for each line, the approved routes in detail, the substation site and 19 sites along the railway
+Methods
+Drone photogrammetry laid over khasra maps, DGPS and total station survey with levelling, boreholes with SPT, soil resistivity tests
+Key figures
+220 kV D/C (32 m ROW) and 132 kV D/C (25 m ROW) lines; 19 sites: the GSS, 4 traction substations and 14 sectioning and sub-sectioning posts
+Deliverables
+Comparative feasibility report, longitudinal profiles with tower spotting, tower and crossing schedules, switchyard and building GAD, LT single line diagram, location plans
+Read the case study: 220/132 kV substation and transmission lines →
+Water and irrigation · Haryana
 
-### Groundwater recharge system for Mahendragarh, Haryana
-Two lines of about 45 km and 15 km carry water from an existing canal or river to recharge structures, surveyed with drones and DGPS and designed by DATA PKT.
-Landslide and slope stability
+### Groundwater recharge system for Mahendragarh: survey and design of two canal-fed lines
+Survey and design of a groundwater recharge system in Mahendragarh district: two lines take water from an existing canal or river to structures that return it to the aquifer. In progress.
+Surveyed
+Two conveyance corridors, the off-take, crossings and candidate recharge sites such as low ground and village ponds
+Methods
+Drone mapping tied to DGPS ground control and benchmarks, ground levels with DGPS and total station
+Key figures
+Two lines of about 45 km and 15 km
+Deliverables
+Alignment, longitudinal sections, hydraulic sizing, drawings of the off-take, silt chambers, crossings and recharge structures, quantities, and survey data in CAD and GIS formats
+Read the case study: groundwater recharge, Mahendragarh →
+Landslide and slope stability · Assam
 
 ### Slope stability investigation of a 66 km road corridor in Assam
-Drone LiDAR of the full corridor, 66 seismic refraction profiles and geological mapping at 7 locations, combined into a stability analysis, hazard ranking and protection design inputs.
+For a private client, the road-side slopes of a hill road corridor were investigated with three data sets combined in one ground model, and every stretch was ranked by hazard.
+Surveyed
+About 66 km of road-side cut and fill slopes, in a ~100 m wide LiDAR corridor
+Methods
+RTK/PPK drone LiDAR with DGPS control, seismic refraction tomography, engineering geological mapping
+Key figures
+66 seismic refraction profiles (~1 per km); geological mapping at 7 locations (2.12 km); about 9 weeks, with about 3 weeks in the field
+Deliverables
+Classified point cloud, DTM and DSM, 0.5 m contours, velocity tomograms, factor of safety in dry, saturated and earthquake conditions, hazard ranking, protection design inputs
+Read the case study: slope stability investigation, Assam →
+
+### Methods used across our projects
+The same survey building blocks recur in every case study: DGPS ground control, drone photogrammetry, drone LiDAR and, where the ground below matters, seismic refraction. These guides explain how each one works and how accuracy is set and checked.
+Drone survey accuracy: GSD, GCPs and RTKTopographic survey by dronePoint cloud classificationLiDAR vs photogrammetryDrone survey glossary
 
 ### About these case studies
-Each case study follows the same structure: what the client needed, what we surveyed and how, the deliverables, and what the data was used for. Together they cover the main kinds of work we do: repeat monitoring of highways, railway yard, drainage and Engineering Scale Plans, survey and design for power transmission, and water resources design.
+Each case study follows the same structure: what the client needed, what we surveyed and how, the deliverables, and what the data was used for. Together they cover the main kinds of work we do: repeat monitoring of highways, railway yard, drainage and Engineering Scale Plans, survey and design for power transmission, water resources design, and slope stability investigation. For the method behind railway plans, see Engineering Scale Plans and DPR surveys.
 We describe projects without naming clients or exact sites unless we have permission to, and we never publish contract values or coordinates. The figures on these pages (kilometres captured, plans prepared, line lengths) are the actual quantities from each project.
 Working on something similar? Send us the site KML or chainage and the outputs you need, and we will tell you how we would survey it. For pricing factors, see what a drone survey costs.
 
