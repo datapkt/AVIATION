@@ -29,7 +29,7 @@
 Highways and roads, railways and metro, power and solar, water resources, urban planning, mining, oil and gas, environment, agriculture, archaeology, public safety, manufacturing and wildlife.
 
 ## Where we work
-Projects across India from our Gurugram office. Remote GIS data processing for clients outside India.
+Projects across India from our Gurugram office. Remote GIS data processing is offered to clients outside India; all projects so far have been in India.
 
 ## Contact
 - Phone: +91 8448559100
@@ -91,17 +91,23 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html): a few centimetres with RTK or PPK and ground control, proved with independent checkpoints
 - [ESP full form in railways: what is an Engineering Scale Plan?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html): what an ESP drawing shows, the scales used, who prepares it and how a drone survey produces one
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html): defect type, location, temperature difference and severity under IEC TS 62446-3
+- [Drone topographic survey for solar power plants: what developers need before design](https://datapkt.com/insights/solar-plant-topographic-survey.html): DTM, contours, obstructions and existing drainage; DGPS ground control and checkpoints; photogrammetry or LiDAR; catchments and flow paths from the DTM; deliverables in DWG, SHP, GeoTIFF and LAS
 - [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html): accuracy on open ground and under vegetation, cost and deliverables, and which to choose by project type
 - [Drone vs manual solar panel inspection: which finds more, faster?](https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html): coverage, speed, what each finds and misses, IEC TS 62446-3 conditions and the drone-first workflow
 - [Highway drone videography for NHAI projects: what the monthly video must show](https://datapkt.com/insights/nhai-highway-drone-videography.html): NHAI's monthly drone video rule, who flies, what each frame must show and Data Lake uploads
 - [Transmission line drone inspection vs foot patrol: what each one catches](https://datapkt.com/insights/transmission-line-drone-inspection.html): drone, foot patrol or helicopter; thermal hotspot severity and tree clearance by voltage
 - [Railway drone inspection: track, OHE, bridges and yards](https://datapkt.com/insights/railway-drone-inspection.html): OHE thermal checks, track surroundings, bridges under RDSO BS-129, yards and ESPs
+- [Railway final location survey (FLS) by drone and LiDAR: what it covers](https://datapkt.com/insights/railway-final-location-survey.html): where the FLS sits after reconnaissance and PETS, the Engineering Code plans, sections and scales, and how drone and LiDAR survey with DGPS control fit
+- [Topographic and contour survey by drone: method, accuracy and deliverables](https://datapkt.com/insights/topographic-survey-by-drone.html): when a drone fits, ground control and datum, choosing the contour interval from vertical RMSE, and DTM, contour, orthomosaic and point cloud deliverables
+- [Bridge inspection by drone in India: what it can and cannot replace](https://datapkt.com/insights/bridge-inspection-by-drone.html): IRC:SP:35, IBMS, IRBM schedules and RDSO BS-129; what a drone does well, what still needs hands-on testing and an engineer, deliverables and a client checklist
 - [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html): what each method does best and why most infrastructure surveys combine all three
+- [Drone survey permissions in India: Digital Sky, airspace zones and what a client should check](https://datapkt.com/insights/drone-survey-permissions-india.html): UIN, Remote Pilot Certificate, green, yellow and red zones (5, 8 and 12 km from airport perimeters), insurance and the 2021 geospatial guidelines
 - [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html): certified pilots, accuracy reports, sample deliverables, references and data ownership
 - [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html): what each deliverable is for and its file formats (GeoTIFF, LAS, DWG, SHP, KMZ)
 - [Drone survey and geomatics glossary](https://datapkt.com/insights/drone-survey-glossary.html): plain-English definitions of GSD, GCP, RTK, DTM vs DSM, RMSE, LAS files, IEC TS 62446-3, PLS-CADD, ESP, OHE and seismic refraction
 - [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html): strip plan, contours, cross-sections and benchmarks; what a drone does well and what still needs ground survey
 - [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html): drone LiDAR, seismic refraction, geological mapping, stability analysis, IS codes and what decides the cost
+- [Point cloud classification explained: LAS classes, ground filtering and QC](https://datapkt.com/insights/point-cloud-classification.html): ASPRS LAS 1.4 class codes, ground filtering methods and failure modes, QC checks, deliverables and what to specify when outsourcing
 
 ## Case studies
 - [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html): monthly DGPS-controlled photogrammetry and videography; about 35 km of imagery or 50 km of video a day per team; more than 70,000 km in FY 2026-27
@@ -334,7 +340,7 @@ Maintenance reports combine the latest survey with earlier flights, so you can s
 The result is a maintenance plan based on measured data, with safer roads and fewer emergency repairs.
 Bridge Inspection
 Drones can inspect bridge decks, piers, bearings and abutments from angles that are hard or unsafe to reach from the ground, with little or no road closure.
-High-resolution photos and video of each component give engineers a record of condition to inspect, compare between visits and use to prioritise repairs.
+High-resolution photos and video of each component give engineers a record of condition to inspect, compare between visits and use to prioritise repairs. Our guide to bridge inspection by drone explains what it can and cannot replace.
 Tree Count
 After construction we survey the corridor to count and map existing trees and identify suitable sites for plantation along the highway.
 The report lists tree counts and proposed plantation sites, supporting compensatory plantation and environmental compliance.
@@ -541,7 +547,7 @@ In short: DATA PKT is a drone survey company based in Gurugram that surveys rail
 - Drone flights planned in short windows, so staff spend less time on the line
 - Orthomosaic and terrain model, then a CAD yard plan or Engineering Scale Plan
 - Critical details checked on the ground before the drawing is submitted
-Read the railway yard and drainage plans case study, or see our ESP & DPR surveys.
+Read the railway yard and drainage plans case study, or see our ESP & DPR surveys. For new lines and doublings, see what a railway final location survey must deliver.
 
 ### Frequently asked questions
 
@@ -729,7 +735,7 @@ Regular thermal surveys give asset managers early warning, so equipment can be r
 ### Solar Power Plants
 Drones are being used by solar power plants to give an airborne perspective that enables quicker diagnosis of damaged solar panels. Drones equipped with dual-mode high-end thermal cameras and ultra-high-definition video cameras with 16x zoom offer temperature differences and crisp images for quick identification of defective panels, cracks, or shadows. This technology reduces inspection time significantly, allowing for faster maintenance responses and minimized downtime. As a result, solar power plants can maintain optimal efficiency and output.
 By utilizing drone technology for solar plant inspections, DATA PKT significantly reduces inspection costs by 30 to 50 percent compared to traditional methods.
-Our services provide detailed topological maps and thermograms, identifying issues such as hot spots, cracked panels, and bypass diode failures, enabling prompt maintenance and optimization of solar plant performance. See how we carry out solar plant drone thermography, from flight conditions to the defect report.
+Our services provide detailed topological maps and thermograms, identifying issues such as hot spots, cracked panels, and bypass diode failures, enabling prompt maintenance and optimization of solar plant performance. See how we carry out solar plant drone thermography, from flight conditions to the defect report. Before a plant is designed, see our guide to topographic surveys for solar plants, covering contours, grading and drainage.
 Choosing a method? Compare drone and manual solar panel inspection, and check what a solar thermography report should include before you commission one.
 Deliverables: include geotagged high-resolution visible and thermal infrared images, Orth mosaics with elevation data and AI/ML-based analytics for quick analysis and provide plant efficiency reports.
 
@@ -858,6 +864,7 @@ Each report lists every defect with its class and its position on the plant layo
 - In routine O&M cycles, to track changes over time, find new faults and check that earlier repairs worked.
 - After storms or a drop in performance, when hail, wind or an unexplained fall in yield points to damage that needs locating.
 - Before a warranty claim, so each defect is documented with its class, its position and radiometric images.
+Thermography is an O&M survey. Before construction, see our guide to topographic surveys for solar plants.
 
 ### Radiometric thermal and visual imaging
 We use radiometric thermal cameras that record thermal images and video with a temperature value for every pixel, at centimetre-level detail. On a solar plant the inspection covers every module and string, from single cells up to whole blocks, and we support your O&M team through interpretation of the results.
@@ -1178,7 +1185,7 @@ A DSM (Digital Surface Model) represents the ground together with everything on 
 A DTM (Digital Terrain Model) represents the bare ground, with buildings and vegetation removed. It is produced from low-altitude imagery taken with a geometrically calibrated camera, and each pixel stores X, Y and the ground elevation (Z).
 
 ### Contour map
-Contour maps are generated from the DTM or DSM at the interval the project requires, showing the shape of the ground across the surveyed area.
+Contour maps are generated from the DTM or DSM at the interval the project requires, showing the shape of the ground across the surveyed area. See how to choose the interval in our guide to topographic and contour survey by drone.
 
 ### 3D Textured Mash
 A 3D textured mesh built from drone imagery shows the site's surfaces, walls and edges in detail, giving a complete view of the area for analysis and project planning.
@@ -2440,7 +2447,7 @@ In short: we are a GIS mapping company in Gurugram with an in-house team working
 ### Drone and LiDAR data processing
 Survey and engineering firms that capture their own drone or LiDAR data can hand the processing to us and get back outputs their drafting and design teams can use. The same team processes the data from our own surveys: we have 20+ pilots and have captured 3 lakh+ km of highway data in six years.
 - Photogrammetry processing: drone images tied to ground control and processed into orthomosaics, dense point clouds and surface models
-- Point cloud classification: LiDAR and photogrammetric point clouds classified to ASPRS LAS classes such as ground, vegetation, buildings and water, or to the class list your project uses
+- Point cloud classification: LiDAR and photogrammetric point clouds classified to ASPRS LAS classes such as ground, vegetation, buildings and water, or to the class list your project uses (see point cloud classification explained)
 - DTM and DSM: bare-earth terrain models from the classified ground points, and surface models that keep buildings, trees and structures
 - Contours generated from the terrain model at the interval your drawings need
 - Orthomosaics for base maps, feature extraction and GIS layers
@@ -2738,6 +2745,21 @@ Railway yards and industrial estates are mapped in one short flight window.
 ### Working in Delhi NCR
 Much of Delhi falls in yellow or red zones on the Digital Sky airspace map, around the airport and central government areas. We check every site on the map and plan permissions before the flight date.
 Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost.
+
+### Survey work we do in Delhi NCR
+Metro, railway and municipal work. Metro and railway corridors get base surveys, progress monitoring and corridor mapping; industrial estates and municipal areas get base maps and property and utility maps.
+Water and recharge lines. In Mahendragarh district, part of the Haryana sub-region of NCR (NCR Planning Board), we are surveying and designing a groundwater recharge system with two canal-fed lines of about 45 km and 15 km. The corridors are mapped with drones and DGPS and laid over khasra (revenue) maps (Mahendragarh case study).
+Highways. We record monthly comparative drone video of highway packages, tied to DGPS ground control, and carry out DPR surveys.
+
+### What to plan for in Delhi NCR
+Airspace. Under the Drone Rules, 2021, the ground up from 5 to 8 km of an operational airport perimeter, and the airspace above 200 feet from 8 to 12 km, is a yellow zone needing air traffic control permission; red zones need Central Government permission (PIB, 2021). This applies around Indira Gandhi International Airport, and the 2018 drone regulations named Vijay Chowk in central Delhi as a no-drone zone (PIB, 2018).
+Monsoon and fog. On India Meteorological Department normals the monsoon reaches New Delhi around 27 June and withdraws around 25 September (IMD). A study in IMD’s journal MAUSAM describes IGI airport as highly susceptible to dense fog in winter, focusing on December and January (MAUSAM).
+Air quality curbs. Under Stage III of the Commission for Air Quality Management’s (CAQM) Graded Response Action Plan, dust-generating construction such as earthwork and piling is restricted across NCR, though railway, metro and highway projects may continue (PIB, 2024).
+Common projects. The 1,380 km Delhi–Mumbai Expressway begins with its Delhi–Faridabad–Sohna section (PIB); the 19 km Haryana section of the Dwarka Expressway opened in 2024 (PM India); and the 82 km Delhi–Ghaziabad–Meerut Namo Bharat corridor has been fully operational since February 2026 (NCRTC).
+Project type | What to plan for | Typical deliverables
+Metro or rail corridor | Yellow or red zone stretches, restricted access | Orthomosaic, DTM, base survey drawings, progress records
+Expressway or highway | Long corridors, monthly cycles, winter fog | Orthomosaics, comparative monthly video, DPR drawings
+Canal or recharge line | Land along each kilometre, crossings, gravity levels | Orthomosaic on khasra maps, terrain model, sections
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
 ### Frequently asked questions
@@ -2756,6 +2778,12 @@ Area sites are quoted per acre or hectare and corridors per km. The price depend
 
 Q: How do I choose a drone survey company in Delhi?
 Check that the company ties every survey to DGPS ground control and independent checkpoints, handles Digital Sky permissions for yellow and red zones, delivers in your coordinate system and formats, and has done similar projects. Ask to see a sample deliverable before you award the work.
+
+Q: When should a drone survey be flown in Delhi NCR?
+Outside the monsoon and the dense winter fog where possible. On IMD normals the monsoon is over New Delhi from around 27 June to 25 September, and a study in IMD's journal MAUSAM describes IGI airport as highly susceptible to dense fog in winter, looking at December and January.
+
+Q: Do you survey canal and water projects in NCR outside Delhi?
+Yes. In Mahendragarh district, in the Haryana part of NCR, we are surveying and designing a groundwater recharge system with two canal-fed lines of about 45 km and 15 km.
 
 
 === https://datapkt.com/drone-survey-uttar-pradesh.html ===
@@ -2883,6 +2911,21 @@ Hill terrain under forest is mapped with LiDAR, which reaches the ground between
 Steep slopes, cloud and forest make ground survey slow in the hills. A drone covers a long stretch quickly, and LiDAR reaches the ground under trees where photos cannot.
 Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost.
 
+### Survey work we do in Northeast India
+Landslide and slope stability. For a private client we investigated the road-side slopes of a hill road corridor of about 66 km in Assam with drone LiDAR along the full length, 66 seismic refraction profiles and detailed geological mapping at 7 critical locations. Every stretch was ranked by hazard, with inputs for protection design. Field work took about three weeks in the post-monsoon dry season (Assam case study).
+LiDAR under forest. On that corridor the LiDAR was flown 60 to 80 m above ground with multiple returns, so the point cloud was classified into a bare-earth DTM under the vegetation.
+Hill highways. Our first highway drone work, in October 2020, was imagery, video and survey for NHIDCL projects in Nagaland and Manipur. Monthly highway records are tied to DGPS control.
+
+### What to plan for in Northeast India
+An early, long monsoon. On India Meteorological Department normals the monsoon reaches Guwahati, Dimapur and Agartala around 4 June and Shillong, Imphal, Aizawl and Itanagar around 5 June, and withdraws from them around 14 or 15 October (IMD). Most field work fits between late October and May.
+Landslides. The Geological Survey of India has mapped landslide susceptibility at 1:50,000 scale across about 4.3 lakh sq km of landslide-prone hills in parts of 19 states and union territories, including the Tertiary belt of North-eastern India (Ministry of Earth Sciences, 2025).
+Forest cover. In the Forest Survey of India’s 2019 assessment, about 1.71 lakh sq km of the eight north-eastern states’ 2.62 lakh sq km was forest (Lok Sabha answer, 2020). Photographs see the canopy; LiDAR ground classification separates terrain from trees.
+Agency and permissions. NHIDCL, a public sector undertaking under the road transport ministry, is the nodal highway agency in the North Eastern region (NHIDCL). Red zones under the Drone Rules, 2021 need Central Government permission (PIB, 2021), and the 2018 regulations named areas near the international border as no-drone zones (PIB, 2018), so border sites are checked early.
+Project type | What to plan for | Typical deliverables
+Hill highway | Steep slopes, cloud, monsoon from June to mid-October | Orthomosaic, DTM, contours, monthly video
+Landslide-prone stretch | Rain-induced slides, Seismic Zone V, vegetation | LiDAR DTM, seismic sections, geological maps, hazard ranking
+Corridor under forest | Canopy hides the ground | Classified point cloud, bare-earth DTM, contours
+
 ### Planning a survey in the Northeast
 Hill highways here combine steep slopes, forest and frequent cloud, so flight windows and ground control need more planning than on the plains. Corridors under tree cover are usually better surveyed with LiDAR; open stretches can use photogrammetry. To plan and quote, send us:
 - The site as a KML/KMZ file, or the chainage and road or rail line name.
@@ -2902,6 +2945,12 @@ Much of the terrain is under forest. LiDAR pulses pass through gaps in the canop
 
 Q: Do you work for NHIDCL and BRO?
 Yes. Both are among our clients.
+
+Q: When should a drone survey be flown in Northeast India?
+Between the monsoon withdrawal and its return, roughly late October to May. On IMD normals the monsoon reaches Guwahati, Shillong, Imphal, Aizawl, Agartala and Itanagar around 4 or 5 June and withdraws around 14 or 15 October.
+
+Q: Can drone LiDAR be used for landslide investigation in the Northeast?
+Yes, with ground methods. On a road corridor of about 66 km in Assam we combined drone LiDAR for the surface, seismic refraction for what lies below and geological mapping for how the material behaves.
 
 
 === https://datapkt.com/case-studies/highway-drone-monitoring.html ===
@@ -4034,7 +4083,7 @@ Short answer: look past the drone. The firm should have legally registered drone
 - Sample deliverables. Ask for a sample orthomosaic, terrain model and drawing from a past project, in the formats your team uses.
 - References from similar projects. A highway DPR, a railway ESP and a solar panel thermography job need different skills. Ask for named clients.
 - Processing and drafting in-house. Firms that only fly hand the hard part to someone else. Ask who builds the models and drawings.
-- Airspace planning. They should check the Digital Sky zone map for your site and plan any permission before quoting dates.
+- Airspace planning. They should check the Digital Sky zone map for your site and plan any permission before quoting dates. See our guide to drone survey permissions in India.
 - Clear scope and data ownership. The contract should list every deliverable and say that the raw and processed data belong to you.
 - Method honesty. A good firm will tell you when LiDAR or a ground survey is the better tool. See LiDAR vs photogrammetry.
 
@@ -4756,8 +4805,16 @@ Power lines
 What each method catches, how thermal hotspots are graded and the tree clearances set by voltage.
 Railways
 
+### Railway final location survey (FLS) by drone and LiDAR
+Where the FLS sits after PETS, what the Engineering Code asks it to deliver, and how drone and LiDAR survey with DGPS control fit.
+Railways
+
 ### Railway drone inspection: track, OHE, bridges and yards
 Where drones fit beside track recording cars, OHE thermal checks, RDSO bridge guidelines and planning.
+Bridges
+
+### Bridge inspection by drone: what it can and cannot replace
+IRC:SP:35, IBMS, IRBM and RDSO BS-129; what a drone sees, what still needs hands-on testing, deliverables and a checklist.
 Highways
 
 ### Drone survey for highway DPRs: what consultants need
@@ -4770,6 +4827,14 @@ Survey accuracy
 
 ### How accurate is a drone survey? GSD, GCPs and RTK explained
 What decides accuracy, how it is proved with checkpoints, and what to ask for in an accuracy report.
+Topographic survey
+
+### Topographic and contour survey by drone
+When a drone fits, ground control, choosing the contour interval, and the DTM, CAD and GIS deliverables.
+GIS and data processing
+
+### Point cloud classification explained
+ASPRS LAS class codes, how ground filters work and fail, QC checks and what to specify when outsourcing.
 Survey methods
 
 ### LiDAR vs photogrammetry: which drone survey do you need?
@@ -4786,6 +4851,10 @@ Glossary
 
 ### Drone survey and geomatics glossary
 GSD, GCPs, DTM vs DSM, RMSE, LiDAR returns, IEC TS 62446-3, PLS-CADD, ESP and seismic refraction in plain English.
+Regulation
+
+### Drone survey permissions in India: Digital Sky and airspace zones
+UIN, Remote Pilot Certificate, green, yellow and red zones, insurance, geospatial data rules and what to ask a vendor.
 Buying guide
 
 ### How to choose a drone survey company in India
@@ -4794,6 +4863,10 @@ Railways
 
 ### What is an Engineering Scale Plan (ESP)?
 What an ESP shows, when railway projects need one, and how drone and LiDAR surveys produce it.
+Solar
+
+### Drone topographic survey for solar power plants
+What developers need before design: DTM, contours, drainage paths, shading objects, ground control and deliverables.
 Solar
 
 ### Solar plant drone thermography: what the report should include
@@ -4811,10 +4884,11 @@ Ground sample distance, footprint and the flight height for a target GSD.
 These guides come from our day-to-day survey work on highways, railways, power lines and water projects. Each one answers a question clients ask before a survey starts: which method to use, how accurate the result will be, what the deliverables are, what it costs and what to put in the scope.
 - Choosing a method: LiDAR vs photogrammetry and drone survey vs DGPS and total station.
 - Accuracy: GSD, ground control and RTK explained, with the GSD calculator to plan flight height.
+- Topographic surveys: method, contour interval and deliverables.
 - Deliverables and cost: what each output is for and what decides the price.
 - Sector guides: highway DPR surveys, railway Engineering Scale Plans and solar thermography reports.
-- Inspection: solar plants, transmission lines, railways and NHAI highway videography.
-- Hiring a surveyor: a 10-point checklist.
+- Hiring a surveyor: a 10-point checklist and drone survey permissions.
+- Inspection: solar plants, transmission lines, railways, bridges and NHAI highway videography.
 If your question is not covered, send it to us with the site location and the outputs you need.
 
 
@@ -5165,3 +5239,739 @@ A GCP, or ground control point, is a marked target on the ground whose coordinat
 
 Q: What is RMSE in survey accuracy?
 RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z, and in general practice can be stated against a standard such as the ASPRS Positional Accuracy Standards.
+
+
+=== https://datapkt.com/insights/drone-survey-permissions-india.html ===
+Home / Insights / Drone survey permissions
+Regulation
+
+## Drone survey permissions in India: Digital Sky, airspace zones and what a client should check
+Before a drone survey can start, the drone, the pilot and the airspace over your site all have to be in order. This guide explains the Drone Rules, the airspace map on Digital Sky, and the questions a client should ask a survey vendor.
+By the DATA PKT survey and GIS engineering team · Published 25 November 2026
+Short answer: a commercial drone survey in India needs a drone registered with a Unique Identification Number (UIN), a pilot holding a Remote Pilot Certificate (RPC), third-party insurance, and a check of the site on the Digital Sky airspace map. In a green zone no flight permission is needed up to 400 ft. Yellow zones need air traffic control permission and red zones need Central Government permission.
+Rules change. Check before every flight. Zone boundaries are updated and temporary red zones can be declared at short notice. The Ministry of Civil Aviation says anyone planning to fly should check the latest airspace map for changes before operating. This guide is general information as of November 2026, not legal advice.
+25 August 2021: Drone Rules, 2021 notified, G.S.R. 589(E)
+400 ft: green-zone ceiling for flights without permission
+5, 8, 12 km: airport perimeter bands that set yellow and green limits
+15 February 2021: geospatial guidelines: no prior approval for Indian entities
+
+### 1. Which rules apply in 2026
+Civil drone operations in India are governed by the Drone Rules, 2021, notified by the Ministry of Civil Aviation on 25 August 2021. They replaced the earlier UAS Rules with a much shorter set of approvals, made most permissions self-generated on the Digital Sky platform, and cover drones up to 500 kg. The rules have been amended since:
+- Drone (Amendment) Rules, 2022 (G.S.R. 108(E), 11 February 2022) replaced the remote pilot licence with a Remote Pilot Certificate issued by an authorised remote pilot training organisation.
+- Drone (Amendment) Rules, 2023 (G.S.R. 715(E), 27 September 2023) let applicants for a Remote Pilot Certificate use any government-issued identity and address proof instead of a passport.
+- A further amendment dated 21 August 2024 is listed by the Ministry in Parliament; it extended the same identity relaxation to drone registration and transfer forms.
+Two newer changes matter in practice. First, regulatory services such as drone registration, pilot certification and type certification have moved from Digital Sky to DGCA's eGCA portal, while operational services such as the airspace map and flight permissions remain on Digital Sky. Second, in September 2025 the Ministry published a draft Civil Drone (Promotion and Regulation) Bill, 2025 for consultation, which would replace the Drone Rules with a law. Until a new law is passed and notified, the Drone Rules, 2021 as amended apply. Check the current position before you sign a contract.
+
+### 2. The drone: registration, UIN and type certificate
+No one may operate a drone without first registering it and getting a Unique Identification Number (UIN). The UIN is marked on the drone and links it to its owner, so a client can ask for it and check it against the aircraft on site. Drones are grouped by maximum all-up weight including payload:
+Category | All-up weight | Typical survey use
+Nano | Up to 250 g | Not used for survey work
+Micro | More than 250 g, up to 2 kg | Small mapping drones and inspection quadcopters
+Small | More than 2 kg, up to 25 kg | Most RTK mapping drones, LiDAR and fixed-wing survey drones
+Medium | More than 25 kg, up to 150 kg | Specialist heavy payloads
+Large | More than 150 kg | Not used for survey work
+A type certificate is needed for a drone model to be operated in India; nano drones are exempt. Type certificates are issued under the Certification Scheme for Unmanned Aircraft Systems, notified on 26 January 2022 and developed by the Quality Council of India, with testing by approved certification bodies. For a client, the practical point is simple: the survey drone should be a certified model with a valid UIN, not an unregistered import.
+
+### 3. The pilot: Remote Pilot Certificate
+The person flying must hold a Remote Pilot Certificate (RPC). Since 2022 it is issued by a DGCA-authorised remote pilot training organisation (RPTO) after training and a test, and it is generated through the online platform. Only nano drones and micro drones flown for non-commercial use are exempt, so a commercial survey always needs a certified pilot. Applicants must be between 18 and 65 years old and have passed class 10. The certificate states the category and class of drone it covers, so check that it matches the drone being flown on your site.
+
+### 4. The airspace map: green, yellow and red zones
+The Ministry of Civil Aviation published India's airspace map for drones on 24 September 2021. It is free to view on Digital Sky without a login, and it divides the country into three zones.
+Zone | Where it applies | What is needed
+Green zone | Up to 400 ft (about 120 m) above ground where the area is not yellow or red; up to 200 ft (about 60 m) in the band 8 to 12 km from an operational airport perimeter | No flight permission needed. Registration, pilot certificate and the airspace check still apply
+Yellow zone | Above 400 ft in a green zone; above 200 ft in the 8 to 12 km band; all heights in the band 5 to 8 km from an operational airport perimeter | Permission from the air traffic control authority for that airspace: AAI, IAF, Navy or HAL
+Red zone | No-drone zones marked on the map. Close to operational airports, inside the 5 km band, the map typically shows red | Permission from the Central Government
+The yellow zone around airports was cut from 45 km to 12 km from the airport perimeter when the 2021 rules came in. In plain terms, around an operational airport:
+- 12 km and beyond: normal green-zone rules, up to 400 ft, unless the map shows otherwise.
+- 8 to 12 km: green up to 200 ft, yellow above 200 ft. Many mapping flights can be planned below 200 ft, but the GSD and overlap must still meet the specification.
+- 5 to 8 km: yellow at every height, so every flight needs ATC permission.
+- Inside 5 km: check the map. This area is typically shown as red.
+These distances are measured from the airport perimeter, not the terminal, and military airfields count too. The map, not a rule of thumb, decides. Long corridors such as highways and railway lines often cross several zones, so each stretch has to be checked separately.
+
+### 5. Getting permission in yellow and red zones
+For a yellow zone, permission comes from the air traffic control authority for that airspace: the Airports Authority of India, the Indian Air Force, the Navy or HAL, depending on the airport. For a red zone, the Central Government must give permission. Requests are made online through Digital Sky, with the flight area, height, timing and drone details.
+Two things often surprise clients. First, approval is not instant: a request for a yellow or red zone needs lead time, so fix the survey dates only after the zone check. Second, state governments, union territory administrations and police can declare temporary red zones for events, VIP visits or security reasons. These can appear on the map at short notice and override an approval planned earlier. This is why the airspace check is repeated on the day of the flight.
+
+### 6. Critical infrastructure, borders and site access
+Airspace permission is only one layer. Sites near defence installations, international borders, nuclear and strategic facilities, ports and some government complexes are likely to sit in yellow or red zones, and may need further security clearances from the agency concerned. Even in a green zone, the asset owner usually has its own rules:
+- Railways, metros and highway authorities may require a block, a work permit or an escort for flights over live lines and carriageways.
+- Power utilities set safe distances from energised conductors and may need the line owner's consent.
+- Refineries, plants and private campuses control entry and may restrict cameras.
+Put these site permissions in the scope and the schedule. A clear airspace map does not mean the flight can go ahead on the day.
+
+### 7. Insurance
+Under the Drone Rules, third-party insurance of drones other than nano drones is governed by the Motor Vehicles Act, 1988, under which third-party cover is compulsory. Ask the vendor for the policy, its validity and whether it covers the drone and the location being flown. Some contracts also ask for cover for the client's assets.
+
+### 8. Geospatial data: who may collect it, and where it is stored
+The Department of Science and Technology's guidelines of 15 February 2021 removed the need for prior approval, security clearance or a licence to acquire and produce geospatial data inside India, subject to a negative list of sensitive attributes. The key points for a drone survey are:
+- Indian entities may collect and produce geospatial data at any accuracy, with self-certification used to show compliance.
+- The threshold is one metre horizontal and three metres vertical. Data finer than this may be created and owned only by Indian entities, and must be stored and processed on servers in India.
+- Foreign companies, and foreign-owned or controlled Indian companies, may license finer data from Indian entities only to serve customers in India.
+Survey-grade drone data is far finer than the threshold, so it should be held and processed in India. The National Geospatial Policy, 2022 builds on the same approach. Data rules are separate from airspace rules: being free to map does not mean being free to fly.
+
+### 9. What a client should ask a survey vendor
+- The UIN of each drone that will fly, and its type certificate or certified model.
+- The Remote Pilot Certificate of each pilot, valid for that drone category.
+- A zone check for your site from the Digital Sky map, stretch by stretch for corridors, with the permission plan for any yellow or red section.
+- Who applies, and the lead time before dates are fixed.
+- Third-party insurance in force for the survey period.
+- Site permissions: whose consent, blocks or escorts are needed, and who arranges them.
+- Data handling: is the company an Indian entity, where are raw and processed data stored and processed, who owns them, and how are sensitive features treated?
+- A plan for no-fly days: what happens to the schedule if a temporary red zone or bad weather stops the flight?
+These sit alongside the technical checks in our guide on how to choose a drone survey company. Permission lead times and site access are also part of what decides the cost of a drone survey. Terms such as UIN, RPC and GSD are explained in our drone survey glossary.
+
+### How DATA PKT handles permissions
+Flights are planned on the Digital Sky platform under the Drone Rules, 2021, and flown by DGCA Remote Pilot Certificate holders on drones with a Unique Identification Number. Each site, and each stretch of a corridor, is checked on the airspace map and any permission is planned before dates are agreed. Our network of 20+ pilots works with an in-house GIS team, and every survey is tied to DGPS ground control. See how this works on highway projects and in our highway drone monitoring case study. Pilots who want to fly survey projects can join our drone pilot network.
+
+### Sources
+- Ministry of Civil Aviation, Ministry of Civil Aviation notifies liberalised Drone Rules, 2021, PIB, 26 August 2021. pib.gov.in
+- Ministry of Civil Aviation, Ministry of Civil Aviation releases India's airspace map for drone operations, PIB, 24 September 2021. pib.gov.in
+- Ministry of Civil Aviation, The Drone Rules, 2021 (backgrounder), PIB, 28 January 2022. static.pib.gov.in
+- Ministry of Civil Aviation, Drone (Amendment) Rules, 2022, G.S.R. 108(E), 11 February 2022. civilaviation.gov.in
+- Ministry of Civil Aviation, Drone (Amendment) Rules, 2023, G.S.R. 715(E), 27 September 2023, with PIB release of 5 October 2023 (cites Drone Rules, 2021, G.S.R. 589(E), 25 August 2021). ffo.gov.in
+- Lok Sabha, Unstarred Question No. 2282, Promotion of Civilian Drones, answered 12 February 2026. eparlib.sansad.in
+- PIB Research Unit, India's Drone Ecosystem: From Policy to Public Service Transformation, 17 February 2026. static.pib.gov.in
+- Ministry of Civil Aviation, Union Aviation Minister awards the first Type Certificate under Drone Rules, 2021, PIB, 14 June 2022. pib.gov.in
+- Ministry of Civil Aviation, Employment opportunities in Drone sector, PIB, 3 February 2022 (remote pilot eligibility). pib.gov.in
+- Department of Science and Technology, Guidelines for acquiring and producing geospatial data and geospatial data services including maps, F.No. SM/25/02/2020 (Part-I), 15 February 2021. dst.gov.in
+- Ministry of Science and Technology, India Maps the 21st Century, PIB, 15 February 2021. pib.gov.in
+- Ministry of Science and Technology, National Geospatial Policy meets Government commitment to inclusion and progress, PIB, 13 February 2024. pib.gov.in
+- Ministry of Civil Aviation, Draft Civil Drone (Promotion and Regulation) Bill, 2025, published for consultation September 2025. civilaviation.gov.in
+- Khaitan & Co, Ergo: Drone Rules, 2021, 6 September 2021 (third-party insurance under the Motor Vehicles Act; duty to verify the airspace map). www.khaitanco.com
+- Legality Simplified, note on the Drone (Amendment) Rules, 2024 dated 21 August 2024 (identity proof for registration and transfer forms). www.legalitysimplified.com
+- ThePrint, example of a temporary red zone: Srinagar police declare temporary red zone for drone operations ahead of the Prime Minister's visit. theprint.in
+Official sources are listed first. Rules, zone boundaries and portals change; check Digital Sky, eGCA and the Ministry of Civil Aviation for the current position. This page is general information, not legal advice.
+Planning a survey? Send us the site KML or chainage and we will check the airspace zones before agreeing dates.
+
+### Frequently asked questions
+
+Q: Do I need permission for a drone survey in India?
+It depends on where the site is. In a green zone on the Digital Sky airspace map, a registered drone flown by a certified pilot needs no flight permission up to 400 ft (about 120 m) above ground. In a yellow zone, permission is needed from the air traffic control authority for that airspace, and in a red zone from the Central Government. The drone must still carry a UIN and the pilot a Remote Pilot Certificate.
+
+Q: What are the green, yellow and red zones for drones?
+They are the zones of the airspace map published on Digital Sky in September 2021. Green zones allow flights up to 400 ft without permission, and up to 200 ft in the band 8 to 12 km from an operational airport perimeter. Yellow zones, including all airspace 5 to 8 km from an airport perimeter, need air traffic control permission. Red zones are no-drone zones that need Central Government permission.
+
+Q: Who gives permission to fly a drone in a yellow zone?
+The air traffic control authority that controls that airspace, such as the Airports Authority of India, the Indian Air Force, the Navy or HAL, depending on the airport. The request is made online through the Digital Sky platform, so plan for it before fixing survey dates.
+
+Q: Does a survey drone pilot need a licence in India?
+The pilot needs a Remote Pilot Certificate. Since the Drone (Amendment) Rules, 2022 it is issued by a DGCA-authorised remote pilot training organisation through the online platform, and it replaced the earlier remote pilot licence. Only nano drones and micro drones flown for non-commercial use are exempt, so a commercial survey needs a certified pilot.
+
+Q: Do Indian companies need permission to collect drone mapping data?
+Under the Department of Science and Technology guidelines of 15 February 2021, Indian entities need no prior approval, security clearance or licence to acquire and produce geospatial data inside India, subject to a negative list of sensitive attributes. Data finer than the threshold accuracy must be stored and processed in India. Airspace permission is a separate requirement.
+
+
+=== https://datapkt.com/insights/solar-plant-topographic-survey.html ===
+Home / Insights / Solar plant topographic survey
+Solar site survey
+
+## Drone topographic survey for solar power plants: what developers need before design
+The layout, the earthwork quantities, the drainage design and the access roads of a solar plant are all drawn on a terrain model. Here is what that survey should capture, how accurate it needs to be, and what to ask for before the design team starts.
+By the DATA PKT survey and GIS engineering team · Published 25 November 2026
+Short answer: before a solar plant is designed, the site needs a ground-truth terrain model: a bare-earth DTM with contours, an orthomosaic, the surveyed boundary, every obstruction that could cast a shadow, and the existing drainage lines inside and around the site. A drone survey on DGPS ground control can supply all of these over a large site in one campaign, provided the accuracy is proved with checkpoints and the data is delivered in the coordinate system and height datum the designers will use.
+
+### Why a solar plant needs a topographic survey
+A solar site can look flat on a satellite basemap and still have enough fall, ridges and gullies to change the design. Public elevation data and web maps give a first impression of a site, but they are too coarse to grade a plant or size a drain. The World Bank Group's developer guide lists a detailed site plan, "including site surveys, topographic contours", among the outputs of the feasibility stage. The survey feeds five design decisions.
+- Table and tracker layout. Fixed-tilt tables and single-axis trackers each have a limit on the slope and the ground undulation they can follow. The DTM shows which blocks fit as they are, which need longer posts or terrain-following structures, and which need grading. The same guide notes that topography together with the geotechnical survey shapes the choice of foundation.
+- Grading and earthwork. Cut and fill volumes come straight from the surface model. Uneven ground can need grading that adds cost and time, and a coarse survey can leave a surprise in the earthwork bill. The 2,000 MW Pavagada solar park DPR in Karnataka, for example, proposed levelling only where undulation was high and otherwise following "the contour of the land", a decision that can only be made from a contour plan.
+- Drainage design. Runoff paths, catchment areas and the positions of culverts and drains are read from the DTM. The Pavagada DPR states plainly that "a detailed terrain map is required towards designing of the drainage system".
+- Roads and cable routes. Internal roads, inverter and transformer pads, cable trenches and the route to the pooling substation should run on stable ground, clear of natural drainage lines. An engineer writing in PV Tech describes a site where the access route was set "without regard to existing site drainage and soil conditions", and the problems that followed.
+- Shading. Ridges, trees, buildings, transmission towers and poles cast shadows that cost energy every day of the plant's life. The developer guide calls avoiding shading critical, because even small areas of shade can significantly impair output, and separates far shading from the horizon from near shading by poles, control rooms and switchyard equipment. The survey should record the position and height of each object, not just its outline.
+
+### What the survey should capture
+Agree the list before the flight. Adding items later usually means a second site visit.
+Item | What it is for | Notes
+Bare-earth DTM | Grading, layout fit, earthwork volumes, drainage | Ground only: vegetation, structures and stockpiles removed. The DSM (top surface) is kept separately for shading.
+Contours | Layout drawings, grading plans, drainage | Interval set by terrain and design stage. Flat sites usually need a closer interval than rolling ground; agree it in the scope.
+Spot levels and grid levels | Checking flat ground where contours are sparse | Useful on very flat land, where contours alone say little about direction of fall.
+Orthomosaic | Base map for layout and land records | True-colour, georeferenced, at a stated GSD.
+Boundary and land features | Fixing the usable area | Surveyed boundary pillars, fences, roads, tracks and rights of way, overlaid on revenue (khasra) maps where needed.
+Obstructions | Shading study and setbacks | Trees, buildings, poles, overhead lines and towers, with heights.
+Existing drainage | Drainage design and flood risk | Nallahs, gullies, ponds, culverts and bunds, inside and upstream of the boundary.
+Soil and geotechnical pointers | Planning the ground investigation | Rock outcrops, erosion, waterlogged or saline patches, visible fill. These guide where boreholes and pile tests go; they do not replace them.
+On the last item: a drone sees the surface, not the subsoil. The developer guide recommends a geotechnical survey before final site selection, and a mixture of soil and rock below ground often does not show up on any map. The topographic survey makes the ground investigation better targeted; it is not a substitute for one.
+
+### Accuracy and ground control
+Vertical accuracy matters more than horizontal on a solar site, because grading, drainage falls and post lengths all depend on levels. Three things decide it.
+- Ground control. Ground control points measured with DGPS tie the model to the project coordinates. On a large block, spread them around the edge and through the middle; on a long access road or transmission route, place them along the full length. RTK or PPK positioning on the drone reduces the number of control points needed but does not remove the need for checkpoints.
+- Checkpoints. Independent points left out of processing, compared with the finished model and reported as RMSE in X, Y and Z. This is the only proof of the accuracy that was achieved. Positional accuracy can be stated against a published standard such as the ASPRS Positional Accuracy Standards.
+- Datum. The survey, the design and the construction stake-out must use the same coordinate system and the same height datum. A mismatch here shifts every level on the drawings.
+Our guide to drone survey accuracy, GSD, GCPs and RTK covers these in detail, and the drone survey glossary explains terms such as DTM, GCP and RMSE.
+How a drone photogrammetry survey becomes design data. The DTM used for grading and drainage, and the contours drawn from it, sit near the end of the chain, so any weakness in ground control carries through to them. The checkpoint QA step tests the whole chain against points the adjustment never saw.
+
+### Drone photogrammetry or LiDAR for a solar site?
+Many solar sites in India are open land: barren ground, fallow farmland or sparse scrub. On ground like this, drone photogrammetry on DGPS control gives a DTM, contours and a true-colour orthomosaic in one flight, and is usually the economical choice.
+Two conditions change that.
+- Vegetation. Photogrammetry maps the top of whatever it sees. Where dense scrub or tree cover hides the ground, a photo-derived surface sits on the canopy and the DTM is wrong by the height of the bushes. LiDAR can record ground returns through gaps in the vegetation and is the better tool there; the other options are clearing before the survey or ground survey of the covered patches.
+- Very uniform terrain. Bare sand, salt flats and freshly graded earth give photogrammetry few features to match. Lower flights, more overlap and more ground control help. LiDAR does not rely on image texture, so it is less affected.
+On a mixed site, one option is photogrammetry for the open blocks and LiDAR for the covered strips and drainage lines. Our comparison of LiDAR vs photogrammetry sets out the trade-offs with published accuracy figures.
+
+### Hydrology and drainage basics for solar plants
+Improperly planned drainage and erosion control at large solar plants is an area under close scrutiny. It leads to drainage and erosion problems after construction and to reduced profits over the life of a facility. The same author advises a detailed hydrology assessment for large sites of 50 MW and above, and warns not to assume that large, sudden storms can pass over a plant without damage from water depth and velocity. Flooding can damage electrical equipment mounted near ground level and increase the risk of erosion around foundations.
+The DTM is the starting point for that assessment. In GIS, the steps are standard:
+- Fill sinks. Small false depressions in the model trap simulated flow and are filled first to give a conditioned DTM.
+- Flow direction. Water leaves each cell in the steepest downslope direction, so the model gives the direction of flow everywhere on the site.
+- Flow accumulation and flow paths. Counting how many upstream cells drain into each cell shows where flow concentrates; cells with enough accumulated flow form the drainage network.
+- Catchments. From chosen outlet points, such as a proposed culvert or the site boundary, the catchment draining to each point is delineated.
+Catchment area, flow length and fall then go into the design discharge. For small catchments, Indian road practice uses a form of the rational formula, in which peak runoff depends on the catchment area, a runoff coefficient and the critical rainfall intensity, set by the time of concentration. IRC:SP:13 asks for catchment area, length and fall from survey maps, and recommends a traverse along the watershed for catchments smaller than 1.25 sq km. It also cautions that empirical formulae should be used with due caution and in consultation with an expert. Other manuals limit the rational method to small basins; the Iowa DOT design manual, for one, restricts it to drainage basins of 160 acres or less. The hydrologist chooses the method; the survey has to supply the inputs.
+Two points follow for the survey scope.
+- Survey beyond the boundary. Water that reaches the plant often comes from land upstream of the fence. If the survey stops at the boundary, the external catchment has to be estimated from coarser data. Agree a buffer, or a separate lower-resolution flight of the upstream area.
+- Keep the natural drainage where possible. The Pavagada DPR noted that "essentially the natural slope and drain is maintained for drainage in the solar field", with drains run parallel to the roads. Mapping the existing nallahs and their sections accurately is what makes that approach possible.
+
+### Deliverables checklist
+Ask for these in the scope, with formats the design team can open directly:
+- Orthomosaic as GeoTIFF, with the GSD stated.
+- DTM and DSM as GeoTIFF rasters, with cell size stated.
+- Point cloud as LAS or LAZ, classified at least into ground and non-ground.
+- Contours, spot levels, boundary, obstructions and existing drainage as DWG for CAD and SHP for GIS, on agreed layers.
+- Drainage layers: flow paths, catchment boundaries and outlet points as SHP, if the hydrology work is in scope.
+- Ground control and checkpoint list with coordinates, descriptions and photographs of each point.
+- Accuracy report with RMSE in X, Y and Z from independent checkpoints.
+- Survey report stating the coordinate system, height datum, equipment, flight dates and any areas of reduced confidence, such as vegetated patches.
+Our guide to drone survey deliverables explains what each output is for, and our GIS mapping and data processing page covers layer preparation and GIS to CAD work.
+
+### Common mistakes
+- Designing on satellite or public elevation data. Fine for screening sites, too coarse for grading or drainage.
+- Treating the DSM as the ground. On a site with scrub, a surface model from photos is a canopy model. Ask how the DTM was filtered and where confidence is low.
+- No checkpoints. Ground control without independent checkpoints gives a model whose accuracy has not been proved.
+- Mismatched height datum. Survey levels on one datum and design levels on another shift every grading and drainage level.
+- Stopping at the fence. Upstream catchments decide how much water arrives at the plant.
+- Missing obstruction heights. A tree or pole mapped only as a point cannot be used in a shading study.
+- Survey too early or too late. If the site is cleared or partly graded after the survey, the model no longer matches the ground. Plan a check flight before design freeze.
+
+### What decides the cost
+For a solar site, the main cost factors are the area and whether it is one block or several, the accuracy and GSD required, the amount of ground control, vegetation cover (which decides whether LiDAR is needed), the deliverables and the location. Our page on what decides drone survey cost explains each one.
+
+### Where DATA PKT fits
+We fly drone photogrammetry and LiDAR on DGPS ground control and process the data with our in-house GIS team into the DTM, contours, CAD and GIS layers listed above. Once the plant is built and running, the next survey it needs is usually an O&M one: see our solar plant drone thermography service, where our thermal team includes a thermographer certified to ISO 9712 Level 2. Send us the site KML and the outputs your design team needs.
+
+### Sources
+- International Finance Corporation (World Bank Group), Utility-Scale Solar Photovoltaic Power Plants: A Project Developer's Guide, 2015 (sections 2.4.1, 3.4.1, 5.5, 6.3). ppp.worldbank.org
+- KSPDCL, Solar Park of 2000 MW Capacity in the State of Karnataka: Detailed Project Report, December 2015 (sections 8.4.6, 9.1.1, 9.2). cdkn.org
+- Gretchen Dolson (HDR), Eroding soils, eroding image, eroding profits: why erosion control and drainage matter in solar, PV Tech, Design and Build technical briefing, May 2019. www.pv-tech.org
+- Indian Roads Congress, IRC:SP:13-2004, Guidelines for the Design of Small Bridges and Culverts (articles 3.2, 4.7). law.resource.org
+- Esri, ArcGIS Pro documentation: Deriving runoff characteristics. doc.esri.com
+- Iowa Department of Transportation, Design Manual 4A-5: Using the rational method to determine peak flow. iowadot.gov
+- RatedPower (Mario Bennekers), How to design a PV plant with topography restrictions, updated December 2021. ratedpower.com
+- ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 2 (2023, v2 2024), via USGS. www.usgs.gov
+Guidance is general. The project's design codes, the owner's specifications and the contract govern each survey.
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Why does a solar plant need a topographic survey?
+The layout of tables or trackers, the grading and earthwork quantities, the drainage design, the internal roads and cable routes, and the shading study are all drawn on the terrain model. Public elevation data and satellite maps are too coarse for these, so a site-specific survey with a bare-earth DTM and contours is needed before design.
+
+Q: What should a solar site survey include?
+A bare-earth DTM, contours at an agreed interval, spot levels on very flat ground, a georeferenced orthomosaic, the surveyed boundary, obstructions with their heights, and existing drainage lines inside and upstream of the site. It should also record surface signs such as rock outcrops, erosion and waterlogging to guide the geotechnical investigation.
+
+Q: Is a drone survey accurate enough for solar plant design?
+Yes, when it is flown on DGPS ground control, at a GSD suited to the accuracy target, and proved with independent checkpoints reported as RMSE in X, Y and Z. The survey must also use the same coordinate system and height datum as the design team.
+
+Q: Should I use LiDAR or photogrammetry for a solar site?
+On open, sparsely vegetated land, drone photogrammetry usually gives the DTM, contours and orthomosaic economically. Where dense scrub or trees hide the ground, LiDAR is the better tool because it can record ground returns through gaps in the vegetation. Mixed sites can combine the two.
+
+Q: How is a drainage study for a solar plant done from the survey?
+The DTM is conditioned by filling false sinks, then flow direction, flow accumulation and catchment boundaries are computed in GIS. Catchment area, flow length and fall then feed a design discharge method, such as the rational formula in IRC:SP:13 for small catchments, chosen by the hydrologist. The survey should extend beyond the boundary to cover upstream catchments.
+
+
+=== https://datapkt.com/insights/railway-final-location-survey.html ===
+Home / Insights / Railway final location survey
+Railway surveys
+
+## Railway final location survey (FLS) by drone and LiDAR: what it covers
+The final location survey fixes a new railway line on the ground and produces the plans, sections and estimates the project is sanctioned on. Here is what it must deliver under the Indian Railways Engineering Code, and where drone photogrammetry and LiDAR with DGPS control fit.
+By the DATA PKT survey and GIS engineering team · Published 25 November 2026 · 10 min read
+Short answer: a final location survey (FLS) is the last and most detailed survey stage before a railway project is sanctioned. It fixes the centre line, curves and gradients, and produces detailed plans, longitudinal and cross-sections, bridge and yard plans and the data for the detailed estimate. The Railway Board now asks for tools such as LiDAR and satellite imagery in FLS work. A drone or aerial LiDAR survey, tied to DGPS control and bench marks, supplies most of the topography; centre-line pegging, pillars, soil investigation and river studies are still done on the ground.
+
+### Where the FLS sits in railway project planning
+The Indian Railways Code for the Engineering Department links each survey stage to a report. A reconnaissance survey supports a feasibility study, a Preliminary Engineering-cum-Traffic Survey (PETS) leads to a Techno-Economic Survey Report, and a final location survey leads to the Project Report, which carries the detailed estimate and the abstract cost of the project.
+Stage | Purpose | Typical survey work | Report
+Reconnaissance | Is the project worth investigating further? | Maps, imagery, site visits, waterway at major crossings | Feasibility report
+PETS / traffic study | Compare routes, test viability, estimate cost closely | Route traverses; photogrammetry where suitable photographs exist; traffic study | Techno-Economic Survey Report
+Final location survey | Fix the alignment and prepare plans for construction and sanction | Centre line, levels, cross-sections, bridges, yards, land, soil | Project Report with detailed estimate
+Detailed estimate and DPR | Sanction of the project and award of works | Quantities and costs worked out from the FLS drawings | DPR in the Railway Board format
+The order matters. In 2025 the Railway Board told zonal railways to get the traffic study done before going ahead with a final location survey, so that money is not spent surveying a line that is not viable. Its revised FLS rates now include the traffic study within the FLS cost. Under the Railway Board's arrangements for empanelled consultants, the consultant first does the traffic study to test viability, then goes on to the FLS and the DPR.
+FLS and DPR work covers new lines, doubling and multi-tracking, gauge conversion and yard remodelling. Yard remodelling overlaps with the Engineering Scale Plan (ESP), which shows an existing yard to scale before changes are designed.
+
+### What the Engineering Code asks an FLS to deliver
+Chapter IV of the Engineering Code sets out the final location survey in detail. The survey should be comprehensive enough to give the information needed for the detailed plans and sections and for an accurate estimate of cost, and it should secure the most economical alignment. The main requirements are below.
+
+#### Alignment, curves and gradients
+- Centre line: measured in chains of 20 metres, with pegs at every chain and larger pegs at every 100 metres.
+- Permanent marks: masonry pillars at tangent points and at intervals along the line, so the alignment can be set out again at construction.
+- Curves: defined by degree and radius, with transition curves where the curvature changes; gradients are expressed per 100 metres and compensated for curvature.
+- Levels: bench marks at intervals of not more than one kilometre and at the sites of important bridges, referred to mean sea level.
+
+#### Plans and sections
+The Code lists the set of plans and sections a project should have: a general map, an index map, an index plan and section, detailed plans and sections, plans and cross-sections, station yard plans, drawings of structures and plans of junction arrangements. Some of the scales it gives:
+Drawing | Scale in the Code | What it shows
+Index plan and section | 0.5 km to 1 cm horizontal, 10 m to 1 cm vertical | The whole line, with important bridges, rivers and spans
+Detailed plans and sections (L-section) | 50 m to 1 cm horizontal, 5 m to 1 cm vertical | All features within 100 m each side of the centre line, including village boundaries; ground and formation levels
+River plans and cross-sections | Plan at 50 m to 1 cm; sections at 5 m to 1 cm | Rivers needing a waterway of 110 sq. metres or more
+Station yard and junction plans | 10 m to 1 cm | Stations needing special design and junction layouts
+All scales above are from Chapter IV of the Engineering Code. The longitudinal section carries two sets of levels, the ground and the formation, and cross-sections are referenced on it. Larger scales may be used in difficult country.
+
+#### Bridges, culverts, soil and land
+Every waterway crossing needs a site study: catchment, flood levels, scour and the size of opening. Large bridges need skeleton drawings for the estimate, and the Code asks for bunds and irrigation works on the route to be investigated, along with any diversion they need. In hilly country a geological investigation is needed, and soil samples are taken systematically along the route and at borrow areas. Land plans, drawn over village and revenue maps, show the land to be acquired and the boundaries it crosses; the detailed plan already shows village land boundaries within 100 metres of the centre line.
+
+### How drone photogrammetry and LiDAR fit an FLS
+The Code was written for theodolite traverses and levelling, but it already allowed photogrammetric techniques for the preliminary survey where suitable aerial photographs were available. Current Railway Board instructions for FLS and DPR consultants go further: they say technological tools such as LiDAR survey and satellite imagery on the BISAG portal should be used for survey work, that the alignment should be planned on the BISAG platform, and that a drone project video should be made where required.
+High-speed rail shows the method at scale. NHSRCL used helicopter-mounted aerial LiDAR, combining laser data, GPS data, flight parameters and photographs, to map the Delhi–Varanasi corridor as a 3D topographic map 50 metres either side of the proposed alignment. On the Mumbai–Ahmedabad corridor the aerial LiDAR ground survey took 12 weeks, against 10 to 12 months by traditional methods, and fed the design of the vertical and horizontal alignment, structures, stations, land requirement and affected plots. Drones and helicopters were also reported in use for the FLS of the Sambalpur–Gopalpur line in Odisha in 2020.
+For a conventional line, a drone does the same job over a narrower strip, with lighter logistics than a helicopter. The workflow is:
+- Control first. A DGPS control network along the corridor, tied to the project datum and to bench marks levelled from mean sea level.
+- Flight. Photogrammetry for open country and built-up areas; drone LiDAR where vegetation, cuttings or hill slopes hide the ground. Many corridors use both.
+- Processing. Orthomosaic, digital terrain model and contours, plus a classified point cloud from LiDAR.
+- Engineering extraction. Longitudinal section along the chosen centre line, cross-sections at the required interval, feature mapping within the corridor and land plans over revenue maps.
+- Ground work that stays on the ground. Pegging and pillars, river and bridge site studies, soil and geological investigation, and checks of features the aerial data cannot see.
+The main gain is that the alignment can be moved on the terrain model without resurveying. Several options can be tested, curves and gradients adjusted, and the sections regenerated before anything is pegged. The comparison with ground methods is covered in drone survey vs DGPS and total station.
+
+### Accuracy and ground control
+An FLS is only as good as its control. On a linear corridor, ground control points are spread along the full length and alternate on both sides of the alignment, with a pair at each end, so the model does not bend or tilt along its length. Checkpoints are measured the same way but held out of processing, so the accuracy can be proved.
+Ground control for a railway corridor. GCPs alternate on both sides of the alignment and are paired at the ends; checkpoints are held out of the adjustment. Chainage along the centre line ties every drawing to the FLS pegs.
+- Datum: plan coordinates in the project system, and heights as orthometric heights tied to bench marks, not raw GNSS ellipsoidal heights.
+- Chainage: every section, plan and point in the data should carry chainage, so the drawings, the pegs on the ground and the estimate agree.
+- Accuracy report: residuals at independent checkpoints reported as RMSE in X, Y and Z.
+- Vertical accuracy matters most. Earthwork quantities come from the difference between ground and formation levels, so a small bias in the terrain model becomes a large error in the estimate.
+How GSD, GCP spacing and RTK or PPK positioning set the achievable accuracy is explained in how accurate is a drone survey.
+
+### Deliverables and file formats
+The output of a drone or LiDAR survey for an FLS should be ready for the alignment designer and the estimator, not only a map. A typical set:
+Deliverable | Format | Used for
+Orthomosaic of the corridor | GeoTIFF | Base for plans, land plans and route review
+Terrain model and contours | GeoTIFF, DWG | Alignment design, earthwork, drainage
+Point cloud | LAS / LAZ | Ground under vegetation, cuttings, structures
+Detailed plan, L-section and cross-sections | DWG | FLS drawings at the Code scales, quantities
+Bridge and culvert site plans | DWG | Waterway design, skeleton drawings
+Land plans and GIS layers | SHP, DWG | Land acquisition, utilities, encroachments
+Control and accuracy report | PDF, CSV | Proof of accuracy; setting out at construction
+What each of these products is, and how it differs from the others, is covered in drone survey deliverables explained.
+
+### Common pitfalls
+- Too narrow a corridor. If the strip only covers the first alignment, every shift needs a new flight. Fly wide enough for realignments and for the 100 metres each side the Code's detailed plan needs, more where yards or junctions will be built.
+- Photogrammetry under trees. A photogrammetric model maps the canopy, not the ground. Use LiDAR or ground survey in forests, orchards and overgrown cuttings, or the L-section will be wrong; see LiDAR vs photogrammetry.
+- Mixed height systems. Ellipsoidal GNSS heights mixed with levelled bench marks give formation levels that do not match the ground at construction.
+- Water and river beds. Neither LiDAR nor photographs see through water. River cross-sections, bed levels and flood levels need ground survey, bathymetry and local records.
+- No independent checkpoints. Without them the accuracy of the terrain model is unproven, and the earthwork estimate inherits the doubt.
+- Hidden services. Buried cables, pipelines and drains do not appear in aerial data. Utility records and ground checks are still needed for the shifting estimate.
+- Land plans on the wrong base. Revenue maps must be fitted carefully to the orthomosaic; a poor fit puts the land boundary in the wrong field.
+
+### How DATA PKT works on railway surveys
+DATA PKT has prepared more than 60 yard plans, Engineering Scale Plans and drainage plans for railway divisions from drone survey with DGPS ground control; read the railway yard and drainage plans case study. Our in-house GIS team turns the survey data into CAD drawings and GIS layers. See railway and metro surveys, ESP and DPR surveys and railway drone inspection.
+
+### Sources
+- Indian Railways Code for the Engineering Department, Chapter IV: Reconnaissance, Preliminary and Final Location Surveys (paras 401–474). indianrailways.gov.in
+- Indian Railways Code for the Engineering Department, Chapter V: Engineering Surveys, reports and estimates (paras 501, 545, 553–555). indianrailways.gov.in
+- Railway Board letter No. 2022/W-I/Genl./DPR Proforma, October 2024: empanelled list of consultants for conducting FLS and preparing DPRs (use of LiDAR survey, satellite imagery and the BISAG portal; drone project video; traffic study first). indianrailways.gov.in
+- Railway Board letter to all Indian Railways, 28 July 2025: revision of rates for Final Location Surveys (traffic study included in the FLS cost). indianrailways.gov.in
+- ThePrint (PTI), 6 October 2025: Railways asks zones to conduct traffic study before final survey to prevent wasteful expenditure. theprint.in
+- Press Information Bureau, Ministry of Railways, 10 January 2021: LiDAR (aerial ground) survey for the Delhi–Varanasi high speed rail corridor begins. pib.gov.in
+- NHSRCL press release: NHSRCL adopts aerial LiDAR survey technique to conduct the ground survey for the Delhi–Varanasi high speed rail corridor. nhsrcl.in
+- OdishaBytes, 10 November 2020: For the first time, drones and helicopters to make location survey for new train line project in Odisha. odishabytes.com
+The Engineering Code, Railway Board letters and the owning zonal railway's terms of reference govern each FLS; this guide summarises them and does not replace them.
+Planning a railway corridor survey? Send us the route KML or chainage and the outputs you need.
+
+### Frequently asked questions
+
+Q: What is a final location survey in railways?
+A final location survey (FLS) is the last and most detailed survey before a railway project is sanctioned. It fixes the centre line, curves and gradients on the ground and produces the detailed plans, longitudinal and cross-sections, bridge and yard plans and data for the detailed estimate in the Project Report, as set out in Chapter IV of the Indian Railways Engineering Code.
+
+Q: What is the difference between PETS and FLS?
+A Preliminary Engineering-cum-Traffic Survey (PETS) compares routes and tests whether the project is viable, and leads to a Techno-Economic Survey Report. The final location survey follows on the chosen route, fixes the alignment in detail and leads to the Project Report with the detailed estimate. The Railway Board has asked zones to complete the traffic study before going ahead with an FLS.
+
+Q: Can a drone or LiDAR survey be used for a railway FLS?
+Yes. Railway Board instructions for FLS and DPR consultants say tools such as LiDAR survey and satellite imagery should be used, and aerial LiDAR has been used for high-speed rail corridors. A drone or LiDAR survey tied to DGPS control and bench marks supplies the topography; pegging, pillars, soil investigation and river studies are still done on the ground.
+
+Q: What accuracy and control does a drone FLS need?
+Ground control points measured with DGPS along the full corridor, alternating on both sides of the alignment, heights tied to bench marks referred to mean sea level, and independent checkpoints reported as RMSE in X, Y and Z. Vertical accuracy matters most because earthwork quantities come from ground and formation levels.
+
+Q: What deliverables come out of a railway FLS survey?
+An orthomosaic in GeoTIFF, a terrain model and contours, a LAS or LAZ point cloud where LiDAR is flown, the detailed plan, longitudinal section and cross-sections in DWG, bridge and culvert site plans, land plans and GIS layers in SHP, and a control and accuracy report.
+
+
+=== https://datapkt.com/insights/topographic-survey-by-drone.html ===
+Home / Insights / Topographic survey by drone
+Topographic survey
+
+## Topographic and contour survey by drone: method, accuracy and deliverables
+How a drone topographic survey is planned, tied to ground control and checked, how to choose a contour interval the data can support, and what you should receive at the end.
+By the DATA PKT survey and GIS engineering team · Published 25 November 2026 · 10 min read
+Short answer: a drone topographic survey flies overlapping photos or LiDAR over the site, ties them to DGPS ground control, and processes them into a bare-ground terrain model (DTM), contours, spot levels and an orthomosaic. It suits open and moderately vegetated sites of a few hectares to many kilometres. Choose the contour interval from the proven vertical accuracy, not the other way round: a common legacy rule sets the interval at about three times the vertical RMSE. Accept the survey only with an independent checkpoint report.
+
+### What a topographic survey records
+A topographic survey describes the shape of the ground and the features on it, in a stated coordinate system and height datum. For design work the core outputs are the same whatever the instrument: ground levels, contours, breaklines along kerbs, drains, embankment toes and tops, and the position of built features such as roads, buildings, poles, culverts and boundary walls.
+A drone changes how those levels are collected. Instead of a surveyor walking to each point, the drone captures the whole surface, and software extracts the ground from it. That gives dense, continuous coverage, but it also means the ground has to be visible to the sensor, and the result has to be proved against independent ground measurements.
+
+### When a drone survey fits, and when it doesn't
+A drone is usually the efficient choice for:
+- Open or lightly vegetated land: agricultural plots, industrial and township layouts, solar plant sites, quarries and mine leases, landfill and stockpile yards.
+- Long corridors: highways, canals, railway alignments and transmission routes, where walking a total station along the full length is slow.
+- Unsafe or hard-to-reach ground: steep slopes, active earthworks, riverbanks and landslide scars.
+- Repeat surveys: monthly progress or volume checks, where the same flight plan is flown again.
+A total station or DGPS is still needed for:
+- Ground control and checkpoints for the drone survey itself.
+- Hard detail the drone cannot see: invert levels of drains and culverts, ground under bridges and dense tree cover, inside buildings.
+- Millimetre work: structural setting-out, rail levels, benchmark levelling and as-built checks to tight tolerances.
+- Small sites where a day of ground survey is quicker than mobilising a flight.
+Most infrastructure topography ends up as a combination of the two. Our guide to drone survey vs DGPS and total station sets out which method does which part.
+
+### Planning the flight: GSD, overlap and terrain following
+Ground sample distance (GSD) is the size of one image pixel on the ground, and it limits how much detail can be measured. It is set by the camera and the height above ground. Decide the GSD from the accuracy and contour interval you need, then work back to the flying height with our GSD calculator. For example, the Indian Bureau of Mines SOP for drone surveys of mine leases asks for imagery at 5 cm GSD or better.
+Overlap is how much each photo shares with the next one along the strip (forward) and with the neighbouring strip (side). Generous overlap is what lets the software match the same ground in many photos. The same IBM SOP sets a minimum of 80% forward and 70% side overlap, and software makers advise raising overlap further over forests, crops, sand and other uniform surfaces.
+Terrain following matters on hilly or stepped sites. If the drone flies at one fixed altitude over a valley and a ridge, the GSD and overlap change across the site, and the high ground gets less overlap. Pix4D's acquisition guidance is that the camera should be kept as far as possible at a constant height over the terrain to hold the planned GSD. In practice that means flying with a terrain model loaded into the flight planner, or splitting the site into blocks at different heights.
+Two further checks belong in the plan: flight permissions for the site's airspace zone, and the light. Low sun casts long shadows that hide detail, while wind and haze blur images. Plan the flight window, not only the flight lines.
+
+### Ground control and checkpoints
+Ground control points (GCPs) are marked targets measured with DGPS. They fix the drone model to the project coordinate system and correct its scale and height. Checkpoints are measured the same way but kept out of processing, so they can test the finished surface independently. RTK or PPK positioning on the drone reduces the number of GCPs needed; it does not remove the need for checkpoints.
+- Spread the control: around the boundary and through the middle of area sites, and in a zigzag on both sides of corridors. Clustered control leaves the far parts of the model unconstrained.
+- Tie to the project datum: GNSS gives ellipsoidal heights. Design levels in India are normally referred to mean sea level through a benchmark, so the survey must state how heights were reduced, using a geoid model or a local benchmark tie, and must agree with the levels the designers will use.
+- Use national references: the Survey of India operates a nationwide Continuously Operating Reference Stations (CORS) network of more than 1,000 stations, which the government describes as capable of centimetre-level positioning in real time. It is a convenient way to bring control onto a common national framework.
+How many GCPs, how far apart and how accuracy is proved are covered in detail in how accurate is a drone survey? This guide only summarises them.
+
+### Photogrammetry or LiDAR for vegetated sites
+Photogrammetry builds the surface from what the camera sees. On bare ground that is the ground. Over crops, scrub and trees it is the top of the vegetation, and no amount of processing can recover ground that never appeared in any photo. Ground filtering can remove isolated trees and vehicles, but under continuous cover the "terrain" is really canopy.
+LiDAR fires laser pulses that can return several echoes, the last often from the ground through gaps in the leaves. That is why LiDAR is the usual choice for terrain under vegetation, forest corridors, hill roads and landslide slopes. Many projects fly both: LiDAR for the terrain, and a camera for the orthomosaic and feature mapping.
+The ASPRS standard reflects this difference by reporting accuracy separately for open ground (non-vegetated vertical accuracy, NVA) and for vegetated ground (VVA). NVA must meet the specification; VVA is reported as found. Ask for both on any site with vegetation. Our LiDAR vs photogrammetry guide compares the two in field studies.
+
+### From images to a terrain model and contours
+Processing follows a fixed chain. Images, camera positions and GCPs go into aerial triangulation, which solves where every photo was taken. Dense matching then builds a point cloud, from which a surface model (DSM) is made. Ground points are classified to give the terrain model (DTM). Contours, spot levels and CAD layers are drawn from the DTM, and the checkpoints test the result at the end.
+The photogrammetry processing chain behind a topographic survey. Contours are drawn from the ground-only DTM, and checkpoints held out of the adjustment decide whether the result is accepted or the control is re-checked.
+Two steps decide whether the contours are usable. The first is ground classification: contours drawn from the DSM put trees, trucks and buildings in as humps. The second is breaklines: digitising kerbs, drain edges, bund tops and embankment toes so that contours bend sharply where the ground does, instead of being smoothed across a hard edge.
+
+### Choosing the contour interval
+The contour interval should follow from the vertical accuracy the survey can prove. The current ASPRS Positional Accuracy Standards, Edition 2 (2023), state plainly that they do not endorse contour interval, map scale or GSD as a way of expressing accuracy; accuracy is specified as a vertical RMSE. The legacy rules still give a useful rule of thumb for picking an interval from that RMSE:
+- ASPRS 1990, Class 1: the limiting RMSE of contours is one-third of the contour interval, and spot heights one-sixth. In other words, the interval is about three times the vertical RMSE, and spot levels should be twice as good as the contours.
+- NMAS (1947): no more than one tested point in ten may be in error by more than half the contour interval. Edition 2's comparison table puts the equivalent interval for its 10 cm vertical class at 30 cm under ASPRS 1990 Class 1 and about 33 cm under NMAS.
+Proved vertical RMSE (open ground) | Contour interval, ASPRS 1990 Class 1 (3 × RMSE) | Spot level RMSE needed (interval ÷ 6)
+5 cm | 15 cm | 2.5 cm
+10 cm | 30 cm | 5 cm
+17 cm | 50 cm | 8 cm
+33 cm | 1 m | 17 cm
+Read the table from left to right. If the checkpoint report proves 10 cm, a 30 cm interval is defensible; a 10 cm interval drawn from the same data looks detailed but claims precision the survey does not have. Where a project specification already fixes an interval, such as the highway DPR requirements covered in our highway DPR guide, work backwards to the RMSE needed and plan GSD and control to reach it.
+
+### Deliverables and file formats
+A complete drone topographic survey usually includes the following. The deliverables guide explains each one in more depth.
+Deliverable | What it is for | Usual formats
+DTM (terrain model) | Bare-ground levels for design, earthwork and drainage | GeoTIFF; ground-classified points as LAS or LAZ
+Contours | Ground shape at the agreed interval, with index contours labelled | DWG or DXF for CAD; SHP for GIS
+Spot levels and breaklines | Levels on a grid and at key features; hard edges for design surfaces | DWG or DXF; SHP
+Orthomosaic | Measurable true-colour base map for planning and feature mapping | GeoTIFF; KMZ for quick viewing
+Topographic plan | Features such as roads, buildings, poles, drains and boundaries on the contour base | DWG or DXF; SHP or GeoPackage layers
+Point cloud | Full 3D record for sections, volumes and later checks | LAS or LAZ
+Survey and accuracy report | Method, control, datum, checkpoint residuals and RMSE | PDF with GCP and checkpoint tables
+Agree the coordinate system, height datum, CAD layer names and sheet layout before the flight, not after. Our GIS mapping and data processing team can deliver to a client's CAD template.
+
+### QC and the accuracy report
+The accuracy report is the evidence that the contours can be trusted. Under ASPRS Edition 2 it should be based on at least 30 checkpoints, surveyed at least twice as accurately as the product being tested, and the single headline figure is the RMSE; the old 95% confidence figure has been dropped. A useful report includes:
+- the coordinate system, height datum and geoid or benchmark used;
+- a plan showing GCPs and checkpoints;
+- a table of checkpoint residuals in X, Y and Z, with horizontal and vertical RMSE;
+- vertical accuracy on open ground and, where relevant, under vegetation;
+- areas of low confidence, such as water, dense canopy or deep shadow, marked on the plan.
+The detail of how residuals and RMSE are calculated is in the accuracy guide. Terms such as NVA, VVA and RMSE are defined in the drone survey glossary.
+
+### Common mistakes
+- Contours from the DSM. Trees and structures appear as hills. Contours must come from a classified DTM.
+- Ellipsoidal heights delivered as levels. GNSS heights not reduced to the project datum can differ from benchmark levels by tens of metres, and the error is not always obvious on a contour plan.
+- An interval finer than the accuracy. Tight contours from loosely controlled data give a false sense of precision.
+- No independent checkpoints. Residuals on the GCPs themselves only show how well the software fitted the control, not how accurate the map is.
+- Clustered or one-sided control. Errors grow towards the parts of the site with no control, especially on long corridors.
+- Photogrammetry under canopy. The terrain is the treetops. Use LiDAR or ground survey for those areas.
+- Missing breaklines. Drains, kerbs and embankments get smoothed away, and designers have to redraw them.
+- Water treated as ground. Ponds and rivers give poor or false surfaces; mark them and survey the bed separately if needed.
+
+### Checklist for clients
+Put these items in the scope or the enquiry so that every quote covers the same survey.
+Item | What to specify | Why it matters
+Site boundary | KML or chainage, with any buffer | Sets the flight area and the control layout
+Coordinate system and datum | Projection, zone and height datum; benchmark to tie to | Avoids levels that do not match the design
+Vertical accuracy | Required RMSE on open ground | Drives GSD, control and the contour interval
+Contour interval | Interval and index contour spacing | Must be supported by the accuracy above
+Vegetated areas | Whether terrain under cover is needed | Decides photogrammetry, LiDAR or ground survey
+Features to map | List of features and breaklines | Defines the topographic plan content
+Deliverable formats | DWG or DXF, SHP, GeoTIFF, LAS; CAD template | Saves conversion and rework
+Accuracy report | Checkpoint count, residual table, RMSE | The only proof of accuracy
+Access and permissions | Site access, airspace zone, any restrictions | Avoids lost flight days
+For what drives the price of a survey, see what a drone survey costs in India.
+
+### How we run topographic surveys at DATA PKT
+We have collected more than 3 lakh km of highway survey data in six years, with a network of 20+ pilots and an in-house GIS team that processes every dataset. Every survey is tied to DGPS ground control and checked against independent checkpoints, and we choose photogrammetry, LiDAR or a mix depending on how much of the ground is hidden. Send us the site KML or chainage, the datum and the contour interval you need, and we will tell you what accuracy is achievable and how we would prove it.
+
+### Sources
+- ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 2 (2023), sections 7.3, 7.4 and 7.12, summarised by USGS. www.usgs.gov
+- ASPRS Accuracy Standards for Large-Scale Maps (1990), vertical accuracy of contours and spot heights. asprs.org
+- ASPRS Positional Accuracy Standards, Edition 2 (2023), Annex B, Table B.8: vertical accuracy compared with legacy standards (ASPRS 1990 and NMAS). www.usgs.gov
+- Indian Bureau of Mines, Standard Operating Procedures under rule 34A of MCDR 2017, drone survey of mine leases (modified, March 2023). ibm.gov.in
+- Pix4D, Selecting the image acquisition plan type (PIX4Dmapper documentation). support.pix4d.com
+- Press Information Bureau, Ministry of Science and Technology, nationwide CORS network operated by the Survey of India, 12 October 2023. pib.gov.in
+Contour interval rules come from legacy map standards and are a planning guide. The project specification and the checkpoint report decide what is acceptable on a given job.
+Planning a topographic survey? Send us the site KML or chainage and the outputs you need.
+
+### Frequently asked questions
+
+Q: What is a topographic survey by drone?
+A drone topographic survey captures overlapping photos or LiDAR over a site, ties them to DGPS ground control, and processes them into a bare-ground terrain model, contours, spot levels, an orthomosaic and a topographic plan in the project coordinate system and height datum. Its accuracy is proved with independent checkpoints.
+
+Q: How do I choose the contour interval for a drone survey?
+Choose it from the vertical accuracy the survey can prove. Under the legacy ASPRS 1990 Class 1 rule the contour interval is about three times the vertical RMSE, so a survey proved to 10 cm supports a 30 cm interval. The current ASPRS Edition 2 standard specifies accuracy as RMSE, not as a contour interval.
+
+Q: Can a drone contour survey map ground under trees?
+Photogrammetry cannot: it maps the top of the vegetation where the ground is hidden. LiDAR pulses can reach the ground through gaps in the canopy, so LiDAR is the usual choice for vegetated sites, with ground survey for any areas neither sensor can see.
+
+Q: Does a drone topographic survey replace a total station or DGPS?
+No. DGPS is needed for ground control and checkpoints, and a total station is still used for invert levels, ground under bridges and dense cover, and millimetre-level work. Most infrastructure surveys combine a drone for coverage with ground survey for control and hidden detail.
+
+Q: What deliverables should a drone topographic survey include?
+Usually a DTM as GeoTIFF, contours and spot levels as DWG or DXF and SHP, an orthomosaic as GeoTIFF, a topographic plan of features, a point cloud as LAS or LAZ, and a survey report with the datum, GCP and checkpoint tables and RMSE in X, Y and Z.
+
+
+=== https://datapkt.com/insights/bridge-inspection-by-drone.html ===
+Home / Insights / Bridge inspection by drone
+Bridges
+
+## Bridge inspection by drone in India: what it can and cannot replace
+A drone gives the bridge engineer close, repeatable views of piers, bearings, girders and the deck underside without an inspection unit or scaffolding. It does not replace hammer sounding, testing or the engineer's judgement. Here is where it fits under IRC guidelines and the Indian Railway Bridge Manual.
+By the DATA PKT survey and inspection team · Published 25 November 2026 · 9 min read
+Short answer: a drone replaces much of the access in a bridge inspection, not the inspection. It photographs the parts that otherwise need a bridge inspection unit, a boat or scaffolding, and turns them into a measurable 3D model and a located defect register. Hammer sounding, non-destructive testing, load tests, underwater and confined-space checks, and the condition assessment itself still need people on the structure and a qualified bridge engineer. Indian Railways' own review of RDSO's drone guideline made the same point: photographs alone are an incomplete inspection.
+IRC:SP:35: IRC guidelines on inspection and maintenance of bridges, 1990
+Once a year: inspection of every highway bridge by a qualified engineer, IRC:SP:18
+1.7 lakh: national highway structures in MoRTH's IBMS survey, 2026
+BS-129 (R1): RDSO guidelines for drone-based railway bridge inspection
+
+### How bridges are inspected in India
+
+#### Highway bridges: IRC guidelines and IBMS
+The Indian Roads Congress guidance comes in layers. IRC:SP:35, published in 1990, contains the guidelines on inspection and maintenance of bridges and is written for the engineers who inspect them; IRC:SP:52, the Bridge Inspector's Reference Manual, is the companion for inspectors in the field. The Manual for Highway Bridge Maintenance Inspection (IRC:SP:18) asks for every bridge to be inspected by a competent qualified engineer once a year, bridges in hilly terrain prone to slips twice (before and after the monsoon), and special inspections after unusual events such as an earthquake or the passage of an abnormal load. Major and special-type bridges should also be seen by a senior engineer.
+MoRTH is now building a central record. Under the Indian Bridge Management System (IBMS), field engineers record inventory and condition on a mobile app, and a web dashboard gives agencies such as NHAI, NHIDCL, BRO and state PWDs access to the data. The 2026 drive covers about 1.7 lakh structures longer than six metres, including bridges, flyovers and culverts, and the ministry has said drones may be used for the hard-to-reach parts of bridges. IBMS uses condition ratings and importance to prioritise repair, rehabilitation and maintenance. The Indian Academy of Highway Engineers (IAHE) runs a course on bridge inspection, repair, maintenance management and health monitoring of structures for highway engineers.
+
+#### Railway bridges: IRBM, BMS and RDSO BS-129
+On Indian Railways, Chapter II of the Indian Railway Bridge Manual (IRBM) sets the schedule of bridge inspection by each grade of engineering official, and para 1107 lists the aspects an inspection must cover. Pre-monsoon inspection is done by the SSE (P.Way) or SSE (Works) and post-monsoon inspection by the ADEN, and their paper bridge registers have been replaced by the online Bridge Management System (BMS). Underwater inspection of substructures follows IRBM para 1107(d): a routine or swim-by inspection once a year, a detailed inspection once in five years, and special inspections when needed. Steel bridges also get periodic technical inspection by Bridge Inspectors, and in 2023 the Railway Board ordered intensive inspection of all open web and under-slung girder bridges by senior officers.
+Drones already have a written place in this system. RDSO Report BS-129 (R1), May 2021, gave guidelines for drone-based bridge inspection. The Railway Board later noted that drone photography alone allows only an inference about condition, an incomplete inspection, and the guidelines were revised for complete inspection using photogrammetry and LiDAR, with the data held in a 3D bridge information model (BrIM) reached through BMS. For railway work in general, see our guide to railway drone inspection.
+
+### What a drone does well on a bridge
+- Close views of the parts that need access: pier caps, bearings, girder soffits, diaphragms, expansion joints, drainage spouts and the deck underside. A camera on a gimbal that tilts upwards photographs the soffit without a bridge inspection unit on the deck or a boat underneath.
+- Defect imagery: cracks, spalling, exposed and corroded reinforcement, leaching, honeycombing, corrosion and section loss on steel, missing or visibly loose bolts and rivets, vegetation growth, and debris or erosion at the waterline. Flown a few metres from the surface with a zoom lens, the images can show fine cracks; the engineer decides what they mean.
+- A measurable 3D model: overlapping photographs are processed into a point cloud and textured mesh, tied to DGPS ground control, so each defect can be located on the structure, measured and compared at the next inspection. See photogrammetry for how the model is built.
+- Orthomosaics of the deck and elevations: a scaled, distortion-free image of the deck surface or a pier face that can be marked up like a drawing.
+- Thermal imagery, where it applies: on a concrete deck warmed by the sun, delaminated areas can show as warmer patches because the separation slows the flow of heat into the slab. Results depend on weather, time of day and surfacing, and every suspect area has to be confirmed by sounding. Our thermal survey page explains the camera and conditions.
+- Approaches and surroundings: embankments, guide bunds, river training works, the channel upstream and downstream, and encroachments, all in one flight.
+- Less disruption: fewer lane closures or traffic blocks for access, and fewer people working at height or over water.
+An overview flight shows the deck, piers, approaches and channel together; the close-range passes on each span come after.
+
+### What a drone cannot replace
+- Hands-on testing. IRC:SP:52 relies on touch and sound: tapping concrete and masonry with a hammer, checking rivets by striking one side and feeling the other, and tests for carbonation depth and chemical attack. Non-destructive tests such as rebound hammer, ultrasonic pulse velocity, half-cell potential and cover measurement need contact with the surface.
+- Bearings in detail. A drone shows the bearing and its seat. It cannot by itself confirm whether a bearing is working as fixed or free, which SP:52 asks the inspector to establish first, or measure gaps and movement to the precision of a gauge.
+- Load tests and deflection. Load-carrying capacity comes from testing, instrumentation and analysis, not imagery.
+- Underwater substructure and scour. Below the waterline the work needs divers, special equipment or soundings.
+- Confined and GNSS-denied spaces. Inside box girders and closed cells there is no satellite signal, little light and no room to recover a drone safely. Under a wide deck, satellite positioning weakens or drops out. A person with a torch is usually the safer choice inside a box girder.
+- The assessment. Condition rating, cause of distress, load capacity and repair decisions belong to a qualified bridge engineer. Parts that could not be seen should be recorded as "not inspected", as SP:52 advises, rather than assumed sound.
+Inspection task | What a drone gives | What is still needed
+Deck underside, girders, pier caps | Close imagery without an inspection unit | Engineer's review; sounding of suspect areas
+Cracks and spalling | Located, measured, comparable images | Crack width gauge, cause of cracking
+Bearings | Visual condition of bearing and seat | Movement measurement, fixed or free check
+Concrete quality | Surface signs only | Hammer sounding, NDT, cores
+Delamination | Thermal indications, conditions permitting | Confirmation by sounding
+Substructure under water | Waterline only | Divers, soundings
+Load capacity | Nothing | Load test and analysis
+
+### How a drone bridge inspection is done
+
+#### 1. Plan
+Start from the drawings, the last inspection report and the span arrangement, and fix the component numbering (spans, piers, bearings, faces) before anyone flies, so every photograph has an address. Check the airspace on Digital Sky and get the owner's permission: for a railway bridge, the division and a block or safe flying window; for a highway bridge, the authority and any traffic management. Note the river level, overhead lines and nearby buildings.
+
+#### 2. Safety
+Each site gets a risk assessment, an exclusion zone, a spotter and an agreed abort plan. Hazards specific to bridges include gusting wind under the deck, birds and bee hives under girders, overhead power lines, and railway OHE, which a drone must keep well clear of.
+
+#### 3. Flying under and near the deck
+Under the deck and beside tall piers the drone may lose satellite positioning and fall back on its vision sensors, which need light and surface texture. The pilot flies slowly and manually, keeps the aircraft in sight or works with an observer, and uses a compact drone with obstacle sensing and an upward-tilting camera. Image positions are taken from control on the structure, not from the drone's GNSS.
+
+#### 4. Image overlap for the 3D model
+Each face is photographed in parallel strips at a constant distance, with enough forward and side overlap that every point appears in several photographs, plus oblique shots around corners and edges. Even light matters: shadow lines under a deck confuse both the software and the reviewer. DGPS ground control on the approaches and measured targets on the structure fix the scale and position. The drone survey glossary explains GSD, GCPs and related terms.
+
+#### 5. Defect logging
+Every defect is logged with its component, its position on that component (span, face, distance from a bearing or joint), type, approximate size, photo reference and a note on change since the last inspection. The register is a tool for the inspecting engineer, not a substitute for the engineer's rating.
+
+### Deliverables
+- Inspection imagery: full-resolution photographs and video, organised by span and component, each with its location.
+- Defect register: a spreadsheet and GIS layer listing each defect with component, position, type, size, photo reference and priority for the engineer's review.
+- 3D model: point cloud and textured mesh of the bridge, checked against DGPS checkpoints.
+- Orthomosaics of the deck and of each elevation, scaled for mark-up.
+- Thermal images, where used, with the time, weather and surface conditions recorded.
+- Coverage note: what was flown, what was not inspected and why.
+
+### Checklist for bridge owners and consultants
+- State the format the results must feed: IBMS, an IRC inspection proforma, the railway BMS, or RDSO's BrIM guidelines.
+- Share the drawings, span arrangement and last inspection report.
+- Agree the component numbering before the flight.
+- Name the inspecting engineer; the drone team supports that engineer.
+- Plan hammer sounding, NDT and underwater inspection separately.
+- Confirm permissions, blocks or traffic arrangements and the flying window.
+- Ask for a coverage map and a "not inspected" list.
+- Ask for every defect to be located on a component and linked to a photograph.
+- Ask how the 3D model was checked against ground control.
+- Agree file formats and that the data belongs to you.
+
+### How DATA PKT works on bridges
+Our 20+ pilots fly the overview and close-range passes, our in-house GIS team builds the 3D models, orthomosaics and defect registers, and DGPS ground control ties every output to the site. We work alongside the client's bridge engineer, who makes the assessment. See highway and road surveys and railway and metro surveys.
+
+### Sources
+- Indian Roads Congress, IRC:SP:52-1999, Bridge Inspector's Reference Manual (refers to IRC:SP:35-1990, guidelines on inspection and maintenance of bridges). law.resource.org
+- Indian Roads Congress, IRC:SP:18, Manual for Highway Bridge Maintenance Inspection. law.resource.org
+- Swarajya, MoRTH launches nationwide digital survey of 1.7 lakh national highway bridges (1 July 2026). swarajyamag.com
+- Ministry of Road Transport and Highways, Indian Bridge Management System: about IBMS. ibms.morth.gov.in
+- Indian Academy of Highway Engineers, Training Calendar 2026-27. iahe.morth.gov.in
+- Railway Board letter, Bridges: inspection and maintenance (24 July 2023), citing IRBM Chapter II and para 1107. indianrailways.gov.in
+- Railway Board letter, Implementation of BMS on Indian Railways (18 May 2023). indianrailways.gov.in
+- Railway Board letters, Under water inspection of bridges (11 October 2017 and 21 November 2023), citing IRBM para 1107(d). indianrailways.gov.in
+- Railway Board letter, Integration of 4D BrIM in BMS (15 December 2022), citing RDSO Report BS-129 (R1), May 2021. indianrailways.gov.in
+Inspection schedules, proformas and permissions are set by the owning authority and the current editions of the codes; they govern each job.
+Send us the bridge location, drawings and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: Can a drone replace a bridge inspection in India?
+No. A drone replaces much of the access: it photographs piers, bearings, girders and the deck underside without an inspection unit, boat or scaffolding, and builds a measurable 3D model. Hammer sounding, non-destructive tests, load tests, underwater checks and the condition assessment still need people on the structure and a qualified bridge engineer.
+
+Q: How often must highway bridges be inspected under IRC guidelines?
+IRC:SP:18 asks for every bridge to be inspected by a competent qualified engineer once a year, bridges in hilly terrain prone to slips twice (before and after the monsoon), and special inspections after events such as an earthquake or an abnormal load. IRC:SP:35 (1990) sets out the guidelines for inspection and maintenance of bridges.
+
+Q: Does Indian Railways allow drone inspection of bridges?
+Yes. RDSO Report BS-129 (R1), issued in May 2021, gives guidelines for drone-based bridge inspection. The Railway Board noted that photography alone is an incomplete inspection, and the guidelines were revised to use photogrammetry and LiDAR, with the data held in a 3D bridge model reached through the Bridge Management System.
+
+Q: Can a drone fly under a bridge deck?
+Yes, with care. Under the deck satellite positioning weakens or drops out, so the pilot flies slowly and manually with vision sensors, an upward-tilting camera and an observer. Image positions come from control points on the structure. Inside box girders and other confined spaces a person is usually the safer choice.
+
+Q: What should a drone bridge inspection deliver?
+Full-resolution imagery organised by span and component, a defect register giving each defect's component, position, type, size and photo reference, a 3D model checked against DGPS checkpoints, orthomosaics of the deck and elevations, thermal images where used, and a note of what was not inspected.
+
+
+=== https://datapkt.com/insights/point-cloud-classification.html ===
+Home / Insights / Point cloud classification
+GIS and data processing
+
+## Point cloud classification explained: LAS classes, ground filtering and QC
+What classifying a LiDAR or photogrammetric point cloud means, the standard ASPRS LAS class codes, how ground filters work and where they fail, how to check the result, and what to put in the scope when you outsource it.
+By the DATA PKT survey and GIS engineering team · Published 25 November 2026 · 10 min read
+Short answer: point cloud classification gives every point a code that says what it hit: ground, vegetation, building, water, wire, noise and so on. The codes come from the ASPRS LAS 1.4 specification, so any GIS or CAD package reads them the same way. The step that matters most is ground classification, because the terrain model, contours and every earthwork quantity are built from it. Automatic ground filters do most of the work, then an operator fixes the places they get wrong: low scrub, steep cuttings, bridges and water. Ask for the class list, density, accuracy, tiling and coordinate system in writing, and for a QC report that proves them.
+Class 2: ground: the class the terrain model is built from
+9 classes: in the USGS minimum classification scheme
+≥30: checkpoints for an accuracy test under ASPRS Edition 2
+64–255: class codes left free for project-defined classes
+
+### What point cloud classification is
+A drone LiDAR flight, or a photogrammetry job, produces millions of 3D points. On their own they are just coordinates. Classification sorts them into the things they represent, by writing a number into the classification field of each point in the LAS file. Software can then show only ground for a bare-earth DTM, or pull out conductors to check clearances.
+Classification is usually done in two passes. Automatic routines label most points by geometry (height above a local surface, slope, number of returns) and, for photogrammetric clouds, colour. An operator then checks profiles and 3D views and fixes what the routines got wrong. That second pass decides the quality of everything built afterwards.
+Figure 1. Where classification sits in the LiDAR chain. Strips must fit together before points are classified, and the DTM, DSM and contours are only as good as the classes they are built from.
+
+### The standard ASPRS LAS classes
+The LAS format is published by ASPRS; the current edition is LAS 1.4, revision R15 (July 2019). It fixes what each class number means. The standard codes for the LAS 1.4 point formats used for new work are.
+Code | Class | Typical use
+0 | Created, never classified | Raw points straight from processing; none should remain in a delivered file
+1 | Unassigned (processed, but unclassified) | Points checked but not in any class the project needs
+2 | Ground | Bare-earth DTM, contours, cross-sections, earthwork volumes
+3 | Low vegetation | Grass and crops; often merged with medium vegetation
+4 | Medium vegetation | Shrubs and scrub
+5 | High vegetation | Trees: canopy height, tree felling counts, clearance studies
+6 | Building | Roof outlines, encroachment and property mapping
+7 | Low point (low noise) | Points below the ground surface, such as multipath echoes
+8 | Reserved (model key-point in earlier versions) | Use the key-point flag instead
+9 | Water | Rivers, ponds and canals; hydro-flattening of the DTM
+10 | Rail | Railway track and rail-head levels
+11 | Road surface | Carriageway models for highway design and resurfacing
+12 | Reserved (overlap in earlier versions) | Use the overlap flag instead
+13 | Wire, guard (shield) | Earth wire on transmission lines
+14 | Wire, conductor (phase) | Conductor sag and clearance checks
+15 | Transmission tower | Tower positions and heights
+16 | Wire-structure connector (insulator) | Attachment points for line modelling
+17 | Bridge deck | Keeps decks out of the ground surface
+18 | High noise | Birds, dust and other points far above the surface
+19 | Overhead structure | Conveyors and similar overhead machinery, for example on mine sites; added in revision R14
+20 | Ignored ground | Ground points set aside, typically close to breaklines
+21 | Snow | Snow cover, where present and identifiable
+22 | Temporal exclusion | Data superseded by a later capture, for example in tidal zones
+23–63 | Reserved | Kept by ASPRS for future classes
+64–255 | User-definable | Project classes such as poles, signboards, OHE masts or kerbs
+Alongside the class number, LAS 1.4 carries four flags that can be set on any point: synthetic (not from the laser, for example digitised from a stereo model), key-point (keep when thinning), withheld (keep in the file but leave out of processing) and overlap (lies in the overlap between flight strips). That is why codes 8 and 12 are no longer used. Some software still lists 19 as reserved, so check your tools before agreeing a class list.
+
+### How ground filtering works
+Ground filtering decides which points are the bare earth. Three families of methods are in common use:
+- Progressive TIN densification. The method described by Axelsson and used in TerraScan: the area is divided into a grid, the lowest point in each cell is taken as ground, and those points are triangulated into a first surface. Further points are added if they are close enough to the surface and do not change its angle too much, and the TIN is rebuilt after each pass. In the ISPRS comparison of filters, Axelsson's filter did well on steep slopes.
+- Morphological filters. The Simple Morphological Filter (SMRF) of Pingel, Clarke and McBride takes the lowest point in each grid cell, then applies a morphological opening with a window that grows each pass. Cells that drop by more than a height threshold are marked as objects. A slope term relaxes the threshold on steep ground.
+- Cloth simulation (CSF). Zhang and colleagues turn the point cloud upside down and let a simulated cloth settle onto it. Where the cloth rests is taken as the ground surface, and points within a set distance of it are classed as ground. The user sets only a few values: cloth resolution, rigidness and an option for steep slopes.
+No single setting suits a whole project: flat farmland, a hill road and a dense town need different parameters, so large jobs are filtered zone by zone.
+
+### Where ground filters go wrong
+The ISPRS filter test found the same problem areas across the algorithms it compared. Look there first:
+- Low vegetation. Grass, crops and scrub are hard to separate from the ground, especially on slopes. Left in class 2, they lift the DTM.
+- Steep slopes and sharp breaks. Embankment shoulders, cutting crests, river banks and retaining walls look like objects to a filter, so the edges get shaved off. The cloth filter can also give larger errors on steep slopes, which its optional slope post-processing is meant to reduce. On a slope stability study, a shaved crest changes the geometry the analysis depends on.
+- Bridges and ramps. Filters remove bridges completely, partly or not at all, and in the ISPRS test every filter removed ramps. The cloth filter cannot tell objects joined to the ground, such as bridges, from the ground itself. Decks belong in class 17, with the ground surface running beneath them.
+- Water. Water surfaces return few, scattered points, and some of them are noise. Water is usually classified using breaklines drawn along the banks, and ground points too close to them can go to class 20.
+- Low noise. One point far below the surface can pull the surface down and cause nearby real ground to be rejected. Noise filtering into classes 7 and 18 comes before ground filtering.
+- Complex built-up areas. Courtyards, stepped buildings and multi-level structures remain difficult for every filter.
+
+### Photogrammetric vs LiDAR point clouds
+The LAS classes are the same for both, but the clouds differ. A LiDAR pulse can return several echoes, so points under trees often reach the ground, and return number and intensity help classification. A photogrammetric cloud has one surface only: what the camera saw. Under canopy there is no ground to classify, and no filter can recover it. Its true colour does help separate grass from bare soil or roads from verges.
+Image matching also adds noise on water and plain surfaces and blurs sharp edges. A photogrammetric DTM is reliable on open ground and doubtful under vegetation. Our guide to LiDAR vs photogrammetry gives the field-test figures.
+
+### Quality control: how to check a classified cloud
+A classified cloud should come with evidence that it is right. Four checks cover most of it:
+- Visual checks. View the cloud coloured by class, and a hillshade of the ground-only DTM. Pits, spikes and buildings left as bumps show up at once.
+- Profiles. Cut cross-sections at intervals and wherever the terrain changes: embankments, drains, bridge approaches, cuttings. They show vegetation left in ground, or ground lost at a slope edge.
+- Checkpoints. Compare the DTM with independent surveyed points that were not used in processing. Under ASPRS Positional Accuracy Standards, Edition 2, an accuracy test needs at least 30 checkpoints, up to 120 on large projects. Accuracy is reported as RMSE; the non-vegetated vertical accuracy must meet the specification, and the vegetated accuracy is reported.
+- Class accuracy. The USGS Lidar Base Specification requires every point in its minimum scheme to be properly classified, no points left in class 0 unless they are withheld, and classification that is consistent across the project. Noticeable variation between tiles, swaths or lifts can be cause to reject the whole delivery.
+First, the flight strips must fit. The same specification checks overlap between swaths: differences up to 8 cm in localised areas are acceptable, while differences over 16 cm that follow the flight lines are not.
+
+### Deliverables
+- Classified point cloud in LAS 1.4. The USGS specification asks for LAS 1.4-R15 using point data record formats 6 to 10.
+- LAZ. A lossless compressed version of LAS that keeps the LAS structure, now an OGC community standard. USGS has moved its own point cloud deliveries to LAZ 1.4.
+- DTM and DSM as GeoTIFF rasters: the DTM from ground, the DSM from the highest surface.
+- Contours in DWG, DXF or SHP at the interval the drawings need.
+- A QC report: class list, checkpoint RMSE, swath overlap checks and known problem areas.
+See drone survey deliverables explained for what each output is for, and the drone survey glossary for terms such as DTM, DSM, RMSE and LAS.
+
+### What to specify when you outsource classification
+A scope that only says "classified point cloud" invites disputes. Put these in writing:
+Item | What to state
+Classes needed | The exact codes, for example 1, 2, 3–5, 6, 7, 9, 17 and 18, plus any project classes from 64 upwards (poles, kerbs, OHE masts). Say which classes are checked for accuracy. USGS lists nine classes as its minimum.
+Density | Minimum pulse or point density. For reference, USGS QL1 needs at least 8 pulses/m² and QL2 at least 2; drone LiDAR is usually much denser.
+Accuracy | The vertical RMSE target on open ground, how vegetated areas are reported, and who surveys the checkpoints.
+Tiles | One non-overlapping tile scheme agreed before work starts, in the same CRS as the data, with tiles that edge-match without gaps. Give tile size and naming.
+CRS and datum | Horizontal coordinate system and zone, vertical datum or geoid model, and units. In India this is often WGS 84 / UTM with heights tied to the project benchmarks.
+Formats and QC | LAS or LAZ version and point format, raster cell size, contour interval, CAD layer names, and the QC report contents listed above.
+
+### How we handle classification at DATA PKT
+Point cloud classification is done by our in-house GIS team in Gurugram, on our own LiDAR and photogrammetry surveys and on data that survey and engineering firms send us. When we fly the site ourselves, our surveyors measure the ground control and checkpoints with DGPS, and the classified cloud is checked against them. Firms outside India can also send us their data for remote processing. See our GIS mapping and data processing and LiDAR survey services, or send us a sample tile with your class list for a scope.
+
+### Sources
+- ASPRS, LAS Specification 1.4 – R15, 9 July 2019. www.asprs.org
+- Esri, ArcGIS Pro documentation: Storing lidar data (LAS classification codes and flags). doc.esri.com
+- LIDAR Magazine, LAS: What's on the horizon, November 2020 (R14 added four standard classes; R15 errata). lidarmag.com
+- ASPRS LAS Working Group, issue 11: proposed classes 19–22, milestone LAS 1.4 R14. github.com
+- USGS, Lidar Base Specification 2025 rev. A: data processing and handling requirements. www.usgs.gov
+- USGS, Lidar Base Specification tables (quality levels, minimum classification scheme). www.usgs.gov
+- ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 2, as adopted by USGS. www.usgs.gov
+- USGS, Point cloud delivery in LAZ format. www.usgs.gov
+- OGC, LAZ 1.4 Community Standard announcement, 2026. www.ogc.org
+- Sithole and Vosselman, Comparison of filtering algorithms, ISPRS WG III/3 workshop, 2003. www.isprs.org
+- Elmqvist, Ground surface estimation from airborne laser scanner data using active shape models, ISPRS Archives XXXIV-3A (describes Axelsson's TIN densification in TerraScan). www.isprs.org
+- Zhang et al., An easy-to-use airborne LiDAR data filtering method based on cloth simulation, Remote Sensing 8(6):501, 2016. www.mdpi.com
+- Pingel, Clarke and McBride, An improved simple morphological filter for the terrain classification of airborne LIDAR data, ISPRS J. Photogramm. Remote Sens. 77:21–30, 2013, as implemented in MathWorks segmentGroundSMRF. www.mathworks.com
+Standards are quoted as published; check the edition your contract names. Software names are given only to identify the methods described.
+Send us a sample tile, your class list and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What are the ASPRS LAS classes?
+They are the standard class codes in the ASPRS LAS 1.4 specification: 0 created, never classified; 1 unassigned; 2 ground; 3, 4 and 5 low, medium and high vegetation; 6 building; 7 low noise; 9 water; 10 rail; 11 road surface; 13 to 16 wires, towers and insulators; 17 bridge deck; 18 high noise; 19 overhead structure; 20 ignored ground; 21 snow; and 22 temporal exclusion. Codes 64 to 255 are free for project-defined classes.
+
+Q: What is ground classification in LiDAR?
+It is the step that decides which points are the bare earth and puts them in class 2. Automatic filters such as progressive TIN densification, morphological filters and cloth simulation do most of it, and an operator then corrects the errors in profiles. The DTM, contours and earthwork quantities are all built from the ground class.
+
+Q: Can a photogrammetric point cloud be classified like LiDAR?
+Yes, with the same LAS classes, and its true colour helps. But a photogrammetric cloud only has the surface the camera saw, so under trees and dense scrub there are no ground points to classify. Its terrain model is reliable on open ground and doubtful under vegetation.
+
+Q: How do you check the quality of a classified point cloud?
+View it coloured by class and as a hillshade of the ground surface, cut profiles across embankments, drains, bridges and cuttings, and test the terrain model against independent checkpoints. ASPRS Edition 2 calls for at least 30 checkpoints and reports accuracy as RMSE. Classification should be consistent across all tiles.
+
+Q: What should I specify when outsourcing point cloud classification?
+The exact class codes you need and which are checked for accuracy, the minimum point density, the vertical accuracy target and checkpoints, a non-overlapping tile scheme, the coordinate system and vertical datum, the output formats such as LAS 1.4 or LAZ, DTM, DSM and contours, and the contents of the QC report.

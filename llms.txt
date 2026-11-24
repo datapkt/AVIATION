@@ -29,7 +29,7 @@
 Highways and roads, railways and metro, power and solar, water resources, urban planning, mining, oil and gas, environment, agriculture, archaeology, public safety, manufacturing and wildlife.
 
 ## Where we work
-Projects across India from our Gurugram office. Remote GIS data processing for clients outside India.
+Projects across India from our Gurugram office. Remote GIS data processing is offered to clients outside India; all projects so far have been in India.
 
 ## Contact
 - Phone: +91 8448559100
