@@ -71,6 +71,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): in-house GIS team; GIS layers from drone and LiDAR data, khasra and forest map overlays, GIS to CAD, remote GIS processing and offshore seats offered to firms outside India
 - [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway yard and drainage plans, substation and transmission lines, groundwater recharge, slope stability in Assam
 - [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs, solar thermography, inspection guides and landslide surveys
+- [Atom feed of guides and case studies](https://datapkt.com/feed.xml): new and updated insights guides and case studies, newest first
 - [Drone pilot network](https://datapkt.com/drone-pilot-network.html): how certified drone pilots register to fly highway, railway, transmission, power and irrigation projects with DATAPKT
 - [Contact](https://datapkt.com/contact.html): phone, email and address, and what to include in an enquiry (KML or chainage, area, outputs, accuracy, deadline)
 - [Privacy and cookies](https://datapkt.com/privacy.html): how the website uses enquiry details and analytics cookies
