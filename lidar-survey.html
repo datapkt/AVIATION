@@ -469,7 +469,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">3D Point Cloud
                             </h2>
-                            <p>Dense point clouds can be created by processing drone images. Every point in this cloud contains geographic coordinates (X, Y, Z) and colour information, providing an extremely precise model for measuring lengths (horizontal and vertical), as well as areas and volumes.
+                            <p>The LiDAR sensor fires laser pulses and records each return. The drone's GNSS receiver and IMU record its position and orientation for every pulse, so each return is georeferenced into a point with X, Y and Z coordinates. The points are then classified into ground, vegetation, buildings, wires and other classes, giving a precise model for measuring lengths, heights, areas and volumes.
                             </p>
                         </div>
                     </div>
@@ -477,13 +477,13 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                 <div class="col">
                     <div class="card">
                         <div class="">
-                            <img loading="lazy" decoding="async" alt="D Point Cloud – LiDAR Survey" src="src/images/lidar/dsm.webp" height="200"
+                            <img loading="lazy" decoding="async" alt="DSM – LiDAR Survey" src="src/images/lidar/dsm.webp" height="200"
                                 style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">DSM
                             </h2>
-                            <p>A DSM captures ‘the natural and built features&#39; on the earth's surface. DSMs represent the bare earth and all of its above-ground features. Drone images can also be used to create DSM models of the area. Each pixel contains 2D information (X, Y) and the altitude (Z value) of the highest point for this position.
+                            <p>A DSM (Digital Surface Model) is the first surface the laser meets: the ground together with the tops of vegetation, buildings and other above-ground features. It is built from the highest LiDAR returns, so each cell stores X, Y and the elevation of the top surface at that position.
                             </p>
                         </div>
                     </div>
@@ -493,14 +493,12 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                 <div class="col">
                     <div class="card">
                         <div class="">
-                            <img loading="lazy" decoding="async" alt="DSM – LiDAR Survey" src="src/images/lidar/dtm.webp" width="233" height="200"
+                            <img loading="lazy" decoding="async" alt="DTM – LiDAR Survey" src="src/images/lidar/dtm.webp" width="233" height="200"
                                 style="  border-top-left-radius: 15px;   border-top-right-radius: 15px;">
                         </div>
                         <div class="card-text pb-58">
                             <h2 class="text-subheading">DTM  </h2>
-                            <p>DTM&#39;s (Digital Terrain Model) are detected using aerial photography at low heights with a geometrically calibrated camera. This enables the drone to obtain all the heights of the surveyed  terrain.  In these models, each pixel stores 2.5D information, including the X, Y, and Z values corresponding to the highest altitude.
-
-
+                            <p>A DTM (Digital Terrain Model) is the bare-earth surface. It is built only from the points classified as ground, with vegetation, buildings and other above-ground features removed. Because some laser pulses reach the ground through gaps in vegetation, LiDAR can model the terrain under tree cover. Each cell stores X, Y and the ground elevation.
                             </p>
                         </div>
                     </div>
@@ -514,8 +512,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         <div class="card-text pb-58">
                             <h2 class="text-subheading ">Contour map 
                             </h2>
-                            <p>We can obtain a greater understanding of the area the drone photographed by using a contour line map that can be created using the DTM or DSM model with specific contour intervals, depending on the requirements of the project.
-
+                            <p>Contour lines are generated from the DTM at the contour interval the project needs, showing the shape of the ground across the surveyed area.
                             </p>
                         </div>
                     </div>
@@ -651,38 +648,11 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
     <section class="pt-50">
         <div class="container-fluid text-center ">
             <div class="pb-4">
-                <h2 class="text-red text-center">Agriculture and forestry  
+                <h2 class="text-red text-center">Forestry
                 </h2>
             </div>
 
             <div class="row align-items-start">
-                <div class="col">
-                    <div class="card-1">
-                        <div class="">
-                            <img loading="lazy" decoding="async" alt="Soil mapping – LiDAR Survey" src="src/images/lidar/soil-mapping.webp" width="428" height="247" data-dp-dim
-                                style="width:100%;  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
-                        </div>
-                        <div class="card-text pb-58">
-                            <h2 class="text-subheading">Soil mapping  
-                            </h2>
-                            <p>LiDAR technology provides precise data on soil composition, moisture, and nutrient levels, enabling a thorough assessment of soil fertility and quality. This information optimizes fertilization, guides soil management, and ensures resources are allocated effectively. By identifying nutrient deficiencies or excesses, farmers can target inputs, reducing waste and environmental impact. This data-driven approach boosts crop yields, promotes sustainable soil management, and ensures resources are used where needed, leading to improved agricultural productivity and reduced environmental footprint.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-1">
-                        <div class="">
-                            <img loading="lazy" decoding="async" alt="Crop health analysis – LiDAR Survey" src="src/images/lidar/crop-health-analysis.webp"
-                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;" width="458" height="267" data-dp-dim>
-                        </div>
-                        <div class="card-text pb-58">
-                            <h2 class="text-subheading ">Crop health analysis 
-                            </h2>
-                            <p>In agriculture, LiDAR data on canopy density and crop condition helps detect pests, disease and water stress early, so irrigation and pest control can be targeted where they are needed.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col">
                     <div class="card-1">
                         <div class="">
@@ -745,21 +715,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                         <div class="card-text pb-58">
                             <h2 class="text-subheading">Geological survey
                             </h2>
-                            <p>LiDAR drones conduct geological surveys, providing precise topographic data for analyzing the earth's surface and subsurface. This crucial information helps understand geological conditions and features, making LiDAR technology a valuable tool for exploration and research. It aids in identifying structures, monitoring changes, and informing decisions in fields like mining, engineering, and environmental science.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-3">
-                        <div class="">
-                            <img loading="lazy" decoding="async" alt="Landslide – LiDAR Survey" src="src/images/lidar/landslide.webp" height="200"
-                                style="  border-top-left-radius: 15px;   border-top-right-radius: 15px; width: 100%;">
-                        </div>
-                        <div class="card-text pb-58">
-                            <h2 class="text-subheading ">Exploration and mapping of minerals 
-                            </h2>
-                            <p>Mineral mapping and mineral exploration can be assisted by LiDAR technology. It provides geologists with useful information for planning future exploration endeavours and streamlining mining operations by helping them locate possible mineral deposits and map those that already exist. The sustainable management of mineral resources depends on this data.
+                            <p>LiDAR drones conduct geological surveys, providing precise topographic data for analyzing the earth's surface. This crucial information helps understand geological conditions and features, making LiDAR technology a valuable tool for exploration and research. It aids in identifying structures, monitoring changes, and informing decisions in fields like mining, engineering, and environmental science.
                             </p>
                         </div>
                     </div>
@@ -781,56 +737,6 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                 </div>
             </div>
 
-    </section>
-
-    <section class="pt-50">
-        <div class="container-fluid text-center ">
-            <div class="">
-                <h2 class="text-red text-center">Crash scene investigation</h2>
-                <p>LiDAR drones allow accident reconstruction researchers and law enforcement to reconstruct accident scenes with accuracy. This information is utilised to support legal procedures and identify contributing variables and causes.</p>
-            </div>
-
-            <section class="bg-2 pt-50">
-                <div class="container-fluid">
-                    <div class="text-center pb-3">
-                    </div>
-                    <div class="row ">
-                        <div class="col-md-6 col-lg-6 col-sm-6">
-                            <img loading="lazy" decoding="async" alt="Accident – LiDAR Survey" src="src/images/lidar/accident.webp" width="600" height="300"
-                                style="border-radius: 30px;">
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-sm-6">
-                            <span class="text-subheading text-start">Accident scene reconstruction 
-        
-                            </span>
-                            <p class="text-start mb-3">LiDAR-equipped drones excel at creating highly precise 3D reconstructions of accident scenes. These drones capture essential details such as vehicle positions, skid marks, and collision dynamics with remarkable accuracy. The data gathered through these reconstructions plays a vital role in piecing together the events leading up to an accident and comprehending its underlying causes. Such detailed and accurate reconstructions are indispensable for both accident analysis and legal investigations.  </p>
-
-                            <p class="text-start mb-3">A complete 3D record of the scene helps investigators establish facts and supports legal proceedings with precise evidence.</p>
-                        </div>
-                    </div>
-        
-                </div>
-            </section>
-            <section class="pt-50">
-                <div class="container-fluid ">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6 col-sm-6">
-                                <span class="text-subheading text-start ">Visualisation
-                                </span>
-                                <p class=" pb-3 text-start">LiDAR data can be used to reconstruct accident scenes in 3D, showing positions, collision angles and trajectories for investigators.</p>
-
-                                <p class="pb-3 text-start">These reconstructions help investigators analyse the sequence of events and document the scene accurately.</p>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6">
-                                <div class="row">
-                                    <img loading="lazy" decoding="async" alt="Visualisation – LiDAR Survey" src="src/images/lidar/visualisation.webp" width="600" height="300"
-                                style="border-radius: 30px;">
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            </section>
     </section>
 
     <section class="pt-50">
