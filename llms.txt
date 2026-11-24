@@ -45,6 +45,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 ## Key pages
 - [Home](https://datapkt.com/): drone survey, LiDAR, photogrammetry, thermal inspection and DPR inputs across India; company numbers and FAQs
 - [About](https://datapkt.com/about.html): company facts (founded 14 September 2020, NHAI empanelment in three zones, DIPP recognition), how a project runs, sectors and clients
+- [Editorial standards](https://datapkt.com/editorial-standards.html): how the guides are written: team byline, outside facts linked to sources, standards named by number and edition, only approved company figures, clients named only where permitted, published and updated dates, no sponsored content, no published prices, and how to report an error
 - [Services](https://datapkt.com/services.html): every service on one page, grouped into survey and mapping, infrastructure (highways, railways and ESPs, transmission design, slope stability), inspection (solar thermography, power), sectors, and tools and guides
 - [Highways and roads](https://datapkt.com/highways-and-roadways.html): NHAI's monthly drone video rule and our empanelment for it; drone and DGPS survey for highway DPRs, progress monitoring, videography and road mapping; 3 lakh+ km of highway data in six years
 - [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
