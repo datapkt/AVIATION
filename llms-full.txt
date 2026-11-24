@@ -140,7 +140,7 @@ We collect accurate data about the ground and the assets on it, and turn it into
 - Drone thermal inspection of solar PV plants and electrical assets
 - Transmission line route surveys and substation site surveys
 - Water resources surveys and bathymetry for canals, rivers and reservoirs
-- GIS mapping and data processing, including remote processing for clients outside India
+- GIS mapping and data processing, with remote processing available to clients outside India
 - Aerial videography and monthly progress videos for projects
 
 ### How a project runs
@@ -175,7 +175,7 @@ Q: What does DATA PKT Infra & Geomatics do?
 We collect accurate data about the ground and the assets on it, and turn it into drawings, GIS layers and reports. Our work covers drone and DGPS topographic surveys, LiDAR, photogrammetry, thermal inspection of solar plants, transmission line and substation surveys, bathymetry, GIS processing and aerial videography. We survey, map and design; we do not construct.
 
 Q: Where is DATA PKT based and where do you work?
-Our office is at 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana. We work on projects across India through our own pilots and a wider drone pilot network, and we also provide GIS mapping and remote data processing for clients outside India.
+Our office is at 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram, Haryana. We work on projects across India through our own pilots and a wider drone pilot network, and we also offer GIS mapping and remote data processing to clients outside India.
 
 Q: How much experience does DATA PKT have?
 DATA PKT was founded on 14 September 2020 and is a DIPP-recognised start-up. In six years we have captured over 3 lakh km of highway data for authorities and private contractors. We have 20+ pilots and an in-house GIS team, and our work spans highways, railways, solar plants, power lines, canals and mines.
@@ -246,7 +246,7 @@ Q: What does DATA PKT do?
 DATA PKT Infra & Geomatics is a drone survey, mapping, GIS and design company based in Gurugram, Haryana. We survey and map infrastructure such as highways, railways, solar plants, power lines, canals and mines, and turn that data into drawings, GIS layers and reports. We survey, map and design for projects; we do not build them.
 
 Q: Where does DATA PKT work?
-Our office is in Sector 48, Gurugram, and our survey teams work on projects across India. Our GIS team also processes data remotely for clients outside India.
+Our office is in Sector 48, Gurugram, and our survey teams work on projects across India. Our GIS team can also process data remotely for clients outside India.
 
 Q: Is DATA PKT empanelled with NHAI?
 Yes. DATA PKT is empanelled with the National Highways Authority of India (NHAI) in three zones for monthly drone survey work.
@@ -1687,6 +1687,7 @@ Our in-house GIS team processes and analyses drone survey data promptly, so farm
 Drone surveys tied to DGPS ground control points for survey-grade accuracy.
 
 ### Clientele
+Clients include CCS Haryana Agricultural University (HAU), Hisar, ICAR, NABARD, ITC Limited, Godrej, Rallis India, Jain Irrigation Systems and APMC Vadodara.
 
 ### Frequently asked questions
 
@@ -2366,7 +2367,7 @@ Service · GIS
 
 ## GIS mapping and data processing services
 DATA PKT's in-house GIS team turns drone, LiDAR and survey data into GIS layers, land maps and CAD-ready drawings for projects across India, and processes GIS data remotely for firms abroad.
-In short: we are a GIS mapping company in Gurugram with an in-house team working in ArcGIS, QGIS and AutoCAD. We build GIS layers from our own drone and LiDAR surveys or from your data, overlay them on revenue and forest maps, and deliver files your engineers can use directly. For firms outside India we provide remote GIS data processing and dedicated offshore seats.
+In short: we are a GIS mapping company in Gurugram with an in-house team working in ArcGIS, QGIS and AutoCAD. We build GIS layers from our own drone and LiDAR surveys or from your data, overlay them on revenue and forest maps, and deliver files your engineers can use directly. For firms outside India we offer remote GIS data processing and dedicated offshore seats.
 
 ### GIS services for projects in India
 - GIS layers from drone and LiDAR surveys: orthomosaics, elevation models and contours brought into GIS with roads, structures, utilities, drainage and land use mapped as layers
@@ -2378,7 +2379,7 @@ In short: we are a GIS mapping company in Gurugram with an in-house team working
 Khasra maps in GIS, ready to be overlaid with current drone maps.
 
 ### Remote GIS data processing for firms outside India
-Engineering, survey and GIS firms in the Middle East, Europe, the US and Australia send us their data and we return finished GIS and CAD outputs. This is data processing only; we do not do field survey outside India.
+We offer remote processing to engineering, survey and GIS firms outside India: they send us their data and we return finished GIS and CAD outputs. All our projects so far have been in India. This is data processing only; we do not do field survey outside India.
 - Digitisation and vectorisation of maps, plans and imagery
 - Feature extraction from orthomosaics and point clouds
 - Point cloud classification and terrain models
@@ -2401,7 +2402,7 @@ Q: Which software does your GIS team use?
 ArcGIS, QGIS and AutoCAD, with outputs in the formats your team works in: shapefile, geodatabase, GeoPackage, KML/KMZ, GeoTIFF, DWG and DXF, in the coordinate system and projection you specify.
 
 Q: Can you process GIS data for clients outside India?
-Yes. Our in-house GIS team in Gurugram processes data remotely for engineering and GIS firms abroad, including in the Middle East, Europe, the US and Australia. This is data processing only; we do not do field survey outside India.
+Yes. Our in-house GIS team in Gurugram can process data remotely for engineering and GIS firms abroad; all our projects so far have been in India. This is data processing only; we do not do field survey outside India.
 
 Q: Can we have a dedicated GIS team for confidential projects?
 Yes. We can set up dedicated offshore seats in India that work only on your projects, under your procedures and confidentiality terms, full time or part time.
@@ -2599,7 +2600,7 @@ Northeast India
 Our first highway drone work, in October 2020, was for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. Hill roads there are where drone and LiDAR surveys save the most time.
 
 ### Across India and beyond
-Our NHAI empanelment covers three zones, and our railway, power and highway work reaches well beyond these regions: clients also include Eastern Railway, Eastern Coalfields, IRCON International, ONGC, NTPC and GAIL. Our GIS team also processes LiDAR, mapping and drafting work remotely for clients outside India.
+Our NHAI empanelment covers three zones, and our railway, power and highway work reaches well beyond these regions: clients also include Eastern Railway, Eastern Coalfields, IRCON International, ONGC, NTPC and GAIL. Our GIS team can also process LiDAR, mapping and drafting work remotely for clients outside India.
 
 ### What we need to plan a survey anywhere in India
 Wherever the site is, the same few details let us plan the flights, ground control and team size, and give you a firm quote:
@@ -2617,7 +2618,7 @@ Q: Which states does DATA PKT work in?
 We work across India from our Gurugram office. Regions with regular work include Delhi NCR, Uttar Pradesh, Maharashtra and Northeast India, and our NHAI empanelment covers three zones.
 
 Q: Do you work outside India?
-Our GIS team processes survey data remotely for clients outside India: LiDAR classification, mapping and drafting.
+All our projects so far have been in India. Our GIS team can process survey data remotely for clients outside India: LiDAR classification, mapping and drafting.
 
 
 === https://datapkt.com/drone-survey-delhi-ncr.html ===
