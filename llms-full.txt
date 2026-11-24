@@ -77,6 +77,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 ## Services in depth
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): sites quoted per acre or hectare, corridors per km; the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html): ground sample distance, image footprint and the flight height for a target GSD, with camera presets
+- [Free checkpoint RMSE calculator](https://datapkt.com/tools/rmse-calculator.html): paste surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE (RMSEr), mean error per axis and the largest residual
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): alternate routes and feasibility report, drone maps on khasra maps for land acquisition, detailed route survey with tower spotting, substation GAD and SLD
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR, seismic refraction tomography and geological mapping (RMR, GSI, SMR) in one ground model; stability analysis, hazard zonation and slope protection design
 - [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
@@ -3725,7 +3726,7 @@ A GCP is a clearly marked target on the ground whose coordinates are measured wi
 Ground control for a linear corridor. GCPs alternate on both sides of the alignment and are paired at the ends. Checkpoints are held out of the adjustment so that accuracy can be checked independently. Spacing and offset follow from the GSD and the accuracy target.
 
 ### 3. Checkpoints: proving the accuracy
-Checkpoints are measured exactly like GCPs but are not used in processing. After the map is built, the coordinates read from the map are compared with the surveyed coordinates. The difference, usually reported as RMSE (root mean square error) in X, Y and Z, is the honest accuracy of the survey. A survey without independent checkpoints has an unproven accuracy.
+Checkpoints are measured exactly like GCPs but are not used in processing. After the map is built, the coordinates read from the map are compared with the surveyed coordinates. The difference, usually reported as RMSE (root mean square error) in X, Y and Z, is the honest accuracy of the survey. A survey without independent checkpoints has an unproven accuracy. To work out the figures from your own checkpoints, use our free checkpoint RMSE calculator.
 How accuracy is proved. Each checkpoint's residual is the map value minus the ground value. RMSE is the square root of the mean of the squared residuals, calculated separately for X, Y and Z, and the checkpoints must be independent of the GCPs.
 
 ### 4. RTK and PPK: better positions for every photo
@@ -4286,6 +4287,7 @@ The footprint is the ground area covered by one photo. The flight height for a t
 
 ### Using GSD to plan a survey
 - Accuracy: with good ground control, horizontal accuracy is typically one to two times the GSD and vertical accuracy one and a half to three times. Read how accurate a drone survey is.
+- Next: once the survey is processed, check your accuracy with the RMSE calculator using your independent checkpoints.
 - Height limit: in India's green zones, flights up to 400 ft (about 120 m) above ground need no permission. Above that, or in yellow and red zones, permission is needed.
 - Overlap: mapping flights usually use about 75 to 80% forward and 65 to 70% side overlap. Lower GSD means more photos and longer processing.
 Want us to plan it? Send the site and the accuracy you need and we will set the GSD, control and flight plan. See what decides the cost.
@@ -4842,6 +4844,10 @@ Free tool
 
 #### Drone GSD calculator
 Ground sample distance, image footprint and the flight height for a target GSD, with presets for common survey cameras.
+Free tool
+
+#### Checkpoint RMSE calculator
+Paste your checkpoints to get residuals, RMSE in X, Y and Z, horizontal RMSE, the bias on each axis and the largest residual.
 
 ### Surveys by sector: highways, railways, solar and landslides
 Highways
@@ -5225,7 +5231,7 @@ A unit of accelerometers and gyroscopes that measures a sensor’s roll, pitch a
 
 ### Accuracy
 RMSE (root mean square error)
-The square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z and is the usual single figure for a survey’s accuracy. How drone survey accuracy is reported
+The square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z and is the usual single figure for a survey’s accuracy. How drone survey accuracy is reported RMSE calculator
 ASPRS Positional Accuracy Standards
 The ASPRS Positional Accuracy Standards for Digital Geospatial Data, published by the American Society for Photogrammetry and Remote Sensing, set out how to test and report the horizontal and vertical accuracy of maps, elevation models and point clouds using independent checkpoints.
 Relative and absolute accuracy
@@ -6164,3 +6170,67 @@ Tools and guides
 #### Insights and guides
 Guides on drone survey accuracy, LiDAR vs photogrammetry, costs, deliverables, ESPs and solar thermography.
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+
+=== https://datapkt.com/tools/rmse-calculator.html ===
+Home / Tools / RMSE calculator
+Free tool
+
+## Checkpoint accuracy (RMSE) calculator
+Paste or type your checkpoints to get the residual at each point, RMSE in X, Y and Z, horizontal RMSE, the mean error on each axis and the largest residual. Everything is calculated in your browser.
+What are you entering? Surveyed and map coordinates Residuals (dX, dY, dZ) Units
+Checkpoints. Residual = map value minus surveyed value. Leave Z blank for a horizontal-only check.
+
+Q: Paste rows from a spreadsheet
+Copy the rows from Excel, Google Sheets or a CSV file and paste them below. Columns can be separated by tabs, commas or semicolons, and a header row is skipped. You can also paste straight into any cell of the table.
+Rows to import
+Checkpoints used-
+RMSE X-
+RMSE Y-
+Horizontal RMSE (RMSEr)-
+RMSE Z (vertical)-
+Mean error (bias) and largest residual
+Axis | Mean error | Max absolute residual
+X | - | -
+Y | - | -
+Horizontal | - | -
+Z | - | -
+Results as text
+
+### Using the calculator
+Enter one checkpoint per row, either as surveyed and map coordinates or as residuals you have already worked out. Use projected coordinates in metres or feet, such as UTM, not latitude and longitude, and make sure both sets are in the same coordinate system and height datum. The unit setting only labels the results; it does not convert your numbers. Nothing you type leaves your browser.
+
+### What RMSE measures
+RMSE (root mean square error) is the usual single figure for the accuracy of a map, a digital terrain model or a point cloud. For each checkpoint the residual is the value read from the map minus the surveyed value. Square the residuals, take their mean and then the square root:
+RMSEx = √( Σ dX² ÷ n ) · RMSEy = √( Σ dY² ÷ n ) · RMSEz = √( Σ dZ² ÷ n )
+Squaring stops positive and negative errors cancelling out, and it gives large errors more weight than small ones, so one bad point shows up clearly. See RMSE in the glossary.
+
+### Horizontal and vertical accuracy
+Horizontal accuracy combines the X and Y errors into one radial figure:
+RMSEr = √( RMSEx² + RMSEy² )
+Vertical accuracy, RMSEz, is reported on its own because heights behave differently. On a drone photogrammetry survey the vertical error is usually larger than the horizontal error, and it also depends on the ground cover: bare, hard surfaces test better than grass or crops. The GSD calculator gives a rule-of-thumb link between pixel size and the accuracy you can expect.
+
+### Why checkpoints must be held out
+Checkpoints are surveyed exactly like ground control points (GCPs) but are not used to process the map. If a point helped to fix the model, the model will fit it closely whatever the real error is, so testing against GCPs makes a survey look better than it is. Use independent checkpoints, spread them over the whole site or along the whole corridor, place them on firm, clearly visible ground, and measure them in the same coordinate system and height datum as the deliverable. Our guide on how accurate a drone survey is explains how ground control and checkpoints are laid out.
+
+### How to read the result
+- Compare RMSE with the specification. The contract or the standard you work to sets the target, for example a horizontal and a vertical RMSE in centimetres. Check that both figures meet it.
+- Look at the mean error. If the mean error on an axis is close to the RMSE, most of the error is a shift in one direction. That usually points to a datum, geoid or control problem rather than random noise, and it can often be corrected.
+- Check the largest residual. One point far worse than the rest may be a mis-identified target, a disturbed marker or a typing error. Investigate it before you remove it, and report any point you leave out.
+- Count the points. The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment. With fewer, the RMSE is still a useful check but a less reliable estimate.
+For contour and terrain work, the checkpoint test is what proves the DTM. Read more in topographic and contour survey by drone.
+Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
+
+### Frequently asked questions
+
+Q: What is RMSE in a drone survey?
+RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is calculated separately for X, Y and Z and is the usual single figure for a survey's accuracy.
+
+Q: How is horizontal RMSE calculated?
+Horizontal RMSE, often written RMSEr, combines the two horizontal axes: RMSEr = √(RMSEx² + RMSEy²). Vertical accuracy is reported separately as RMSEz.
+
+Q: How many checkpoints do I need?
+The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment, spread across the whole area. With fewer checkpoints the RMSE is still a useful check, but it is a less reliable estimate of the true accuracy.
+
+Q: What does the mean error tell me?
+The mean error, or bias, shows whether the errors lean in one direction. If it is close to the RMSE on an axis, most of the error is a systematic shift, which usually points to a datum, geoid or ground control problem rather than random noise.

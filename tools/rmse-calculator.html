@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkpoint RMSE Calculator for Survey Accuracy | DATA PKT</title>
+  <meta name="description" content="Free checkpoint accuracy calculator: paste surveyed and map coordinates to get residuals, RMSE in X, Y and Z, horizontal RMSE and the bias on each axis.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://datapkt.com/tools/rmse-calculator.html">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DATAPKT Infra &amp; Geomatics">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Checkpoint RMSE Calculator for Survey Accuracy | DATA PKT">
+  <meta property="og:description" content="Free checkpoint accuracy calculator: paste surveyed and map coordinates to get residuals, RMSE in X, Y and Z, horizontal RMSE and the bias on each axis.">
+  <meta property="og:url" content="https://datapkt.com/tools/rmse-calculator.html">
+  <meta property="og:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DATA PKT Infra &amp; Geomatics, drone survey, mapping and GIS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Checkpoint RMSE Calculator for Survey Accuracy | DATA PKT">
+  <meta name="twitter:description" content="Free checkpoint accuracy calculator: paste surveyed and map coordinates to get residuals, RMSE in X, Y and Z, horizontal RMSE and the bias on each axis.">
+  <meta name="twitter:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <link rel="icon" type="image/png" href="/src/images/fav-icon.png">
+  <link rel="apple-touch-icon" href="/src/images/fav-icon.png">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var dpC=null;try{dpC=localStorage.getItem('dp_consent')}catch(e){}
+gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F32DT4VFR"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4F32DT4VFR');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap"></noscript>
+  <link href="/src/vendor/bootstrap-5.3.3/bootstrap.min.css" rel="stylesheet">
+  <script defer src="/src/vendor/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/dist/main.css">
+  <link rel="stylesheet" href="/src/css/seo.css?v=8af27b90">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://datapkt.com/#organization","name":"DATAPKT Infra & Geomatics","alternateName":["DATA PKT Infra & Geomatics","DATAPKT","DATA PKT","DATA PKT Aviation","DATAPKT Aviation"],"legalName":"DATAPKT Private Limited","url":"https://datapkt.com/","logo":"https://datapkt.com/src/images/fav-icon.png","image":"https://datapkt.com/src/images/og/datapkt-og.png","description":"Drone survey, mapping, GIS and design company in Gurugram, India. Surveys and maps highways, railways, solar plants, power lines, water and mining projects. Empanelled with NHAI in three zones for monthly drone surveys. DIPP-recognised start-up.","foundingDate":"2020-09-14","telephone":"+91-8448559100","email":"consult@datapkt.com","address":{"@type":"PostalAddress","streetAddress":"434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122018","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":28.41945,"longitude":77.03663},"hasMap":"https://maps.google.com/?cid=3166731234031250870","areaServed":{"@type":"Country","name":"India"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"20:00"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-8448559100","email":"consult@datapkt.com","contactType":"sales","areaServed":"IN","availableLanguage":["English","Hindi"]},"knowsAbout":["Drone survey","LiDAR survey","Photogrammetry","GIS mapping","Solar plant thermography","Transmission line survey and inspection","Railway Engineering Scale Plan (ESP) survey","Highway drone monitoring","Landslide investigation","Topographic survey","Detailed Project Report survey","Bathymetry","Orthomosaic","Digital terrain model"],"sameAs":["https://www.linkedin.com/company/datapkt-infra-geomatics/","https://www.instagram.com/data.pkt/","https://www.facebook.com/itsdatapkt/","https://www.crunchbase.com/organization/data-pkt","https://yourstory.com/companies/data-pkt-aviation","https://maps.google.com/?cid=3166731234031250870"]},{"@type":"WebSite","@id":"https://datapkt.com/#website","url":"https://datapkt.com/","name":"DATAPKT Infra & Geomatics","publisher":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","@id":"https://datapkt.com/tools/rmse-calculator.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://datapkt.com/"},{"@type":"ListItem","position":2,"name":"RMSE calculator","item":"https://datapkt.com/tools/rmse-calculator.html"}]},{"@type":"WebPage","@id":"https://datapkt.com/tools/rmse-calculator.html#webpage","url":"https://datapkt.com/tools/rmse-calculator.html","name":"Checkpoint Accuracy (RMSE) Calculator for Drone and GIS Surveys | DATA PKT","description":"Free checkpoint accuracy calculator: enter surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE, mean error and the largest residual.","isPartOf":{"@id":"https://datapkt.com/#website"},"about":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN","primaryImageOfPage":{"@type":"ImageObject","url":"https://datapkt.com/src/images/og/datapkt-og.png"},"breadcrumb":{"@id":"https://datapkt.com/tools/rmse-calculator.html#breadcrumb"}},{"@type":"FAQPage","@id":"https://datapkt.com/tools/rmse-calculator.html#faq","mainEntity":[{"@type":"Question","name":"What is RMSE in a drone survey?","acceptedAnswer":{"@type":"Answer","text":"RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is calculated separately for X, Y and Z and is the usual single figure for a survey's accuracy."}},{"@type":"Question","name":"How is horizontal RMSE calculated?","acceptedAnswer":{"@type":"Answer","text":"Horizontal RMSE, often written RMSEr, combines the two horizontal axes: RMSEr = √(RMSEx² + RMSEy²). Vertical accuracy is reported separately as RMSEz."}},{"@type":"Question","name":"How many checkpoints do I need?","acceptedAnswer":{"@type":"Answer","text":"The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment, spread across the whole area. With fewer checkpoints the RMSE is still a useful check, but it is a less reliable estimate of the true accuracy."}},{"@type":"Question","name":"What does the mean error tell me?","acceptedAnswer":{"@type":"Answer","text":"The mean error, or bias, shows whether the errors lean in one direction. If it is close to the RMSE on an axis, most of the error is a systematic shift, which usually points to a datum, geoid or ground control problem rather than random noise."}}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","@id":"https://datapkt.com/tools/rmse-calculator.html#app","name":"Checkpoint RMSE calculator","url":"https://datapkt.com/tools/rmse-calculator.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any web browser","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"publisher":{"@id":"https://datapkt.com/#organization"},"description":"Free checkpoint accuracy calculator: enter surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE, mean error and the largest residual."}</script>
+  <style>
+.dp-rm{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;margin:0 0 36px}
+.dp-rm-in{border:1px solid var(--dp-line);border-top:4px solid var(--dp-red);border-radius:10px;padding:22px;background:#fff;min-width:0}
+.dp-rm-opts{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;margin-bottom:14px}
+.dp-rm-opts fieldset{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.dp-rm-opts legend{font-size:.9rem;font-weight:600;color:var(--dp-ink);margin-bottom:6px;width:100%;float:none}
+.dp-rm-opts fieldset label{display:flex;gap:8px;align-items:center;font-size:.95rem;cursor:pointer}
+.dp-rm-opts input[type=radio]{-webkit-appearance:radio !important;appearance:auto !important;display:inline-block;accent-color:var(--dp-red);width:18px;height:18px;margin:0;flex:none}
+.dp-rm-unit{display:flex;flex-direction:column;gap:6px;font-size:.9rem;font-weight:600;color:var(--dp-ink)}
+.dp-rm select,.dp-rm textarea{font:inherit;font-weight:400;padding:9px 12px;border:1px solid #cfc9c4;border-radius:8px;background:#fff;color:var(--dp-text)}
+.dp-rm-btns{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.dp-rm-btn{font:inherit;font-weight:600;font-size:.95rem;padding:9px 16px;border-radius:8px;border:2px solid var(--dp-red);background:var(--dp-red);color:#fff;cursor:pointer;min-height:44px}
+.dp-rm-btn.ghost{background:#fff;color:var(--dp-ink);border-color:#cfc9c4}
+.dp-rm-btn.light{background:#fff;color:var(--dp-ink);border-color:#fff}
+.dp-rm-btn:hover{filter:brightness(.95)}
+.dp-rm :focus-visible{outline:2px solid var(--dp-red);outline-offset:2px}
+.dp-rm-out :focus-visible{outline-color:#ff8a95}
+.dp-rm-flag{background:var(--dp-paper);border-left:4px solid var(--dp-red);padding:10px 14px;border-radius:0 8px 8px 0;margin:0 0 12px;font-size:.95rem}
+.dp-rm-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--dp-line);border-radius:8px;max-width:100%}
+.dp-rm-table{border-collapse:collapse;width:100%;min-width:1000px;font-size:.92rem;margin:0}
+.dp-rm-cap{caption-side:top;text-align:left;padding:10px 12px;font-size:.88rem;color:#555}
+.dp-rm-table th,.dp-rm-table td{padding:4px;border-bottom:1px solid var(--dp-line);text-align:left;white-space:nowrap}
+.dp-rm-table thead th{background:var(--dp-paper);font-weight:700;color:var(--dp-ink);padding:8px 6px;font-size:.85rem}
+.dp-rm-table input{font:inherit;font-size:.88rem;width:100%;min-width:112px;padding:7px 6px;border:1px solid #cfc9c4;border-radius:6px;font-variant-numeric:tabular-nums}
+.dp-rm-table input.dp-rm-id{min-width:72px}
+.dp-rm-table input:focus{border-color:var(--dp-red);outline:2px solid var(--dp-red);outline-offset:0}
+.dp-rm-num{color:#666;font-weight:600;text-align:center !important;width:34px}
+.dp-rm-d{font-variant-numeric:tabular-nums;color:var(--dp-ink);padding:4px 8px !important;min-width:86px}
+.dp-rm-bad td{background:#fff1f2}
+.dp-rm-del{font:inherit;font-size:1.2rem;line-height:1;width:36px;height:36px;border:1px solid #cfc9c4;border-radius:6px;background:#fff;color:#555;cursor:pointer}
+.dp-rm-del:hover{border-color:var(--dp-red);color:var(--dp-red)}
+.dp-rm-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.dp-rm-paste{margin-top:14px}
+.dp-rm-paste summary{cursor:pointer;font-weight:600;color:var(--dp-ink);padding:6px 0}
+.dp-rm-paste p{font-size:.92rem;margin:6px 0 10px}
+.dp-rm-paste label{display:block;font-size:.9rem;font-weight:600;margin-bottom:6px}
+.dp-rm-paste textarea{width:100%;font-family:ui-monospace,Consolas,monospace;font-size:.85rem;margin-bottom:10px}
+.dp-rm-out{background:var(--dp-ink);color:#fff;border-radius:10px;padding:22px;min-width:0}
+.dp-rm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(170px,100%),1fr));gap:14px 20px;margin-bottom:18px}
+.dp-rm-warn{background:rgba(227,30,47,.18);border-left:4px solid #ff5a68;color:#fff;padding:10px 14px;border-radius:0 8px 8px 0;margin:0 0 16px;line-height:1.5}
+.dp-rm-sum{border-collapse:collapse;width:100%;max-width:640px;color:#fff;margin:0 0 18px;font-variant-numeric:tabular-nums}
+.dp-rm-sum .dp-rm-cap{color:#cfcfcf;padding:0 0 8px}
+.dp-rm-sum th,.dp-rm-sum td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.14);text-align:left;color:#fff;background:transparent}
+.dp-rm-sum thead th{color:#cfcfcf;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}
+.dp-rm-copy{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:10px}
+.dp-rm-copied{color:#cfcfcf;font-size:.92rem}
+.dp-rm-txtlab{display:block;font-size:.85rem;color:#cfcfcf;margin-bottom:6px}
+.dp-rm-text{width:100%;background:#1d1d1d !important;color:#eee !important;border-color:#444 !important;font-family:ui-monospace,Consolas,monospace !important;font-size:.82rem !important}
+@media (max-width:480px){.dp-rm-in,.dp-rm-out{padding:16px}.dp-rm-grid .dp-calc-res b{font-size:1.35rem}}
+  </style>
+</head>
+<body>
+<a class="dp-skip" href="#dp-main">Skip to main content</a>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0!important; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContentDesktop" aria-controls="navbarSupportedContentDesktop"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContentDesktop">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+           
+        </div>
+
+        </div>
+    </nav>
+<main id="dp-main" class="dp-page">
+
+<section class="dp-hero">
+  <div class="dp-wrap">
+    <p class="dp-crumbs"><a href="/">Home</a> / Tools / RMSE calculator</p>
+    <p class="dp-kicker">Free tool</p>
+    <h1>Checkpoint accuracy (RMSE) calculator</h1>
+    <p class="dp-lede">Paste or type your checkpoints to get the residual at each point, RMSE in X, Y and Z, horizontal RMSE, the mean error on each axis and the largest residual. Everything is calculated in your browser.</p>
+  </div>
+</section>
+<section class="dp-body">
+  <div class="dp-wrap">
+    <div class="dp-rm" id="rmse">
+      <div class="dp-rm-in">
+        <div class="dp-rm-opts">
+          <fieldset>
+            <legend>What are you entering?</legend>
+            <label><input type="radio" name="rm-mode" value="xyz" checked> Surveyed and map coordinates</label>
+            <label><input type="radio" name="rm-mode" value="res"> Residuals (dX, dY, dZ)</label>
+          </fieldset>
+          <label class="dp-rm-unit">Units
+            <select id="rm-unit">
+              <option value="m">metres (m)</option>
+              <option value="cm">centimetres (cm)</option>
+              <option value="mm">millimetres (mm)</option>
+              <option value="ft">feet (ft)</option>
+            </select>
+          </label>
+        </div>
+        <div class="dp-rm-btns">
+          <button type="button" class="dp-rm-btn" id="rm-example">Load example</button>
+          <button type="button" class="dp-rm-btn" id="rm-add">Add row</button>
+          <button type="button" class="dp-rm-btn ghost" id="rm-clear">Clear all</button>
+        </div>
+        <p class="dp-rm-flag" id="rm-flag" hidden></p>
+        <div class="dp-rm-scroll" role="region" aria-label="Checkpoint table, scrolls sideways on small screens" tabindex="0">
+          <table class="dp-rm-table" id="rm-table">
+            <caption class="dp-rm-cap">Checkpoints. Residual = map value minus surveyed value. Leave Z blank for a horizontal-only check.</caption>
+            <thead id="rm-head"></thead>
+            <tbody id="rm-body"></tbody>
+          </table>
+        </div>
+        <details class="dp-rm-paste">
+          <summary>Paste rows from a spreadsheet</summary>
+          <p id="rm-paste-help">Copy the rows from Excel, Google Sheets or a CSV file and paste them below. Columns can be separated by tabs, commas or semicolons, and a header row is skipped. You can also paste straight into any cell of the table.</p>
+          <label for="rm-paste">Rows to import</label>
+          <textarea id="rm-paste" rows="5" aria-describedby="rm-paste-help" spellcheck="false"></textarea>
+          <button type="button" class="dp-rm-btn" id="rm-import">Import rows</button>
+        </details>
+      </div>
+      <div class="dp-rm-out" aria-live="polite">
+        <p class="dp-rm-warn" id="rm-warn" hidden></p>
+        <div class="dp-rm-grid">
+          <div class="dp-calc-res"><span>Checkpoints used</span><b id="r-n">-</b></div>
+          <div class="dp-calc-res"><span>RMSE X</span><b id="r-x">-</b></div>
+          <div class="dp-calc-res"><span>RMSE Y</span><b id="r-y">-</b></div>
+          <div class="dp-calc-res"><span>Horizontal RMSE (RMSEr)</span><b id="r-r">-</b></div>
+          <div class="dp-calc-res"><span>RMSE Z (vertical)</span><b id="r-z">-</b></div>
+        </div>
+        <table class="dp-rm-sum">
+          <caption class="dp-rm-cap">Mean error (bias) and largest residual</caption>
+          <thead><tr><th scope="col">Axis</th><th scope="col">Mean error</th><th scope="col">Max absolute residual</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">X</th><td id="r-mx">-</td><td id="r-ax">-</td></tr>
+            <tr><th scope="row">Y</th><td id="r-my">-</td><td id="r-ay">-</td></tr>
+            <tr><th scope="row">Horizontal</th><td>-</td><td id="r-ar">-</td></tr>
+            <tr><th scope="row">Z</th><td id="r-mz">-</td><td id="r-az">-</td></tr>
+          </tbody>
+        </table>
+        <div class="dp-rm-copy">
+          <button type="button" class="dp-rm-btn light" id="rm-copy">Copy results as text</button>
+          <span id="rm-copied" class="dp-rm-copied"></span>
+        </div>
+        <label class="dp-rm-txtlab" for="rm-text">Results as text</label>
+        <textarea id="rm-text" class="dp-rm-text" rows="8" readonly spellcheck="false"></textarea>
+      </div>
+    </div>
+    <article class="dp-prose">
+      <h2>Using the calculator</h2>
+      <p>Enter one checkpoint per row, either as surveyed and map coordinates or as residuals you have already worked out. Use projected coordinates in metres or feet, such as UTM, not latitude and longitude, and make sure both sets are in the same coordinate system and height datum. The unit setting only labels the results; it does not convert your numbers. Nothing you type leaves your browser.</p>
+      <h2>What RMSE measures</h2>
+      <p>RMSE (root mean square error) is the usual single figure for the accuracy of a map, a digital terrain model or a point cloud. For each checkpoint the residual is the value read from the map minus the surveyed value. Square the residuals, take their mean and then the square root:</p>
+      <p class="dp-formula">RMSEx = √( Σ dX² ÷ n )  ·  RMSEy = √( Σ dY² ÷ n )  ·  RMSEz = √( Σ dZ² ÷ n )</p>
+      <p>Squaring stops positive and negative errors cancelling out, and it gives large errors more weight than small ones, so one bad point shows up clearly. See <a href="/insights/drone-survey-glossary.html#term-rmse">RMSE in the glossary</a>.</p>
+      <h2>Horizontal and vertical accuracy</h2>
+      <p>Horizontal accuracy combines the X and Y errors into one radial figure:</p>
+      <p class="dp-formula">RMSEr = √( RMSEx² + RMSEy² )</p>
+      <p>Vertical accuracy, RMSEz, is reported on its own because heights behave differently. On a drone photogrammetry survey the vertical error is usually larger than the horizontal error, and it also depends on the ground cover: bare, hard surfaces test better than grass or crops. The <a href="/tools/gsd-calculator.html">GSD calculator</a> gives a rule-of-thumb link between pixel size and the accuracy you can expect.</p>
+      <h2>Why checkpoints must be held out</h2>
+      <p>Checkpoints are surveyed exactly like ground control points (GCPs) but are not used to process the map. If a point helped to fix the model, the model will fit it closely whatever the real error is, so testing against GCPs makes a survey look better than it is. Use independent checkpoints, spread them over the whole site or along the whole corridor, place them on firm, clearly visible ground, and measure them in the same coordinate system and height datum as the deliverable. Our guide on <a href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">how accurate a drone survey is</a> explains how ground control and checkpoints are laid out.</p>
+      <h2>How to read the result</h2>
+      <ul>
+        <li><strong>Compare RMSE with the specification.</strong> The contract or the standard you work to sets the target, for example a horizontal and a vertical RMSE in centimetres. Check that both figures meet it.</li>
+        <li><strong>Look at the mean error.</strong> If the mean error on an axis is close to the RMSE, most of the error is a shift in one direction. That usually points to a datum, geoid or control problem rather than random noise, and it can often be corrected.</li>
+        <li><strong>Check the largest residual.</strong> One point far worse than the rest may be a mis-identified target, a disturbed marker or a typing error. Investigate it before you remove it, and report any point you leave out.</li>
+        <li><strong>Count the points.</strong> The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment. With fewer, the RMSE is still a useful check but a less reliable estimate.</li>
+      </ul>
+      <p>For contour and terrain work, the checkpoint test is what proves the DTM. Read more in <a href="/insights/topographic-survey-by-drone.html">topographic and contour survey by drone</a>.</p>
+    </article>
+    <div class="dp-cta"><p>Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.</p><div><a class="dp-btn" href="/contact.html">Send an enquiry</a> <a class="dp-btn ghost" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20a%20quote%20for%20a%20survey." target="_blank" rel="noopener">WhatsApp +91 8448559100</a></div></div>
+  </div>
+</section>
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var body=$('rm-body'),head=$('rm-head'),unitSel=$('rm-unit'),flag=$('rm-flag');
+  var COLS={xyz:[['id','Point ID'],['sx','Surveyed X'],['sy','Surveyed Y'],['sz','Surveyed Z'],['mx','Map X'],['my','Map Y'],['mz','Map Z']],
+            res:[['id','Point ID'],['dx','dX'],['dy','dY'],['dz','dZ']]};
+  var EX=[["CP01","712104.215","3146820.530","231.442","712104.236","3146820.516","231.474"],
+["CP02","712388.902","3146655.118","230.876","712388.884","3146655.143","230.835"],
+["CP03","712640.377","3146912.604","232.105","712640.386","3146912.615","232.132"],
+["CP04","712915.640","3146701.239","229.958","712915.670","3146701.217","230.006"],
+["CP05","713172.081","3146948.772","231.310","713172.069","3146948.753","231.295"],
+["CP06","713455.326","3146763.415","230.247","713455.342","3146763.423","230.283"],
+["CP07","713701.958","3146995.083","232.689","713701.933","3146995.100","232.660"],
+["CP08","713960.414","3146812.906","231.034","713960.418","3146812.879","231.086"]];
+  var mode='xyz';
+  function cols(){return COLS[mode]}
+  function dec(){return {m:3,ft:3,cm:2,mm:1}[unitSel.value]}
+  function fmt(v){return v===null?'-':(v<0?'−':'')+Math.abs(v).toFixed(dec())+' '+unitSel.value}
+  function fmtPlain(v){return v===null?'n/a':v.toFixed(dec())+' '+unitSel.value}
+  function num(s){s=String(s==null?'':s).trim().replace(/−/g,'-');if(s==='')return null;var v=Number(s);return isFinite(v)?v:NaN}
+  function buildHead(){
+    var c=cols(),h='<tr><th scope="col">#</th>';
+    c.forEach(function(k){h+='<th scope="col">'+k[1]+'</th>'});
+    if(mode==='xyz')h+='<th scope="col">dX</th><th scope="col">dY</th><th scope="col">dZ</th>';
+    h+='<th scope="col"><span class="dp-rm-sr">Remove</span></th></tr>';head.innerHTML=h;
+  }
+  function addRow(vals){
+    var tr=document.createElement('tr'),c=cols(),i=body.rows.length+1;
+    var th=document.createElement('th');th.scope='row';th.className='dp-rm-num';tr.appendChild(th);
+    c.forEach(function(k,j){var td=document.createElement('td'),inp=document.createElement('input');
+      inp.type='text';inp.inputMode=k[0]==='id'?'text':'decimal';inp.autocomplete='off';inp.spellcheck=false;
+      inp.dataset.k=k[0];inp.value=vals&&vals[j]!=null?vals[j]:'';if(k[0]==='id')inp.className='dp-rm-id';
+      td.appendChild(inp);tr.appendChild(td)});
+    if(mode==='xyz'){['dx','dy','dz'].forEach(function(k){var td=document.createElement('td');td.className='dp-rm-d';td.dataset.d=k;td.textContent='-';tr.appendChild(td)})}
+    var td=document.createElement('td'),b=document.createElement('button');b.type='button';b.className='dp-rm-del';b.textContent='×';
+    td.appendChild(b);tr.appendChild(td);body.appendChild(tr);renumber();return tr;
+  }
+  function renumber(){
+    Array.prototype.forEach.call(body.rows,function(tr,i){var n=i+1;tr.cells[0].textContent=n;
+      tr.querySelectorAll('input').forEach(function(inp){var lab=cols().filter(function(k){return k[0]===inp.dataset.k})[0][1];inp.setAttribute('aria-label','Row '+n+' '+lab)});
+      tr.querySelector('.dp-rm-del').setAttribute('aria-label','Remove row '+n)});
+  }
+  function rowVals(tr){var o={};tr.querySelectorAll('input').forEach(function(inp){o[inp.dataset.k]=inp.value});return o}
+  function residuals(o){
+    if(mode==='res')return {dx:num(o.dx),dy:num(o.dy),dz:num(o.dz)};
+    function d(a,b){var x=num(a),y=num(b);if(x===null||y===null)return null;if(isNaN(x)||isNaN(y))return NaN;return y-x}
+    return {dx:d(o.sx,o.mx),dy:d(o.sy,o.my),dz:d(o.sz,o.mz)};
+  }
+  function stats(a){if(!a.length)return null;var s=0,s2=0,mx=0;a.forEach(function(v){s+=v;s2+=v*v;mx=Math.max(mx,Math.abs(v))});
+    return {n:a.length,mean:s/a.length,rmse:Math.sqrt(s2/a.length),max:mx}}
+  var used=false,last=null;
+  function calc(){
+    var X=[],Y=[],Z=[],R=[],bad=0,rows=0;
+    Array.prototype.forEach.call(body.rows,function(tr){
+      var o=rowVals(tr),r=residuals(o),any=false;
+      for(var k in o){if(k!=='id'&&String(o[k]).trim()!=='')any=true}
+      if(any)rows++;
+      ['dx','dy','dz'].forEach(function(k){var cell=tr.querySelector('[data-d="'+k+'"]');if(cell)cell.textContent=(r[k]===null||isNaN(r[k]))?'-':fmt(r[k])});
+      var badRow=isNaN(r.dx)||isNaN(r.dy)||isNaN(r.dz);tr.classList.toggle('dp-rm-bad',badRow);if(badRow){bad++;return}
+      if(r.dx!==null&&r.dy!==null){X.push(r.dx);Y.push(r.dy);R.push(Math.sqrt(r.dx*r.dx+r.dy*r.dy))}
+      if(r.dz!==null)Z.push(r.dz);
+    });
+    var sx=stats(X),sy=stats(Y),sz=stats(Z),sr=stats(R);
+    var rr=sx&&sy?Math.sqrt(sx.rmse*sx.rmse+sy.rmse*sy.rmse):null;
+    var nh=X.length,nv=Z.length,n=Math.max(nh,nv);
+    $('r-n').textContent=n?(nh===nv||!nv?nh:(!nh?nv:nh+' XY / '+nv+' Z')):'-';
+    $('r-x').textContent=sx?fmt(sx.rmse):'-';$('r-y').textContent=sy?fmt(sy.rmse):'-';
+    $('r-r').textContent=rr!==null?fmt(rr):'-';$('r-z').textContent=sz?fmt(sz.rmse):'-';
+    $('r-mx').textContent=sx?fmt(sx.mean):'-';$('r-my').textContent=sy?fmt(sy.mean):'-';$('r-mz').textContent=sz?fmt(sz.mean):'-';
+    $('r-ax').textContent=sx?fmt(sx.max):'-';$('r-ay').textContent=sy?fmt(sy.max):'-';$('r-az').textContent=sz?fmt(sz.max):'-';
+    $('r-ar').textContent=sr?fmt(sr.max):'-';
+    var w=[];
+    if(bad)w.push(bad+(bad===1?' row has':' rows have')+' a value that is not a number and '+(bad===1?'is':'are')+' left out.');
+    if(n>0&&n<30)w.push('Only '+n+' checkpoint'+(n===1?'':'s')+'. The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment, so treat these figures as indicative.');
+    var warn=$('rm-warn');warn.textContent=w.join(' ');warn.hidden=!w.length;
+    last={n:n,nh:nh,nv:nv,sx:sx,sy:sy,sz:sz,sr:sr,rr:rr,warn:w};
+    $('rm-text').value=text();
+    if(n&&!used&&window.gtag){used=true;gtag('event','rmse_calculator_use')}
+  }
+  function text(){
+    var L=last;if(!L||!L.n)return 'No checkpoints entered yet.';
+    var t=['Checkpoint accuracy (residual = map minus surveyed), units: '+unitSel.value,
+      'Checkpoints: '+(L.nh===L.nv||!L.nv?L.nh:(!L.nh?L.nv:L.nh+' horizontal, '+L.nv+' vertical')),
+      'RMSE X: '+fmtPlain(L.sx?L.sx.rmse:null),'RMSE Y: '+fmtPlain(L.sy?L.sy.rmse:null),
+      'Horizontal RMSE (RMSEr): '+fmtPlain(L.rr),'RMSE Z: '+fmtPlain(L.sz?L.sz.rmse:null),
+      'Mean error X / Y / Z: '+fmtPlain(L.sx?L.sx.mean:null)+' / '+fmtPlain(L.sy?L.sy.mean:null)+' / '+fmtPlain(L.sz?L.sz.mean:null),
+      'Max absolute residual X / Y / Z: '+fmtPlain(L.sx?L.sx.max:null)+' / '+fmtPlain(L.sy?L.sy.max:null)+' / '+fmtPlain(L.sz?L.sz.max:null),
+      'Max horizontal residual: '+fmtPlain(L.sr?L.sr.max:null)];
+    if(L.warn.length)t.push('Note: '+L.warn.join(' '));
+    t.push('','Point, dX, dY, dZ');
+    Array.prototype.forEach.call(body.rows,function(tr,i){var o=rowVals(tr),r=residuals(o);
+      if(isNaN(r.dx)||isNaN(r.dy)||isNaN(r.dz)||(r.dx===null&&r.dy===null&&r.dz===null))return;
+      t.push([o.id||String(i+1)].concat([r.dx,r.dy,r.dz].map(function(v){return v===null?'':v.toFixed(dec())})).join(', '))});
+    t.push('','Calculated with the DATA PKT checkpoint RMSE calculator: https://datapkt.com/tools/rmse-calculator.html');
+    return t.join('\n');
+  }
+  function split(line){
+    if(line.indexOf('\t')>-1)return line.split('\t');
+    if(line.indexOf(';')>-1)return line.split(';');
+    if(line.indexOf(',')>-1)return line.split(',');
+    return line.trim().split(/\s+/);
+  }
+  function parse(txt){
+    var full=cols().length,out=[];
+    txt.replace(/\r/g,'').split('\n').forEach(function(line){
+      if(!line.trim())return;
+      var c=split(line).map(function(s){return s.trim().replace(/^"|"$/g,'')});
+      while(c.length&&c[c.length-1]==='')c.pop();
+      var row;
+      if(c.length>=full)row=c.slice(0,full);
+      else if(c.length===full-1&&num(c[0])!==null&&!isNaN(num(c[0])))row=[''].concat(c);
+      else row=c.concat(new Array(full-c.length).fill(''));
+      var nums=row.slice(1).filter(function(s){var v=num(s);return v!==null&&!isNaN(v)});
+      if(!nums.length)return;
+      out.push(row);
+    });
+    return out;
+  }
+  function load(rows,startTr){
+    var start=startTr?Array.prototype.indexOf.call(body.rows,startTr):-1;
+    if(start<0){body.innerHTML='';start=0}
+    rows.forEach(function(r,i){var tr=body.rows[start+i]||addRow();
+      tr.querySelectorAll('input').forEach(function(inp,j){inp.value=r[j]||''})});
+    renumber();calc();
+  }
+  function setFlag(t){flag.textContent=t;flag.hidden=!t}
+  function setMode(m,keep){mode=m;buildHead();body.innerHTML='';if(!keep){for(var i=0;i<5;i++)addRow()}setFlag('');calc()}
+  document.querySelectorAll('input[name="rm-mode"]').forEach(function(r){r.addEventListener('change',function(){if(r.checked)setMode(r.value)})});
+  unitSel.addEventListener('change',calc);
+  body.addEventListener('input',function(){setFlag('');calc()});
+  body.addEventListener('click',function(e){var b=e.target.closest('.dp-rm-del');if(!b)return;var tr=b.closest('tr'),i=tr.rowIndex;tr.parentNode.removeChild(tr);
+    if(!body.rows.length)addRow();renumber();calc();var nx=body.rows[Math.min(i-1,body.rows.length-1)];if(nx)nx.querySelector('input').focus()});
+  body.addEventListener('paste',function(e){var t=(e.clipboardData||window.clipboardData).getData('text');
+    if(!t||(t.indexOf('\t')<0&&t.indexOf('\n')<0&&t.indexOf(',')<0&&t.indexOf(';')<0))return;
+    var rows=parse(t);if(!rows.length)return;e.preventDefault();setFlag('');load(rows,e.target.closest('tr'))});
+  body.addEventListener('keydown',function(e){if(e.key==='Enter'&&e.target.tagName==='INPUT'){e.preventDefault();var tr=e.target.closest('tr'),k=e.target.dataset.k,nx=tr.nextElementSibling||addRow();nx.querySelector('[data-k="'+k+'"]').focus()}});
+  $('rm-add').addEventListener('click',function(){addRow().querySelector('input').focus();calc()});
+  $('rm-clear').addEventListener('click',function(){setMode(mode);setFlag('')});
+  $('rm-example').addEventListener('click',function(){
+    if(mode!=='xyz'){document.querySelector('input[name="rm-mode"][value="xyz"]').checked=true;mode='xyz';buildHead()}
+    unitSel.value='m';load(EX);setFlag('Example data loaded: 8 fictional checkpoints in metres, not from a real project. Replace them with your own.')});
+  $('rm-import').addEventListener('click',function(){var rows=parse($('rm-paste').value);
+    if(!rows.length){setFlag('No rows with numbers were found in the pasted text.');return}
+    load(rows);setFlag(rows.length+' row'+(rows.length===1?'':'s')+' imported.');$('rm-paste').value=''});
+  $('rm-copy').addEventListener('click',function(){var t=$('rm-text').value,ok=function(){$('rm-copied').textContent='Copied.';setTimeout(function(){$('rm-copied').textContent=''},2500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){fallback()})}else fallback();
+    function fallback(){var a=$('rm-text');a.focus();a.select();try{document.execCommand('copy');ok()}catch(x){$('rm-copied').textContent='Select the text below and copy it.'}}});
+  setMode('xyz');
+})();
+</script>
+    <section class="dp-faq" id="faq" aria-labelledby="faq-title">
+      <div class="dp-wrap">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <details><summary>What is RMSE in a drone survey?</summary><p>RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is calculated separately for X, Y and Z and is the usual single figure for a survey's accuracy.</p></details>
+        <details><summary>How is horizontal RMSE calculated?</summary><p>Horizontal RMSE, often written RMSEr, combines the two horizontal axes: RMSEr = √(RMSEx² + RMSEy²). Vertical accuracy is reported separately as RMSEz.</p></details>
+        <details><summary>How many checkpoints do I need?</summary><p>The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy assessment, spread across the whole area. With fewer checkpoints the RMSE is still a useful check, but it is a less reliable estimate of the true accuracy.</p></details>
+        <details><summary>What does the mean error tell me?</summary><p>The mean error, or bias, shows whether the errors lean in one direction. If it is close to the RMSE on an axis, most of the error is a systematic shift, which usually points to a datum, geoid or ground control problem rather than random noise.</p></details>
+      <div class="dp-related"><h3>Related</h3><div class="dp-chips"><a href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">How accurate is a drone survey?</a><a href="/tools/gsd-calculator.html">GSD calculator</a><a href="/insights/topographic-survey-by-drone.html">Topographic survey by drone</a><a href="/insights/drone-survey-glossary.html">Drone survey glossary</a><a href="/gis-mapping-services.html">GIS services</a></div></div>
+      </div>
+    </section>
+
+</main>
+</main>
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a aria-label="DATA PKT home" href="/" class="logowhite"></a></label>
+                <span>&copy; 2026</span>
+            </p>
+            <div class="ftrtop">
+                <span>DATAPKT Infra &amp; Geomatics</span>
+                <span>434, 4th Floor, JMD Megapolis, Sohna Road</span>
+                <span>Sector 48, Gurugram 122018</span>
+                <a href="tel:+918448559100" class="twhite">PH : +91 8448559100</a>
+                     <label><a href="mailto:consult@datapkt.com"> CONSULT@DATAPKT.COM</a></label>
+            </div>
+            <nav class="dp-footer-links" aria-label="Footer">
+                <a href="/about.html">About</a><a href="/services.html">Services</a><a href="/case-studies/">Case studies</a><a href="/insights/">Insights</a><a href="/engineering-scale-planning.html">ESP &amp; DPR</a><a href="/highways-and-roadways.html">Highways</a><a href="/railways-and-metro.html">Railways</a><a href="/energy.html">Power &amp; Solar</a><a href="/gis-mapping-services.html">GIS services</a><a href="/where-we-work.html">Where we work</a><a href="/drone-survey-cost.html">Survey cost</a><a href="/tools/gsd-calculator.html">GSD calculator</a><a href="/tools/rmse-calculator.html">RMSE calculator</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://www.linkedin.com/company/datapkt-infra-geomatics/" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.instagram.com/data.pkt/" rel="noopener" target="_blank">Instagram</a>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+
+<a class="dp-wa" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20to%20discuss%20a%20survey%20project." target="_blank" rel="noopener" aria-label="Chat with DATA PKT on WhatsApp" title="Chat on WhatsApp: +91 84485 59100" onclick="if(window.gtag){gtag('event','whatsapp_click',{page_path:location.pathname})}"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.36 4 14.97c0 2.11.56 4.17 1.62 5.99L4 29l8.24-1.6a12.1 12.1 0 0 0 3.8.6C22.68 28 28 22.64 28 16.03 28 9.42 22.68 3 16.04 3zm0 22.9c-1.2 0-2.38-.2-3.5-.6l-.25-.09-4.9.95.98-4.75-.17-.27a9.82 9.82 0 0 1-1.52-5.17c0-5.46 4.45-9.9 9.92-9.9 5.46 0 9.9 4.44 9.9 9.9 0 5.48-4.44 9.93-9.9 9.93zm5.44-7.42c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.47 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg></a>
+
+<div class="dp-cookie" id="dp-cookie" role="region" aria-label="Cookie notice" hidden>
+  <p>We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. <a href="/privacy.html">Privacy</a></p>
+  <div class="dp-cookie-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes" class="dp-cookie-ok">Accept</button></div>
+</div>
+<script>(function(){var K='dp_consent',CL='',b=document.getElementById('dp-cookie'),v=null;try{v=localStorage.getItem(K)}catch(e){}
+function clarity(){if(!CL||window.clarity)return;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",CL);window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'})}
+if(v==='yes')clarity();else if(!v&&b)b.hidden=false;
+if(b)b.addEventListener('click',function(e){var c=e.target.getAttribute('data-c');if(!c)return;try{localStorage.setItem(K,c)}catch(x){}
+if(window.gtag)gtag('consent','update',{analytics_storage:c==='yes'?'granted':'denied'});if(c==='yes')clarity();b.hidden=true});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"],a[href^="mailto:"]');if(!a||!window.gtag)return;
+gtag('event',a.href.indexOf('tel:')===0?'phone_click':'email_click',{page_path:location.pathname})});})();</script>
+</body>
+
+
+
+
+
+</html>
