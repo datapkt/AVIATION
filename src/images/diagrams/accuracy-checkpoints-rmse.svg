@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img" aria-labelledby="d4-t d4-d" font-family="Arial, Helvetica, Liberation Sans, sans-serif">
+<title id="d4-t">Checking survey accuracy with independent checkpoints and RMSE</title>
+<desc id="d4-d">Left: plan view of checkpoints surveyed on the ground, each with a short red residual vector to the same point measured on the map, and a section view showing the height residual between the model surface and ground checkpoints. Right: residuals are map minus ground for X, Y and Z, and the RMSE for each axis is the square root of the sum of squared residuals divided by the number of checkpoints. Horizontal RMSE is the square root of RMSE X squared plus RMSE Y squared.</desc>
+<defs><marker id="d4-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker><marker id="d4-ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc2c3c"/></marker><marker id="d4-ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="d4-tk" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5,0 L5,10" stroke="#1e1e1e" stroke-width="1.6"/></marker></defs>
+<rect width="900" height="580" fill="#fff"/>
+<rect x="30" y="30" width="420" height="300" rx="8" fill="#f4f4f4" stroke="#c9c9c9" stroke-width="1.2"/>
+<text x="46" y="56" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="start">Plan view (residuals exaggerated)</text>
+<line x1="110" y1="130" x2="144" y2="111" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="110" cy="130" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="105" y1="130" x2="115" y2="130" stroke="#1e1e1e" stroke-width="1.5"/><line x1="110" y1="125" x2="110" y2="135" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="144" cy="111" r="4" fill="#bc2c3c"/>
+<line x1="250" y1="108" x2="226" y2="139" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="250" cy="108" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="245" y1="108" x2="255" y2="108" stroke="#1e1e1e" stroke-width="1.5"/><line x1="250" y1="103" x2="250" y2="113" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="226" cy="139" r="4" fill="#bc2c3c"/>
+<line x1="385" y1="150" x2="412" y2="172" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="385" cy="150" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="380" y1="150" x2="390" y2="150" stroke="#1e1e1e" stroke-width="1.5"/><line x1="385" y1="145" x2="385" y2="155" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="412" cy="172" r="4" fill="#bc2c3c"/>
+<line x1="140" y1="250" x2="109" y2="226" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="140" cy="250" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="135" y1="250" x2="145" y2="250" stroke="#1e1e1e" stroke-width="1.5"/><line x1="140" y1="245" x2="140" y2="255" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="109" cy="226" r="4" fill="#bc2c3c"/>
+<line x1="290" y1="220" x2="327" y2="206" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="290" cy="220" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="285" y1="220" x2="295" y2="220" stroke="#1e1e1e" stroke-width="1.5"/><line x1="290" y1="215" x2="290" y2="225" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="327" cy="206" r="4" fill="#bc2c3c"/>
+<line x1="395" y1="285" x2="375" y2="251" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="395" cy="285" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="390" y1="285" x2="400" y2="285" stroke="#1e1e1e" stroke-width="1.5"/><line x1="395" y1="280" x2="395" y2="290" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="375" cy="251" r="4" fill="#bc2c3c"/>
+<line x1="220" y1="300" x2="244" y2="317" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="220" cy="300" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="215" y1="300" x2="225" y2="300" stroke="#1e1e1e" stroke-width="1.5"/><line x1="220" y1="295" x2="220" y2="305" stroke="#1e1e1e" stroke-width="1.5"/>
+<circle cx="244" cy="317" r="4" fill="#bc2c3c"/>
+<text x="334" y="196" font-size="13" font-weight="700" fill="#bc2c3c" text-anchor="start"><tspan x="334" dy="0">Δ = map − ground</tspan><tspan x="334" dy="17">(ΔX, ΔY)</tspan></text>
+<circle cx="46" cy="358" r="7" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="41" y1="358" x2="51" y2="358" stroke="#1e1e1e" stroke-width="1.5"/><line x1="46" y1="353" x2="46" y2="363" stroke="#1e1e1e" stroke-width="1.5"/>
+<text x="64" y="363" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="start">Checkpoint surveyed on the ground (reference)</text>
+<circle cx="46" cy="386" r="4" fill="#bc2c3c"/>
+<text x="64" y="391" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="start">Same point measured on the map or model</text>
+<line x1="36" y1="414" x2="54" y2="414" stroke="#bc2c3c" stroke-width="2.2"/>
+<circle cx="56" cy="414" r="4" fill="#bc2c3c"/>
+<text x="64" y="419" font-size="14" font-weight="400" fill="#1e1e1e" text-anchor="start">Residual vector (map minus ground)</text>
+<rect x="30" y="440" width="420" height="120" rx="8" fill="#f4f4f4" stroke="#c9c9c9" stroke-width="1.2"/>
+<text x="46" y="464" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="start">Section view: height residual ΔZ</text>
+<path d="M40,520 C100,500 150,535 210,515 S320,495 380,520 S430,530 440,515" stroke="#bc2c3c" stroke-width="2.2" fill="none"/>
+<line x1="90" y1="528" x2="90" y2="511" stroke="#1e1e1e" stroke-width="1.4"/>
+<circle cx="90" cy="528" r="6" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="86" y1="528" x2="94" y2="528" stroke="#1e1e1e" stroke-width="1.5"/><line x1="90" y1="524" x2="90" y2="532" stroke="#1e1e1e" stroke-width="1.5"/>
+<line x1="200" y1="500" x2="200" y2="517" stroke="#1e1e1e" stroke-width="1.4"/>
+<circle cx="200" cy="500" r="6" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="196" y1="500" x2="204" y2="500" stroke="#1e1e1e" stroke-width="1.5"/><line x1="200" y1="496" x2="200" y2="504" stroke="#1e1e1e" stroke-width="1.5"/>
+<line x1="310" y1="522" x2="310" y2="505" stroke="#1e1e1e" stroke-width="1.4"/>
+<circle cx="310" cy="522" r="6" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="306" y1="522" x2="314" y2="522" stroke="#1e1e1e" stroke-width="1.5"/><line x1="310" y1="518" x2="310" y2="526" stroke="#1e1e1e" stroke-width="1.5"/>
+<line x1="400" y1="509" x2="400" y2="524" stroke="#1e1e1e" stroke-width="1.4"/>
+<circle cx="400" cy="509" r="6" fill="#fff" stroke="#1e1e1e" stroke-width="2"/><line x1="396" y1="509" x2="404" y2="509" stroke="#1e1e1e" stroke-width="1.5"/><line x1="400" y1="505" x2="400" y2="513" stroke="#1e1e1e" stroke-width="1.5"/>
+<text x="212" y="495" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="start">ΔZ</text>
+<text x="440" y="552" font-size="13" font-weight="400" fill="#bc2c3c" text-anchor="end">model surface</text>
+<text x="490" y="56" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="start">For each checkpoint i</text>
+<text x="490" y="86" font-size="15" fill="#1e1e1e">ΔX<tspan font-size="12" dy="4">i</tspan><tspan dy="-4"> = X</tspan><tspan font-size="12" dy="4">map</tspan><tspan dy="-4"> − X</tspan><tspan font-size="12" dy="4">ground</tspan></text>
+<text x="490" y="112" font-size="15" fill="#1e1e1e">ΔY<tspan font-size="12" dy="4">i</tspan><tspan dy="-4"> = Y</tspan><tspan font-size="12" dy="4">map</tspan><tspan dy="-4"> − Y</tspan><tspan font-size="12" dy="4">ground</tspan></text>
+<text x="490" y="138" font-size="15" fill="#1e1e1e">ΔZ<tspan font-size="12" dy="4">i</tspan><tspan dy="-4"> = Z</tspan><tspan font-size="12" dy="4">map</tspan><tspan dy="-4"> − Z</tspan><tspan font-size="12" dy="4">ground</tspan></text>
+<text x="490" y="182" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="start">Root mean square error over n checkpoints</text>
+<text x="490" y="204" font-size="14" font-weight="400" fill="#4a4a4a" text-anchor="start">RMSE = √ (mean of the squared residuals)</text>
+<text x="500" y="267" font-size="17" font-weight="700" fill="#1e1e1e">RMSE<tspan font-size="12" dy="5">X</tspan><tspan dy="-5"> =</tspan></text><path d="M596,264 L602,260 L610,284 L620,232 L746,232" stroke="#1e1e1e" stroke-width="1.8" fill="none"/><text x="683" y="253" font-size="16" fill="#1e1e1e" text-anchor="middle">Σ ΔX<tspan font-size="12" dy="4">i</tspan><tspan font-size="12" dy="-12">2</tspan></text><line x1="628" y1="260" x2="738" y2="260" stroke="#1e1e1e" stroke-width="1.4"/><text x="683" y="279" font-size="16" font-weight="400" fill="#1e1e1e" text-anchor="middle">n</text>
+<text x="500" y="345" font-size="17" font-weight="700" fill="#1e1e1e">RMSE<tspan font-size="12" dy="5">Y</tspan><tspan dy="-5"> =</tspan></text><path d="M596,342 L602,338 L610,362 L620,310 L746,310" stroke="#1e1e1e" stroke-width="1.8" fill="none"/><text x="683" y="331" font-size="16" fill="#1e1e1e" text-anchor="middle">Σ ΔY<tspan font-size="12" dy="4">i</tspan><tspan font-size="12" dy="-12">2</tspan></text><line x1="628" y1="338" x2="738" y2="338" stroke="#1e1e1e" stroke-width="1.4"/><text x="683" y="357" font-size="16" font-weight="400" fill="#1e1e1e" text-anchor="middle">n</text>
+<text x="500" y="423" font-size="17" font-weight="700" fill="#1e1e1e">RMSE<tspan font-size="12" dy="5">Z</tspan><tspan dy="-5"> =</tspan></text><path d="M596,420 L602,416 L610,440 L620,388 L746,388" stroke="#1e1e1e" stroke-width="1.8" fill="none"/><text x="683" y="409" font-size="16" fill="#1e1e1e" text-anchor="middle">Σ ΔZ<tspan font-size="12" dy="4">i</tspan><tspan font-size="12" dy="-12">2</tspan></text><line x1="628" y1="416" x2="738" y2="416" stroke="#1e1e1e" stroke-width="1.4"/><text x="683" y="435" font-size="16" font-weight="400" fill="#1e1e1e" text-anchor="middle">n</text>
+<line x1="490" y1="470" x2="870" y2="470" stroke="#c9c9c9" stroke-width="1"/>
+<text x="490" y="498" font-size="15" fill="#1e1e1e"><tspan font-weight="700">Horizontal: </tspan>RMSE<tspan font-size="12" dy="4">r</tspan><tspan dy="-4"> = √(RMSE</tspan><tspan font-size="12" dy="4">X</tspan><tspan font-size="12" dy="-12">2</tspan><tspan dy="8"> + RMSE</tspan><tspan font-size="12" dy="4">Y</tspan><tspan font-size="12" dy="-12">2</tspan><tspan dy="8">)</tspan></text>
+<text x="490" y="528" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="490" dy="0">Checkpoints must be independent of the</tspan><tspan x="490" dy="18">GCPs used in processing.</tspan></text>
+</svg>

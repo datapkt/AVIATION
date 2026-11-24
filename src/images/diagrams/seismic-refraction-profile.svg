@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 690" width="900" height="690" role="img" aria-labelledby="d8-t d8-d" font-family="Arial, Helvetica, Liberation Sans, sans-serif">
+<title id="d8-t">Seismic refraction survey: geophone spread, ray paths and two-layer velocity model</title>
+<desc id="d8-d">Bottom: cross-section with a shot point at the left end of a line of geophones on the ground surface. A direct wave travels through the upper layer with velocity V1. A refracted wave travels down at the critical angle, along the interface with the faster lower layer of velocity V2, and back up to the far geophones; sin of the critical angle equals V1 over V2. Top: travel-time plot of first arrivals against distance, with a direct-wave line of slope 1/V1, a refracted line of slope 1/V2, and the crossover distance where the refracted wave arrives first.</desc>
+<defs><marker id="d8-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker><marker id="d8-ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc2c3c"/></marker><marker id="d8-ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="d8-tk" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5,0 L5,10" stroke="#1e1e1e" stroke-width="1.6"/></marker></defs>
+<rect width="900" height="690" fill="#fff"/>
+<text x="100" y="30" font-size="12" font-weight="700" fill="#4a4a4a" text-anchor="start" letter-spacing="1.5">FIRST-ARRIVAL TRAVEL TIMES</text>
+<line x1="80" y1="240" x2="870" y2="240" stroke="#1e1e1e" stroke-width="1.5"/>
+<line x1="80" y1="240" x2="80" y2="40" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d8-ah)"/>
+<text x="64" y="140" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle" transform="rotate(-90 64 140)">Travel time</text>
+<text x="420" y="260" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle">Distance from shot point →</text>
+<line x1="80" y1="240" x2="668.8972745734184" y2="92.7756813566454" stroke="#1e1e1e" stroke-width="2.2"/>
+<line x1="668.8972745734184" y1="92.7756813566454" x2="760" y2="70.0" stroke="#1e1e1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="276.2990915244727" y1="141.8504542377636" x2="668.8972745734184" y2="92.7756813566454" stroke="#bc2c3c" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="668.8972745734184" y1="92.7756813566454" x2="860" y2="68.8878406783227" stroke="#bc2c3c" stroke-width="2.2"/>
+<line x1="200" y1="240" x2="200" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="200" cy="210.0" r="4" fill="#1e1e1e"/>
+<line x1="260" y1="240" x2="260" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="260" cy="195.0" r="4" fill="#1e1e1e"/>
+<line x1="320" y1="240" x2="320" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="320" cy="180.0" r="4" fill="#1e1e1e"/>
+<line x1="380" y1="240" x2="380" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="380" cy="165.0" r="4" fill="#1e1e1e"/>
+<line x1="440" y1="240" x2="440" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="440" cy="150.0" r="4" fill="#1e1e1e"/>
+<line x1="500" y1="240" x2="500" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="500" cy="135.0" r="4" fill="#1e1e1e"/>
+<line x1="560" y1="240" x2="560" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="560" cy="120.0" r="4" fill="#1e1e1e"/>
+<line x1="620" y1="240" x2="620" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="620" cy="105.0" r="4" fill="#1e1e1e"/>
+<line x1="680" y1="240" x2="680" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="680" cy="91.3878406783227" r="4" fill="#bc2c3c"/>
+<line x1="740" y1="240" x2="740" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="740" cy="83.8878406783227" r="4" fill="#bc2c3c"/>
+<line x1="800" y1="240" x2="800" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="800" cy="76.3878406783227" r="4" fill="#bc2c3c"/>
+<line x1="860" y1="240" x2="860" y2="245" stroke="#1e1e1e" stroke-width="1"/>
+<circle cx="860" cy="68.8878406783227" r="4" fill="#bc2c3c"/>
+<line x1="668.8972745734184" y1="92.7756813566454" x2="668.8972745734184" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="668.8972745734184" y="276" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="middle">Crossover distance</text>
+<text x="190" y="166" font-size="13" font-weight="700" fill="#1e1e1e">Direct: slope 1/V<tspan font-size="12" dy="4">1</tspan></text>
+<text x="560" y="58" font-size="13" font-weight="700" fill="#bc2c3c">Refracted: slope 1/V<tspan font-size="12" dy="4">2</tspan></text>
+<rect x="30" y="330" width="840" height="170" rx="0" fill="#f4f4f4"/>
+<rect x="30" y="500" width="840" height="150" rx="0" fill="#e6e6e6"/>
+<line x1="30" y1="330" x2="870" y2="330" stroke="#1e1e1e" stroke-width="2"/>
+<line x1="30" y1="500" x2="870" y2="500" stroke="#4a4a4a" stroke-width="1.5"/>
+<polygon points="80.0,317.0 82.6,324.4 90.5,324.6 84.3,329.4 86.5,336.9 80.0,332.5 73.5,336.9 75.7,329.4 69.5,324.6 77.4,324.4" fill="#bc2c3c"/>
+<text x="80" y="312" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="middle">Shot point</text>
+<line x1="200" y1="314" x2="860" y2="314" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="194,318 206,318 200,330" fill="#1e1e1e"/>
+<line x1="200" y1="314" x2="200" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="254,318 266,318 260,330" fill="#1e1e1e"/>
+<line x1="260" y1="314" x2="260" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="314,318 326,318 320,330" fill="#1e1e1e"/>
+<line x1="320" y1="314" x2="320" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="374,318 386,318 380,330" fill="#1e1e1e"/>
+<line x1="380" y1="314" x2="380" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="434,318 446,318 440,330" fill="#1e1e1e"/>
+<line x1="440" y1="314" x2="440" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="494,318 506,318 500,330" fill="#1e1e1e"/>
+<line x1="500" y1="314" x2="500" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="554,318 566,318 560,330" fill="#1e1e1e"/>
+<line x1="560" y1="314" x2="560" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="614,318 626,318 620,330" fill="#1e1e1e"/>
+<line x1="620" y1="314" x2="620" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="674,318 686,318 680,330" fill="#1e1e1e"/>
+<line x1="680" y1="314" x2="680" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="734,318 746,318 740,330" fill="#1e1e1e"/>
+<line x1="740" y1="314" x2="740" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="794,318 806,318 800,330" fill="#1e1e1e"/>
+<line x1="800" y1="314" x2="800" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<polygon points="854,318 866,318 860,330" fill="#1e1e1e"/>
+<line x1="860" y1="314" x2="860" y2="318" stroke="#8a8a8a" stroke-width="1"/>
+<text x="530" y="304" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="middle">Geophone spread (cabled to the seismograph)</text>
+<line x1="94" y1="338" x2="330" y2="338" stroke="#1e1e1e" stroke-width="1.8" marker-end="url(#d8-ah)"/>
+<text x="180" y="358" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="start">Direct wave</text>
+<line x1="80" y1="330" x2="178.14954576223636" y2="498" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="178.14954576223636" y1="498" x2="701.8504542377636" y2="498" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="341.85045423776364" y1="498" x2="437" y2="335" stroke="#bc2c3c" stroke-width="2" marker-end="url(#d8-ahr)"/>
+<line x1="521.8504542377636" y1="498" x2="617" y2="335" stroke="#bc2c3c" stroke-width="2" marker-end="url(#d8-ahr)"/>
+<line x1="701.8504542377636" y1="498" x2="797" y2="335" stroke="#bc2c3c" stroke-width="2" marker-end="url(#d8-ahr)"/>
+<line x1="178.14954576223636" y1="430" x2="178.14954576223636" y2="500" stroke="#4a4a4a" stroke-width="1" stroke-dasharray="3 3"/>
+<path d="M178.14954576223636,452 A48,48 0 0 0 154.1,458.4" stroke="#1e1e1e" stroke-width="1.4" fill="none"/>
+<text x="165.14954576223636" y="446" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">i<tspan font-size="12" dy="4">c</tspan></text>
+<text x="560" y="472" font-size="15" font-weight="700" fill="#1e1e1e">sin i<tspan font-size="12" dy="4">c</tspan><tspan dy="-4"> = V</tspan><tspan font-size="12" dy="4">1</tspan><tspan dy="-4"> / V</tspan><tspan font-size="12" dy="4">2</tspan></text>
+<text x="225" y="425" font-size="14" font-weight="700" fill="#1e1e1e">Layer 1: velocity V<tspan font-size="12" dy="4">1</tspan></text>
+<text x="44" y="620" font-size="14" font-weight="700" fill="#1e1e1e">Layer 2: velocity V<tspan font-size="12" dy="4">2</tspan><tspan dy="-4"> &gt; V</tspan><tspan font-size="12" dy="4">1</tspan></text>
+<text x="500" y="528" font-size="13" font-weight="700" fill="#bc2c3c" text-anchor="middle">Critically refracted (head) wave along the interface</text>
+<text x="860" y="620" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="end">Depth to the interface is calculated from the intercept time or crossover distance</text>
+</svg>
