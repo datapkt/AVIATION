@@ -106,6 +106,7 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - [Drone survey and geomatics glossary](https://datapkt.com/insights/drone-survey-glossary.html): plain-English definitions of GSD, GCP, RTK, DTM vs DSM, RMSE, LAS files, IEC TS 62446-3, PLS-CADD, ESP, OHE and seismic refraction
 - [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html): strip plan, contours, cross-sections and benchmarks; what a drone does well and what still needs ground survey
 - [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html): drone LiDAR, seismic refraction, geological mapping, stability analysis, IS codes and what decides the cost
+- [Point cloud classification explained: LAS classes, ground filtering and QC](https://datapkt.com/insights/point-cloud-classification.html): ASPRS LAS 1.4 class codes, ground filtering methods and failure modes, QC checks, deliverables and what to specify when outsourcing
 
 ## Case studies
 - [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html): monthly DGPS-controlled photogrammetry and videography; about 35 km of imagery or 50 km of video a day per team; more than 70,000 km in FY 2026-27
