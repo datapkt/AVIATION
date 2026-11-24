@@ -2353,9 +2353,30 @@ A KML or map of the site or corridor, the accuracy needed, the coordinate system
 Home / Services / GIS mapping and data processing
 Service · GIS
 
-## GIS mapping and data processing services
-DATA PKT's in-house GIS team turns drone, LiDAR and survey data into GIS layers, land maps and CAD-ready drawings for projects across India, and processes GIS data remotely for firms abroad.
+## Drone, LiDAR and GIS data processing for survey and engineering firms
+DATA PKT's in-house GIS team in Gurugram turns drone imagery, LiDAR point clouds and survey data into classified point clouds, terrain models, GIS layers and CAD-ready drawings for projects across India, and offers remote processing to firms outside India.
 In short: we are a GIS mapping company in Gurugram with an in-house team working in ArcGIS, QGIS and AutoCAD. We build GIS layers from our own drone and LiDAR surveys or from your data, overlay them on revenue and forest maps, and deliver files your engineers can use directly. For firms outside India we offer remote GIS data processing and dedicated offshore seats.
+
+### Drone and LiDAR data processing
+Survey and engineering firms that capture their own drone or LiDAR data can hand the processing to us and get back outputs their drafting and design teams can use. The same team processes the data from our own surveys: we have 20+ pilots and have captured 3 lakh+ km of highway data in six years.
+- Photogrammetry processing: drone images tied to ground control and processed into orthomosaics, dense point clouds and surface models
+- Point cloud classification: LiDAR and photogrammetric point clouds classified to ASPRS LAS classes such as ground, vegetation, buildings and water, or to the class list your project uses
+- DTM and DSM: bare-earth terrain models from the classified ground points, and surface models that keep buildings, trees and structures
+- Contours generated from the terrain model at the interval your drawings need
+- Orthomosaics for base maps, feature extraction and GIS layers
+
+### CAD and GIS deliverables for survey and engineering firms
+We deliver files that open directly in your CAD and GIS software. Our team works in ArcGIS, QGIS and AutoCAD.
+- LAS/LAZ: classified point clouds
+- GeoTIFF: orthomosaics, DTM and DSM
+- DWG: contours, topographic drawings and features extracted for design teams
+- SHP: GIS layers with attributes to your schema
+We also deliver in geodatabase, GeoPackage, KML/KMZ or DXF, in the coordinate system, projection and height datum you specify, with layer naming and attribute schemas to your template. Every job is checked against the QC rules agreed at the start.
+
+### How a processing job works
+- Data handover: you share the raw images or point clouds, the ground control and checkpoint coordinates, the coordinate system and height datum, and the outputs and formats you need. When we fly the site ourselves, our surveyors measure the ground control with DGPS.
+- Processing and QC: we process the data and check the results against the ground control and independent checkpoints, along with the QC rules agreed at the start.
+- Delivery: you receive the files in the agreed formats, with the checkpoint results, ready for your drafting, design or GIS team.
 
 ### GIS services for projects in India
 - GIS layers from drone and LiDAR surveys: orthomosaics, elevation models and contours brought into GIS with roads, structures, utilities, drainage and land use mapped as layers
@@ -2374,9 +2395,6 @@ We offer remote processing to engineering, survey and GIS firms outside India: t
 - Map production, attribute work and data clean-up to your QC rules
 - Dedicated offshore seats: a team in India that works only on your projects, full time or part time, under your procedures and confidentiality terms
 
-### Formats and standards
-We deliver in shapefile, geodatabase, GeoPackage, KML/KMZ, GeoTIFF, DWG or DXF, in the coordinate system, projection and height datum you specify, with layer naming and attribute schemas to your template. Every job is checked against the QC rules agreed at the start.
-
 ### Related services
 GIS work often starts with our drone photogrammetry or LiDAR surveys; see also transmission line route surveys on khasra maps and drone survey deliverables explained.
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
@@ -2394,6 +2412,12 @@ Yes. Our in-house GIS team in Gurugram can process data remotely for engineering
 
 Q: Can we have a dedicated GIS team for confidential projects?
 Yes. We can set up dedicated offshore seats in India that work only on your projects, under your procedures and confidentiality terms, full time or part time.
+
+Q: Can you classify a point cloud that we captured ourselves?
+Yes. Send us the LAS or LAZ files with the ground control and checkpoint coordinates and the class list you need. We classify the point cloud to ASPRS LAS classes such as ground, vegetation, buildings and water, build the DTM, DSM and contours from it, and check the results against your control and checkpoints.
+
+Q: Which files do survey and engineering firms receive from a processing job?
+Classified point clouds in LAS/LAZ, orthomosaics, DTM and DSM in GeoTIFF, contours and drawings in DWG, and GIS layers in SHP, in the coordinate system and height datum you specify, with the checkpoint results.
 
 Q: What do you need to quote a GIS job?
 A sample of the input data, the outputs and file formats you need, the coordinate system, accuracy or QC rules you follow, the volume of work, and the deadline.
