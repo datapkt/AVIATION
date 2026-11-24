@@ -2743,7 +2743,7 @@ Since 2020: Drone survey and GIS work across India from Gurugram
 Our clients here include Mumbai Railway Vikas Corporation (MRVC), Central Railway and Konkan Railway. See the full client list.
 
 ### What we survey in Maharashtra and Mumbai
-- Railway sections and yards: Engineering Scale Plans, yard plans and drainage plans
+- Railway sections and yards: Engineering Scale Plans, yard plans and drainage plans (what goes into an ESP)
 - Suburban and mainline corridors: drone and LiDAR corridor surveys
 - Hilly and coastal alignments: LiDAR where slopes and vegetation hide the ground
 - Progress records: aerial video for project reviews
@@ -2852,7 +2852,7 @@ A ground survey with DGPS and total station measures one point at a time, so a l
 On a linear corridor such as a highway, one team captures about 35 km of drone imagery for photogrammetry, or about 50 km of aerial video, in a day, and DATA PKT has more than 20 drone pilots (a team of about 22) to put in the field. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
 
 ### Why highways need a monthly drone record
-In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance (Mobility Outlook, June 2021). Videos compare the current month with the previous one and can be used as evidence in disputes. Contractors and private developers use the same record for their own progress reports and billing.
+In 2021 NHAI made drone video recording mandatory for national highway projects, every month, at every stage: development, construction, and operation and maintenance (Mobility Outlook, June 2021). Videos compare the current month with the previous one and can be used as evidence in disputes (see NHAI's monthly drone video rule for what each video must show). Contractors and private developers use the same record for their own progress reports and billing.
 From a DATA PKT comparative drone video of a highway improvement project in Uttar Pradesh: the same chainage recorded six months apart.
 
 ### How a monthly cycle runs
@@ -2998,7 +2998,7 @@ Survey and design decide where each tower stands and how the line crosses every 
 ### Why drones are faster
 A ground survey with DGPS and total station measures one point at a time, so a long corridor takes weeks. A DATA PKT drone team captures around 5 sq km of survey data in a day, which is then mapped and analysed in the office.
 On a linear corridor such as a highway, one team captures about 35 km of drone imagery for photogrammetry, or about 50 km of aerial video, in a day, and DATA PKT has more than 20 drone pilots (a team of about 22) to put in the field. Ground instruments are still used, but only where they matter most: for the control points that fix the map to real coordinates, for checkpoints that prove the accuracy, and for detail the drone cannot see.
-See the service: transmission line and substation survey and design.
+See the service: transmission line and substation survey and design, and, for lines in service, our guide to drone inspection of transmission lines.
 Send us the site KML or chainage and the outputs you need. We reply with a scope and quote.
 
 ### Frequently asked questions
@@ -3550,7 +3550,7 @@ Q: Can I get a colour map from LiDAR?
 Yes. Most survey LiDAR units carry a camera: 20 MP on the DJI L2 and two 100 MP cameras on the L3, so the point cloud can be coloured and an orthomosaic made from the same flight. A dedicated full-frame mapping camera still gives the sharpest orthomosaic.
 
 Q: Which is better for power lines and railway OHE?
-LiDAR. Photogrammetry fails to match wires that run along the flight strip, while LiDAR records each pulse that hits a conductor as a 3D point, so sag and vegetation clearance can be measured to decimetre accuracy.
+LiDAR. Photogrammetry fails to match wires that run along the flight strip, while LiDAR records each pulse that hits a conductor as a 3D point, so sag and vegetation clearance can be measured to decimetre accuracy. See our guides to inspecting power lines by drone and drone inspection of railway bridges and OHE.
 
 
 === https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html ===
@@ -3612,7 +3612,7 @@ Short answer: look past the drone. The firm should have legally registered drone
 - The right GSD for the job. The quote should state the ground sample distance. Check it with our GSD calculator.
 - DGPS ground control by surveyors. Who measures the GCPs, with what equipment, in which coordinate system and height datum?
 - Sample deliverables. Ask for a sample orthomosaic, terrain model and drawing from a past project, in the formats your team uses.
-- References from similar projects. A highway DPR, a railway ESP and a solar thermography job need different skills. Ask for named clients.
+- References from similar projects. A highway DPR, a railway ESP and a solar panel thermography job need different skills. Ask for named clients.
 - Processing and drafting in-house. Firms that only fly hand the hard part to someone else. Ask who builds the models and drawings.
 - Airspace planning. They should check the Digital Sky zone map for your site and plan any permission before quoting dates.
 - Clear scope and data ownership. The contract should list every deliverable and say that the raw and processed data belong to you.
@@ -3891,7 +3891,7 @@ Most disputes over drone data in a DPR come from a vague scope. Put these in the
 - Strip plans missing utilities and structures that were visible in the imagery but not digitised.
 
 ### How DATA PKT works on highway projects
-DATA PKT is a drone service provider empanelled with NHAI in three zones, and has captured more than 3 lakh km of highway data in six years for authorities and contractors (highway drone monitoring case study). For DPR and ESP work we set DGPS control first, fly the corridor, build the terrain model, check it against independent checkpoints and draft the plans in CAD, with ground survey where the drone cannot see. A DATA PKT drone team captures around 5 sq km of survey data in a day. See our roads and highways services and ESP and DPR surveys.
+DATA PKT is a drone service provider empanelled with NHAI in three zones, and has captured more than 3 lakh km of highway data in six years for authorities and contractors (highway drone monitoring case study). For DPR and ESP work we set DGPS control first, fly the corridor, build the terrain model, check it against independent checkpoints and draft the plans in CAD, with ground survey where the drone cannot see. A DATA PKT drone team captures around 5 sq km of survey data in a day. See our roads and highways services and ESP and DPR surveys. Once construction starts, NHAI also requires a monthly video of the project: see what monthly NHAI drone videography must show.
 Related reading: drone survey vs DGPS and total station, how accurate a drone survey is and what decides the cost.
 Source: IRC:SP:19-2001, clauses 8.2–8.3 and 12.2–12.4. Check the edition and terms of reference that apply to your project.
 Send us the alignment KML or chainages and the DPR deliverables you need. We reply with a scope and quote.
