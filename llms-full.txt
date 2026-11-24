@@ -157,7 +157,7 @@ Highways and roads, railways and metro, power and solar, water resources, urban 
 Since 2020 we have delivered survey, mapping, monitoring and design work for more than 100 public authorities and infrastructure companies across India. Our clients include:
 
 #### Government, railways and public sector
-National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum and Hindustan Petroleum.
+National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, Adani, GAIL, Bharat Petroleum and Hindustan Petroleum.
 
 #### Highway and infrastructure contractors
 AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, Ceigall India, CIDPL-SCPL JV, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, E5 Infrastructure, Fortune Group, Furlong Infra, Gargsons Estate, Gawar Construction, Gayatri Projects, G R Infraprojects, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, KMC Constructions, Keystone, LN Malviya Infra, MIC Mahamarg Infra Consultants, Mayasheel Construction, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, NKC Projects, Nitin Sai Construction, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, Skylark Infra, SKS Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure and VRC Constructions (India).
@@ -635,7 +635,7 @@ A Detailed Project Report is only as good as the survey under it. For railway an
 Accuracy comes from the DGPS ground control and is proved on independent checkpoints. Read more in how accurate a drone survey is and what an Engineering Scale Plan is.
 
 ### Our railway ESP work
-Across two railway divisions we have prepared 93 yard and drainage plans: 61 submitted, and drainage design for 32 yards under way. Read the case study.
+Across two railway divisions we have submitted 60+ yard plans (ESPs) and drainage plans, and drainage design for 32 more yards is in progress. Read the case study.
 
 ### Our Features
 
@@ -692,7 +692,7 @@ As CAD drawings in the layers and scale the railway asks for, with PDF prints, t
 === https://datapkt.com/energy.html ===
 ## Drone Survey for the Power Sector
 In short: we inspect and survey power assets by drone: transmission and distribution lines, substations, solar plants and wind farms. Radiometric thermal cameras find hotspots and defects, each tagged to its tower or string, and LiDAR maps corridors for new lines (see our transmission line and solar inspection guides). Our thermal team includes a thermographer certified to ISO 9712 Level 2.
-The DATAPKT prediction algorithm combines drones with advanced imaging capabilities to conduct comprehensive visual inspections of important infrastructure such as transmission and distribution lines, thermal power plants, renewable energy installations, and hydropower projects. These drones use high-resolution, infrared, and thermal sensors to detect potential problems before they escalate, resulting in lower losses, lower maintenance costs, and increased reliability. Real-time defect identification allows for timely repairs and maintenance, reducing downtime and power outages while improving operational efficiency and cost-effectiveness. DATA PKT Infra & Geomatics offers the following services to provide credible industry insights concerning the roads and highways sector. The drones can be used as an ultimate tool in every stage of highway construction.
+Our drone team combines drones with advanced imaging capabilities to conduct comprehensive visual inspections of important infrastructure such as transmission and distribution lines, thermal power plants, renewable energy installations, and hydropower projects. These drones use high-resolution, infrared, and thermal sensors to detect potential problems before they escalate, resulting in lower losses, lower maintenance costs, and increased reliability. Real-time defect identification allows for timely repairs and maintenance, reducing downtime and power outages while improving operational efficiency and cost-effectiveness. DATA PKT Infra & Geomatics offers the following services to provide credible industry insights concerning the roads and highways sector. The drones can be used as an ultimate tool in every stage of highway construction.
 Transmission Lines Inspection
 Distribution Line Inspection
 Solar Power Plants
@@ -726,13 +726,13 @@ Our services provide detailed topological maps and thermograms, identifying issu
 Deliverables: include geotagged high-resolution visible and thermal infrared images, Orth mosaics with elevation data and AI/ML-based analytics for quick analysis and provide plant efficiency reports.
 
 ### Wind Farms
-Drones are becoming a crucial component of managing, operating, and preserving wind farms. Using drones instead of traditional inspection makes inspecting rotor blades simple. We can now identify the inside of the rotor blade thanks to developments in the thermal system. Drones cut the number of man-hours and turbine downtime required for maintenance checks by approximately 75%, with inspection times of 15 to 30 minutes per turbine having been proven.
+Drones are becoming a crucial component of managing, operating, and preserving wind farms. Using drones instead of traditional inspection makes inspecting rotor blades simple. We can now identify the inside of the rotor blade thanks to developments in the thermal system. In one published case study, a drone inspection took about 45 minutes per turbine, against 3 to 6 hours for a rope-access inspection (DJI Enterprise).
 Wind turbine blade inspection methods include both surface and subsurface techniques. Surface inspections use visual technologies like sensors and drones to detect fractures, erosion, lightning, and bird strikes. Early detection enables efficient corrective maintenance. Sub-surface examinations use non-destructive methods such as thermal imaging, ultrasound, and electromagnetic waves to detect structural faults in the blades' internal structure, such as damaged shear webs and bonding erosion. Internal inspections, which require professionals to physically climb into the blades, are limited due to height, safety, and efficiency limits, leaving a considerable fraction uninspected, particularly in offshore wind farms.
 Our drone inspections detect a wide range of faults in wind turbine blades.
 Deliverables: We provide site feasibility and topography survey reports, Higher-resolution visual inspections, Ortho-mosaic, Digital surface model, Digital terrain model with elevation data, a Contour map of the site and a 3D Model with cloud point.
 
 ### Nuclear Power Plants
-Drones play a crucial role in enhancing safety and efficiency at nuclear power stations by providing an effective means of managing potential leaks and assessing equipment integrity without exposing personnel to dangerous levels of radiation. Following natural disasters and weather events, such as hurricanes or earthquakes, nuclear power stations may face structural damage or operational disruptions. In these situations, the use of unmanned aerial vehicles (UAVs) for inspections can minimize efficiency losses by 6 to 8%, compared to traditional manual inspections. This is particularly significant considering the potential catastrophic consequences of even minor damage to nuclear facilities.
+Drones play a crucial role in enhancing safety and efficiency at nuclear power stations by providing an effective means of managing potential leaks and assessing equipment integrity without exposing personnel to dangerous levels of radiation. Following natural disasters and weather events, such as hurricanes or earthquakes, nuclear power stations may face structural damage or operational disruptions. In these situations, drone inspections let teams assess damage quickly without sending people into hazardous areas. This is particularly significant considering the potential catastrophic consequences of even minor damage to nuclear facilities.
 Unmanned aerial vehicles equipped with specialized sensors and cameras can access areas that are difficult or dangerous for humans to reach, such as rooftops, cooling towers, and reactor containment structures. They can provide high-resolution imagery and data in real-time, allowing operators to quickly identify any issues or anomalies. Additionally, drones can be deployed rapidly, reducing the time required to assess the situation and implement necessary repairs or maintenance activities.
 Deliverable: We provide site topography survey reports with environmental impact assessment reports, Higher-resolution visual images, Ortho-mosaic, Digital surface models, Digital terrain models with elevation data, a Contour map of the site and 3D Models with cloud points.
 
@@ -785,7 +785,7 @@ We've covered over 10000 kilometres of energy infrastructure, showcasing our abi
 Demonstrates our commitment to comprehensive solutions for pipelines, power lines, and solar farms.
 
 #### Rapid Survey Capabilities
-Our experienced team and advanced survey drones enable us to cover over 100 kilometres of energy infrastructure daily.
+Our experienced team and advanced survey drones enable us to map over 100 km of linear energy corridor a day by drone photogrammetry, and inspect 10 to 15 pylons a day.
 Emphasises our agility and efficiency in meeting project deadlines and supporting quick decision-making.
 
 #### Expert team
@@ -1141,7 +1141,7 @@ Development
 Production
 Reclamation stage
 Stage 1: Exploration and Discovery stage
-Mineral exploration is the search for evidence of mineralisation in the surrounding rock. Geological information from many sites is combined and projected across a wider area to build a geological picture. Exploration of new regions grows with the demand for resources, which is expected to rise by 60% by the end of 2030.
+Mineral exploration is the search for evidence of mineralisation in the surrounding rock. Geological information from many sites is combined and projected across a wider area to build a geological picture. Exploration of new regions grows with the demand for resources.
 Drone surveys have changed how mineral exploration is carried out.
 Drone surveys provide a base image of the region's geology at the start of exploration. Each later stage of work in the area builds on and relates back to this initial dataset, making exploration more efficient and accurate.
 Stage 2: Development Stage
@@ -1668,12 +1668,11 @@ We combine drone data with GPS and farm machinery for precision agriculture tech
 
 ### Our Features
 
-#### Extensive Coverage
-Over 5000 hectares of farmland surveyed.
-In four years we have surveyed large areas of farmland for farmers and land managers.
+#### Multi-sensor surveys
+RGB, multispectral, hyperspectral, LiDAR and thermal sensors, chosen for what the field needs to show.
 
-#### Rapid Survey Capabilities
-With experienced drone pilots and GIS engineers, we can survey over 100 hectares of farmland a day without compromising accuracy.
+#### Tied to ground control
+Surveys are tied to DGPS ground control, so maps from repeat flights line up and change can be measured.
 
 #### Efficient Data Processing
 Our in-house GIS team processes and analyses drone survey data promptly, so farmers and agricultural stakeholders get usable results in time to act.
@@ -2047,11 +2046,7 @@ Yes. Drones can reach isolated locations where conventional delivery is impracti
 
 === https://datapkt.com/public-safety.html ===
 ## Drones for Public Safety
-Drones make incident response safer and more efficient, and let teams see and manage a scene from a distance. DATA PKT drones can be deployed within minutes, giving ground personnel a view from directly above the incident and covering large, steep, remote or hazardous terrain that is hard to reach on foot. A 2021 survey of more than 250 police officers in India looked at how their departments use UAVs. The key findings were:
-- UAVs were used for search and rescue by 83% of users.
-- UAVs were used for disaster management by 79% of users.
-- UAVs were used for police operations by 76% of users.
-- UAVs were used to monitor crime and traffic by 71% of users.
+Drones make incident response safer and more efficient, and let teams see and manage a scene from a distance. DATA PKT drones can be deployed within minutes, giving ground personnel a view from directly above the incident and covering large, steep, remote or hazardous terrain that is hard to reach on foot.
 
 ### Uses Of Drones
 Search and Rescue (SAR)
@@ -2816,7 +2811,7 @@ For highway authorities, highway contractors and private developers, DATA PKT se
 Clients: Highway authorities, highway contractors and private developers
 Services used: Drone photogrammetry, aerial videography, DGPS control and analytics
 Highway data captured: More than 3 lakh km in six years, imagery and videography
-Empanelment: Three NHAI zones, the most allowed
+Empanelment: Three NHAI zones
 In short: every month our pilots fly each highway package along the same path, tied to DGPS ground control. The imagery becomes georeferenced maps (photogrammetry), the video becomes the comparative monthly record, and both feed analytics that measure the rate of completion and flag anomalies on completed highways.
 
 ### Scale and speed
