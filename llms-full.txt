@@ -127,10 +127,16 @@ About DATA PKT
 
 ## We survey, map and design the ground India builds on.
 DATA PKT Infra & Geomatics is a drone survey, mapping, GIS and design company based in Gurugram, Haryana. Since 2020 our pilots, surveyors, GIS analysts and engineers have worked on highways, railways, solar plants, power lines, canals and mines across India.
+
+### Company facts
 Founded: 14 September 2020
-Office: 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram 122018
-NHAI: Empanelled in three zones for monthly drone survey work
 Recognition: DIPP-recognised start-up
+NHAI: Empanelled in three zones for monthly drone survey work
+Team: 20+ pilots and an in-house GIS team
+Thermography: Thermographer certified to ISO 9712 Level 2
+Power-sector clients: Including NTPC and Adani
+Office: 434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48, Gurugram 122018
+Former name: Formerly known as DATA PKT Aviation
 
 ### What we do
 We collect accurate data about the ground and the assets on it, and turn it into drawings, GIS layers and reports that engineers and owners can use. We survey, map and design for infrastructure projects; we do not construct them.
@@ -262,7 +268,7 @@ DATAPKT Pvt. Ltd
 Be a DATAPKT drone pilot from anywhere and everywhere. We're coming to you! We believe in building a community where we are there for eachother.
 Fly with us
 © 2026
-434, 4th Floor JMD Megapolis Sector 48, Gurugram 122018 PH : +91 8448559100 CONSULT@DATAPKT.COM
+DATAPKT Infra & Geomatics 434, 4th Floor, JMD Megapolis, Sohna Road Sector 48, Gurugram 122018 PH : +91 8448559100 CONSULT@DATAPKT.COM
 
 
 === https://datapkt.com/highways-and-roadways.html ===
@@ -703,7 +709,7 @@ Thermal Power Plant
 Hydropower Plant
 
 ### Transmission Lines Inspection
-We inspect transmission lines by drone, with artificial intelligence and machine learning automating the process from data capture to the analytical report. For new lines, see transmission line and substation survey and design.
+We inspect transmission lines by drone, with artificial intelligence and machine learning automating the process from data capture to the analytical report. For new lines, see transmission line and substation survey and design. For how a drone inspection compares with a foot patrol, read our guide to transmission line drone inspection.
 Our transmission line drone surveys encompass a thorough examination of various components, including towers, conductors, insulators, rights of way (ROW), and vibration dampers. By utilising thermal imaging cameras mounted on drones, we can detect hotspots caused by issues such as loose connections, load imbalances, and corrosion, which could lead to temperature variations and potential hazards.
 The integration of AI technology enables automatic detection of significant irregularities in transmission lines, allowing our clients to receive actionable insights through detailed analytical reports. With this advanced approach, a single drone crew can cover extensive regions, inspecting approximately 10-15 pylons per day. This streamlined process minimises expenses, reduces manpower requirements, and enhances the overall safety and reliability of electrical transmission systems.
 Deliverable: We provide site topography survey reports with grid installation feasibility, Higher-resolution visual images of grids with Detailed Project Reports.
@@ -724,6 +730,7 @@ Regular thermal surveys give asset managers early warning, so equipment can be r
 Drones are being used by solar power plants to give an airborne perspective that enables quicker diagnosis of damaged solar panels. Drones equipped with dual-mode high-end thermal cameras and ultra-high-definition video cameras with 16x zoom offer temperature differences and crisp images for quick identification of defective panels, cracks, or shadows. This technology reduces inspection time significantly, allowing for faster maintenance responses and minimized downtime. As a result, solar power plants can maintain optimal efficiency and output.
 By utilizing drone technology for solar plant inspections, DATA PKT significantly reduces inspection costs by 30 to 50 percent compared to traditional methods.
 Our services provide detailed topological maps and thermograms, identifying issues such as hot spots, cracked panels, and bypass diode failures, enabling prompt maintenance and optimization of solar plant performance. See how we carry out solar plant drone thermography, from flight conditions to the defect report.
+Choosing a method? Compare drone and manual solar panel inspection, and check what a solar thermography report should include before you commission one.
 Deliverables: include geotagged high-resolution visible and thermal infrared images, Orth mosaics with elevation data and AI/ML-based analytics for quick analysis and provide plant efficiency reports.
 
 ### Wind Farms
@@ -818,7 +825,31 @@ A list of every defect with its type, location, temperature difference and sever
 === https://datapkt.com/thermal-survey.html ===
 ## Solar plant drone thermography and inspection
 In short: we carry out solar plant drone thermography and thermal surveys of substations and roofs with radiometric cameras. Solar plants are flown in steady sunlight with the plant running. The report classifies each hotspot, cell, diode or string fault and tags it to its place in the plant, so the O&M team can find and fix it (what the report should include). Our thermal team includes a thermographer certified to ISO 9712 Level 2, and our power-sector clients include NTPC and Adani.
+
+### At a glance
+IEC TS 62446-3: Flown to its conditions: at least 600 W/m² irradiance, cloud up to 2 okta, wind up to 4 Beaufort
+ISO 9712 Level 2: Certified thermographer on our thermal team
+Radiometric thermal + RGB: A temperature value for every pixel, and a visual image of each fault
+NTPC and Adani: Among our power-sector clients
+Every fault located: Each fault tagged to its place in the plant, so the O&M team can find it
 Thermal surveys utilize unmanned aerial vehicles (UAVs) equipped with thermal imaging cameras to capture the infrared radiation emitted by objects and surfaces. This advanced technology enables the detection and visualization of temperature variations across surveyed areas, offering a wide array of applications in various industries. On a solar plant, each inspection follows the steps set out in how we inspect a solar plant, from site assessment to the defect report.
+
+### Why plant owners inspect by drone
+A solar module that is ageing normally loses output slowly. A review of nearly 2,000 measured degradation rates by researchers at the US National Renewable Energy Laboratory (NREL) found a median of 0.5 percent a year. Faults behave differently. A failed bypass diode, an open string or a blown combiner fuse takes a fixed share of generation offline at once and keeps it offline until someone finds it. On a large plant, monitoring at inverter level may show this only as a small dip in a large total, without saying which string or module is at fault.
+
+#### How large the losses are
+Raptor Maps, a solar inspection software company, publishes an annual Global Solar Report from the inspection data on its platform. Its 2026 report, which covers 2025, puts the average equipment-driven power loss across the sites in its data set at 5.08 percent. PV Tech's coverage of the report notes that this is more than double the 2.36 percent recorded in 2021. For a site at that average, the report estimates up to US$5,070 per MW of annual revenue at risk.
+The same report shows where the loss sits. String faults account for 26.89 percent of the observed equipment-driven loss and combiner faults for 21.51 percent; tracker faults contribute nearly 14 percent, and inverters now account for less than a quarter. String and combiner faults are among the clearest findings of a thermal flight, because a string that is not exporting runs warmer than the strings beside it.
+Two cautions apply. The report gives no figures for India, so its numbers show the scale of the problem rather than predict the loss at any one plant. And revenue lost per MW depends on the tariff, so a dollar figure from other markets does not translate directly to an Indian plant.
+
+#### A small share of faults causes most of the loss
+Raptor Maps' 2025 report found that issues classed as high priority were responsible for about 90 percent of the observed loss, although they were a minority of all the issues found. An inspection is therefore only as useful as its ranking: the O&M team needs to fix the costly faults first, not work through a list in the order it was recorded.
+
+#### Some faults are a safety risk, not only a yield loss
+The International Energy Agency's PV Power Systems programme (IEA PVPS) Task 13 review of module failures notes that a defective bypass diode or cell interconnect ribbon may possibly lead to a fire, and that hot spots can reach temperature differences of multiples of 10 K above the normal parts of the module. It lists junction box failure among the most common failures seen in the field. Task 13's later review of infrared and electroluminescence imaging adds that hot spots with strong local heat gradients can significantly affect module performance and, in extreme cases, lead to smouldering fires.
+
+#### Why a drone rather than a handheld camera
+Handheld thermography works, but on a plant with tens of thousands of modules a person on foot has to walk every row and hold the camera at a usable angle to each module. A drone views the plant from above, within the viewing angles IEC TS 62446-3 allows, and records a radiometric image of every module in one consistent set that can be compared with the next survey. The IEA PVPS review describes aerial infrared thermography as a cost-effective and much less time-consuming option for fault diagnosis. For a side-by-side comparison of time, cost and what each method finds, see drone vs manual solar panel inspection.
 Reporting and Recommendations
 Each report lists every defect with its class and its position on the plant layout, with the thermal and visual images and the temperature difference to healthy modules, and a summary by block or inverter so repairs can be planned. See what a solar thermography report should include.
 
@@ -828,7 +859,7 @@ Each report lists every defect with its class and its position on the plant layo
 - After storms or a drop in performance, when hail, wind or an unexplained fall in yield points to damage that needs locating.
 - Before a warranty claim, so each defect is documented with its class, its position and radiometric images.
 
-### What a solar thermal inspection covers
+### Radiometric thermal and visual imaging
 We use radiometric thermal cameras that record thermal images and video with a temperature value for every pixel, at centimetre-level detail. On a solar plant the inspection covers every module and string, from single cells up to whole blocks, and we support your O&M team through interpretation of the results.
 Solar panel thermal imaging survey
 With radiometric thermal imaging, a drone survey finds faults at cell level within a panel, panel level within a sub-array and array level within a block, faster and more safely than manual inspection. See our guide to solar thermography reports.
@@ -857,9 +888,33 @@ PID or patchwork heating | Several warm cells in an irregular, patchwork pattern
 Soiling and shading | Irregular warm areas with soft edges | Dust, bird droppings, vegetation, nearby structures | Clean, trim, or plan around fixed shade | Low to medium
 Junction box or connector | A small, very hot point at the junction box or cable | Loose, corroded or poorly crimped connection | Repair promptly; it can be a fire risk | High
 
-### What thermal imaging does not show
-Thermography finds faults that make heat. It does not reliably find cell cracks that have not yet cut a cell off; electroluminescence (EL) imaging shows those. It estimates, but does not measure, the power a string is losing; an IV-curve trace measures it. And it cannot see inside combiner boxes or inverters, or tell whether a connector is loose before it heats up; those need physical checks on the ground.
-A good inspection plan uses the drone to find and map every fault, then sends the ground team only where the drone points. Read the full comparison in drone vs manual solar panel inspection.
+### What the inspection covers, and what a drone thermal survey does not replace
+A drone thermal survey is a screening method for faults that make heat. It is one part of a plant's testing and maintenance regime, not the whole of it. The lists below describe general industry practice, not the scope of any one contract.
+
+#### What a thermal flight covers
+- Modules. Hot cells and hotspots, broken glass once it causes heating, and the patchwork heating typical of potential-induced degradation (PID), on every module in the area flown.
+- Strings. Whole strings that are not exporting, which run warmer than the strings beside them and usually point to a blown fuse or an open connector at the combiner box.
+- Bypass diodes. A substring, typically one third of the module, running evenly warmer than the rest when its diode is active or has failed.
+- Junction boxes and connectors. Overheating that shows through the module at the junction box position, or on cables and connectors visible from above.
+- Soiling and shading. Soft-edged warm patches from dust, bird droppings, vegetation and fixed shade, so cleaning and trimming can be planned.
+- Visual condition. The RGB image taken with the thermal image shows broken glass, frame damage, debris and vegetation at the same position.
+
+#### What a drone thermal survey does not replace
+- Electrical tests. IEC 62446-1 sets Category 1 tests for all grid-connected PV systems, including earth continuity, polarity, string open-circuit voltage and current, functional and insulation resistance tests. A thermal image measures none of these.
+- I-V curve tracing. IEC 62446-1 lists the I-V curve test and infrared inspection as separate Category 2 tests. Thermography shows that a string is likely losing power; an I-V curve trace measures how much.
+- Electroluminescence (EL) imaging. EL shows micro-cracks and other defects within the cell material, including cracks that do not yet cut a cell off or make heat.
+- Inverter internals and enclosed equipment. A drone sees the outside of an inverter, combiner box or transformer. The components inside need their own inspection and maintenance on the ground.
+- Confirming the cause. A thermal anomaly tells the ground team where to look. Confirming the cause, for example whether a diode is shorted or open, needs a check at the module.
+A good inspection plan uses the drone to find and map every fault that makes heat, then sends the ground team only where the drone points. Read the full comparison in drone vs manual solar panel inspection.
+
+### Sources
+- D. C. Jordan and S. R. Kurtz (NREL), Photovoltaic degradation rates: an analytical review, Progress in Photovoltaics, vol. 21, 2013. research-hub.nrel.gov
+- Raptor Maps, Global Solar Report 2026 (2025 data). pages.raptormaps.com
+- PV Tech, PV project power loss doubled in last five years: Raptor Maps. www.pv-tech.org
+- Raptor Maps, Global Solar Report 2025 (2024 data). pages.raptormaps.com
+- IEA PVPS Task 13, Review of failures of photovoltaic modules, Report IEA-PVPS T13-01:2014. iea-pvps.org
+- IEA PVPS Task 13, Review on infrared and electroluminescence imaging for PV field applications, Report IEA-PVPS T13-10:2018. iea-pvps.org
+- Hioki, Maintenance of solar PV systems according to the IEC 62446-1 standard (test categories). www.hioki.com
 
 ### Our Features
 
@@ -900,6 +955,30 @@ Only if it meets the standard's conditions, resolution, personnel and reporting 
 
 Q: What can a drone thermal inspection not find?
 Cell cracks that have not yet cut a cell off, which electroluminescence (EL) imaging shows; the exact power a string is losing, which an IV-curve trace measures; and faults inside combiner boxes and inverters, which need a physical check on the ground.
+
+Q: How does a drone thermal inspection differ for rooftop and ground-mounted plants?
+The flight conditions are the same, but the site is not. On a rooftop the flight has to be planned around the building, its occupants, nearby structures and local airspace rules, and the modules often sit at a low tilt close to roof equipment that can give off heat or cast shade. Rooftop arrays are smaller, so they can usually be covered in a short flight. Ground-mounted plants are larger and open, so the work is planned block by block, and access, dust and vegetation between rows matter more.
+
+Q: Can plants with single-axis trackers be inspected by drone?
+Yes. The modules change angle through the day, so the flight is planned around the tracker position: the camera must view the modules at more than 30° to their plane, and the sun's reflection moves as the trackers turn. A row stuck at the wrong angle or left in stow is itself a fault worth recording. Raptor Maps' 2026 Global Solar Report found that tracker faults contributed nearly 14 percent of the equipment-driven loss in its data set.
+
+Q: How soon after commissioning should a solar plant be inspected?
+As soon as it is exporting at normal load in steady sunlight, because thermography needs current flowing through the modules to show faults. A baseline survey at commissioning or handover, while the EPC contractor is still responsible for defects, records the faults present from the start so they can be raised with the contractor or the module supplier.
+
+Q: What weather cancels or pauses a solar thermal flight?
+Anything that takes the plant outside the conditions of IEC TS 62446-3: irradiance below 600 W/m² on the modules, cloud cover above 2 okta or wind above 4 Beaufort. Rain or wet modules, heavy haze or dust that cuts the sunlight, and passing cloud that makes irradiance change quickly also stop useful work, because a module takes several minutes to settle to a new temperature after the light changes. In India the monsoon leaves fewer usable days, so flights are planned for clearer seasons or for clear spells between rain.
+
+Q: What does the O&M team receive after the inspection?
+In general, a list of anomalies they can work from: each one with its class, its place in the plant, the thermal and visual images, the temperature difference to healthy modules and a priority, with a summary by block or inverter. A plant map with the anomalies marked helps crews find each one on the ground. The raw radiometric images can also be handed over, so the plant's own team or a third party can analyse them again.
+
+Q: How are anomalies from a solar thermal inspection prioritised?
+By what they risk and what they cost. Hot points at junction boxes, connectors and cables come first, because they can be a fire risk. Faults that take a large share of generation offline, such as strings that are not exporting or failed bypass diodes, come next. Single-cell hotspots, PID patterns and soiling are ranked by their temperature difference to healthy modules, since a large temperature difference usually means a large power loss, and by how many modules are affected. Raptor Maps' 2025 Global Solar Report found that high-priority issues caused about 90 percent of the observed loss, so the ranking matters more than the length of the list.
+
+Q: How often should a solar plant be inspected by drone?
+There is no single rule. Common points are a baseline at commissioning or handover, a survey in each routine O&M cycle, a survey after hail, high winds or an unexplained drop in yield, and one before a warranty claim. Older plants, plants with a history of faults and plants in hot, dusty climates gain from more frequent surveys, because comparing radiometric data from one survey to the next shows faults that are spreading.
+
+Q: Do the modules need to be cleaned before a thermal flight?
+No, but it helps to know when they were last cleaned. Soiling shows in the thermal image as soft-edged warm areas, and heavy soiling can hide other faults beneath it. Flying soon after a cleaning cycle makes it easier to tell soiling apart from defects; flying before cleaning shows where soiling is costing the most.
 
 
 === https://datapkt.com/lidar-survey.html ===
@@ -4166,7 +4245,7 @@ We'd love to hear from you
 DATAPKT Pvt. Ltd
 434, 4TH FLOOR, JMD MEGAPOLIS, SOHNA ROAD, SECTOR 48, GURUGRAM, 122018 Call us: +91 8448559100 Drop us an email: consult@datapkt.com
 © 2026
-434, 4th Floor JMD Megapolis Sector 48, Gurugram 122018 PH : +91 8448559100 CONSULT@DATAPKT.COM
+DATAPKT Infra & Geomatics 434, 4th Floor, JMD Megapolis, Sohna Road Sector 48, Gurugram 122018 PH : +91 8448559100 CONSULT@DATAPKT.COM
 
 ### What to include in your enquiry
 A short message is enough to start. If you can, include:
