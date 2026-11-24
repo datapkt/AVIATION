@@ -76,6 +76,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 
 ## Services in depth
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): sites quoted per acre or hectare, corridors per km; the six factors that decide the price, and what to send for a quote
+- [Free drone survey calculators](https://datapkt.com/tools/): hub page for the GSD calculator (before the flight) and the checkpoint RMSE calculator (after processing)
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html): ground sample distance, image footprint and the flight height for a target GSD, with camera presets
 - [Free checkpoint RMSE calculator](https://datapkt.com/tools/rmse-calculator.html): paste surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE (RMSEr), mean error per axis and the largest residual
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): alternate routes and feasibility report, drone maps on khasra maps for land acquisition, detailed route survey with tower spotting, substation GAD and SLD
@@ -1229,11 +1230,13 @@ Exploration and Discovery stage
 Development
 Production
 Reclamation stage
-Stage 1: Exploration and Discovery stage
+
+### Stage 1: Exploration and Discovery stage
 Mineral exploration is the search for evidence of mineralisation in the surrounding rock. Geological information from many sites is combined and projected across a wider area to build a geological picture. Exploration of new regions grows with the demand for resources.
 Drone surveys have changed how mineral exploration is carried out.
 Drone surveys provide a base image of the region's geology at the start of exploration. Each later stage of work in the area builds on and relates back to this initial dataset, making exploration more efficient and accurate.
-Stage 2: Development Stage
+
+### Stage 2: Development Stage
 Using a drone, DATA PKT assists in optimising the following processes throughout the mining development phase:-
 
 #### Haulage Road Optimization
@@ -1246,12 +1249,14 @@ Conventional surveying needs careful measurement, planning and preparation, whic
 
 #### Tailings dam monitoring
 Tailings dams are common at metallurgical and coal mines. Built of earth, they can cover several square kilometres and hold the contaminated by-products of mining. Monitoring them by drone means fewer staff need to enter unsafe areas, as the survey is flown from a line-of-sight distance, away from harmful chemicals and dust.
-Stage 3: Production Stage
+
+### Stage 3: Production Stage
 
 #### Stockpile management and calculation
 Stockpile management reduces environmental impact and supports regulatory compliance in mining and construction. Covering, grading and vegetation control sediment run-off from soil stockpiles and protect nearby waterways. It matters most for erodible materials, where it prevents soil loss, contamination and hazards to surrounding areas.
 DATA PKT measures stockpiles by drone and shares the results with stakeholders, giving a clear record of inventory and reducing waste. Regular quarry surveys show changes early, so issues can be addressed before they affect safety or output. Accurate volumetric measurements improve planning and forecasting.
-Stage 4: Land Reclamation
+
+### Stage 4: Land Reclamation
 Reclamation of mined land is the process of restoring it to the condition it was in before mining. When you restore land, you are minimizing the negative environmental consequences of mining. Reforestation and new development are the most typical methods of reclamation.
 Drone surveys track extraction progress and material movement, showing how much work remains and when reclamation can begin. Repeat aerial surveys are a quick and reliable way to collect this data.
 
@@ -4313,11 +4318,10 @@ In green zones of the Digital Sky airspace map, drones can fly up to 400 ft (abo
 We'd love to hear from you
 DATAPKT Pvt. Ltd
 434, 4TH FLOOR, JMD MEGAPOLIS, SOHNA ROAD, SECTOR 48, GURUGRAM, 122018 Call us: +91 8448559100 Drop us an email: consult@datapkt.com
-© 2026
-DATAPKT Infra & Geomatics 434, 4th Floor, JMD Megapolis, Sohna Road Sector 48, Gurugram 122018 PH : +91 8448559100 CONSULT@DATAPKT.COM
 
 ### What to include in your enquiry
-A short message is enough to start. If you can, include:
+Send the site location as a KML/KMZ file or chainage, the area or corridor length, the outputs you need, the accuracy your design needs, and your deadline, including whether the survey is one-off or repeated. A short message is enough to start, and with these details we can suggest the right survey.
+If you can, include:
 - The site as a KML/KMZ file, or the chainage and road or rail line name.
 - Area or corridor length, and any parts under tree cover or in hills.
 - The outputs you need: orthomosaic, DTM, contours, CAD drawings, point cloud or video.
@@ -4381,7 +4385,8 @@ Most disputes over drone data in a DPR come from a vague scope. Put these in the
 - Strip plans missing utilities and structures that were visible in the imagery but not digitised.
 
 ### How DATA PKT works on highway projects
-DATA PKT is a drone service provider empanelled with NHAI in three zones, and has captured more than 3 lakh km of highway data in six years for authorities and contractors (highway drone monitoring case study). For DPR and ESP work we set DGPS control first, fly the corridor, build the terrain model, check it against independent checkpoints and draft the plans in CAD, with ground survey where the drone cannot see. A DATA PKT drone team captures around 5 sq km of survey data in a day. See our roads and highways services and ESP and DPR surveys. Once construction starts, NHAI also requires a monthly video of the project: see what monthly NHAI drone videography must show.
+DATA PKT is a drone service provider empanelled with NHAI in three zones, and has captured more than 3 lakh km of highway data in six years for authorities and contractors (highway drone monitoring case study). For DPR and ESP work we set DGPS control first, fly the corridor, build the terrain model, check it against independent checkpoints and draft the plans in CAD, with ground survey where the drone cannot see.
+A DATA PKT drone team captures around 5 sq km of survey data in a day. See our roads and highways services and ESP and DPR surveys. Once construction starts, NHAI also requires a monthly video of the project: see what monthly NHAI drone videography must show.
 Related reading: drone survey vs DGPS and total station, how accurate a drone survey is and what decides the cost.
 Source: IRC:SP:19-2001, clauses 8.2–8.3 and 12.2–12.4. Check the edition and terms of reference that apply to your project.
 Send us the alignment KML or chainages and the DPR deliverables you need. We reply with a scope and quote.
@@ -5676,6 +5681,7 @@ A topographic survey describes the shape of the ground and the features on it, i
 A drone changes how those levels are collected. Instead of a surveyor walking to each point, the drone captures the whole surface, and software extracts the ground from it. That gives dense, continuous coverage, but it also means the ground has to be visible to the sensor, and the result has to be proved against independent ground measurements.
 
 ### When a drone survey fits, and when it doesn't
+A drone suits open land, long corridors, unsafe ground and repeat surveys. A total station or DGPS is still needed for ground control and checkpoints, detail the drone cannot see, millimetre work and small sites.
 A drone is usually the efficient choice for:
 - Open or lightly vegetated land: agricultural plots, industrial and township layouts, solar plant sites, quarries and mine leases, landfill and stockpile yards.
 - Long corridors: highways, canals, railway alignments and transmission routes, where walking a total station along the full length is slow.
@@ -6003,7 +6009,7 @@ First, the flight strips must fit. The same specification checks overlap between
 See drone survey deliverables explained for what each output is for, and the drone survey glossary for terms such as DTM, DSM, RMSE and LAS.
 
 ### What to specify when you outsource classification
-A scope that only says "classified point cloud" invites disputes. Put these in writing:
+A scope that only says "classified point cloud" invites disputes. Put these six items in writing: the classes needed, density, accuracy, tiles, CRS and datum, and formats and QC.
 Item | What to state
 Classes needed | The exact codes, for example 1, 2, 3–5, 6, 7, 9, 17 and 18, plus any project classes from 64 upwards (poles, kerbs, OHE masts). Say which classes are checked for accuracy. USGS lists nine classes as its minimum.
 Density | Minimum pulse or point density. For reference, USGS QL1 needs at least 8 pulses/m² and QL2 at least 2; drone LiDAR is usually much denser.
@@ -6234,3 +6240,36 @@ The 2023 ASPRS standard asks for at least 30 checkpoints for a product accuracy 
 
 Q: What does the mean error tell me?
 The mean error, or bias, shows whether the errors lean in one direction. If it is close to the RMSE on an axis, most of the error is a systematic shift, which usually points to a datum, geoid or ground control problem rather than random noise.
+
+
+=== https://datapkt.com/tools/ ===
+Home / Tools
+Free tools
+
+## Free drone survey calculators
+Plan the ground sample distance before you fly, then check the accuracy of the finished map against your checkpoints.
+In short: Two free calculators for drone survey work. Use the GSD calculator before the flight to set the ground sample distance, image footprint and flight height. Use the RMSE calculator after processing to check map accuracy against independent checkpoints. Both run in any web browser and need no sign-up.
+Before the flight
+
+### Drone GSD calculator
+Ground sample distance, image footprint and the flight height for a target GSD, with presets for common survey cameras.
+After processing
+
+### Checkpoint RMSE calculator
+Paste surveyed and map coordinates to get residuals, RMSE in X, Y and Z, horizontal RMSE and the bias on each axis.
+
+### Which tool do I need?
+- Before the flight: the GSD calculator. Enter your camera and flight height to see the ground sample distance and the area one photo covers, or enter a target GSD to get the flight height.
+- After processing: the RMSE calculator. Survey independent checkpoints on the ground, measure the same points on the orthomosaic or terrain model, and paste both sets of coordinates to get RMSE in X, Y and Z.
+For how GSD, ground control and checkpoints decide accuracy, read how accurate a drone survey is. For terms such as GSD, GCP and RMSE, see the drone survey glossary.
+
+### Frequently asked questions
+
+Q: Are these calculators free to use?
+Yes. Both calculators are free and run in any web browser, with no sign-up.
+
+Q: Which calculator do I use first?
+Use the GSD calculator before the flight, to choose the camera and flight height for the detail you need. Use the RMSE calculator after processing, to check the finished map against independent checkpoints.
+
+Q: What do I need for the RMSE calculator?
+The surveyed coordinates of your independent checkpoints and the same points measured on the map or model, or the residuals for each point. Checkpoints should not be used as ground control in processing.
