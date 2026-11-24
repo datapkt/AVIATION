@@ -190,7 +190,7 @@ Flying for you. A detailed bird's eye view of your assets.
 Get In Touch
 
 ### Why DATAPKT?
-In a short span of time, DATA PKT Infra & Geomatics, a DIPP-recognized start-up, has risen to the top of the drone survey market in India. We employ cutting-edge high-end technology like artificial intelligence, machine learning, and computer vision, which aids in the creation of business insights and the subsequent making of crucial business decisions. Only the work ethic of our team, who are committed to constant innovation and going above and beyond for our clients, could have made this all possible.
+In a short span of time, DATA PKT Infra & Geomatics, a DIPP-recognized start-up, has captured 3 lakh+ km of highway data in six years for authorities and private contractors across India. We employ cutting-edge high-end technology like artificial intelligence, machine learning, and computer vision, which aids in the creation of business insights and the subsequent making of crucial business decisions. Only the work ethic of our team, who are committed to constant innovation and going above and beyond for our clients, could have made this all possible.
 Data Acquisition DATA PKT drones are the most effective visual asset, collecting consistent data into meaningful insights using machine learning algorithms. our drones capture object data in the crispest and most precise way possible, resulting in consistent data from the same angle and height as learned by its deep learning algorithms.
 Data Processing With the help of its aerial data processing solutions, DATA PKT gathers photogrammetric data of the highest possible quality, which is then precisely, swiftly, and affordably processed to produce ortho-rectified photos, 3D models, Digital terrain models, digital surface models, geotagging, and many more products. Utilizing its integrated source code systems, the data collected by OUR drone is analysed and turned into one-of-a-kind solutions for our clients.
 Enabling AI Services Real-time data and analytics are retrieved by utilising AI-driven software to automate operations. With the aid of AI, DATA PKT drones can facilitate operational tasks in a diverse range of industries, including but not limited to mining, oil and gas, agriculture, public safety, roads and highways, trains, and metros.
@@ -231,11 +231,6 @@ Survey, mapping and design work for highway authorities, railways, power utiliti
 20+ drone pilots: about 35 km a day of imagery and 50 km a day of video per team
 100+ clients: public authorities, railways, PSUs and contractors
 See how the work is done in our case studies.
-
-### The Words that matter
-DATAPKT delivered high quality decision data, some places were so hard to reach, but they made the whole experience feel effortless and seamless. Kudos to the team!
-DATAPKT team made it so simple. Whole experience was seamless.
-DATAPKT team made it so simple. Whole experience was seamless.
 
 ### Trusted by
 Clients include NHAI, NHIDCL, G R Infraprojects, Delhi Metro and Indian Railways.
