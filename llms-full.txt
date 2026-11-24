@@ -3691,7 +3691,7 @@ Survey accuracy
 
 ## How accurate is a drone survey? GSD, GCPs and RTK explained
 Drone surveys can reach survey-grade accuracy, but only when the flight, the ground control and the processing are planned for it. Here is what decides the number, and how to check it.
-By the DATA PKT survey and GIS engineering team · Published 26 October 2026
+By the DATA PKT survey and GIS engineering team · Published 26 October 2026 · Updated 24 November 2026
 Short answer: a well-planned drone survey with RTK or PPK positioning and ground control points typically achieves accuracy of a few centimetres. The real figure for your project depends on the ground sample distance (GSD), the ground control, the terrain and the processing, and it should always be proved with independent checkpoints in an accuracy report.
 
 ### 1. Ground sample distance (GSD): the level of detail
@@ -3757,7 +3757,7 @@ Railways
 
 ## What is an Engineering Scale Plan (ESP) in railway projects?
 An Engineering Scale Plan is the base drawing for almost any change to a railway yard. Here is what it shows, when it is needed, and how drone and LiDAR surveys make it faster and safer to prepare.
-By the DATA PKT survey and GIS engineering team · Published 26 October 2026 · Updated 3 November 2026
+By the DATA PKT survey and GIS engineering team · Published 26 October 2026 · Updated 24 November 2026
 Short answer: ESP stands for Engineering Scale Plan. In railway drawings it is a drawing of a station yard or section, made to scale, that shows the tracks, points and crossings, platforms, buildings, bridges, level crossings and chainages in their true positions. Railways use the approved ESP as the base for yard remodelling, new lines and signalling plans.
 
 ### What an ESP shows
@@ -3812,7 +3812,7 @@ Solar
 
 ## Solar plant drone thermography: what the inspection report should include
 A thermal drone flight is only as useful as the report that comes out of it. Use this checklist to plan an inspection and judge whether a report is good enough to act on.
-By the DATA PKT survey and GIS engineering team · Published 26 October 2026
+By the DATA PKT survey and GIS engineering team · Published 26 October 2026 · Updated 24 November 2026
 Short answer: a good solar thermography report lists every defect with its type, exact location (block, string, module), temperature difference and severity, backed by a thermal and a visual image of each one, a plant map, and a record of the conditions during the flight. The widely used standard for aerial thermography of PV plants is IEC TS 62446-3.
 
 ### Flight conditions that matter
@@ -4390,7 +4390,7 @@ Solar O&M
 
 ## Drone vs manual solar panel inspection: which finds more, faster?
 How drone thermal inspection compares with walking the rows: coverage, speed, the faults each method finds and misses, the conditions a valid flight needs, and the workflow that uses both.
-By the DATA PKT survey and inspection team · Published 23 November 2026 · 11 min read
+By the DATA PKT survey and inspection team · Published 23 November 2026 · Updated 24 November 2026 · 11 min read
 Short answer: a drone thermal inspection covers every module of a plant in hours, maps each fault to its table and string, and in one study its findings closely matched a manual check of the same plants in a fraction of the time. Manual methods still win at measuring power loss (IV curves), finding cracks (EL imaging) and checking inside boxes. The best practice is to fly first and send the ground team only where the drone points.
 600 W/m²: minimum irradiance for a valid thermal inspection
 3 cm/pixel: coarsest resolution for a detailed inspection
