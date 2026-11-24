@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" role="img" aria-labelledby="d6-t d6-d" font-family="Arial, Helvetica, Liberation Sans, sans-serif">
+<title id="d6-t">Drone thermography of a solar PV plant: viewing angle, irradiance and pixel footprint</title>
+<desc id="d6-d">Side view of tilted module rows with a drone carrying a thermal camera above them. The line of sight meets the module plane at viewing angle theta, which should be more than 30 degrees and steep, but just off perpendicular so the drone does not reflect in the glass. An irradiance sensor is mounted in the plane of the modules. An inset shows one solar cell covered by about five by five thermal pixels. A checklist gives the IEC TS 62446-3 capture conditions: irradiance of at least 600 W/m2 in the module plane and steady, viewing angle above 30 degrees, about 3 cm of module edge per pixel or finer, and low wind, little cloud and no reflections.</desc>
+<defs><marker id="d6-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker><marker id="d6-ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc2c3c"/></marker><marker id="d6-ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="d6-tk" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5,0 L5,10" stroke="#1e1e1e" stroke-width="1.6"/></marker></defs>
+<rect width="900" height="540" fill="#fff"/>
+<circle cx="70" cy="78" r="22" fill="#fff" stroke="#bc2c3c" stroke-width="2.5"/>
+<line x1="100.0" y1="78.0" x2="110.0" y2="78.0" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="91.21320343559643" y1="99.21320343559643" x2="98.2842712474619" y2="106.2842712474619" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="70.0" y1="108.0" x2="70.0" y2="118.0" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="48.78679656440357" y1="99.21320343559643" x2="41.7157287525381" y2="106.2842712474619" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="40.0" y1="78.0" x2="30.0" y2="78.0" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="48.78679656440357" y1="56.78679656440357" x2="41.71572875253809" y2="49.7157287525381" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="70.0" y1="48.0" x2="69.99999999999999" y2="38.0" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="91.21320343559643" y1="56.78679656440357" x2="98.2842712474619" y2="49.71572875253809" stroke="#bc2c3c" stroke-width="2"/>
+<line x1="20" y1="440" x2="575" y2="440" stroke="#1e1e1e" stroke-width="2"/>
+<line x1="26" y1="440" x2="18" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="40" y1="440" x2="32" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="54" y1="440" x2="46" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="68" y1="440" x2="60" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="82" y1="440" x2="74" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="96" y1="440" x2="88" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="110" y1="440" x2="102" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="124" y1="440" x2="116" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="138" y1="440" x2="130" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="152" y1="440" x2="144" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="166" y1="440" x2="158" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="180" y1="440" x2="172" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="194" y1="440" x2="186" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="208" y1="440" x2="200" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="222" y1="440" x2="214" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="236" y1="440" x2="228" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="250" y1="440" x2="242" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="264" y1="440" x2="256" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="278" y1="440" x2="270" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="292" y1="440" x2="284" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="306" y1="440" x2="298" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="320" y1="440" x2="312" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="334" y1="440" x2="326" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="348" y1="440" x2="340" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="362" y1="440" x2="354" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="376" y1="440" x2="368" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="390" y1="440" x2="382" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="404" y1="440" x2="396" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="418" y1="440" x2="410" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="432" y1="440" x2="424" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="446" y1="440" x2="438" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="460" y1="440" x2="452" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="474" y1="440" x2="466" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="488" y1="440" x2="480" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="502" y1="440" x2="494" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="516" y1="440" x2="508" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="530" y1="440" x2="522" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="544" y1="440" x2="536" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="558" y1="440" x2="550" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="572" y1="440" x2="564" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="58" y1="410" x2="58" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="125.3803164073718" y1="373.1191199198556" x2="125.3803164073718" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="50" y1="408" x2="133.3803164073718" y2="369.1191199198556" stroke="#1e1e1e" stroke-width="7"/>
+<line x1="183" y1="410" x2="183" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="250.38031640737177" y1="373.1191199198556" x2="250.38031640737177" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="175" y1="408" x2="258.38031640737177" y2="369.1191199198556" stroke="#1e1e1e" stroke-width="7"/>
+<line x1="308" y1="410" x2="308" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="375.38031640737177" y1="373.1191199198556" x2="375.38031640737177" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="300" y1="408" x2="383.38031640737177" y2="369.1191199198556" stroke="#1e1e1e" stroke-width="7"/>
+<line x1="433" y1="410" x2="433" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="500.38031640737177" y1="373.1191199198556" x2="500.38031640737177" y2="440" stroke="#4a4a4a" stroke-width="3"/>
+<line x1="425" y1="408" x2="508.38031640737177" y2="369.1191199198556" stroke="#1e1e1e" stroke-width="7"/>
+<polygon points="330,152 214,388 486,358" fill="#bc2c3c" fill-opacity="0.10" stroke="#bc2c3c" stroke-opacity="0.5" stroke-width="1"/>
+<line x1="330" y1="152" x2="341.6901582036859" y2="388.5595599599278" stroke="#bc2c3c" stroke-width="1.8" stroke-dasharray="7 4"/>
+<rect x="308" y="131" width="44" height="14" rx="4" fill="#1e1e1e"/><line x1="310" y1="135" x2="288" y2="128" stroke="#1e1e1e" stroke-width="2.5"/><ellipse cx="288" cy="125" rx="18" ry="3.5" fill="#8a8a8a"/><line x1="350" y1="135" x2="372" y2="128" stroke="#1e1e1e" stroke-width="2.5"/><ellipse cx="372" cy="125" rx="18" ry="3.5" fill="#8a8a8a"/><rect x="323" y="145" width="14" height="10" rx="2" fill="#4a4a4a"/>
+<text x="384" y="122" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="start"><tspan x="384" dy="0">Drone with</tspan><tspan x="384" dy="16">radiometric thermal camera</tspan></text>
+<path d="M379.8,370.8 A42,42 0 0 0 339.6,346.6" stroke="#1e1e1e" stroke-width="1.8" fill="none"/>
+<text x="371.6" y="343.9" font-size="17" font-weight="700" fill="#1e1e1e" text-anchor="middle">θ</text>
+<text x="452" y="292" font-size="13" font-weight="700" fill="#1e1e1e" text-anchor="start"><tspan x="452" dy="0">θ = viewing angle</tspan><tspan x="452" dy="16">to the module plane</tspan></text>
+<line x1="552" y1="350" x2="552" y2="440" stroke="#4a4a4a" stroke-width="2.5"/>
+<line x1="541.1243065555602" y1="355.0714191408884" x2="562.8756934444398" y2="344.9285808591116" stroke="#bc2c3c" stroke-width="6"/>
+<text x="575" y="466" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="end">Irradiance sensor in the module plane</text>
+<text x="30" y="466" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start">Module rows (side view)</text>
+<text x="30" y="498" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="30" dy="0">Flight lines run along the rows; camera pitch is set</tspan><tspan x="30" dy="18">so the sun and the drone do not reflect in the glass.</tspan></text>
+<text x="610" y="40" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="start">Thermal pixel footprint</text>
+<rect x="608" y="52" width="240" height="182" rx="3" fill="#1e1e1e"/>
+<rect x="613" y="57" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="613" y="115" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="613" y="173" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="671" y="57" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="671" y="115" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="671" y="173" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="729" y="57" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="729" y="115" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="729" y="173" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="787" y="57" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="787" y="115" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="787" y="173" width="56" height="56" rx="0" fill="#3a3a3a"/>
+<rect x="671" y="115" width="56" height="56" rx="0" fill="#5a5a5a"/>
+<line x1="671.0" y1="115" x2="671.0" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="115.0" x2="727" y2="115.0" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="682.2" y1="115" x2="682.2" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="126.2" x2="727" y2="126.2" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="693.4" y1="115" x2="693.4" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="137.4" x2="727" y2="137.4" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="704.6" y1="115" x2="704.6" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="148.6" x2="727" y2="148.6" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="715.8" y1="115" x2="715.8" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="159.8" x2="727" y2="159.8" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="727.0" y1="115" x2="727.0" y2="171" stroke="#bc2c3c" stroke-width="1.5"/>
+<line x1="671" y1="171.0" x2="727" y2="171.0" stroke="#bc2c3c" stroke-width="1.5"/>
+<rect x="693.4" y="137.4" width="11.2" height="11.2" rx="0" fill="#bc2c3c"/>
+<text x="610" y="262" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="610" dy="0">Red grid: thermal pixels. At about</tspan><tspan x="610" dy="17">3 cm per pixel one cell is seen as</tspan><tspan x="610" dy="17">about 5 × 5 pixels</tspan></text>
+<text x="610" y="334" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="start">Valid capture (IEC TS 62446-3)</text>
+<rect x="610" y="352" width="8" height="8" rx="1" fill="#bc2c3c"/>
+<text x="626" y="361" font-size="13.5" font-weight="400" fill="#1e1e1e" text-anchor="start"><tspan x="626" dy="0">Irradiance ≥ 600 W/m² in the</tspan><tspan x="626" dy="17">module plane, and steady</tspan></text>
+<rect x="610" y="396" width="8" height="8" rx="1" fill="#bc2c3c"/>
+<text x="626" y="405" font-size="13.5" font-weight="400" fill="#1e1e1e" text-anchor="start"><tspan x="626" dy="0">Viewing angle θ > 30° to the</tspan><tspan x="626" dy="17">module plane; steep, just off 90°</tspan></text>
+<rect x="610" y="440" width="8" height="8" rx="1" fill="#bc2c3c"/>
+<text x="626" y="449" font-size="13.5" font-weight="400" fill="#1e1e1e" text-anchor="start"><tspan x="626" dy="0">Resolution: about 3 cm of module</tspan><tspan x="626" dy="17">edge per pixel, or finer</tspan></text>
+<rect x="610" y="484" width="8" height="8" rx="1" fill="#bc2c3c"/>
+<text x="626" y="493" font-size="13.5" font-weight="400" fill="#1e1e1e" text-anchor="start"><tspan x="626" dy="0">Low wind and little cloud;</tspan><tspan x="626" dy="17">avoid sun and drone reflections</tspan></text>
+</svg>

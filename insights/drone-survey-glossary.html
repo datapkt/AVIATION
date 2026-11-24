@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drone Survey and Geomatics Glossary | DATA PKT</title>
+  <meta name="description" content="GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://datapkt.com/insights/drone-survey-glossary.html">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="DATAPKT Infra &amp; Geomatics">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Drone Survey and Geomatics Glossary | DATA PKT">
+  <meta property="og:description" content="GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.">
+  <meta property="og:url" content="https://datapkt.com/insights/drone-survey-glossary.html">
+  <meta property="og:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DATA PKT Infra &amp; Geomatics, drone survey, mapping and GIS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Drone Survey and Geomatics Glossary | DATA PKT">
+  <meta name="twitter:description" content="GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.">
+  <meta name="twitter:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <link rel="icon" type="image/png" href="/src/images/fav-icon.png">
+  <link rel="apple-touch-icon" href="/src/images/fav-icon.png">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var dpC=null;try{dpC=localStorage.getItem('dp_consent')}catch(e){}
+gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F32DT4VFR"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4F32DT4VFR');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap"></noscript>
+  <link href="/src/vendor/bootstrap-5.3.3/bootstrap.min.css" rel="stylesheet">
+  <script defer src="/src/vendor/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/dist/main.css">
+  <link rel="stylesheet" href="/src/css/seo.css?v=8af27b90">
+    <style>
+    .dp-az { border: 1px solid var(--dp-line); border-radius: 8px; padding: 16px 20px; margin: 0 0 28px; background: #fff; }
+    .dp-az h2 { font-size: 1rem !important; text-transform: uppercase; letter-spacing: .12em; color: var(--dp-muted) !important; margin: 0 0 10px !important; }
+    .dp-az p { margin: 0 0 6px !important; font-size: .95rem !important; line-height: 1.6 !important; }
+    .dp-az p strong { display: inline-block; min-width: 1.4em; color: var(--dp-red); }
+    .dp-az a { font-weight: 600; margin-right: 10px; white-space: nowrap; }
+    .dp-groups { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 24px; padding: 0; list-style: none !important; }
+    .dp-groups li { margin: 0 !important; font-size: .95rem !important; }
+    .dp-gloss { margin: 0 0 12px; }
+    .dp-gloss dt { color: var(--dp-ink); font-weight: 700; font-size: 1.08rem; margin: 20px 0 4px; scroll-margin-top: 110px; }
+    .dp-gloss dd { margin: 0 0 0 0; padding: 0 0 14px; border-bottom: 1px solid var(--dp-line); font-size: 1.02rem; line-height: 1.7; color: var(--dp-text); }
+    .dp-gloss dd .dp-more { display: block; margin-top: 4px; font-size: .92rem; }
+    .dp-prose h2[id] { scroll-margin-top: 110px; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://datapkt.com/#organization","name":"DATAPKT Infra & Geomatics","alternateName":["DATA PKT Infra & Geomatics","DATAPKT","DATA PKT","DATA PKT Aviation","DATAPKT Aviation"],"legalName":"DATAPKT Private Limited","url":"https://datapkt.com/","logo":"https://datapkt.com/src/images/fav-icon.png","image":"https://datapkt.com/src/images/og/datapkt-og.png","description":"Drone survey, mapping, GIS and design company in Gurugram, India. Surveys and maps highways, railways, solar plants, power lines, water and mining projects. Empanelled with NHAI in three zones for monthly drone surveys. DIPP-recognised start-up.","foundingDate":"2020-09-14","telephone":"+91-8448559100","email":"consult@datapkt.com","address":{"@type":"PostalAddress","streetAddress":"434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122018","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":28.41945,"longitude":77.03663},"hasMap":"https://maps.google.com/?cid=3166731234031250870","areaServed":{"@type":"Country","name":"India"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"20:00"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-8448559100","email":"consult@datapkt.com","contactType":"sales","areaServed":"IN","availableLanguage":["English","Hindi"]},"knowsAbout":["Drone survey","LiDAR survey","Photogrammetry","GIS mapping","Solar plant thermography","Transmission line survey and inspection","Railway Engineering Scale Plan (ESP) survey","Highway drone monitoring","Landslide investigation","Topographic survey","Detailed Project Report survey","Bathymetry","Orthomosaic","Digital terrain model"],"sameAs":["https://www.linkedin.com/company/datapkt-infra-geomatics/","https://www.instagram.com/data.pkt/","https://www.facebook.com/itsdatapkt/","https://www.crunchbase.com/organization/data-pkt","https://yourstory.com/companies/data-pkt-aviation","https://maps.google.com/?cid=3166731234031250870"]},{"@type":"WebSite","@id":"https://datapkt.com/#website","url":"https://datapkt.com/","name":"DATAPKT Infra & Geomatics","publisher":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","@id":"https://datapkt.com/insights/drone-survey-glossary.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://datapkt.com/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://datapkt.com/insights/"},{"@type":"ListItem","position":3,"name":"Drone survey and geomatics glossary","item":"https://datapkt.com/insights/drone-survey-glossary.html"}]},{"@type":"WebPage","@id":"https://datapkt.com/insights/drone-survey-glossary.html#webpage","url":"https://datapkt.com/insights/drone-survey-glossary.html","name":"Drone Survey and Geomatics Glossary | DATA PKT","description":"GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.","isPartOf":{"@id":"https://datapkt.com/#website"},"about":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN","primaryImageOfPage":{"@type":"ImageObject","url":"https://datapkt.com/src/images/og/datapkt-og.png"},"breadcrumb":{"@id":"https://datapkt.com/insights/drone-survey-glossary.html#breadcrumb"}},{"@type":"BlogPosting","@id":"https://datapkt.com/insights/drone-survey-glossary.html#article","headline":"Drone survey and geomatics glossary","description":"GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.","datePublished":"2026-11-25","dateModified":"2026-11-25","author":{"@id":"https://datapkt.com/#organization"},"publisher":{"@id":"https://datapkt.com/#organization"},"mainEntityOfPage":{"@id":"https://datapkt.com/insights/drone-survey-glossary.html#webpage"},"image":"https://datapkt.com/src/images/og/datapkt-og.png","inLanguage":"en-IN"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the difference between DTM and DSM?", "acceptedAnswer": {"@type": "Answer", "text": "A DSM (digital surface model) records the height of the top of everything the sensor sees, including buildings and trees. A DTM (digital terrain model) removes them to show the bare ground. Designers and quantity surveyors almost always need the DTM; the DSM suits obstacle and height studies."}}, {"@type": "Question", "name": "What does GSD mean in a drone survey?", "acceptedAnswer": {"@type": "Answer", "text": "GSD stands for ground sample distance: the size of one image pixel on the ground. A 2 cm GSD means each pixel covers 2 cm by 2 cm. It depends on the camera sensor, lens and flying height, and sets the finest detail the survey can map."}}, {"@type": "Question", "name": "What is ESP in railways?", "acceptedAnswer": {"@type": "Answer", "text": "ESP stands for Engineering Scale Plan. It is a railway drawing of a station yard or section made to scale, showing tracks, points and crossings, platforms, structures and chainages in their true positions, and it is the base for yard remodelling, new lines and signalling plans."}}, {"@type": "Question", "name": "What is a GCP in a drone survey?", "acceptedAnswer": {"@type": "Answer", "text": "A GCP, or ground control point, is a marked target on the ground whose coordinates are measured with DGPS. GCPs tie the drone map to the project coordinate system. Checkpoints are measured the same way but left out of processing, to prove the final accuracy."}}, {"@type": "Question", "name": "What is RMSE in survey accuracy?", "acceptedAnswer": {"@type": "Answer", "text": "RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z, and in general practice can be stated against a standard such as the ASPRS Positional Accuracy Standards."}}]}</script>
+</head>
+<body>
+<a class="dp-skip" href="#dp-main">Skip to main content</a>
+
+     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0!important; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContentDesktop" aria-controls="navbarSupportedContentDesktop"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContentDesktop">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+           
+        </div>
+
+        </div>
+    </nav>
+<main id="dp-main" class="dp-page">
+
+<section class="dp-hero">
+  <div class="dp-wrap">
+    <p class="dp-crumbs"><a href="/">Home</a> / <a href="/insights/">Insights</a> / Glossary</p>
+    <p class="dp-kicker">Glossary</p>
+    <h1>Drone survey and geomatics glossary</h1>
+    <p class="dp-lede">Plain-English definitions of the terms that appear in drone survey scopes, tenders and reports, from GSD and ground control to LiDAR returns, solar thermography, power line design, railway ESPs and seismic refraction.</p>
+  </div>
+</section>
+<section class="dp-body">
+  <div class="dp-wrap">
+    <article class="dp-prose">
+      <p class="dp-meta">By the DATA PKT survey and GIS engineering team · Published 25 November 2026</p>
+      <div class="dp-summary"><p><strong>Short answer:</strong> a drone survey turns overlapping photos or laser scans into measured maps and 3D models. The terms below explain how those surveys are controlled (GCPs, RTK, datums), what they deliver (orthomosaic, DSM, DTM, point cloud), how accuracy is proved (checkpoints and RMSE), and the sector terms used for solar plants, power lines, railways, highways and slopes.</p></div>
+      <nav class="dp-az" aria-labelledby="az-title"><h2 id="az-title">A–Z of terms</h2>
+        <p><strong>A</strong> <a href="#term-aerial-triangulation">Aerial triangulation</a> <a href="#term-asprs">ASPRS Positional Accuracy Standards</a></p>
+        <p><strong>B</strong> <a href="#term-boresight">Boresight calibration</a> <a href="#term-bundle-adjustment">Bundle adjustment</a> <a href="#term-bypass-diode">Bypass diode</a></p>
+        <p><strong>C</strong> <a href="#term-chainage">Chainage</a> <a href="#term-checkpoint">Checkpoint</a> <a href="#term-classification">Classification</a> <a href="#term-contour">Contour</a> <a href="#term-corona-uv">Corona and UV inspection</a> <a href="#term-cors">CORS</a></p>
+        <p><strong>D</strong> <a href="#term-datum">Datum</a> <a href="#term-delta-t">Delta T</a> <a href="#term-dem">DEM</a> <a href="#term-dgps">DGPS</a> <a href="#term-dpr">DPR</a> <a href="#term-dsm">DSM</a> <a href="#term-dtm">DTM</a></p>
+        <p><strong>E</strong> <a href="#term-emissivity">Emissivity</a> <a href="#term-esp">ESP</a></p>
+        <p><strong>F</strong> <a href="#term-factor-of-safety">Factor of safety</a></p>
+        <p><strong>G</strong> <a href="#term-gcp">GCP</a> <a href="#term-geoid">Geoid</a> <a href="#term-ground-clearance">Ground clearance</a> <a href="#term-gsd">GSD</a></p>
+        <p><strong>H</strong> <a href="#term-hotspot">Hotspot</a></p>
+        <p><strong>I</strong> <a href="#term-iec-ts-62446-3">IEC TS 62446-3</a> <a href="#term-imu">IMU</a> <a href="#term-irradiance">Irradiance</a> <a href="#term-iso-9712">ISO 9712</a></p>
+        <p><strong>L</strong> <a href="#term-las-laz">LAS and LAZ files</a> <a href="#term-lidar">LiDAR</a></p>
+        <p><strong>M</strong> <a href="#term-mesh">Mesh</a></p>
+        <p><strong>N</strong> <a href="#term-nhai-data-lake">NHAI Data Lake</a></p>
+        <p><strong>O</strong> <a href="#term-ohe">OHE</a> <a href="#term-orthometric-height">Orthometric height</a> <a href="#term-orthomosaic">Orthomosaic</a> <a href="#term-overlap">Overlap</a></p>
+        <p><strong>P</strong> <a href="#term-p-wave-velocity">P-wave velocity</a> <a href="#term-pid">PID</a> <a href="#term-pls-cadd">PLS-CADD</a> <a href="#term-point-cloud">Point cloud</a> <a href="#term-point-density">Point density</a> <a href="#term-ppk">PPK</a> <a href="#term-pulse">Pulse</a></p>
+        <p><strong>R</strong> <a href="#term-radiometric">Radiometric thermal camera</a> <a href="#term-relative-absolute-accuracy">Relative and absolute accuracy</a> <a href="#term-returns">Returns</a> <a href="#term-rmse">RMSE</a> <a href="#term-row">ROW</a> <a href="#term-rtk">RTK</a></p>
+        <p><strong>S</strong> <a href="#term-sag">Sag</a> <a href="#term-seismic-refraction">Seismic refraction</a> <a href="#term-strip-adjustment">Strip adjustment</a> <a href="#term-strip-plan">Strip plan</a></p>
+        <p><strong>T</strong> <a href="#term-tower-spotting">Tower spotting</a></p>
+        <p><strong>U</strong> <a href="#term-utm">UTM</a></p>
+        <p><strong>Y</strong> <a href="#term-yard-plan">Yard plan</a></p>
+      </nav>
+      <p>Terms are grouped by subject. Where a topic has its own guide on this site, a link follows the definition.</p>
+      <ul class="dp-groups" aria-label="Glossary sections"><li><a href="#survey-control">Survey and control</a></li><li><a href="#photogrammetry">Photogrammetry</a></li><li><a href="#lidar">LiDAR</a></li><li><a href="#accuracy">Accuracy</a></li><li><a href="#thermal-solar">Thermal and solar</a></li><li><a href="#power-lines">Power lines</a></li><li><a href="#railways">Railways</a></li><li><a href="#highways">Highways</a></li><li><a href="#geophysics">Geophysics and slopes</a></li></ul>
+      <h2 id="survey-control">Survey and control</h2>
+      <dl class="dp-gloss">
+        <dt id="term-gcp">GCP (ground control point)</dt>
+        <dd>A clearly marked target on the ground whose coordinates are measured with DGPS or a total station. During processing, GCPs tie the drone map to the project coordinate system and correct errors in the drone’s own position data. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">Ground control explained</a></dd>
+        <dt id="term-checkpoint">Checkpoint</dt>
+        <dd>A surveyed point measured exactly like a GCP but left out of processing. Comparing its known coordinates with the finished map gives an independent measure of accuracy, usually reported as RMSE. Without checkpoints, a survey’s accuracy is unproven. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">How checkpoints prove accuracy</a></dd>
+        <dt id="term-dgps">DGPS (differential GPS)</dt>
+        <dd>A method that improves satellite positioning by using a second receiver on a known point to correct errors. In surveying, the term usually means dual-frequency GNSS receivers used to fix control points and benchmarks to centimetre level. <a class="dp-more" href="/insights/drone-survey-vs-dgps-total-station.html">Drone survey vs DGPS and total station</a></dd>
+        <dt id="term-rtk">RTK (real-time kinematic)</dt>
+        <dd>GNSS positioning corrected during the survey with live data from a base station or a correction network. On a drone, RTK gives each photo an accurate position, which reduces the number of ground control points needed. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">RTK and PPK explained</a></dd>
+        <dt id="term-ppk">PPK (post-processed kinematic)</dt>
+        <dd>Applies the same base-station corrections as RTK, but after the flight rather than live. It is not affected by loss of the radio or network link in the air, so it suits long corridors and remote sites. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">RTK and PPK explained</a></dd>
+        <dt id="term-cors">CORS (continuously operating reference station)</dt>
+        <dd>A permanent GNSS receiver on a known point that records satellite data around the clock. Surveyors use CORS data or live corrections in place of, or alongside, their own base station. Survey of India runs a national CORS network.</dd>
+        <dt id="term-datum">Datum</dt>
+        <dd>The reference that coordinates and heights are measured from. A horizontal datum such as WGS 84 defines latitude and longitude; a vertical datum defines zero height, often mean sea level. Mixing datums is a common cause of misaligned survey data.</dd>
+        <dt id="term-geoid">Geoid</dt>
+        <dd>The surface of equal gravity that best matches mean sea level, extended under the land. GNSS measures heights above a smooth mathematical ellipsoid, so a geoid model such as EGM2008 is used to convert them into heights above mean sea level.</dd>
+        <dt id="term-orthometric-height">Orthometric height</dt>
+        <dd>Height above the geoid, which in practice means height above mean sea level, and the height engineers design to. It equals the GNSS ellipsoidal height minus the geoid separation at that point, so the geoid model used should always be stated.</dd>
+        <dt id="term-utm">UTM (Universal Transverse Mercator)</dt>
+        <dd>A map projection that divides the world into 60 zones, each 6° of longitude wide, with coordinates in metres as eastings and northings. India spans zones 42 to 47, so survey data should always state the zone used.</dd>
+        <dt id="term-chainage">Chainage</dt>
+        <dd>Distance measured along the centre line of a road, railway, canal or pipeline from a fixed starting point, usually written as kilometres plus metres, for example 12+450. On linear projects, features, cross-sections and defects are located by chainage. <a class="dp-more" href="/insights/drone-survey-for-highway-dpr.html">Drone survey for highway DPRs</a></dd>
+      </dl>
+      <h2 id="photogrammetry">Photogrammetry</h2>
+      <dl class="dp-gloss">
+        <dt id="term-gsd">GSD (ground sample distance)</dt>
+        <dd>The size of one image pixel on the ground. A 2 cm GSD means each pixel covers 2 cm by 2 cm. It depends on the camera sensor, the lens and the flying height, and it sets the finest detail a survey can map. <a class="dp-more" href="/tools/gsd-calculator.html">GSD calculator</a></dd>
+        <dt id="term-overlap">Overlap (forward and side)</dt>
+        <dd>The share of each photo that also appears in the next photo along the flight line (forward overlap) and in the neighbouring line (side overlap). Survey flights usually plan around 75–80% forward and 65–70% side overlap so that points match reliably. <a class="dp-more" href="/photogrammetry.html">Drone photogrammetry</a></dd>
+        <dt id="term-aerial-triangulation">Aerial triangulation</dt>
+        <dd>The processing step that works out the exact position and orientation of every photo by matching common points across overlapping images and tying them to ground control. Its quality report is the first check that a photogrammetric survey has worked. <a class="dp-more" href="/photogrammetry.html">Drone photogrammetry</a></dd>
+        <dt id="term-bundle-adjustment">Bundle adjustment</dt>
+        <dd>The least-squares calculation at the heart of aerial triangulation. It adjusts all camera positions, orientations and lens parameters together, so that the rays from matching points in different photos meet as closely as possible on the ground.</dd>
+        <dt id="term-orthomosaic">Orthomosaic</dt>
+        <dd>A single map image stitched from many aerial photos and corrected for terrain relief and camera tilt, so that it has a uniform scale and distances can be measured on it. It is the usual base map from a drone survey, delivered as GeoTIFF. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">Drone survey deliverables explained</a></dd>
+        <dt id="term-dsm">DSM (digital surface model)</dt>
+        <dd>A height model of the top of everything the sensor sees: ground, buildings, trees, vehicles and structures. A DSM is used for obstacle, height and line-of-sight studies, but not for ground-level design. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">DSM or DTM?</a></dd>
+        <dt id="term-dtm">DTM (digital terrain model)</dt>
+        <dd>A bare-earth height model with buildings and vegetation removed. Designers use it for levels, drainage, earthwork quantities and contours. Under dense vegetation a reliable DTM needs LiDAR or ground survey, because cameras only see the canopy. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">DSM or DTM?</a></dd>
+        <dt id="term-dem">DEM (digital elevation model)</dt>
+        <dd>A general term for any gridded height model. Some people use it for a bare-earth model and others for any surface, so a survey specification should say DTM or DSM, together with the grid size and the height datum.</dd>
+        <dt id="term-contour">Contour</dt>
+        <dd>A line joining points of equal height, drawn from the terrain model at a fixed interval such as 0.5 m or 1 m. Contours show the shape of the ground on CAD drawings and are a standard deliverable for design work. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">Drone survey deliverables explained</a></dd>
+        <dt id="term-point-cloud">Point cloud</dt>
+        <dd>A set of millions of 3D points, each with X, Y and Z coordinates and often colour or intensity. It comes from LiDAR or from matching photos, and can be classified into ground, vegetation, buildings and wires. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">Drone survey deliverables explained</a></dd>
+        <dt id="term-mesh">Mesh (3D model)</dt>
+        <dd>A 3D surface made by joining the points of a point cloud into triangles, usually draped with photo texture. A mesh gives a realistic model of structures, quarries and sites for viewing and measurement, but is not normally used as a design surface. <a class="dp-more" href="/photogrammetry.html">Drone photogrammetry</a></dd>
+      </dl>
+      <h2 id="lidar">LiDAR</h2>
+      <dl class="dp-gloss">
+        <dt id="term-lidar">LiDAR (light detection and ranging)</dt>
+        <dd>A sensor that fires laser pulses and times their return to measure distance. Combined with GNSS and an IMU, a drone LiDAR builds a dense 3D point cloud, and some pulses reach the ground through gaps in vegetation. <a class="dp-more" href="/lidar-survey.html">LiDAR survey</a></dd>
+        <dt id="term-pulse">Pulse</dt>
+        <dd>A single short burst of laser light fired by a LiDAR sensor. The time it takes to travel to a surface and back gives the distance to that surface. Survey LiDAR sensors fire hundreds of thousands of pulses every second.</dd>
+        <dt id="term-returns">Returns (first, last and multiple)</dt>
+        <dd>The echoes recorded from one laser pulse. A pulse hitting a tree may give a first return from the canopy, intermediate returns from branches and a last return from the ground. Multiple returns are why LiDAR can map terrain under vegetation. <a class="dp-more" href="/insights/lidar-vs-photogrammetry.html">LiDAR vs photogrammetry</a></dd>
+        <dt id="term-point-density">Point density</dt>
+        <dd>The number of LiDAR points per square metre on the ground. It depends on the sensor, flying height, speed and overlap between flight lines. Higher density shows finer detail such as wires and kerbs, but produces larger files.</dd>
+        <dt id="term-classification">Classification</dt>
+        <dd>Sorting the points in a cloud into classes such as ground, low, medium and high vegetation, buildings, water and wires. The LAS specification sets standard class codes, for example class 2 for ground. Ground points are used to build the DTM. <a class="dp-more" href="/lidar-survey.html">LiDAR survey</a></dd>
+        <dt id="term-las-laz">LAS and LAZ files</dt>
+        <dd>LAS is the standard open file format for point clouds, maintained by ASPRS. Each point stores its coordinates, intensity, return number and class. LAZ is a losslessly compressed version of LAS, much smaller, that opens in most GIS and CAD software. <a class="dp-more" href="/insights/drone-survey-deliverables-explained.html">Deliverables and file formats</a></dd>
+        <dt id="term-boresight">Boresight calibration</dt>
+        <dd>Measuring the small angular misalignment between a LiDAR sensor or camera and the IMU it is mounted with. Left uncorrected, even a fraction of a degree shifts points sideways, so it is checked with calibration flights over known features. <a class="dp-more" href="/lidar-survey.html">LiDAR survey</a></dd>
+        <dt id="term-strip-adjustment">Strip adjustment</dt>
+        <dd>A correction that aligns overlapping LiDAR flight strips with each other, so that the same surface, such as a roof or a road, matches in every strip. It removes small systematic errors left after trajectory processing and boresight calibration. <a class="dp-more" href="/lidar-survey.html">LiDAR survey</a></dd>
+        <dt id="term-imu">IMU (inertial measurement unit)</dt>
+        <dd>A unit of accelerometers and gyroscopes that measures a sensor’s roll, pitch and heading many times a second. Combined with GNSS, it gives the trajectory that a LiDAR system needs to place each laser point correctly.</dd>
+      </dl>
+      <h2 id="accuracy">Accuracy</h2>
+      <dl class="dp-gloss">
+        <dt id="term-rmse">RMSE (root mean square error)</dt>
+        <dd>The square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z and is the usual single figure for a survey’s accuracy. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">How drone survey accuracy is reported</a></dd>
+        <dt id="term-asprs">ASPRS Positional Accuracy Standards</dt>
+        <dd>The ASPRS Positional Accuracy Standards for Digital Geospatial Data, published by the American Society for Photogrammetry and Remote Sensing, set out how to test and report the horizontal and vertical accuracy of maps, elevation models and point clouds using independent checkpoints.</dd>
+        <dt id="term-relative-absolute-accuracy">Relative and absolute accuracy</dt>
+        <dd>Absolute accuracy is how closely map positions match true positions in the project coordinate system. Relative accuracy is how correctly distances and height differences within the map are shown. A survey without ground control can be relatively accurate but absolutely wrong. <a class="dp-more" href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">How accurate is a drone survey?</a></dd>
+      </dl>
+      <h2 id="thermal-solar">Thermal and solar</h2>
+      <dl class="dp-gloss">
+        <dt id="term-radiometric">Radiometric thermal camera</dt>
+        <dd>A thermal camera that stores a calibrated temperature value for every pixel, not just a coloured picture. Temperatures can be measured and corrected afterwards for emissivity and conditions, which solar thermography reports under IEC TS 62446-3 rely on. <a class="dp-more" href="/thermal-survey.html">Thermal survey</a></dd>
+        <dt id="term-emissivity">Emissivity</dt>
+        <dd>How efficiently a surface gives off infrared energy compared with a perfect emitter, on a scale from 0 to 1. The glass on solar modules has a high emissivity, while bare metal has a low one and can mislead a thermal camera with reflections.</dd>
+        <dt id="term-irradiance">Irradiance</dt>
+        <dd>The solar power reaching a surface, measured in watts per square metre. IEC TS 62446-3 sets a minimum of 600 W/m² in the plane of the modules for thermography, because faults only show clearly when the modules carry enough current. <a class="dp-more" href="/insights/solar-plant-drone-thermography-report.html">Solar thermography reports</a></dd>
+        <dt id="term-iec-ts-62446-3">IEC TS 62446-3</dt>
+        <dd>The International Electrotechnical Commission technical specification for outdoor infrared thermography of photovoltaic modules and plants. It covers the equipment, flight and weather conditions, personnel qualification, and how faults are classified and reported. <a class="dp-more" href="/insights/solar-plant-drone-thermography-report.html">What the report should include</a></dd>
+        <dt id="term-hotspot">Hotspot</dt>
+        <dd>An area of a solar module or electrical joint noticeably warmer than its surroundings in a thermal image. On modules, causes include cracked or shaded cells, soiling, faulty bypass diodes and poor connections. Severity is graded by the temperature difference. <a class="dp-more" href="/insights/drone-vs-manual-solar-panel-inspection.html">Drone vs manual solar inspection</a></dd>
+        <dt id="term-delta-t">Delta T (temperature difference)</dt>
+        <dd>The temperature difference between a suspected fault and a healthy reference area under the same conditions. Thermography reports use delta T, rather than absolute temperature, to grade the severity of hotspots on solar modules and electrical joints.</dd>
+        <dt id="term-bypass-diode">Bypass diode</dt>
+        <dd>A diode in a solar module’s junction box that lets current flow around a group of cells, called a substring, when they are shaded or faulty. An active or failed bypass diode shows as a warm substring stripe in thermal images. <a class="dp-more" href="/insights/solar-plant-drone-thermography-report.html">Solar thermography reports</a></dd>
+        <dt id="term-pid">PID (potential induced degradation)</dt>
+        <dd>Power loss caused by a high voltage difference between a module’s cells and its earthed frame, which drives leakage current. In thermal images it typically shows as a patchwork of warmer modules, often towards the negative end of a string.</dd>
+        <dt id="term-iso-9712">ISO 9712</dt>
+        <dd>The international standard for qualifying and certifying personnel in non-destructive testing, including infrared thermography. Levels 1, 2 and 3 set what a person may do; a Level 2 thermographer can set up inspections and interpret and report results. <a class="dp-more" href="/thermal-survey.html">Thermal survey</a></dd>
+      </dl>
+      <h2 id="power-lines">Power lines</h2>
+      <dl class="dp-gloss">
+        <dt id="term-sag">Sag</dt>
+        <dd>The vertical distance between a conductor and the straight line joining its two support points. Sag increases with conductor temperature and load, so line design checks it at the maximum design temperature to make sure ground clearance is kept. <a class="dp-more" href="/transmission-line-substation-design.html">Transmission line design</a></dd>
+        <dt id="term-ground-clearance">Ground clearance</dt>
+        <dd>The minimum vertical distance allowed between a live conductor and the ground, roads, railways, buildings or other lines below it. In India, minimum clearances by voltage are set by the Central Electricity Authority safety regulations. <a class="dp-more" href="/insights/transmission-line-drone-inspection.html">Transmission line drone inspection</a></dd>
+        <dt id="term-row">ROW (right of way)</dt>
+        <dd>The strip of land along a transmission line, road or railway that is kept clear and over which the owner has rights to build and maintain the asset. Its width depends on the voltage or road class, and encroachments are checked by survey.</dd>
+        <dt id="term-tower-spotting">Tower spotting</dt>
+        <dd>Placing transmission towers on a surveyed route profile to choose their positions, types and heights, so that clearances are met at the lowest overall cost. It uses the ground profile from the route survey with sag templates or line-design software. <a class="dp-more" href="/transmission-line-substation-design.html">Transmission line route survey and design</a></dd>
+        <dt id="term-pls-cadd">PLS-CADD</dt>
+        <dd>Power Line Systems – Computer Aided Design and Drafting, a widely used software package for overhead line design. It models the terrain, towers and conductors in 3D for sag-tension calculations, clearance checks and tower spotting, often from LiDAR survey data.</dd>
+        <dt id="term-corona-uv">Corona and UV inspection</dt>
+        <dd>Corona is a small electrical discharge at the surface of a high-voltage conductor or fitting where the electric field is strong, often at damaged or dirty parts. It gives off ultraviolet light that a UV camera can detect, revealing faults on lines and insulators.</dd>
+      </dl>
+      <h2 id="railways">Railways</h2>
+      <dl class="dp-gloss">
+        <dt id="term-esp">ESP (Engineering Scale Plan)</dt>
+        <dd>A railway drawing of a station yard or section made to scale, showing tracks, points and crossings, platforms, structures and chainages in their true positions. Railways use the approved ESP as the base for yard remodelling, new lines and signalling plans. <a class="dp-more" href="/insights/what-is-an-engineering-scale-plan.html">What is an Engineering Scale Plan?</a></dd>
+        <dt id="term-yard-plan">Yard plan</dt>
+        <dd>A drawing of a railway yard showing its lines, sidings, points, platforms, buildings and drainage. It may be a simplified layout or a detailed survey drawing, and it is used to plan remodelling, maintenance and drainage works. <a class="dp-more" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway yard and drainage plans</a></dd>
+        <dt id="term-ohe">OHE (overhead equipment)</dt>
+        <dd>The system of contact wire, catenary, masts, cantilevers and fittings that carries 25 kV AC traction power to electric trains on Indian Railways main lines. Drone surveys record OHE masts, and thermal checks look for hotspots at joints and clamps. <a class="dp-more" href="/insights/railway-drone-inspection.html">Railway drone inspection</a></dd>
+      </dl>
+      <h2 id="highways">Highways</h2>
+      <dl class="dp-gloss">
+        <dt id="term-dpr">DPR (Detailed Project Report)</dt>
+        <dd>The report that sets out a project’s design, quantities, cost estimate and approvals before it is sanctioned and tendered. For roads, survey and investigation for DPRs follows IRC:SP:19, and a drone survey supplies much of the topography. <a class="dp-more" href="/insights/drone-survey-for-highway-dpr.html">Drone survey for highway DPRs</a></dd>
+        <dt id="term-strip-plan">Strip plan</dt>
+        <dd>A drawing of the strip of land along a road or railway alignment, showing the existing carriageway, land boundaries, structures, utilities and trees within the corridor. Highway DPRs use it to plan widening and land acquisition. <a class="dp-more" href="/insights/drone-survey-for-highway-dpr.html">Drone survey for highway DPRs</a></dd>
+        <dt id="term-nhai-data-lake">NHAI Data Lake</dt>
+        <dd>NHAI’s online platform for storing and managing project documents and records. Monthly drone videos of highway projects are uploaded to it, so that the authority and supervision consultants can review progress and keep a dated record. <a class="dp-more" href="/insights/nhai-highway-drone-videography.html">NHAI highway drone videography</a></dd>
+      </dl>
+      <h2 id="geophysics">Geophysics and slopes</h2>
+      <dl class="dp-gloss">
+        <dt id="term-seismic-refraction">Seismic refraction</dt>
+        <dd>A geophysical method that sends sound waves into the ground from a hammer blow or small source and times their arrival at a line of geophones. Waves bend at boundaries between layers, revealing soil and rock depths along the profile. <a class="dp-more" href="/seismic-refraction-survey.html">Seismic refraction survey</a></dd>
+        <dt id="term-p-wave-velocity">P-wave velocity</dt>
+        <dd>The speed of compressional seismic waves through soil or rock, in metres per second. Loose soil gives low values and fresh rock high ones, so velocity layers from seismic refraction help judge depth to bedrock and how hard the ground is to excavate. <a class="dp-more" href="/seismic-refraction-survey.html">Seismic refraction survey</a></dd>
+        <dt id="term-factor-of-safety">Factor of safety</dt>
+        <dd>In slope stability, the ratio of the forces resisting sliding to the forces driving it. A value of 1.0 means the slope is on the point of failure, so design guidance sets higher minimum values depending on the conditions and consequences. <a class="dp-more" href="/insights/landslide-survey-india.html">Landslide survey in India</a></dd>
+      </dl>
+    </article>
+    <div class="dp-cta"><p>Writing a survey scope or tender? Tell us the site and the outputs you need.</p><div><a class="dp-btn" href="/contact.html">Send an enquiry</a> <a class="dp-btn ghost" href="tel:+918448559100">Call +91 8448559100</a></div></div>
+  </div>
+</section>
+
+
+    <section class="dp-faq" id="faq" aria-labelledby="faq-title">
+      <div class="dp-wrap">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <details><summary>What is the difference between DTM and DSM?</summary><p>A DSM (digital surface model) records the height of the top of everything the sensor sees, including buildings and trees. A DTM (digital terrain model) removes them to show the bare ground. Designers and quantity surveyors almost always need the DTM; the DSM suits obstacle and height studies.</p></details>
+        <details><summary>What does GSD mean in a drone survey?</summary><p>GSD stands for ground sample distance: the size of one image pixel on the ground. A 2 cm GSD means each pixel covers 2 cm by 2 cm. It depends on the camera sensor, lens and flying height, and sets the finest detail the survey can map.</p></details>
+        <details><summary>What is ESP in railways?</summary><p>ESP stands for Engineering Scale Plan. It is a railway drawing of a station yard or section made to scale, showing tracks, points and crossings, platforms, structures and chainages in their true positions, and it is the base for yard remodelling, new lines and signalling plans.</p></details>
+        <details><summary>What is a GCP in a drone survey?</summary><p>A GCP, or ground control point, is a marked target on the ground whose coordinates are measured with DGPS. GCPs tie the drone map to the project coordinate system. Checkpoints are measured the same way but left out of processing, to prove the final accuracy.</p></details>
+        <details><summary>What is RMSE in survey accuracy?</summary><p>RMSE, or root mean square error, is the square root of the average of the squared differences between map coordinates and surveyed checkpoint coordinates. It is reported separately for X, Y and Z, and in general practice can be stated against a standard such as the ASPRS Positional Accuracy Standards.</p></details>
+      <div class="dp-related"><h3>Related</h3><div class="dp-chips"><a href="/insights/drone-survey-deliverables-explained.html">Drone survey deliverables explained</a><a href="/insights/drone-survey-accuracy-gsd-gcp-rtk.html">How accurate is a drone survey?</a><a href="/insights/lidar-vs-photogrammetry.html">LiDAR vs photogrammetry</a><a href="/insights/what-is-an-engineering-scale-plan.html">What is an Engineering Scale Plan?</a><a href="/insights/solar-plant-drone-thermography-report.html">Solar thermography reports</a><a href="/tools/gsd-calculator.html">GSD calculator</a></div></div>
+      </div>
+    </section>
+</main>
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a aria-label="DATA PKT home" href="/" class="logowhite"></a></label>
+                <span>&copy; 2026</span>
+            </p>
+            <div class="ftrtop">
+                <span>DATAPKT Infra &amp; Geomatics</span>
+                <span>434, 4th Floor, JMD Megapolis, Sohna Road</span>
+                <span>Sector 48, Gurugram 122018</span>
+                <a href="tel:+918448559100" class="twhite">PH : +91 8448559100</a>
+                     <label><a href="mailto:consult@datapkt.com"> CONSULT@DATAPKT.COM</a></label>
+            </div>
+            <nav class="dp-footer-links" aria-label="Footer">
+                <a href="/about.html">About</a><a href="/case-studies/">Case studies</a><a href="/insights/">Insights</a><a href="/engineering-scale-planning.html">ESP &amp; DPR</a><a href="/highways-and-roadways.html">Highways</a><a href="/railways-and-metro.html">Railways</a><a href="/energy.html">Power &amp; Solar</a><a href="/gis-mapping-services.html">GIS services</a><a href="/where-we-work.html">Where we work</a><a href="/drone-survey-cost.html">Survey cost</a><a href="/tools/gsd-calculator.html">GSD calculator</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://www.linkedin.com/company/datapkt-infra-geomatics/" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.instagram.com/data.pkt/" rel="noopener" target="_blank">Instagram</a>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+
+<a class="dp-wa" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20to%20discuss%20a%20survey%20project." target="_blank" rel="noopener" aria-label="Chat with DATA PKT on WhatsApp" title="Chat on WhatsApp: +91 84485 59100" onclick="if(window.gtag){gtag('event','whatsapp_click',{page_path:location.pathname})}"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.36 4 14.97c0 2.11.56 4.17 1.62 5.99L4 29l8.24-1.6a12.1 12.1 0 0 0 3.8.6C22.68 28 28 22.64 28 16.03 28 9.42 22.68 3 16.04 3zm0 22.9c-1.2 0-2.38-.2-3.5-.6l-.25-.09-4.9.95.98-4.75-.17-.27a9.82 9.82 0 0 1-1.52-5.17c0-5.46 4.45-9.9 9.92-9.9 5.46 0 9.9 4.44 9.9 9.9 0 5.48-4.44 9.93-9.9 9.93zm5.44-7.42c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.47 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg></a>
+
+<div class="dp-cookie" id="dp-cookie" role="region" aria-label="Cookie notice" hidden>
+  <p>We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. <a href="/privacy.html">Privacy</a></p>
+  <div class="dp-cookie-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes" class="dp-cookie-ok">Accept</button></div>
+</div>
+<script>(function(){var K='dp_consent',CL='',b=document.getElementById('dp-cookie'),v=null;try{v=localStorage.getItem(K)}catch(e){}
+function clarity(){if(!CL||window.clarity)return;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",CL);window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'})}
+if(v==='yes')clarity();else if(!v&&b)b.hidden=false;
+if(b)b.addEventListener('click',function(e){var c=e.target.getAttribute('data-c');if(!c)return;try{localStorage.setItem(K,c)}catch(x){}
+if(window.gtag)gtag('consent','update',{analytics_storage:c==='yes'?'granted':'denied'});if(c==='yes')clarity();b.hidden=true});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"],a[href^="mailto:"]');if(!a||!window.gtag)return;
+gtag('event',a.href.indexOf('tel:')===0?'phone_click':'email_click',{page_path:location.pathname})});})();</script>
+</body>
+
+
+
+
+
+</html>

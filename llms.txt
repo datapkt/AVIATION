@@ -2,6 +2,16 @@
 
 > Drone survey, mapping, GIS and design company based in Gurugram, Haryana, India, founded on 14 September 2020. We survey, map and design for infrastructure projects; we do not build them. Empanelled with the National Highways Authority of India (NHAI) in three zones for monthly drone survey work. DIPP-recognised start-up. Legal name: DATAPKT Private Limited.
 
+## Key facts
+- Founded on 14 September 2020; DIPP-recognised start-up
+- Empanelled with NHAI in three zones for monthly drone survey work
+- More than 3 lakh km of highway data captured in six years for highway authorities and private contractors, and more than 70,000 km in FY 2026-27
+- 20+ drone pilots; each team covers about 35 km of highway a day for survey imagery or about 50 km a day for videography
+- In-house GIS team working in ArcGIS, QGIS and AutoCAD
+- Thermal team includes a thermographer certified to ISO 9712 Level 2
+- Power-sector clients include NTPC and Adani
+- 100+ clients since 2020: public authorities, railways, PSUs and contractors
+
 ## What we do
 - Drone and DGPS topographic surveys for highways, roads and expressways
 - Railway and metro surveys, including Engineering Scale Plans (ESP), yard plans and drainage plans
@@ -11,6 +21,7 @@
 - Water resources surveys and bathymetry for canals, rivers and reservoirs
 - Photogrammetry: orthomosaics, digital terrain and surface models, contours and volumes
 - LiDAR survey and classified point clouds
+- Landslide and slope stability investigation, seismic refraction survey and slope protection design
 - GIS mapping and data processing, including remote GIS work for clients outside India
 - Aerial videography and monthly progress videos for projects
 
@@ -32,61 +43,75 @@ Projects across India from our Gurugram office. Remote GIS data processing for c
 - Google Business Profile: DATAPKT Infra & Geomatics, Gurugram
 
 ## Key pages
-- [About](https://datapkt.com/about.html): company facts and how a project runs
-- [Highways and roads](https://datapkt.com/highways-and-roadways.html)
-- [Railways and metro](https://datapkt.com/railways-and-metro.html)
-- [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html)
-- [Power and solar](https://datapkt.com/energy.html)
-- [Solar plant drone thermography and thermal survey](https://datapkt.com/thermal-survey.html): radiometric thermal inspection of solar PV plants, substations and roofs; what the report includes
+- [Home](https://datapkt.com/): drone survey, LiDAR, photogrammetry, thermal inspection and DPR inputs across India; company numbers and FAQs
+- [About](https://datapkt.com/about.html): company facts (founded 14 September 2020, NHAI empanelment in three zones, DIPP recognition), how a project runs, sectors and clients
+- [Highways and roads](https://datapkt.com/highways-and-roadways.html): NHAI's monthly drone video rule and our empanelment for it; drone and DGPS survey for highway DPRs, progress monitoring, videography and road mapping; 3 lakh+ km of highway data in six years
+- [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
+- [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html): what an ESP is; ESPs, yard plans and DPR survey data from drone survey on DGPS control, delivered in DWG, SHP, GeoTIFF and LAS
+- [Power and solar](https://datapkt.com/energy.html): drone inspection of transmission and distribution lines, substations, solar plants and wind farms; radiometric thermal and LiDAR; ISO 9712 Level 2 thermographer; clients include NTPC and Adani
+- [Solar plant drone thermography and inspection](https://datapkt.com/thermal-survey.html): radiometric drone thermography of solar PV plants, flown to IEC TS 62446-3 conditions; hotspot, diode and string faults classified and tagged to their place in the plant; ISO 9712 Level 2 thermographer
 - [LiDAR drone survey](https://datapkt.com/lidar-survey.html): classified point clouds, DTM, DSM and contours for corridors, mines and terrain under vegetation; what sets LiDAR survey cost
-- [Photogrammetry](https://datapkt.com/photogrammetry.html)
-- [Mining](https://datapkt.com/mining.html)
-- [Water resources](https://datapkt.com/water-resource.html)
-- [Bathymetry](https://datapkt.com/bathymetry.html)
-- [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): GIS layers from drone and LiDAR data, khasra and forest map overlays, remote GIS processing for firms abroad
-- [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway ESP and yard plans, substation and transmission lines, groundwater recharge
-- [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs and solar thermography
-- [Contact](https://datapkt.com/contact.html)
+- [Photogrammetry](https://datapkt.com/photogrammetry.html): orthomosaics, DSMs, DTMs, contours and point clouds from drone photos tied to DGPS ground control
+- [Mining](https://datapkt.com/mining.html): stockpile volumes, pit, bench and haul road mapping, and progress monitoring with DTMs, DSMs, 3D models and volume reports
+- [Water resources](https://datapkt.com/water-resource.html): drone surveys of rivers, lakes, canals and irrigation systems; topographic maps, depth and volume data, water quality readings, flood zone maps and 3D models
+- [Bathymetry](https://datapkt.com/bathymetry.html): drone-mounted sonar mapping of river, lake, reservoir and coastal beds; depth contours, volumes, point clouds and 3D surface models
+- [Urban planning and construction](https://datapkt.com/urban-planning.html): drone and LiDAR mapping of cities and construction sites; 2D mosaics, 3D models, land use maps, progress imagery and utility mapping
+- [Agriculture](https://datapkt.com/agriculture.html): RGB, multispectral, hyperspectral, LiDAR and thermal drone surveys; NDVI, NDRE and VARI crop health maps, soil and moisture maps and terrain models
+- [Oil and gas](https://datapkt.com/oil-and-gases.html): thermal and visual plant and pipeline inspection, pipeline surveillance, topographic surveys and construction progress monitoring across upstream, midstream and downstream
+- [Environmental surveys](https://datapkt.com/environmental.html): drone surveys of forests, wetlands, rivers and degraded land; habitat maps, forest health, erosion and land degradation, water quality and air quality readings
+- [Hyperspectral and multispectral surveys](https://datapkt.com/hyperspectral.html): drone imaging across many spectral bands for vegetation health, mineral composition, land use and change over time
+- [Drone cinematography](https://datapkt.com/cinematography.html): aerial photography and 4K aerial video for projects, real estate, events and tourism, edited in-house
+- [Drone delivery](https://datapkt.com/drone-delivery.html): drone delivery use cases in retail, food, healthcare and logistics, including local delivery pilot projects with e-commerce and quick-commerce companies
+- [Public safety](https://datapkt.com/public-safety.html): drones for search and rescue, firefighting, security, crowd monitoring and disaster management
+- [Manufacturing](https://datapkt.com/manufacturing.html): drone inspection of factories and industrial assets, inventory tracking and site monitoring
+- [Wildlife and forests](https://datapkt.com/wildlife.html): forest mapping, tree counting, vegetation health, wildlife monitoring and fire detection by drone
+- [Archaeology](https://datapkt.com/archaeology.html): aerial survey and mapping, LiDAR and thermal imaging and excavation support for archaeological sites
+- [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): in-house GIS team; GIS layers from drone and LiDAR data, khasra and forest map overlays, GIS to CAD, remote GIS processing and offshore seats for firms abroad
+- [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway yard and drainage plans, substation and transmission lines, groundwater recharge, slope stability in Assam
+- [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs, solar thermography, inspection guides and landslide surveys
+- [Drone pilot network](https://datapkt.com/drone-pilot-network.html): how certified drone pilots register to fly highway, railway, transmission, power and irrigation projects with DATAPKT
+- [Contact](https://datapkt.com/contact.html): phone, email and address, and what to include in an enquiry (KML or chainage, area, outputs, accuracy, deadline)
+- [Privacy and cookies](https://datapkt.com/privacy.html): how the website uses enquiry details and analytics cookies
 
 ## Services in depth
-- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): per acre or hectare for sites, per km for corridors; the six factors that decide the price, and what to send for a quote
-- [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html)
-- [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): three alternate routes, drone maps on khasra maps for land acquisition, tower spotting, substation GAD and SLD
-- [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR and 3D models, seismic refraction tomography, geological mapping (RMR, GSI, SMR), stability analysis, hazard zonation and slope protection design
-- [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations
+- [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): sites quoted per acre or hectare, corridors per km; the six factors that decide the price, and what to send for a quote
+- [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html): ground sample distance, image footprint and the flight height for a target GSD, with camera presets
+- [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): alternate routes and feasibility report, drone maps on khasra maps for land acquisition, detailed route survey with tower spotting, substation GAD and SLD
+- [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR, seismic refraction tomography and geological mapping (RMR, GSI, SMR) in one ground model; stability analysis, hazard zonation and slope protection design
+- [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
 
 ## Where we work
-- [Where we work](https://datapkt.com/where-we-work.html)
-- [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html)
-- [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html)
-- [Drone survey in Maharashtra and Mumbai](https://datapkt.com/drone-survey-maharashtra.html)
-- [Drone survey in Northeast India](https://datapkt.com/drone-survey-northeast-india.html)
+- [Where we work](https://datapkt.com/where-we-work.html): regions we survey across India from Gurugram, plus remote GIS work for clients outside India
+- [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html): drone survey, LiDAR and GIS in Delhi, Gurugram, Faridabad, Noida and Manesar; clients include DMRC, DSIIDC, MCG and FMDA
+- [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html): drone survey, transmission line and substation design, and railway and metro mapping in Uttar Pradesh
+- [Drone survey in Maharashtra and Mumbai](https://datapkt.com/drone-survey-maharashtra.html): drone, LiDAR and GIS surveys for railway projects; clients include MRVC, Central Railway and Konkan Railway
+- [Drone survey in Northeast India](https://datapkt.com/drone-survey-northeast-india.html): drone and LiDAR surveys for highway projects; highway drone surveys for NHIDCL in Nagaland and Manipur since October 2020
 
 ## Guides
-- [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html)
-- [ESP full form in railways: what is an Engineering Scale Plan?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html)
-- [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html)
-
-- [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html)
-- [Drone vs manual solar panel inspection: which finds more, faster?](https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html)
-- [Highway drone videography for NHAI projects: what the monthly video must show](https://datapkt.com/insights/nhai-highway-drone-videography.html)
-- [Transmission line drone inspection vs foot patrol: what each one catches](https://datapkt.com/insights/transmission-line-drone-inspection.html)
-- [Railway drone inspection: track, OHE, bridges and yards](https://datapkt.com/insights/railway-drone-inspection.html)
-- [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html)
-- [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html)
-- [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html)
-- [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html)
-- [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html)
+- [How accurate is a drone survey? GSD, GCPs and RTK explained](https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html): a few centimetres with RTK or PPK and ground control, proved with independent checkpoints
+- [ESP full form in railways: what is an Engineering Scale Plan?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html): what an ESP drawing shows, the scales used, who prepares it and how a drone survey produces one
+- [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html): defect type, location, temperature difference and severity under IEC TS 62446-3
+- [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html): accuracy on open ground and under vegetation, cost and deliverables, and which to choose by project type
+- [Drone vs manual solar panel inspection: which finds more, faster?](https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html): coverage, speed, what each finds and misses, IEC TS 62446-3 conditions and the drone-first workflow
+- [Highway drone videography for NHAI projects: what the monthly video must show](https://datapkt.com/insights/nhai-highway-drone-videography.html): NHAI's monthly drone video rule, who flies, what each frame must show and Data Lake uploads
+- [Transmission line drone inspection vs foot patrol: what each one catches](https://datapkt.com/insights/transmission-line-drone-inspection.html): drone, foot patrol or helicopter; thermal hotspot severity and tree clearance by voltage
+- [Railway drone inspection: track, OHE, bridges and yards](https://datapkt.com/insights/railway-drone-inspection.html): OHE thermal checks, track surroundings, bridges under RDSO BS-129, yards and ESPs
+- [Drone survey vs DGPS and total station: which should you use?](https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html): what each method does best and why most infrastructure surveys combine all three
+- [How to choose a drone survey company in India: a 10-point checklist](https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html): certified pilots, accuracy reports, sample deliverables, references and data ownership
+- [Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds](https://datapkt.com/insights/drone-survey-deliverables-explained.html): what each deliverable is for and its file formats (GeoTIFF, LAS, DWG, SHP, KMZ)
+- [Drone survey and geomatics glossary](https://datapkt.com/insights/drone-survey-glossary.html): plain-English definitions of GSD, GCP, RTK, DTM vs DSM, RMSE, LAS files, IEC TS 62446-3, PLS-CADD, ESP, OHE and seismic refraction
+- [Drone survey for highway DPRs: what consultants need (IRC:SP:19)](https://datapkt.com/insights/drone-survey-for-highway-dpr.html): strip plan, contours, cross-sections and benchmarks; what a drone does well and what still needs ground survey
+- [Landslide survey in India: methods, standards and what it costs](https://datapkt.com/insights/landslide-survey-india.html): drone LiDAR, seismic refraction, geological mapping, stability analysis, IS codes and what decides the cost
 
 ## Case studies
-- [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html)
-- [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html)
-- [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html)
-- [Groundwater recharge system for Mahendragarh, Haryana](https://datapkt.com/case-studies/groundwater-recharge-mahendragarh.html)
-- [Slope stability investigation of a 66 km road corridor in Assam](https://datapkt.com/case-studies/slope-stability-investigation-assam.html)
+- [Highway drone monitoring: more than 3 lakh km of data for authorities and contractors](https://datapkt.com/case-studies/highway-drone-monitoring.html): monthly DGPS-controlled photogrammetry and videography; about 35 km of imagery or 50 km of video a day per team; more than 70,000 km in FY 2026-27
+- [Yard plans and drainage plans for two railway divisions](https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html): 30 yard plans and 31 drainage plans for a division in eastern India, and drainage design for 32 more yards in UP and MP
+- [220/132 kV substation and transmission lines in Uttar Pradesh](https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html): power for 2x25 kV railway traction; three alternate routes per line on drone maps over khasra maps; substation investigation and design
+- [Groundwater recharge system for Mahendragarh, Haryana](https://datapkt.com/case-studies/groundwater-recharge-mahendragarh.html): survey and design of two canal-fed recharge lines of about 45 km and 15 km
+- [Slope stability investigation of a 66 km road corridor in Assam](https://datapkt.com/case-studies/slope-stability-investigation-assam.html): drone LiDAR, 66 seismic refraction profiles and geological mapping combined for stability analysis and protection design
 
 ## Clients (100+ since 2020)
-National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
+National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, Adani, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
 
 ## More
 - [Full site content for AI tools](https://datapkt.com/llms-full.txt)

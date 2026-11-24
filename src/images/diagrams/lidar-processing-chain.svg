@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 740" width="900" height="740" role="img" aria-labelledby="d3-t d3-d" font-family="Arial, Helvetica, Liberation Sans, sans-serif">
+<title id="d3-t">Drone LiDAR processing chain, with multiple returns through tree canopy</title>
+<desc id="d3-d">Flow diagram. Laser returns and the GNSS/IMU trajectory are combined to place points in map coordinates, then boresight calibration and strip adjustment remove offsets between flight strips. Points are classified into ground, vegetation, buildings and wires, and gridded into a DTM and DSM, which feed deliverables checked against ground checkpoints. An inset shows one laser pulse giving a first return from the canopy top, intermediate returns from branches and a last return from the ground.</desc>
+<defs><marker id="d3-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker><marker id="d3-ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc2c3c"/></marker><marker id="d3-ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="d3-tk" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5,0 L5,10" stroke="#1e1e1e" stroke-width="1.6"/></marker></defs>
+<rect width="900" height="740" fill="#fff"/>
+<text x="30" y="18" font-size="12" font-weight="700" fill="#4a4a4a" text-anchor="start" letter-spacing="1.5">INPUTS</text>
+<rect x="30" y="28" width="255" height="80" rx="6" fill="#fff" stroke="#8a8a8a" stroke-width="1.5"/><text x="157.5" y="53.2" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">Laser returns</text><text x="157.5" y="76.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle"><tspan x="157.5" dy="0">Range, scan angle,</tspan><tspan x="157.5" dy="17">intensity, return number</tspan></text>
+<rect x="305" y="28" width="255" height="80" rx="6" fill="#fff" stroke="#8a8a8a" stroke-width="1.5"/><text x="432.5" y="53.2" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">GNSS/IMU trajectory</text><text x="432.5" y="76.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle"><tspan x="432.5" dy="0">Position and attitude,</tspan><tspan x="432.5" dy="17">with a base station</tspan></text>
+<line x1="157" y1="108" x2="157" y2="150" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d3-ah)"/>
+<path d="M432,108 C432,132 290,126 290,150" stroke="#1e1e1e" stroke-width="1.5" fill="none" marker-end="url(#d3-ah)"/>
+<rect x="30" y="152" width="330" height="60" rx="6" fill="#f4f4f4" stroke="#c9c9c9" stroke-width="1.2"/><text x="195.0" y="175.8" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">Trajectory processing</text><text x="195.0" y="198.4" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle">Points placed in map coordinates</text>
+<text x="378" y="178.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="378" dy="0">Lever arms and IMU angles</tspan><tspan x="378" dy="18">applied to every pulse</tspan></text>
+<line x1="195" y1="212" x2="195" y2="256" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d3-ah)"/>
+<rect x="30" y="258" width="330" height="60" rx="6" fill="#fff" stroke="#bc2c3c" stroke-width="2"/><text x="195.0" y="281.8" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">Boresight and strip adjustment</text><text x="195.0" y="304.4" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle">Removes offsets between strips</text>
+<text x="378" y="284.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="378" dy="0">Overlaps matched; strips</tspan><tspan x="378" dy="18">checked on ground control</tspan></text>
+<line x1="195" y1="318" x2="195" y2="362" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d3-ah)"/>
+<text x="378" y="418.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="378" dy="0">Automatic classes,</tspan><tspan x="378" dy="18">then manual editing</tspan></text>
+<line x1="195" y1="480" x2="195" y2="524" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d3-ah)"/>
+<rect x="30" y="526" width="330" height="60" rx="6" fill="#f4f4f4" stroke="#c9c9c9" stroke-width="1.2"/><text x="195.0" y="549.8" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">DTM and DSM</text><text x="195.0" y="572.5" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle">Ground-only and first-return surfaces</text>
+<text x="378" y="552.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="378" dy="0">Gridded from the</tspan><tspan x="378" dy="18">classified points</tspan></text>
+<line x1="195" y1="586" x2="195" y2="630" stroke="#1e1e1e" stroke-width="1.5" marker-end="url(#d3-ah)"/>
+<rect x="30" y="632" width="330" height="76" rx="6" fill="#bc2c3c"/><text x="195.0" y="655.2" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Deliverables</text><text x="195.0" y="678.0" font-size="13" font-weight="400" fill="#fbe9eb" text-anchor="middle"><tspan x="195.0" dy="0">Contours, sections, CAD/GIS,</tspan><tspan x="195.0" dy="17">clearance and canopy models</tspan></text>
+<text x="378" y="666.0" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start"><tspan x="378" dy="0">Checked against ground</tspan><tspan x="378" dy="18">checkpoints (RMSE)</tspan></text>
+<rect x="30" y="364" width="330" height="116" rx="6" fill="#f4f4f4" stroke="#c9c9c9" stroke-width="1.2"/>
+<text x="195" y="390" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">Point classification</text>
+<rect x="44" y="406" width="147" height="28" rx="14" fill="#1e1e1e"/>
+<text x="117.5" y="425" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Ground</text>
+<rect x="199" y="406" width="147" height="28" rx="14" fill="#4a4a4a"/>
+<text x="272.5" y="425" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Vegetation</text>
+<rect x="44" y="442" width="147" height="28" rx="14" fill="#fff" stroke="#1e1e1e" stroke-width="1.5"/>
+<text x="117.5" y="461" font-size="14" font-weight="700" fill="#1e1e1e" text-anchor="middle">Buildings</text>
+<rect x="199" y="442" width="147" height="28" rx="14" fill="#bc2c3c"/>
+<text x="272.5" y="461" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Wires</text>
+<rect x="590" y="28" width="280" height="690" rx="8" fill="#fff" stroke="#c9c9c9" stroke-width="1.2"/>
+<text x="730" y="56" font-size="15" font-weight="700" fill="#1e1e1e" text-anchor="middle">One pulse, several returns</text>
+<rect x="719" y="76" width="52" height="18" rx="3" fill="#1e1e1e"/>
+<text x="779" y="90" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="start">Scanner</text>
+<ellipse cx="795" cy="340" rx="68" ry="108" fill="#e6e6e6" stroke="#8a8a8a" stroke-width="1.2"/>
+<path d="M795,370 L770,320 M795,400 L823,350" stroke="#8a8a8a" stroke-width="2" fill="none"/>
+<rect x="789" y="440" width="12" height="160" rx="0" fill="#4a4a4a"/>
+<line x1="600" y1="600" x2="860" y2="600" stroke="#1e1e1e" stroke-width="2"/>
+<line x1="606" y1="600" x2="598" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="620" y1="600" x2="612" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="634" y1="600" x2="626" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="648" y1="600" x2="640" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="662" y1="600" x2="654" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="676" y1="600" x2="668" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="690" y1="600" x2="682" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="704" y1="600" x2="696" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="718" y1="600" x2="710" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="732" y1="600" x2="724" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="746" y1="600" x2="738" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="760" y1="600" x2="752" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="774" y1="600" x2="766" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="788" y1="600" x2="780" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="802" y1="600" x2="794" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="816" y1="600" x2="808" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="830" y1="600" x2="822" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="844" y1="600" x2="836" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="858" y1="600" x2="850" y2="610" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="745" y1="94" x2="745" y2="598" stroke="#bc2c3c" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="745" cy="266.8" r="6" fill="#bc2c3c" stroke="#fff" stroke-width="1.5"/>
+<line x1="735" y1="266.8" x2="723" y2="266.8" stroke="#4a4a4a" stroke-width="1"/>
+<text x="719" y="263.8" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="end"><tspan x="719" dy="0">1st return</tspan><tspan x="719" dy="16">(canopy top)</tspan></text>
+<circle cx="745" cy="322" r="6" fill="#bc2c3c" stroke="#fff" stroke-width="1.5"/>
+<line x1="735" y1="322" x2="723" y2="322" stroke="#4a4a4a" stroke-width="1"/>
+<text x="719" y="319" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="end"><tspan x="719" dy="0">2nd return</tspan><tspan x="719" dy="16">(branch)</tspan></text>
+<circle cx="745" cy="402" r="6" fill="#bc2c3c" stroke="#fff" stroke-width="1.5"/>
+<line x1="735" y1="402" x2="723" y2="402" stroke="#4a4a4a" stroke-width="1"/>
+<text x="719" y="399" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="end"><tspan x="719" dy="0">3rd return</tspan><tspan x="719" dy="16">(lower canopy)</tspan></text>
+<circle cx="745" cy="600" r="6" fill="#bc2c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="719" y="574" font-size="13" font-weight="400" fill="#1e1e1e" text-anchor="end"><tspan x="719" dy="0">Last return</tspan><tspan x="719" dy="16">(ground)</tspan></text>
+<text x="730" y="640" font-size="13" font-weight="400" fill="#4a4a4a" text-anchor="middle"><tspan x="730" dy="0">Ground returns under the canopy</tspan><tspan x="730" dy="18">give a true DTM where</tspan><tspan x="730" dy="18">photogrammetry sees only</tspan><tspan x="730" dy="18">the tree tops</tspan></text>
+</svg>
