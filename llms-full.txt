@@ -3078,7 +3078,7 @@ Drone-first inspection workflow for a solar plant.
 Inspect at commissioning, to catch installation faults while the EPC contractor is still responsible; every year, as routine; after storms or hail; and before warranties expire, so claims are filed in time. A survey of US plant owners found that of the plants doing routine plant-wide inspections, fewer than half did them more than once a year, largely because inspection was slow and costly. A drone removes most of that cost.
 
 ### How we inspect solar plants at DATA PKT
-We fly radiometric thermal and colour cameras together, plan flights to the IEC TS 62446-3 conditions (irradiance, cloud, wind and resolution), and record the conditions with every flight. Each anomaly is classified, ranked and tied to its table, string and module, so your O&M team can go straight to it. The report follows the checklist in our guide on what a solar thermography report should include.
+Our thermal team includes a thermographer certified to ISO 9712 Level 2, the kind of qualification IEC TS 62446-3 expects. We fly radiometric thermal and colour cameras together, plan flights to the IEC TS 62446-3 conditions (irradiance, cloud, wind and resolution), and record the conditions with every flight. Each anomaly is classified, ranked and tied to its table, string and module, so your O&M team can go straight to it. The report follows the checklist in our guide on what a solar thermography report should include.
 See our drone thermal survey service and power and energy work.
 
 ### Sources
