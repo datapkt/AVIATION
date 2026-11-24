@@ -295,3 +295,8 @@ body, .redbtn, .whitebtn, .frm p input, .frm p select, .frm p textarea, button, 
 
 /* Accessibility: in-text links are underlined so they are not told apart by colour alone */
 #dp-main .dp-summary p a:not([class]), #dp-main .card-text p a:not([class]), #dp-main p.mb-3 a:not([class]), #dp-main p.mb-4 a:not([class]) { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+/* Accessibility: more in-text link contexts flagged by Lighthouse (link-in-text-block) */
+.dp-crumbs a, #dp-main label.text-justify a:not([class]), #dp-main label.center-justified a:not([class]), #dp-main .col-md-6 > p > a:not([class]), #dp-main .col-lg-6 > p.mb-2 > a:not([class]), #dp-main .content-box-start > p > a:not([class]), #dp-main li.mb-3 > a:not([class]), #dp-main .dp-form-alt a:not([class]) { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+/* Comparison table on the DGPS guide: row headers added for screen readers keep the plain cell look */
+.dp-prose table.dp-plain-rows tbody th[scope="row"] { background: transparent; color: inherit; font-weight: inherit; }

@@ -282,7 +282,9 @@ a {
   text-align: center
 }
 
-.client-logos label {
+.client-logos label,
+
+.client-logos > span {
   display: inline-block;
   font-weight: 600;
   height: 50px;
@@ -291,7 +293,9 @@ a {
   width: 100px
 }
 
-.client-logos label:last-child {
+.client-logos label:last-child,
+
+.client-logos > span:last-child {
   margin: 0
 }
 
@@ -1065,7 +1069,9 @@ a {
     padding: 20px 0
   }
 
-  .client-logos label {
+  .client-logos label,
+
+  .client-logos > span {
     height: 40px;
     margin: 0 4% 6% 0;
     width: 70px
@@ -1418,7 +1424,8 @@ a {
 }
 
 @media(max-width:791px) {
-  .client-logos label {
+  .client-logos label,
+  .client-logos > span {
     background-size: auto 50px !important;
     margin: 0
   }
