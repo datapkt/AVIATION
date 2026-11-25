@@ -10,6 +10,14 @@
     <uri>https://datapkt.com/</uri>
   </author>
   <entry>
+    <title>Solar PV thermography in Tamil Nadu: what data QC catches before the report</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/solar-pv-thermography-data-qc.html"/>
+    <id>https://datapkt.com/case-studies/solar-pv-thermography-data-qc.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">Drone thermal and RGB data from a solar plant of about 340 MWp in Tamil Nadu, checked against IEC TS 62446-3, overlap and positioning before analysis.</summary>
+  </entry>
+  <entry>
     <title>Topographic and contour survey by drone: method, accuracy and deliverables</title>
     <link rel="alternate" type="text/html" href="https://datapkt.com/insights/topographic-survey-by-drone.html"/>
     <id>https://datapkt.com/insights/topographic-survey-by-drone.html</id>
