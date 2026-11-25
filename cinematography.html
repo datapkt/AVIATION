@@ -302,8 +302,12 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
             <div class="row">
 
                 <div class="col-md-6 col-lg-6 col-sm-6">
-                    <img loading="lazy" decoding="async" alt="Night aerial footage of a lit city highway with traffic beside tall buildings" src="src/images/cinematography/videography.gif" width="600" height="338" data-dp-dim 
-                        style="width:100%;border-radius: 30px;">
+                    <video id="dp-videography" class="dp-autovid" muted loop playsinline preload="none" width="600" height="338" poster="src/images/cinematography/videography-poster.webp" role="img" aria-label="Night aerial footage of a lit city highway with traffic beside tall buildings" disablepictureinpicture disableremoteplayback
+                        style="display:block;width:100%;height:auto;aspect-ratio:600/338;object-fit:cover;border-radius: 30px;">
+                        <source src="src/images/cinematography/videography.webm" type="video/webm">
+                        <source src="src/images/cinematography/videography.mp4" type="video/mp4">
+                    </video>
+                    <script>(function(){var v=document.getElementById('dp-videography');if(!v)return;v.muted=true;var mq=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)');function ok(){return !(mq&&mq.matches)}function play(){if(ok()){var r=v.play();if(r&&r.catch)r.catch(function(){})}}if(mq&&mq.addEventListener)mq.addEventListener('change',function(){ok()?play():v.pause()});if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?play():v.pause()})},{rootMargin:'200px'}).observe(v)}else{play()}})();</script>
                 </div>
 
                 
