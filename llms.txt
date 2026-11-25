@@ -22,7 +22,7 @@
 - Photogrammetry: orthomosaics, digital terrain and surface models, contours and volumes
 - LiDAR survey and classified point clouds
 - Landslide and slope stability investigation, seismic refraction survey and slope protection design
-- GIS mapping and data processing, including remote GIS work for clients outside India
+- GIS mapping and data processing; remote GIS processing offered to clients outside India (all projects so far in India)
 - Aerial videography and monthly progress videos for projects
 
 ## Sectors
@@ -66,7 +66,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Manufacturing](https://datapkt.com/manufacturing.html): drone inspection of factories and industrial assets, inventory tracking and site monitoring
 - [Wildlife and forests](https://datapkt.com/wildlife.html): forest mapping, tree counting, vegetation health, wildlife monitoring and fire detection by drone
 - [Archaeology](https://datapkt.com/archaeology.html): aerial survey and mapping, LiDAR and thermal imaging and excavation support for archaeological sites
-- [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): in-house GIS team; GIS layers from drone and LiDAR data, khasra and forest map overlays, GIS to CAD, remote GIS processing and offshore seats for firms abroad
+- [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): in-house GIS team; GIS layers from drone and LiDAR data, khasra and forest map overlays, GIS to CAD, remote GIS processing and offshore seats offered to firms outside India
 - [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway yard and drainage plans, substation and transmission lines, groundwater recharge, slope stability in Assam
 - [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs, solar thermography, inspection guides and landslide surveys
 - [Drone pilot network](https://datapkt.com/drone-pilot-network.html): how certified drone pilots register to fly highway, railway, transmission, power and irrigation projects with DATAPKT
@@ -81,7 +81,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
 
 ## Where we work
-- [Where we work](https://datapkt.com/where-we-work.html): regions we survey across India from Gurugram, plus remote GIS work for clients outside India
+- [Where we work](https://datapkt.com/where-we-work.html): regions we survey across India from Gurugram, plus remote GIS processing offered to clients outside India (all projects so far in India)
 - [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html): drone survey, LiDAR and GIS in Delhi, Gurugram, Faridabad, Noida and Manesar; clients include DMRC, DSIIDC, MCG and FMDA
 - [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html): drone survey, transmission line and substation design, and railway and metro mapping in Uttar Pradesh
 - [Drone survey in Maharashtra and Mumbai](https://datapkt.com/drone-survey-maharashtra.html): drone, LiDAR and GIS surveys for railway projects; clients include MRVC, Central Railway and Konkan Railway
