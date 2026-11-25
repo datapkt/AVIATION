@@ -82,6 +82,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html): ground sample distance, image footprint and the flight height for a target GSD, with camera presets
 - [Free checkpoint RMSE calculator](https://datapkt.com/tools/rmse-calculator.html): paste surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE (RMSEr), mean error per axis and the largest residual
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): alternate routes and feasibility report, drone maps on khasra maps for land acquisition, detailed route survey with tower spotting, substation GAD and SLD
+- [Drone transmission line inspection services](https://datapkt.com/transmission-line-drone-inspection.html): patrol and detailed inspection of energised lines with RGB, radiometric thermal and LiDAR; joint and clamp hotspots, clearance and right-of-way checks, deliverables.
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR, seismic refraction tomography and geological mapping (RMR, GSI, SMR) in one ground model; stability analysis, hazard zonation and slope protection design
 - [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
 
@@ -4655,6 +4656,154 @@ NHAI has said the videos are stored permanently on Data Lake and can be used as 
 Q: How many kilometres of highway can a drone team record in a day?
 Our teams plan about 50 km of videography a day, or about 35 km of survey imagery, in good weather on open corridors. Airspace permissions, weather and the length of each flight block change the daily figure.
 
+
+=== https://datapkt.com/transmission-line-drone-inspection.html ===
+Home / Services / Transmission line drone inspection
+Service · Power
+Drone Transmission Line Inspection Services in India
+Close-up visual and thermal inspection of energised transmission lines, tower by tower, with LiDAR clearance checks where you need them and every finding tied to a tower number.
+By the DATA PKT survey and inspection team · Published 25 November 2026
+In short: we inspect energised transmission lines by drone. A detailed inspection photographs every tower, insulator string and fitting from close range, radiometric thermal finds hot joints and clamps, and LiDAR measures conductor clearance where it is in scope. Every finding is tied to a tower number, with photos, severity and a recommended action, so your maintenance crews know where to go first.
+10–15 towersa day per crew in detailed close inspection
+≈100 kmof linear corridor a day by drone photogrammetry
+40%+ loadusually needed for a thermal reading to mean something[2]
+ISO 9712 L2certified thermographer in our thermal team
+What does a drone transmission line inspection cover?
+A drone transmission line inspection photographs every tower, insulator string, fitting and span of an energised line from close range, adds radiometric thermal images of joints and clamps, and, where needed, measures conductor clearance to ground and trees. Each finding is tied to a tower number and position, so crews know exactly where to go.
+The work is for whoever is answerable for the line staying in service: state and central transmission utilities, private transmission companies, EPC contractors handing a new line over, and plant owners whose solar, wind or thermal power leaves the site on a dedicated line. The common need is the same. A foot patrol sees a tower from below, and the defects that cause trippings often sit on top of the cross-arm, behind an insulator string or at a jumper loop. A drone hovering level with the hardware sees them. Our guide to drone inspection versus foot patrol and helicopters compares the three methods in detail.
+A typical scope covers four things, in any combination:
+Towers: rust, bent or missing members, damaged step bolts and anti-climbing devices, foundation and chimney condition where visible, bird nests.
+Insulators and hardware: cracked, chipped or flashed discs, damaged polymer sheds, corroded or loose clamps, missing split pins, damaged spacers, vibration dampers and arcing horns.
+Conductors and earth wire: broken or bird-caged strands, damaged mid-span joints, earth wire and OPGW fittings and splice boxes.
+The corridor: vegetation growing towards the conductors, new buildings and other encroachment in the right of way, erosion near tower footings.
+Patrol or detailed inspection: which one do you need?
+A patrol or corridor flight moves quickly along the line to find encroachment, vegetation, damaged towers and obvious faults over many kilometres. A detailed inspection stops at each tower and photographs every insulator, clamp and fitting from several angles, usually with thermal. Many owners patrol often and inspect in detail on a cycle or on priority stretches.
+|
+| Question | Patrol or corridor flight | Detailed tower inspection
+| What it answers | Is anything wrong along the line as a whole? | What condition is each component on each tower in?
+| Flight pattern | Along the corridor, at a steady height and speed | Around each tower and along each insulator string, at several heights
+| Typical findings | Vegetation, encroachment, leaning or damaged towers, broken earth wire, washed-out footings | Cracked or flashed discs, missing pins, loose or hot clamps, broken strands, damaged dampers
+| Pace (DATA PKT) | About 100 km of linear corridor a day when mapped by photogrammetry | 10 to 15 towers a day per crew
+| Usual sensors | Mapping camera, LiDAR where clearance matters | Zoom camera and radiometric thermal camera
+The two are often combined. A corridor flight on a long line shows where the problems cluster, and detailed inspection is then spent on those stretches, on the oldest sections, on river and highway crossings, and on towers with a history of trippings. If you are not sure which you need, send us the tower schedule and the problem you are trying to solve, and we will suggest a mix.
+What does each sensor find?
+Each sensor answers a different question. A zoom visual camera shows physical damage to insulators, fittings and steel. A radiometric thermal camera shows joints and clamps running hotter than their neighbours. LiDAR measures conductor height, sag and clearance to trees in three dimensions. The scope decides which sensors fly; not every line needs all three.
+|
+| Sensor | What it finds | Limits
+| Zoom visual (RGB) camera | Cracked, chipped or flashed insulator discs; damaged polymer sheds; missing split pins; corroded fittings; broken strands; damaged dampers and spacers; rust and missing members; bird nests | Shows the surface only. Light, angle and wind affect what can be seen, so each component is photographed from more than one side.
+| Radiometric thermal camera | Joints, clamps, jumpers and dead-end fittings running hotter than similar components; some insulator faults that show as abnormal warming | Needs real load on the line. Shiny new conductor reflects heat and reads low; sun, wind and rain distort readings. Radiometric means every pixel carries a temperature value, not just a colour.
+| LiDAR | Conductor and earth wire positions, sag, height above ground and trees, buildings in the right of way, clearance at crossings | Measures geometry, not condition. It will not show a cracked disc or a hot clamp.
+| Mapping camera (photogrammetry) | Orthomosaic and terrain of the corridor; encroachment and land use along the right of way | Does not reconstruct thin wires reliably, and cannot see ground under dense trees.
+Two notes on choosing. First, a thermal camera that records only a coloured video is not enough for grading hotspots; the images need to be radiometric so that the temperature of the hot component and its reference can be read afterwards. Second, LiDAR earns its cost where clearance is the question, for example over orchards, forest or growing settlements, and on hilly stretches where sag over a valley is hard to judge. Our LiDAR vs photogrammetry guide explains why LiDAR is the better tool for wires.
+Utilities sometimes also ask about corona or ultraviolet (UV) cameras. These detect electrical discharge on insulators and hardware that is invisible to visual and thermal cameras, and they are a specialist sensor rather than part of a standard visual and thermal inspection. If your maintenance programme calls for corona inspection, mention it in the enquiry so the scope can be discussed openly.
+How is a hotspot on a joint or clamp graded?
+By comparing it with a similar component under similar load, such as the same clamp on the next phase. Under the widely used ANSI/NETA criteria, a rise of 1–3 °C means investigate, 4–15 °C means repair as time permits, and over 15 °C means repair immediately. The readings mean something only when the line carries real load.
+A failing joint or loose clamp has a higher electrical resistance than a sound one, so it heats up as current flows through it. A thermal camera shows it as a bright spot, often long before it fails. The widely used ANSI/NETA table sets three bands for the temperature rise over a similar component under similar load[1]:
+|
+| Temperature rise vs similar component | Meaning | Action
+| 1–3 °C | Possible deficiency | Investigate
+| 4–15 °C | Probable deficiency | Repair as time permits
+| Over 15 °C | Major discrepancy | Repair immediately
+Two cautions apply. First, the readings only mean something when the line carries a real load; thermographers usually ask for at least 40 percent of normal load[2]. Second, the same rise can be ranked differently under other criteria sets, so a good report names the criteria it used[1]. Many utilities also set their own limits, and where they do, those limits apply.
+In practice, getting a reading that can be trusted comes down to planning:
+Load window. Ask the line owner when the line is expected to carry its highest load, and fly then. Record the time of each image so the load can be matched later.
+Weather. Strong sun heats everything, wind cools hot joints, and rain or mist blurs the image. Steady, dry conditions give the cleanest comparison.
+Reference component. Compare like with like: the same clamp type on the next phase, or the next joint on the same conductor, under the same load.
+Distance and angle. Small components need to fill enough pixels to be measured, which is one reason close inspection matters for thermal.
+Our thermal team includes a thermographer certified to ISO 9712 Level 2, and every graded hotspot in the report comes with its visual photo, so the maintenance crew can see which component it is. For solar plants and substations, see our thermal survey page.
+How are clearance and right of way checked?
+A drone survey measures; it does not certify. LiDAR, or photogrammetry over open ground, gives conductor height above ground, trees and buildings span by span. Those measured distances are compared with the clearance values the line owner specifies, normally from the CEA regulations and its own standards. Whether a span complies is the line owner's decision.
+India sets right-of-way widths and minimum clearances between conductors and trees by voltage. The table quoted in a National Green Tribunal document gives minimum conductor-to-tree clearances of 3.4 m at 66 kV, 4.0 m at 132 kV, 4.6 m at 220 kV and 5.5 m at 400 kV, with a 35 m right of way at 220 kV and 46 m for a 400 kV single-circuit line[3]. Ground and crossing clearances are set in the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023, and the line owner's standards may set higher values. These figures are summarised for guidance; the current regulations and the owner's standards govern each line.
+|
+| Line voltage | Minimum conductor-to-tree clearance[3]
+| 66 kV | 3.4 m
+| 132 kV | 4.0 m
+| 220 kV | 4.6 m
+| 400 kV | 5.5 m
+Why the distinction between measurement and compliance matters:
+Sag changes. A conductor sags most at mid-span, on hot days and under heavy load. A survey records the clearance on the day of the flight. Projecting it to the maximum design temperature needs the conductor data and is an engineering calculation, so agree in the scope whether it is wanted.
+Trees grow. A span with enough clearance today may not have it after the monsoon. Clearance surveys are most useful repeated on a cycle, with trimming lists by span.
+Thresholds differ. Crossings over railways, highways and other lines carry the requirements of each crossing's owner. The report should state which threshold each span was compared against.
+The output is a span-wise table: tower numbers, the closest measured distance to ground, trees or structures, where along the span it occurs, and whether it falls inside the threshold you gave us. Trimming crews then go only where clearance is short.
+Is a distribution line inspection the same job?
+No. In Indian practice, transmission usually means 66 kV and above, on lattice towers spaced hundreds of metres apart across open country. Distribution means 33 kV, 11 kV and LT lines on poles spaced tens of metres apart, often along roads and through towns. The defects, flight plans, airspace questions and daily pace differ, so they are scoped separately.
+Structures. A transmission inspection looks at steel towers, long insulator strings and heavy hardware. A distribution inspection looks at poles, cross-arms, pin and disc insulators, GO switches, stays and transformer structures.
+Density. A kilometre of distribution line has many more structures than a kilometre of transmission line, so the count per day is not comparable.
+Surroundings. Distribution lines run close to houses, roads and people, which changes where the drone can launch, fly and hover.
+We cover both. For distribution lines, see the distribution line inspection section of our power sector page.
+Is it safe to fly a drone near an energised line?
+Yes, when the flight is planned for it. The drone keeps a safe distance from the conductors, set by the line owner's safety rules and the operator's procedure, and no one needs to climb the tower. Strong electromagnetic fields near high-voltage conductors can disturb a drone's compass, so the stand-off is planned with that margin in mind.
+Safety planning for a line inspection usually covers:
+Stand-off distance from live conductors, agreed with the line owner, and a flight path that does not take the drone through the conductor space.
+Launch and landing points outside the conductor zone, with permission from the landowner where needed.
+Crossings over roads, railways and other lines, flown so that the drone never hangs over traffic or a second set of live conductors.
+The line owner's consent and any site permit, which a power utility may require even in open airspace.
+Airspace and drone permissions
+Drone flights in India fall under the Drone Rules, 2021. The airspace map on Digital Sky divides the country into green, yellow and red zones: green needs no flight permission, yellow needs permission from the air traffic control authority for that airspace, and red needs permission from the Central Government. A long transmission line can cross several zones, especially near airports, borders and strategic sites, so each stretch is checked separately and the check is repeated on the day of the flight. Our flights are flown by DGCA Remote Pilot Certificate holders on drones with a Unique Identification Number. Read drone survey permissions in India for the full picture.
+How we work
+You send the line details. Line name and voltage, single or double circuit, the tower schedule with positions (or a KML of the route), the stretch to be inspected, and what you want found: defects, hotspots, clearance, or all three.
+We agree the scope. Patrol, detailed inspection or both; which sensors fly; the severity criteria and clearance thresholds to report against; and the deliverable formats your team needs.
+Desk planning. Each stretch is checked on the Digital Sky airspace map, access and launch points are planned, and thermal flights are timed with you for a high-load window.
+Permissions and safety. Yellow or red zone permissions are applied for, the line owner's consent and any site permit are arranged, and the stand-off distance is confirmed.
+Field work. Corridor flights and tower-by-tower inspection flights, with images recorded against tower numbers. Ground control is set out where the survey needs mapping accuracy.
+Processing and grading. Images are reviewed tower by tower, defects are logged and graded, thermal images are analysed by our thermal team, and LiDAR or photogrammetry data is processed for clearance.
+Review and delivery. The defect register and report are checked before delivery, with the priority findings listed first so the most urgent repairs are planned first.
+What you receive
+The deliverables depend on the scope. The table lists what an inspection of this kind typically produces; the column on the right shows formats common in the industry, and the actual formats are agreed in the scope so the data loads into your own maintenance or GIS system.
+|
+| Deliverable | What it shows | Typical format
+| Tower-wise defect register | Each defect by tower number and component, with photo reference, severity and recommended action | Spreadsheet (XLSX or CSV)
+| Inspection report | Summary of findings, priority list, method, severity criteria and limitations | PDF
+| Geotagged visual images | Close-up photos of each tower, insulator string and fitting | JPEG with position data
+| Radiometric thermal images | Hotspots with temperatures of the hot component and its reference | Radiometric JPEG or TIFF
+| Span-wise clearance table | Closest distance from conductor to ground, trees and structures in each span, against the agreed threshold | Spreadsheet
+| Corridor point cloud | Conductors, towers, ground and vegetation in 3D, where LiDAR is flown | LAS or LAZ
+| Corridor orthomosaic | Current image of the right of way, with encroachment and land use | GeoTIFF
+| GIS layers | Towers, defects and clearance problems on a map | KML or KMZ, shapefile
+What we do not do
+A drone inspection tells you where the problems are. It does not fix them, and it does not replace the people and tests that keep a line running. To be clear about scope:
+No live-line or maintenance work. We do not replace live-line maintenance crews, change insulators, tighten clamps or carry out any repair. Those stay with the line owner's crews or their contractors.
+No replacement for utility line patrolling. Drone inspection supports the patrols your own staff carry out; it does not take over their statutory or routine duties.
+No electrical testing. We do not carry out insulation resistance, contact resistance or other electrical tests on the line or its equipment.
+No compliance certificate. We measure clearances and report them against the thresholds you give us; the decision on compliance stays with the line owner.
+No tree cutting. We produce the trimming list by span; the trimming is done by others.
+What we can show you
+Energised transmission line inspection is one of our services, alongside transmission line and substation survey and design for new lines.
+In detailed inspection, one crew typically covers 10 to 15 pylons a day.
+On linear corridors, we map about 100 km a day by drone photogrammetry.
+Our thermal team includes a thermographer certified to ISO 9712 Level 2.
+Our power-sector clients include NTPC and Adani.
+In Uttar Pradesh we are surveying the routes for new 220 kV and 132 kV lines and the site of a 220/132 kV substation; read the 220/132 kV substation and lines case study.
+Flights follow the DGCA's Drone Rules, 2021: certified remote pilots, drones with a Unique Identification Number, and airspace checked on Digital Sky.
+For the wider picture of our power-sector work, including substations, solar plants and wind farms, see drone surveys for the power sector.
+Sources
+ANSI/NETA Table 100.18 thermographic severity criteria, as explained in an ITC Level 2 study guide. open-exam-prep.com
+Fluke, Using thermal imaging cameras for electrical inspections (load of at least 40 percent). www.fluke.com
+National Green Tribunal, document quoting right-of-way widths and minimum conductor-to-tree clearances by voltage. www.greentribunal.gov.in
+Clearance values and severity bands are summarised for guidance; the CEA regulations, the line owner's own standards and the contract govern each line.
+Send us the line details, the tower schedule or a KML of the route, and what you need found. We reply with a scope and quote.
+Send an enquiry WhatsApp +91 8448559100
+Frequently asked questions
+Can a drone inspect an energised transmission line?
+Yes. Energised transmission line inspection is one of our services. The drone keeps a safe distance from the conductors, set by the line owner's safety rules and the flight procedure, so visual and thermal inspection need no outage.
+Does the line need a shutdown for a drone inspection?
+No. Thermal inspection actually needs the line energised and carrying load, because a de-energised joint shows no hotspot. A shutdown is needed only for the repairs that follow, which the line owner's maintenance crews carry out.
+How many towers can you inspect in a day?
+In a detailed close inspection, one crew typically covers 10 to 15 towers a day. Terrain, access, tower type, the sensors flown and the weather all change that figure. Corridor mapping by photogrammetry is faster, at about 100 km of linear corridor a day.
+What load does the line need for thermal inspection?
+Thermographers usually ask for at least 40 percent of normal load. Below that, a faulty joint may not heat up enough to show. Thermal flights are therefore planned for high-load periods, with the expected load confirmed with the line owner beforehand.
+Do you measure clearances to CEA requirements?
+We measure conductor clearance to ground, trees and structures, span by span, and report it against the values you specify, usually taken from the CEA regulations and your own standards. The measurement is ours; the compliance decision stays with the line owner.
+Do you inspect distribution lines too?
+Yes, distribution line inspection is covered on our power sector page. It is a different job from transmission: 33 kV, 11 kV and LT lines on closely spaced poles, often along roads and through towns, so it is planned and scoped separately.
+What do we receive at the end of the inspection?
+A tower-wise defect register with photos, severity and recommended action; graded thermal findings; and, where clearance is in scope, span-wise clearance tables and a corridor point cloud or map. Formats are agreed in the scope so the data loads into your maintenance system.
+Which states do you work in?
+We work across India from our office in Gurugram. Every stretch of line is checked on the Digital Sky airspace map before the flight, and stretches in yellow or red zones are cleared with the authority concerned before the flight date.
+Who analyses the thermal images?
+Our thermal team includes a thermographer certified to ISO 9712 Level 2. Each hotspot is graded against a similar component under similar load, and the report names the severity criteria used.
+Related
+Power & EnergyTransmission line and substation designDrone inspection vs foot patrol220/132 kV substation case studyThermal Surveys
 
 === https://datapkt.com/insights/transmission-line-drone-inspection.html ===
 Home / Insights / Transmission line drone inspection
