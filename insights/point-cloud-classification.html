@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Point Cloud Classification: LAS Classes and QC | DATA PKT</title>
+  <meta name="description" content="Point cloud classification explained: ASPRS LAS class codes, LiDAR ground filtering and its failure modes, QC checks, and what to specify when outsourcing.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://datapkt.com/insights/point-cloud-classification.html">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="DATAPKT Infra &amp; Geomatics">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Point Cloud Classification: LAS Classes and QC | DATA PKT">
+  <meta property="og:description" content="Point cloud classification explained: ASPRS LAS class codes, LiDAR ground filtering and its failure modes, QC checks, and what to specify when outsourcing.">
+  <meta property="og:url" content="https://datapkt.com/insights/point-cloud-classification.html">
+  <meta property="og:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="DATA PKT Infra &amp; Geomatics, drone survey, mapping and GIS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Point Cloud Classification: LAS Classes and QC | DATA PKT">
+  <meta name="twitter:description" content="Point cloud classification explained: ASPRS LAS class codes, LiDAR ground filtering and its failure modes, QC checks, and what to specify when outsourcing.">
+  <meta name="twitter:image" content="https://datapkt.com/src/images/og/datapkt-og.png">
+  <link rel="icon" type="image/png" href="/src/images/fav-icon.png">
+  <link rel="apple-touch-icon" href="/src/images/fav-icon.png">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var dpC=null;try{dpC=localStorage.getItem('dp_consent')}catch(e){}
+gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F32DT4VFR"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4F32DT4VFR');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap"></noscript>
+  <link href="/src/vendor/bootstrap-5.3.3/bootstrap.min.css" rel="stylesheet">
+  <script defer src="/src/vendor/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="/dist/main.css">
+  <link rel="stylesheet" href="/src/css/seo.css?v=8af27b90">
+  <link rel="preload" as="image" href="/src/images/pages/lidar-hero.webp" fetchpriority="high">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://datapkt.com/#organization","name":"DATAPKT Infra & Geomatics","alternateName":["DATA PKT Infra & Geomatics","DATAPKT","DATA PKT","DATA PKT Aviation","DATAPKT Aviation"],"legalName":"DATAPKT Private Limited","url":"https://datapkt.com/","logo":"https://datapkt.com/src/images/fav-icon.png","image":"https://datapkt.com/src/images/og/datapkt-og.png","description":"Drone survey, mapping, GIS and design company in Gurugram, India. Surveys and maps highways, railways, solar plants, power lines, water and mining projects. Empanelled with NHAI in three zones for monthly drone surveys. DIPP-recognised start-up.","foundingDate":"2020-09-14","telephone":"+91-8448559100","email":"consult@datapkt.com","address":{"@type":"PostalAddress","streetAddress":"434, 4th Floor, JMD Megapolis, Sohna Road, Sector 48","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122018","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":28.41945,"longitude":77.03663},"hasMap":"https://maps.google.com/?cid=3166731234031250870","areaServed":{"@type":"Country","name":"India"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"20:00"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-8448559100","email":"consult@datapkt.com","contactType":"sales","areaServed":"IN","availableLanguage":["English","Hindi"]},"knowsAbout":["Drone survey","LiDAR survey","Photogrammetry","GIS mapping","Solar plant thermography","Transmission line survey and inspection","Railway Engineering Scale Plan (ESP) survey","Highway drone monitoring","Landslide investigation","Topographic survey","Detailed Project Report survey","Bathymetry","Orthomosaic","Digital terrain model"],"sameAs":["https://www.linkedin.com/company/datapkt-infra-geomatics/","https://www.instagram.com/data.pkt/","https://www.facebook.com/itsdatapkt/","https://www.crunchbase.com/organization/data-pkt","https://yourstory.com/companies/data-pkt-aviation","https://maps.google.com/?cid=3166731234031250870"]},{"@type":"WebSite","@id":"https://datapkt.com/#website","url":"https://datapkt.com/","name":"DATAPKT Infra & Geomatics","publisher":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","@id":"https://datapkt.com/insights/point-cloud-classification.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://datapkt.com/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://datapkt.com/insights/"},{"@type":"ListItem","position":3,"name":"Point cloud classification","item":"https://datapkt.com/insights/point-cloud-classification.html"}]},{"@type":"WebPage","@id":"https://datapkt.com/insights/point-cloud-classification.html#webpage","url":"https://datapkt.com/insights/point-cloud-classification.html","name":"Point Cloud Classification: LAS Classes and QC | DATA PKT","description":"Point cloud classification explained: ASPRS LAS class codes, LiDAR ground filtering and its failure modes, QC checks, and what to specify when outsourcing.","isPartOf":{"@id":"https://datapkt.com/#website"},"about":{"@id":"https://datapkt.com/#organization"},"inLanguage":"en-IN","primaryImageOfPage":{"@type":"ImageObject","url":"https://datapkt.com/src/images/og/datapkt-og.png"},"breadcrumb":{"@id":"https://datapkt.com/insights/point-cloud-classification.html#breadcrumb"}},{"@type":"FAQPage","@id":"https://datapkt.com/insights/point-cloud-classification.html#faq","mainEntity":[{"@type":"Question","name":"What are the ASPRS LAS classes?","acceptedAnswer":{"@type":"Answer","text":"They are the standard class codes in the ASPRS LAS 1.4 specification: 0 created, never classified; 1 unassigned; 2 ground; 3, 4 and 5 low, medium and high vegetation; 6 building; 7 low noise; 9 water; 10 rail; 11 road surface; 13 to 16 wires, towers and insulators; 17 bridge deck; 18 high noise; 19 overhead structure; 20 ignored ground; 21 snow; and 22 temporal exclusion. Codes 64 to 255 are free for project-defined classes."}},{"@type":"Question","name":"What is ground classification in LiDAR?","acceptedAnswer":{"@type":"Answer","text":"It is the step that decides which points are the bare earth and puts them in class 2. Automatic filters such as progressive TIN densification, morphological filters and cloth simulation do most of it, and an operator then corrects the errors in profiles. The DTM, contours and earthwork quantities are all built from the ground class."}},{"@type":"Question","name":"Can a photogrammetric point cloud be classified like LiDAR?","acceptedAnswer":{"@type":"Answer","text":"Yes, with the same LAS classes, and its true colour helps. But a photogrammetric cloud only has the surface the camera saw, so under trees and dense scrub there are no ground points to classify. Its terrain model is reliable on open ground and doubtful under vegetation."}},{"@type":"Question","name":"How do you check the quality of a classified point cloud?","acceptedAnswer":{"@type":"Answer","text":"View it coloured by class and as a hillshade of the ground surface, cut profiles across embankments, drains, bridges and cuttings, and test the terrain model against independent checkpoints. ASPRS Edition 2 calls for at least 30 checkpoints and reports accuracy as RMSE. Classification should be consistent across all tiles."}},{"@type":"Question","name":"What should I specify when outsourcing point cloud classification?","acceptedAnswer":{"@type":"Answer","text":"The exact class codes you need and which are checked for accuracy, the minimum point density, the vertical accuracy target and checkpoints, a non-overlapping tile scheme, the coordinate system and vertical datum, the output formats such as LAS 1.4 or LAZ, DTM, DSM and contours, and the contents of the QC report."}}]},{"@type":"BlogPosting","@id":"https://datapkt.com/insights/point-cloud-classification.html#article","headline":"Point cloud classification explained: LAS classes, ground filtering and QC","description":"What classifying a LiDAR or photogrammetric point cloud means, the standard ASPRS LAS class codes, how ground filters work and where they fail, how to check the result, and what to put in the scope when you outsource it.","datePublished":"2026-11-25","dateModified":"2026-11-25","author":{"@id":"https://datapkt.com/#organization"},"publisher":{"@id":"https://datapkt.com/#organization"},"mainEntityOfPage":{"@id":"https://datapkt.com/insights/point-cloud-classification.html#webpage"},"image":"https://datapkt.com/src/images/og/datapkt-og.png","inLanguage":"en-IN"}]}</script>
+</head>
+<body>
+<a class="dp-skip" href="#dp-main">Skip to main content</a>
+
+     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="row d-content">
+                <div class="col-8 col-sm-8 col-md-8">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Energy</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-sm-none" style="background-color: #F7F3F0!important;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            <!-- </div> -->
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  p-3 d-none d-sm-block sticky-top" style="background-color: #F7F3F0!important; z-index: 1030;">
+        <div class="container-fluid">
+            <div class="d-content">
+                    <a aria-label="DATA PKT home" href="/" class="logo" style="margin: 0 0 0px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContentDesktop" aria-controls="navbarSupportedContentDesktop"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+               
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContentDesktop">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
+                            <li class="nav-item" style="font-size: 18px; ">
+                                <a class="nav-link active" aria-current="page" href="/"
+                                    style="padding: 9px 20px; ">Home</a>
+                            </li>
+                            <li class="nav-item dropdown" style="font-size: 18px; line-height: 21px!important;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px; ">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/cinematography.html">Cinematography</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/photogrammetry.html">Photogrammetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/lidar-survey.html">Lidar</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/thermal-survey.html">Thermal Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/hyperspectral.html">Hyperspectral & <br>
+                                            Multispectral</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/bathymetry.html">Bathymetry</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/drone-delivery.html">Drone Delivery</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/environmental.html">Environmental Survey</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Sectors
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/highways-and-roadways.html">Roads & Highways
+                                        </a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/railways-and-metro.html">Railways & Metros</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/energy.html">Power</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/mining.html">Mining</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/oil-and-gases.html">Oil & Gas</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/water-resource.html">Water Resources</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/urban-planning.html">Urban Planning</a></li>
+                                   <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/public-safety.html">Public Safety</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/manufacturing.html">Manufacturing</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/wildlife.html">Wildlife</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/agriculture.html">Agriculture</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
+                                            href="/archaeology.html">Archaeology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" style="  font-size: 18px;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="padding: 9px 20px;">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/highway-drone-monitoring.html">Highway Drone Monitoring</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/engineering-scale-planning.html">ESP &amp; DPR Surveys</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/railway-esp-yard-drainage-plans.html">Railway Yard &amp; Drainage Plans</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/220-132-kv-substation-transmission-lines.html">220/132 kV Substation &amp; Lines</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/groundwater-recharge-mahendragarh.html">Groundwater Recharge, Haryana</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/slope-stability-investigation-assam.html">Slope Stability, Assam</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="/case-studies/">All Case Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/about.html" style="padding: 9px 20px;">About</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/insights/" style="padding: 9px 20px;">Insights</a>
+                            </li>
+                            <li class="nav-item" style="  font-size: 18px;">
+                               <a class="nav-link" href="/contact.html" style="padding: 9px 20px;">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+           
+        </div>
+
+        </div>
+    </nav>
+<main id="dp-main" class="dp-page">
+
+<section class="dp-hero dp-hero--img" style="--dp-hero-img:url(/src/images/pages/lidar-hero.webp)">
+  <div class="dp-wrap">
+    <p class="dp-crumbs"><a href="/">Home</a> / <a href="/insights/">Insights</a> / Point cloud classification</p>
+    <p class="dp-kicker">GIS and data processing</p>
+    <h1>Point cloud classification explained: LAS classes, ground filtering and QC</h1>
+    <p class="dp-lede">What classifying a LiDAR or photogrammetric point cloud means, the standard ASPRS LAS class codes, how ground filters work and where they fail, how to check the result, and what to put in the scope when you outsource it.</p>
+  </div>
+</section>
+<section class="dp-body">
+  <div class="dp-wrap">
+    <article class="dp-prose">
+      <p class="dp-meta">By the DATA PKT survey and GIS engineering team · Published 25 November 2026 · 10 min read</p>
+      <div class="dp-summary"><p><strong>Short answer:</strong> point cloud classification gives every point a code that says what it hit: ground, vegetation, building, water, wire, noise and so on. The codes come from the ASPRS LAS 1.4 specification, so any GIS or CAD package reads them the same way. The step that matters most is ground classification, because the terrain model, contours and every earthwork quantity are built from it. Automatic ground filters do most of the work, then an operator fixes the places they get wrong: low scrub, steep cuttings, bridges and water. Ask for the class list, density, accuracy, tiling and coordinate system in writing, and for a QC report that proves them.</p></div>
+      <div class="dp-facts">
+        <div class="dp-fact"><b>Class 2</b><span>ground: the class the terrain model is built from<sup><a href="#src-1">[1]</a></sup><sup><a href="#src-2">[2]</a></sup></span></div>
+        <div class="dp-fact"><b>9 classes</b><span>in the USGS minimum classification scheme<sup><a href="#src-6">[6]</a></sup></span></div>
+        <div class="dp-fact"><b>≥30</b><span>checkpoints for an accuracy test under ASPRS Edition 2<sup><a href="#src-7">[7]</a></sup></span></div>
+        <div class="dp-fact"><b>64–255</b><span>class codes left free for project-defined classes<sup><a href="#src-2">[2]</a></sup></span></div>
+      </div>
+
+      <h2 id="what">What point cloud classification is</h2>
+      <p>A drone LiDAR flight, or a photogrammetry job, produces millions of 3D points. On their own they are just coordinates. Classification sorts them into the things they represent, by writing a number into the classification field of each point in the LAS file. Software can then show only ground for a bare-earth DTM, or pull out conductors to check clearances.</p>
+      <p>Classification is usually done in two passes. Automatic routines label most points by geometry (height above a local surface, slope, number of returns) and, for photogrammetric clouds, colour. An operator then checks profiles and 3D views and fixes what the routines got wrong. That second pass decides the quality of everything built afterwards.</p>
+      <figure class="dp-figure dp-lvp-fig" style="max-width:900px;margin:32px auto 0"><div class="dp-figscroll"><img src="/src/images/diagrams/lidar-processing-chain.svg" alt="Flow diagram. Laser returns and the GNSS/IMU trajectory go through trajectory processing, boresight and strip adjustment, then classification into ground, vegetation, buildings and wires, then DTM and DSM, then deliverables. An inset shows one laser pulse returning from the canopy top, a branch, the lower canopy and the ground." width="900" height="740" loading="lazy" decoding="async" style="min-width:600px;background:#fff"></div><figcaption>Figure 1. Where classification sits in the LiDAR chain. Strips must fit together before points are classified, and the DTM, DSM and contours are only as good as the classes they are built from.</figcaption></figure>
+
+      <h2 id="classes">The standard ASPRS LAS classes</h2>
+      <p>The LAS format is published by ASPRS; the current edition is LAS 1.4, revision R15 (July 2019)<sup><a href="#src-1">[1]</a></sup>. It fixes what each class number means. The standard codes for the LAS 1.4 point formats used for new work are<sup><a href="#src-1">[1]</a></sup><sup><a href="#src-2">[2]</a></sup>.</p>
+      <div class="dp-tscroll" tabindex="0" role="region" aria-label="ASPRS LAS 1.4 classification codes"><table class="dp-lvp-table"><thead><tr><th scope="col">Code</th><th scope="col">Class</th><th scope="col">Typical use</th></tr></thead><tbody>
+        <tr><th scope="row">0</th><td>Created, never classified</td><td>Raw points straight from processing; none should remain in a delivered file</td></tr>
+        <tr><th scope="row">1</th><td>Unassigned (processed, but unclassified)</td><td>Points checked but not in any class the project needs</td></tr>
+        <tr><th scope="row">2</th><td>Ground</td><td>Bare-earth DTM, contours, cross-sections, earthwork volumes</td></tr>
+        <tr><th scope="row">3</th><td>Low vegetation</td><td>Grass and crops; often merged with medium vegetation</td></tr>
+        <tr><th scope="row">4</th><td>Medium vegetation</td><td>Shrubs and scrub</td></tr>
+        <tr><th scope="row">5</th><td>High vegetation</td><td>Trees: canopy height, tree felling counts, clearance studies</td></tr>
+        <tr><th scope="row">6</th><td>Building</td><td>Roof outlines, encroachment and property mapping</td></tr>
+        <tr><th scope="row">7</th><td>Low point (low noise)</td><td>Points below the ground surface, such as multipath echoes</td></tr>
+        <tr><th scope="row">8</th><td>Reserved (model key-point in earlier versions)</td><td>Use the key-point flag instead</td></tr>
+        <tr><th scope="row">9</th><td>Water</td><td>Rivers, ponds and canals; hydro-flattening of the DTM</td></tr>
+        <tr><th scope="row">10</th><td>Rail</td><td>Railway track and rail-head levels</td></tr>
+        <tr><th scope="row">11</th><td>Road surface</td><td>Carriageway models for highway design and resurfacing</td></tr>
+        <tr><th scope="row">12</th><td>Reserved (overlap in earlier versions)</td><td>Use the overlap flag instead</td></tr>
+        <tr><th scope="row">13</th><td>Wire, guard (shield)</td><td>Earth wire on transmission lines</td></tr>
+        <tr><th scope="row">14</th><td>Wire, conductor (phase)</td><td>Conductor sag and clearance checks</td></tr>
+        <tr><th scope="row">15</th><td>Transmission tower</td><td>Tower positions and heights</td></tr>
+        <tr><th scope="row">16</th><td>Wire-structure connector (insulator)</td><td>Attachment points for line modelling</td></tr>
+        <tr><th scope="row">17</th><td>Bridge deck</td><td>Keeps decks out of the ground surface</td></tr>
+        <tr><th scope="row">18</th><td>High noise</td><td>Birds, dust and other points far above the surface</td></tr>
+        <tr><th scope="row">19</th><td>Overhead structure</td><td>Conveyors and similar overhead machinery, for example on mine sites; added in revision R14<sup><a href="#src-3">[3]</a></sup><sup><a href="#src-4">[4]</a></sup></td></tr>
+        <tr><th scope="row">20</th><td>Ignored ground</td><td>Ground points set aside, typically close to breaklines</td></tr>
+        <tr><th scope="row">21</th><td>Snow</td><td>Snow cover, where present and identifiable</td></tr>
+        <tr><th scope="row">22</th><td>Temporal exclusion</td><td>Data superseded by a later capture, for example in tidal zones</td></tr>
+        <tr><th scope="row">23–63</th><td>Reserved</td><td>Kept by ASPRS for future classes</td></tr>
+        <tr><th scope="row">64–255</th><td>User-definable</td><td>Project classes such as poles, signboards, OHE masts or kerbs</td></tr>
+      </tbody></table></div>
+      <p>Alongside the class number, LAS 1.4 carries four flags that can be set on any point: <strong>synthetic</strong> (not from the laser, for example digitised from a stereo model), <strong>key-point</strong> (keep when thinning), <strong>withheld</strong> (keep in the file but leave out of processing) and <strong>overlap</strong> (lies in the overlap between flight strips)<sup><a href="#src-2">[2]</a></sup>. That is why codes 8 and 12 are no longer used. Some software still lists 19 as reserved, so check your tools before agreeing a class list.</p>
+
+      <h2 id="ground">How ground filtering works</h2>
+      <p>Ground filtering decides which points are the bare earth. Three families of methods are in common use:</p>
+      <ul>
+        <li><strong>Progressive TIN densification.</strong> The method described by Axelsson and used in TerraScan: the area is divided into a grid, the lowest point in each cell is taken as ground, and those points are triangulated into a first surface. Further points are added if they are close enough to the surface and do not change its angle too much, and the TIN is rebuilt after each pass<sup><a href="#src-11">[11]</a></sup>. In the ISPRS comparison of filters, Axelsson's filter did well on steep slopes<sup><a href="#src-10">[10]</a></sup>.</li>
+        <li><strong>Morphological filters.</strong> The Simple Morphological Filter (SMRF) of Pingel, Clarke and McBride takes the lowest point in each grid cell, then applies a morphological opening with a window that grows each pass. Cells that drop by more than a height threshold are marked as objects. A slope term relaxes the threshold on steep ground<sup><a href="#src-13">[13]</a></sup>.</li>
+        <li><strong>Cloth simulation (CSF).</strong> Zhang and colleagues turn the point cloud upside down and let a simulated cloth settle onto it. Where the cloth rests is taken as the ground surface, and points within a set distance of it are classed as ground. The user sets only a few values: cloth resolution, rigidness and an option for steep slopes<sup><a href="#src-12">[12]</a></sup>.</li>
+      </ul>
+      <p>No single setting suits a whole project: flat farmland, a hill road and a dense town need different parameters, so large jobs are filtered zone by zone.</p>
+
+      <h2 id="failures">Where ground filters go wrong</h2>
+      <p>The ISPRS filter test found the same problem areas across the algorithms it compared<sup><a href="#src-10">[10]</a></sup>. Look there first:</p>
+      <ul>
+        <li><strong>Low vegetation.</strong> Grass, crops and scrub are hard to separate from the ground, especially on slopes. Left in class 2, they lift the DTM.</li>
+        <li><strong>Steep slopes and sharp breaks.</strong> Embankment shoulders, cutting crests, river banks and retaining walls look like objects to a filter, so the edges get shaved off<sup><a href="#src-10">[10]</a></sup>. The cloth filter can also give larger errors on steep slopes, which its optional slope post-processing is meant to reduce<sup><a href="#src-12">[12]</a></sup>. On a <a href="/landslide-slope-stability.html">slope stability</a> study, a shaved crest changes the geometry the analysis depends on.</li>
+        <li><strong>Bridges and ramps.</strong> Filters remove bridges completely, partly or not at all, and in the ISPRS test every filter removed ramps<sup><a href="#src-10">[10]</a></sup>. The cloth filter cannot tell objects joined to the ground, such as bridges, from the ground itself<sup><a href="#src-12">[12]</a></sup>. Decks belong in class 17, with the ground surface running beneath them.</li>
+        <li><strong>Water.</strong> Water surfaces return few, scattered points, and some of them are noise. Water is usually classified using breaklines drawn along the banks, and ground points too close to them can go to class 20<sup><a href="#src-5">[5]</a></sup><sup><a href="#src-6">[6]</a></sup>.</li>
+        <li><strong>Low noise.</strong> One point far below the surface can pull the surface down and cause nearby real ground to be rejected<sup><a href="#src-10">[10]</a></sup>. Noise filtering into classes 7 and 18 comes before ground filtering.</li>
+        <li><strong>Complex built-up areas.</strong> Courtyards, stepped buildings and multi-level structures remain difficult for every filter<sup><a href="#src-10">[10]</a></sup>.</li>
+      </ul>
+
+      <h2 id="photogrammetry">Photogrammetric vs LiDAR point clouds</h2>
+      <p>The LAS classes are the same for both, but the clouds differ. A LiDAR pulse can return several echoes, so points under trees often reach the ground, and return number and intensity help classification. A photogrammetric cloud has one surface only: what the camera saw. Under canopy there is no ground to classify, and no filter can recover it. Its true colour does help separate grass from bare soil or roads from verges.</p>
+      <p>Image matching also adds noise on water and plain surfaces and blurs sharp edges. A photogrammetric DTM is reliable on open ground and doubtful under vegetation. Our guide to <a href="/insights/lidar-vs-photogrammetry.html">LiDAR vs photogrammetry</a> gives the field-test figures.</p>
+
+      <h2 id="qc">Quality control: how to check a classified cloud</h2>
+      <p>A classified cloud should come with evidence that it is right. Four checks cover most of it:</p>
+      <ol>
+        <li><strong>Visual checks.</strong> View the cloud coloured by class, and a hillshade of the ground-only DTM. Pits, spikes and buildings left as bumps show up at once.</li>
+        <li><strong>Profiles.</strong> Cut cross-sections at intervals and wherever the terrain changes: embankments, drains, bridge approaches, cuttings. They show vegetation left in ground, or ground lost at a slope edge.</li>
+        <li><strong>Checkpoints.</strong> Compare the DTM with independent surveyed points that were not used in processing. Under ASPRS Positional Accuracy Standards, Edition 2, an accuracy test needs at least 30 checkpoints, up to 120 on large projects. Accuracy is reported as RMSE; the non-vegetated vertical accuracy must meet the specification, and the vegetated accuracy is reported<sup><a href="#src-7">[7]</a></sup>.</li>
+        <li><strong>Class accuracy.</strong> The USGS Lidar Base Specification requires every point in its minimum scheme to be properly classified, no points left in class 0 unless they are withheld, and classification that is consistent across the project. Noticeable variation between tiles, swaths or lifts can be cause to reject the whole delivery<sup><a href="#src-5">[5]</a></sup>.</li>
+      </ol>
+      <p>First, the flight strips must fit. The same specification checks overlap between swaths: differences up to 8 cm in localised areas are acceptable, while differences over 16 cm that follow the flight lines are not<sup><a href="#src-5">[5]</a></sup>.</p>
+
+      <h2 id="deliverables">Deliverables</h2>
+      <ul>
+        <li><strong>Classified point cloud in LAS 1.4.</strong> The USGS specification asks for LAS 1.4-R15 using point data record formats 6 to 10<sup><a href="#src-5">[5]</a></sup>.</li>
+        <li><strong>LAZ.</strong> A lossless compressed version of LAS that keeps the LAS structure, now an OGC community standard<sup><a href="#src-9">[9]</a></sup>. USGS has moved its own point cloud deliveries to LAZ 1.4<sup><a href="#src-8">[8]</a></sup>.</li>
+        <li><strong>DTM and DSM</strong> as GeoTIFF rasters: the DTM from ground, the DSM from the highest surface.</li>
+        <li><strong>Contours</strong> in DWG, DXF or SHP at the interval the drawings need.</li>
+        <li><strong>A QC report:</strong> class list, checkpoint RMSE, swath overlap checks and known problem areas.</li>
+      </ul>
+      <p>See <a href="/insights/drone-survey-deliverables-explained.html">drone survey deliverables explained</a> for what each output is for, and the <a href="/insights/drone-survey-glossary.html">drone survey glossary</a> for terms such as DTM, DSM, RMSE and LAS.</p>
+
+      <h2 id="specify">What to specify when you outsource classification</h2>
+      <p>A scope that only says "classified point cloud" invites disputes. Put these in writing:</p>
+      <div class="dp-tscroll" tabindex="0" role="region" aria-label="What to specify"><table class="dp-lvp-table"><thead><tr><th scope="col">Item</th><th scope="col">What to state</th></tr></thead><tbody>
+        <tr><th scope="row">Classes needed</th><td>The exact codes, for example 1, 2, 3–5, 6, 7, 9, 17 and 18, plus any project classes from 64 upwards (poles, kerbs, OHE masts). Say which classes are checked for accuracy. USGS lists nine classes as its minimum<sup><a href="#src-6">[6]</a></sup>.</td></tr>
+        <tr><th scope="row">Density</th><td>Minimum pulse or point density. For reference, USGS QL1 needs at least 8 pulses/m² and QL2 at least 2<sup><a href="#src-6">[6]</a></sup>; drone LiDAR is usually much denser.</td></tr>
+        <tr><th scope="row">Accuracy</th><td>The vertical RMSE target on open ground, how vegetated areas are reported, and who surveys the checkpoints<sup><a href="#src-7">[7]</a></sup>.</td></tr>
+        <tr><th scope="row">Tiles</th><td>One non-overlapping tile scheme agreed before work starts, in the same CRS as the data, with tiles that edge-match without gaps<sup><a href="#src-5">[5]</a></sup>. Give tile size and naming.</td></tr>
+        <tr><th scope="row">CRS and datum</th><td>Horizontal coordinate system and zone, vertical datum or geoid model, and units. In India this is often WGS 84 / UTM with heights tied to the project benchmarks.</td></tr>
+        <tr><th scope="row">Formats and QC</th><td>LAS or LAZ version and point format, raster cell size, contour interval, CAD layer names, and the QC report contents listed above.</td></tr>
+      </tbody></table></div>
+
+      <h2 id="datapkt">How we handle classification at DATA PKT</h2>
+      <p>Point cloud classification is done by our in-house GIS team in Gurugram, on our own LiDAR and photogrammetry surveys and on data that survey and engineering firms send us. When we fly the site ourselves, our surveyors measure the ground control and checkpoints with DGPS, and the classified cloud is checked against them. Firms outside India can also send us their data for remote processing. See our <a href="/gis-mapping-services.html">GIS mapping and data processing</a> and <a href="/lidar-survey.html">LiDAR survey</a> services, or send us a sample tile with your class list for a scope.</p>
+
+      <h2 id="sources">Sources</h2>
+      <ol class="dp-sources"><li id="src-1">ASPRS, LAS Specification 1.4 – R15, 9 July 2019. <a href="https://www.asprs.org/wp-content/uploads/2019/07/LAS_1_4_r15.pdf" rel="noopener" target="_blank">www.asprs.org</a></li><li id="src-2">Esri, ArcGIS Pro documentation: Storing lidar data (LAS classification codes and flags). <a href="https://doc.esri.com/en/arcgis-pro/latest/help/data/las-dataset/storing-lidar-data.html" rel="noopener" target="_blank">doc.esri.com</a></li><li id="src-3">LIDAR Magazine, LAS: What's on the horizon, November 2020 (R14 added four standard classes; R15 errata). <a href="https://lidarmag.com/2020/11/01/las-whats-on-the-horizon/" rel="noopener" target="_blank">lidarmag.com</a></li><li id="src-4">ASPRS LAS Working Group, issue 11: proposed classes 19–22, milestone LAS 1.4 R14. <a href="https://github.com/asprsorg/las/issues/11" rel="noopener" target="_blank">github.com</a></li><li id="src-5">USGS, Lidar Base Specification 2025 rev. A: data processing and handling requirements. <a href="https://www.usgs.gov/core-science-systems/ngp/ss/lidar-base-specification-data-processing-and-handling-requirements" rel="noopener" target="_blank">www.usgs.gov</a></li><li id="src-6">USGS, Lidar Base Specification tables (quality levels, minimum classification scheme). <a href="https://www.usgs.gov/ngp-standards-and-specifications/lidar-base-specification-tables" rel="noopener" target="_blank">www.usgs.gov</a></li><li id="src-7">ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 2, as adopted by USGS. <a href="https://www.usgs.gov/ngp-standards-and-specifications/adopt-updated-accuracy-standards" rel="noopener" target="_blank">www.usgs.gov</a></li><li id="src-8">USGS, Point cloud delivery in LAZ format. <a href="https://www.usgs.gov/ngp-standards-and-specifications/point-cloud-delivery-laz-format" rel="noopener" target="_blank">www.usgs.gov</a></li><li id="src-9">OGC, LAZ 1.4 Community Standard announcement, 2026. <a href="https://www.ogc.org/announcement/ogc-announces-publication-of-the-laz-1-4-community-standard/" rel="noopener" target="_blank">www.ogc.org</a></li><li id="src-10">Sithole and Vosselman, Comparison of filtering algorithms, ISPRS WG III/3 workshop, 2003. <a href="https://www.isprs.org/proceedings/XXXIV/3-W13/papers/Sithole_ALSDD2003.pdf" rel="noopener" target="_blank">www.isprs.org</a></li><li id="src-11">Elmqvist, Ground surface estimation from airborne laser scanner data using active shape models, ISPRS Archives XXXIV-3A (describes Axelsson's TIN densification in TerraScan). <a href="https://www.isprs.org/proceedings/XXXIV/part3/papers/paper078.pdf" rel="noopener" target="_blank">www.isprs.org</a></li><li id="src-12">Zhang et al., An easy-to-use airborne LiDAR data filtering method based on cloth simulation, Remote Sensing 8(6):501, 2016. <a href="https://www.mdpi.com/2072-4292/8/6/501/htm" rel="noopener" target="_blank">www.mdpi.com</a></li><li id="src-13">Pingel, Clarke and McBride, An improved simple morphological filter for the terrain classification of airborne LIDAR data, ISPRS J. Photogramm. Remote Sens. 77:21–30, 2013, as implemented in MathWorks segmentGroundSMRF. <a href="https://www.mathworks.com/help/lidar/ref/segmentgroundsmrf.html" rel="noopener" target="_blank">www.mathworks.com</a></li></ol>
+      <p class="dp-meta">Standards are quoted as published; check the edition your contract names. Software names are given only to identify the methods described.</p>
+    </article>
+    <div class="dp-cta"><p>Send us a sample tile, your class list and the outputs you need. We reply with a scope and quote.</p><div><a class="dp-btn" href="/contact.html">Send an enquiry</a> <a class="dp-btn ghost" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20a%20quote%20for%20a%20survey." target="_blank" rel="noopener">WhatsApp +91 8448559100</a></div></div>
+  </div>
+</section>
+    <section class="dp-faq" id="faq" aria-labelledby="faq-title">
+      <div class="dp-wrap">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <details><summary>What are the ASPRS LAS classes?</summary><p>They are the standard class codes in the ASPRS LAS 1.4 specification: 0 created, never classified; 1 unassigned; 2 ground; 3, 4 and 5 low, medium and high vegetation; 6 building; 7 low noise; 9 water; 10 rail; 11 road surface; 13 to 16 wires, towers and insulators; 17 bridge deck; 18 high noise; 19 overhead structure; 20 ignored ground; 21 snow; and 22 temporal exclusion. Codes 64 to 255 are free for project-defined classes.</p></details>
+        <details><summary>What is ground classification in LiDAR?</summary><p>It is the step that decides which points are the bare earth and puts them in class 2. Automatic filters such as progressive TIN densification, morphological filters and cloth simulation do most of it, and an operator then corrects the errors in profiles. The DTM, contours and earthwork quantities are all built from the ground class.</p></details>
+        <details><summary>Can a photogrammetric point cloud be classified like LiDAR?</summary><p>Yes, with the same LAS classes, and its true colour helps. But a photogrammetric cloud only has the surface the camera saw, so under trees and dense scrub there are no ground points to classify. Its terrain model is reliable on open ground and doubtful under vegetation.</p></details>
+        <details><summary>How do you check the quality of a classified point cloud?</summary><p>View it coloured by class and as a hillshade of the ground surface, cut profiles across embankments, drains, bridges and cuttings, and test the terrain model against independent checkpoints. ASPRS Edition 2 calls for at least 30 checkpoints and reports accuracy as RMSE. Classification should be consistent across all tiles.</p></details>
+        <details><summary>What should I specify when outsourcing point cloud classification?</summary><p>The exact class codes you need and which are checked for accuracy, the minimum point density, the vertical accuracy target and checkpoints, a non-overlapping tile scheme, the coordinate system and vertical datum, the output formats such as LAS 1.4 or LAZ, DTM, DSM and contours, and the contents of the QC report.</p></details>
+      <div class="dp-related"><h3>Related</h3><div class="dp-chips"><a href="/gis-mapping-services.html">GIS mapping and data processing</a><a href="/lidar-survey.html">LiDAR Survey</a><a href="/insights/lidar-vs-photogrammetry.html">LiDAR vs photogrammetry</a><a href="/insights/drone-survey-deliverables-explained.html">Drone survey deliverables</a><a href="/insights/drone-survey-glossary.html">Drone survey glossary</a></div></div>
+      </div>
+    </section>
+
+</main>
+
+    <!-- Footer -->
+    <div class="footer" style="margin-top: 50px;">
+            <p class="fL">
+                <label><a aria-label="DATA PKT home" href="/" class="logowhite"></a></label>
+                <span>&copy; 2026</span>
+            </p>
+            <div class="ftrtop">
+                <span>DATAPKT Infra &amp; Geomatics</span>
+                <span>434, 4th Floor, JMD Megapolis, Sohna Road</span>
+                <span>Sector 48, Gurugram 122018</span>
+                <a href="tel:+918448559100" class="twhite">PH : +91 8448559100</a>
+                     <label><a href="mailto:consult@datapkt.com"> CONSULT@DATAPKT.COM</a></label>
+            </div>
+            <nav class="dp-footer-links" aria-label="Footer">
+                <a href="/about.html">About</a><a href="/case-studies/">Case studies</a><a href="/insights/">Insights</a><a href="/engineering-scale-planning.html">ESP &amp; DPR</a><a href="/highways-and-roadways.html">Highways</a><a href="/railways-and-metro.html">Railways</a><a href="/energy.html">Power &amp; Solar</a><a href="/gis-mapping-services.html">GIS services</a><a href="/where-we-work.html">Where we work</a><a href="/drone-survey-cost.html">Survey cost</a><a href="/tools/gsd-calculator.html">GSD calculator</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://www.linkedin.com/company/datapkt-infra-geomatics/" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.instagram.com/data.pkt/" rel="noopener" target="_blank">Instagram</a>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    <!-- Footer -->
+
+
+
+<a class="dp-wa" href="https://wa.me/918448559100?text=Hello%20DATA%20PKT%2C%20I%27d%20like%20to%20discuss%20a%20survey%20project." target="_blank" rel="noopener" aria-label="Chat with DATA PKT on WhatsApp" title="Chat on WhatsApp: +91 84485 59100" onclick="if(window.gtag){gtag('event','whatsapp_click',{page_path:location.pathname})}"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.36 4 14.97c0 2.11.56 4.17 1.62 5.99L4 29l8.24-1.6a12.1 12.1 0 0 0 3.8.6C22.68 28 28 22.64 28 16.03 28 9.42 22.68 3 16.04 3zm0 22.9c-1.2 0-2.38-.2-3.5-.6l-.25-.09-4.9.95.98-4.75-.17-.27a9.82 9.82 0 0 1-1.52-5.17c0-5.46 4.45-9.9 9.92-9.9 5.46 0 9.9 4.44 9.9 9.9 0 5.48-4.44 9.93-9.9 9.93zm5.44-7.42c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.47 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg></a>
+
+<div class="dp-cookie" id="dp-cookie" role="region" aria-label="Cookie notice" hidden>
+  <p>We use cookies to see which pages help visitors, so we can improve the site. No advertising cookies. <a href="/privacy.html">Privacy</a></p>
+  <div class="dp-cookie-btns"><button type="button" data-c="no">Decline</button><button type="button" data-c="yes" class="dp-cookie-ok">Accept</button></div>
+</div>
+<script>(function(){var K='dp_consent',CL='',b=document.getElementById('dp-cookie'),v=null;try{v=localStorage.getItem(K)}catch(e){}
+function clarity(){if(!CL||window.clarity)return;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",CL);window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'})}
+if(v==='yes')clarity();else if(!v&&b)b.hidden=false;
+if(b)b.addEventListener('click',function(e){var c=e.target.getAttribute('data-c');if(!c)return;try{localStorage.setItem(K,c)}catch(x){}
+if(window.gtag)gtag('consent','update',{analytics_storage:c==='yes'?'granted':'denied'});if(c==='yes')clarity();b.hidden=true});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"],a[href^="mailto:"]');if(!a||!window.gtag)return;
+gtag('event',a.href.indexOf('tel:')===0?'phone_click':'email_click',{page_path:location.pathname})});})();</script>
+</body>
+
+
+
+
+
+</html>
