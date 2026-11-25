@@ -611,6 +611,7 @@ An Engineering Scale Plan (ESP) is the railway's master drawing of a station yar
 - Levels: spot levels and contours for drainage, formation and earthwork
 
 ### Where railways use ESPs and drone surveys
+Railways use ESPs and drone surveys for yard remodelling and new loop lines, doubling and third and fourth lines, station redevelopment, cargo terminals and sidings, ROB, RUB and level-crossing works, yard drainage plans, and land plans and encroachments. The ESP is the base on which these works are planned, checked and approved.
 Work | What the survey provides
 Yard remodelling and new loop lines | The yard as it stands today, so new layouts fit the space, the structures and the levels
 Doubling, third and fourth lines | A continuous strip survey of the section, with land, structures and crossings along both sides
@@ -621,6 +622,7 @@ Yard drainage plans | Ground levels and slopes, existing drains and outfalls, an
 Land plans and encroachments | The railway boundary laid over the orthomosaic, showing what stands on railway land
 
 ### How we prepare an ESP
+We fix the scope with the railway, clear the flights, set DGPS ground control tied to the railway's reference benchmarks, fly the yard and process the images into an orthomosaic and terrain model. Ground survey adds rail levels and details the drone cannot see; the plan is drafted in CAD, verified on site with railway staff, corrected and submitted.
 - Scope and permissions: the yard limits, the chainage and the drawing standard are fixed with the railway, and flights are cleared with the station and the airspace authority.
 - DGPS control: ground control points and checkpoints are set around the yard and tied to the railway's reference benchmarks.
 - Drone flights: the yard is captured with overlapping images, and with LiDAR where trees or structures hide the ground.
@@ -649,6 +651,7 @@ A Detailed Project Report is only as good as the survey under it. For railway an
 - Quantities: earthwork and other quantities measured from the survey data
 
 ### Why drones for railway yards
+Drones capture the yard from the air, so the survey team spends far less time on or beside running lines, and flights do not need the line. One drone team captures around 5 sq km in a day, so a yard is flown in hours, and the orthomosaic and terrain model stay on file for later questions.
 - Safety: the yard is captured from the air, so the survey team spends far less time on or beside running lines.
 - Speed: one drone team captures around 5 sq km of survey data in a day, so a yard is flown in hours rather than surveyed over weeks.
 - Little disturbance to traffic: flights do not need the line, and the ground work left is short and planned with the station.
@@ -863,11 +866,13 @@ Raptor Maps' 2025 report found that issues classed as high priority were respons
 The International Energy Agency's PV Power Systems programme (IEA PVPS) Task 13 review of module failures notes that a defective bypass diode or cell interconnect ribbon may possibly lead to a fire, and that hot spots can reach temperature differences of multiples of 10 K above the normal parts of the module. It lists junction box failure among the most common failures seen in the field. Task 13's later review of infrared and electroluminescence imaging adds that hot spots with strong local heat gradients can significantly affect module performance and, in extreme cases, lead to smouldering fires.
 
 #### Why a drone rather than a handheld camera
-Handheld thermography works, but on a plant with tens of thousands of modules a person on foot has to walk every row and hold the camera at a usable angle to each module. A drone views the plant from above, within the viewing angles IEC TS 62446-3 allows, and records a radiometric image of every module in one consistent set that can be compared with the next survey. The IEA PVPS review describes aerial infrared thermography as a cost-effective and much less time-consuming option for fault diagnosis. For a side-by-side comparison of time, cost and what each method finds, see drone vs manual solar panel inspection.
+A drone views the plant from above, within the viewing angles IEC TS 62446-3 allows, and records a radiometric image of every module in one consistent set that can be compared with the next survey. With a handheld camera, a person on foot has to walk every row and hold the camera at a usable angle to each module.
+Handheld thermography works, but a plant can have tens of thousands of modules. The IEA PVPS review describes aerial infrared thermography as a cost-effective and much less time-consuming option for fault diagnosis. For a side-by-side comparison of time, cost and what each method finds, see drone vs manual solar panel inspection.
 Reporting and Recommendations
 Each report lists every defect with its class and its position on the plant layout, with the thermal and visual images and the temperature difference to healthy modules, and a summary by block or inverter so repairs can be planned. See what a solar thermography report should include.
 
 ### When to inspect
+Inspect a solar plant at commissioning or handover, in routine O&M cycles, after storms or a drop in performance, and before a warranty claim. The survey records the condition of every module, tracks changes over time, finds new faults, checks that earlier repairs worked and documents each defect for a warranty claim.
 - At commissioning or handover, to record the condition of every module before the plant changes hands or the warranty period runs on.
 - In routine O&M cycles, to track changes over time, find new faults and check that earlier repairs worked.
 - After storms or a drop in performance, when hail, wind or an unexplained fall in yield points to damage that needs locating.
@@ -907,6 +912,7 @@ Junction box or connector | A small, very hot point at the junction box or cable
 A drone thermal survey is a screening method for faults that make heat. It is one part of a plant's testing and maintenance regime, not the whole of it. The lists below describe general industry practice, not the scope of any one contract.
 
 #### What a thermal flight covers
+A thermal flight screens every module in the area flown for faults that make heat: hot cells and hotspots, strings that are not exporting, active or failed bypass diodes, overheating junction boxes and connectors, and soiling and shading. The RGB image taken with each thermal image shows broken glass, frame damage, debris and vegetation at the same position.
 - Modules. Hot cells and hotspots, broken glass once it causes heating, and the patchwork heating typical of potential-induced degradation (PID), on every module in the area flown.
 - Strings. Whole strings that are not exporting, which run warmer than the strings beside them and usually point to a blown fuse or an open connector at the combiner box.
 - Bypass diodes. A substring, typically one third of the module, running evenly warmer than the rest when its diode is active or has failed.
@@ -1134,10 +1140,9 @@ Ground control points (GCPs) are marked points on the ground with surveyed coord
 Any feature that is clearly visible in the photos can serve as a GCP. Most are checkerboard-style targets, because the pattern leaves no doubt about the exact centre of the point.
 
 #### Is it always necessary to use GCP?
+Not always. If the drone does not have RTK or PPK, we always use GCPs. With an RTK or PPK drone, GCPs add little to accuracy but still serve as independent accuracy checks. Without GCPs a survey can still give a usable model, but it may lack correct scale, orientation or absolute position.
 GCPs have long been standard in aerial mapping, though RTK and PPK drones are changing how many are needed.
-With an RTK or PPK drone, GCPs add little to accuracy but still serve as independent accuracy checks.
-If the drone does not have RTK or PPK, we always use GCPs.
-A survey without GCPs can still give a usable model, but it may lack correct scale, orientation or absolute position. GCPs and RTK or PPK geotags allow the result to be checked for accuracy.
+GCPs and RTK or PPK geotags allow the result to be checked for accuracy.
 
 #### The difference between GCP, Automatic and Manual tie points
 GCP coordinates are fixed on the ground with instruments such as DGPS and total stations.
@@ -1799,6 +1804,7 @@ Yes. Repeated multispectral flights give consistent, measurable data on plots ov
 
 === https://datapkt.com/oil-and-gases.html ===
 ## Drone Survey for Oil and Gas
+In short: we provide thermal and visual inspection of plants and pipelines, pipeline surveillance, aerial videography for change detection, aerial topographical surveys for greenfield projects, construction progress monitoring and sensor-based leakage and risk investigations, supporting upstream, midstream and downstream operations. A drone inspects the pipeline from the air while it stays in service, and flare stack checks can be done without shutting down production. Our thermal team includes a thermographer certified to ISO 9712 Level 2.
 At DATA PKT Infra & Geomatics, we specialize in providing a comprehensive range of services tailored to the needs of the oil and gas industry. Our offerings include thermal and visual plant and pipeline inspections, pipeline surveillance, drone-based aerial videography for change detection, aerial topographical surveys for greenfield projects, drone-based real-time construction progress monitoring, and sensor-based leakage and risk investigations. The oil and gas industry is divided into upstream, midstream and downstream sectors. Upstream covers exploration, drilling and production of crude oil and gas from natural reservoirs. Midstream covers transport by pipeline, tanker or barge, and storage. Downstream covers refining into petroleum products and their distribution to industrial, commercial and residential users. We support each stage of this value chain with drone surveys and thermal inspections, helping operators work safely and meet regulatory requirements.
 Upstream
 Midstream
@@ -1980,6 +1986,7 @@ Yes. Drones can carry particulate matter sensors for PM1, PM2.5 and PM10, and ga
 
 === https://datapkt.com/hyperspectral.html ===
 ## Hyperspectral and Multispectral Surveys
+In short: we fly drone hyperspectral and multispectral surveys for agriculture, forestry, environmental monitoring, mineral exploration and resource management. A multispectral camera records a few predefined bands, typically visible (RGB) and near-infrared, which is enough for vegetation indices such as NDVI; a hyperspectral sensor records many narrow, contiguous bands, giving a detailed spectral signature for each pixel. Outputs include spectral signatures, vegetation indices, mineral maps and environmental indicators, with a report and maps that set out the findings.
 Drone hyperspectral survey is an advanced method of remote sensing that employs unmanned aerial vehicles (UAVs) equipped with hyperspectral sensors. These sensors capture detailed imagery across numerous narrow spectral bands, allowing for precise data collection on the electromagnetic spectrum reflected or emitted by objects on the Earth's surface. This technology provides extensive and specific information that can be analyzed to gain insights into diverse phenomena such as vegetation health, mineral composition, and environmental changes. DATA PKT Infra & Geomatics provides drone hyperspectral surveys planned around each client's requirements, from data collection through to analysis. Our hyperspectral surveys capture imagery across many spectral bands for detailed analysis of environmental and geological features: vegetation health, mineral composition, land use patterns and change over time. The high-resolution data supports planning in agriculture, forestry, environmental monitoring and resource management.
 Planning and preparation
 Our skilled team collaborates closely with clients to grasp their precise goals and needs for the hyperspectral survey. We conduct detailed site assessments to identify the best flight routes, sensor setups, and parameters for data collection.
@@ -2056,6 +2063,7 @@ We first agree the objectives and scope with the client, then assess the site's 
 
 === https://datapkt.com/cinematography.html ===
 ## Drone Cinematography
+In short: we shoot 4K drone video and high-resolution aerial photographs across India, covering events, tourism promotion and real estate advertising, among other work. Our drone pilots plan and fly each shoot, and our video editors edit and grade the footage in-house. We also produce aerial panoramas and video tours of facilities, so businesses can show their sites and assets from above.
 DATA PKT Infra & Geomatics has a team of drone cinematographers who shoot aerial video and photographs across India. We cover events, tourism promotion and real estate advertising, among other work, using professional videography drones with high-resolution sensors. Our drone pilots plan and fly each shoot, and our video editors edit and grade the footage in-house. Alongside standard shoots, we produce aerial panoramas and video tours of facilities, so businesses can show their sites and assets from above. Clients use this footage to support sales and to make their presentations clearer. We plan every shoot around how the footage will be used in the client's marketing and promotion, and edit it to suit that purpose.
 
 ### Aerial photography
@@ -2085,6 +2093,7 @@ We fly both DJI models and custom-built drones fitted with high-resolution senso
 
 === https://datapkt.com/drone-delivery.html ===
 ## Drone Delivery
+In short: Datapkt offers drone delivery for a range of sectors, including retail, food and beverage, and healthcare, where we move essential medical supplies between healthcare facilities. We also use drones in logistics, construction, agriculture, postal services and humanitarian aid. All flying follows DGCA drone rules, and what a given flight can carry depends on the drone and the route.
 Datapkt offers drone delivery for a range of sectors. In retail, Datapkt has run local drone delivery pilot projects with e-commerce and quick-commerce companies. Local retail stores can also use our drones to offer same-day delivery to nearby customers and simplify their supply chain. In food and beverage, Datapkt delivers orders by drone from restaurants to customers' homes or pickup points, cutting delivery times. For urban grocery stores, drone transport avoids road traffic so groceries reach customers on time. In healthcare, Datapkt moves essential medical supplies between healthcare facilities quickly and securely, including in emergencies where speed is critical. We also use drones in logistics, construction, agriculture, postal services and humanitarian aid, for tasks from warehouse management and infrastructure inspection to crop monitoring and disaster relief. All flying follows DGCA drone rules.
 Retail:
 E-commerce: We have run local drone delivery pilots with e-commerce and quick-commerce companies. Our aim is to shorten delivery times so customers receive purchases at their homes or chosen delivery points sooner.
@@ -2145,6 +2154,7 @@ Yes. Drones can reach isolated locations where conventional delivery is impracti
 
 === https://datapkt.com/public-safety.html ===
 ## Drones for Public Safety
+In short: DATA PKT drones support search and rescue, firefighting, security, crowd monitoring and disaster management. They can be deployed within minutes, giving ground personnel a view from directly above the incident and covering large, steep, remote or hazardous terrain that is hard to reach on foot. We provide real-time aerial footage and data to emergency responders to support decisions and the allocation of resources.
 Drones make incident response safer and more efficient, and let teams see and manage a scene from a distance. DATA PKT drones can be deployed within minutes, giving ground personnel a view from directly above the incident and covering large, steep, remote or hazardous terrain that is hard to reach on foot.
 
 ### Uses Of Drones
@@ -2206,6 +2216,7 @@ Working closely with each client keeps our services aligned with their prioritie
 
 === https://datapkt.com/manufacturing.html ===
 ## Drones in Manufacturing
+In short: we use drones with high-resolution cameras and thermal sensors to inspect plant infrastructure, monitor machinery and find leaks and moisture ingress in roofs and industrial equipment. Drones can reach areas that are difficult or unsafe for people and inspect equipment without stopping operations. We also track raw materials, work-in-progress and finished goods from the air, and monitor emissions and pollutants.
 Drones, or unmanned aerial vehicles (UAVs), are now widely used in manufacturing. Fitted with high-resolution cameras, thermal imaging sensors and in some cases AI-based analysis, they are changing how facilities are inspected and run. Manufacturers use drones mainly to save time and cost. Drones can quickly scan hard-to-reach areas and find defects or hazards before they become major problems. They are also a safer alternative to manual inspection, which can be hazardous and slow.
 Drone in factory monitoring and maintenance:
 One of the most useful applications is factory monitoring and maintenance. Drones with high-resolution cameras and sensors can monitor machinery and detect problems early, saving maintenance time and cost and reducing downtime.
@@ -2236,6 +2247,7 @@ Drone surveillance monitors plant premises for unauthorised access, intrusions a
 
 === https://datapkt.com/wildlife.html ===
 ## Drone Wildlife Monitoring
+In short: we carry out UAV-based topographical surveys and monitoring of forests, mangroves and wetlands, covering tree counting, vegetation health mapping, encroachment analysis, biomass estimation, forest carbon stock mapping, biodiversity mapping and wildlife corridor mapping. Drones let researchers observe animal movement and behaviour across a wide area without disturbing them, and thermal imaging drones help detect forest fires early and track their spread.
 We specialise in UAV-based topographical surveys and monitoring of forests, mangroves and wetlands. Our services include tree counting, vegetation health mapping, encroachment analysis and biomass estimation, as well as forest carbon stock mapping, biodiversity mapping and wildlife corridor mapping. We choose sensors to suit each environment, from natural and urban forests to mangroves and wetlands.
 Forest Mapping
 Wildlife Monitoring
@@ -2295,6 +2307,7 @@ Yes. We choose sensors to suit each environment, from natural and urban forests 
 
 === https://datapkt.com/archaeology.html ===
 ## Drone Survey for Archaeology
+In short: we carry out drone surveys of archaeological sites with high-resolution cameras, LiDAR and thermal imaging. LiDAR produces 3D terrain maps that reveal structures and landscapes hidden by vegetation or soil, and thermal imaging picks up temperature differences that can indicate features below the surface; these anomalies mark targets for further investigation and need checking on the ground. Deliverables include orthomosaic maps, Digital Elevation Models and Digital Terrain Models, 3D models and regular surveillance reports.
 Datapkt provides drone services for archaeological work, combining drone operations and remote sensing with archaeological methods. Our team tailors each project to support research and site management, delivering precise data and views of sites that are hard to obtain from the ground.
 Aerial Surveys and Mapping
 Advanced Imaging Techniques
@@ -2408,7 +2421,8 @@ Location and permissions | Remote sites, yellow or red airspace zones needing pe
 Ground control points tie the map to real coordinates. Their number is one of the biggest cost drivers.
 
 ### Why per-acre rates mislead
-A per-acre figure hides what is being delivered. One firm's rate may cover only a processed map; another's includes DGPS control, an accuracy report and CAD drawings. Corridors also behave differently from blocks: a 20 km highway is priced by length and width, not by acres. On a solar plant, for example, a topographic survey and a solar plant drone thermography inspection are different jobs with different outputs. Compare quotes on the same GSD, the same number of control points and checkpoints, and the same list of files.
+A per-acre figure hides what is being delivered. One firm's rate may cover only a processed map; another's includes DGPS control, an accuracy report and CAD drawings. Compare quotes on the same GSD, the same number of control points and checkpoints, and the same list of files.
+Corridors also behave differently from blocks: a 20 km highway is priced by length and width, not by acres. On a solar plant, for example, a topographic survey and a solar plant drone thermography inspection are different jobs with different outputs.
 
 ### Drone survey or ground survey?
 For medium and large sites, a drone survey is usually faster and cheaper than a full ground survey, and it captures everything, not just the points a surveyor chose to measure. Ground survey still wins on very small plots and under dense tree cover, and the two are often combined. See drone survey vs DGPS and total station.
@@ -2473,6 +2487,7 @@ We deliver files that open directly in your CAD and GIS software. Our team works
 We also deliver in geodatabase, GeoPackage, KML/KMZ or DXF, in the coordinate system, projection and height datum you specify, with layer naming and attribute schemas to your template. Every job is checked against the QC rules agreed at the start.
 
 ### How a processing job works
+You hand over the raw images or point clouds, the ground control and checkpoint coordinates, the coordinate system and height datum, and the outputs you need. We process the data, check the results against the ground control and independent checkpoints, and deliver the files in the agreed formats with the checkpoint results.
 - Data handover: you share the raw images or point clouds, the ground control and checkpoint coordinates, the coordinate system and height datum, and the outputs and formats you need. When we fly the site ourselves, our surveyors measure the ground control with DGPS.
 - Processing and QC: we process the data and check the results against the ground control and independent checkpoints, along with the QC rules agreed at the start.
 - Delivery: you receive the files in the agreed formats, with the checkpoint results, ready for your drafting, design or GIS team.
@@ -2535,7 +2550,8 @@ Recent project: ~66 km road corridor in Assam
 In short: DATA PKT is a landslide and slope stability investigation company. We combine three independent data sets in one ground model: drone LiDAR for the shape of the slope, seismic refraction tomography for what lies below the surface, and geological mapping for how the soil and rock behave. A stability analysis turns that model into a factor of safety for every critical section, and we design the protection each stretch needs.
 
 ### Why slopes fail, and why one method is not enough
-Most slope failures along Indian hill roads and railways come from a few mechanisms: shallow slides in soil and weathered rock after heavy rain, erosion and scour at the toe, and rock blocks sliding or toppling along joints. Each needs different information. A terrain model shows the geometry but not what is underneath; a borehole shows one point; a geologist sees the rock face but not its depth. That is why we combine the methods below and check them against each other.
+Most slope failures along Indian hill roads and railways come from a few mechanisms: shallow slides in soil and weathered rock after heavy rain, erosion and scour at the toe, and rock blocks sliding or toppling along joints. Each needs different information; no single method supplies it all, so we combine methods and check them against each other.
+A terrain model shows the geometry but not what is underneath; a borehole shows one point; a geologist sees the rock face but not its depth. That is why we combine the methods below.
 How the three investigation streams combine into one ground model, a stability analysis and a hazard map.
 
 ### What we do
@@ -2617,11 +2633,13 @@ Recent project: 66 profiles along a road corridor in Assam
 In short: seismic refraction measures how fast sound travels through the ground. Sound moves faster in harder material, so the arrival times recorded by a line of geophones show where loose soil ends, where rock begins and where the ground is weak. Tomographic inversion turns those times into a velocity section along each profile, which engineers use to set the depth of slip surfaces, soil nails, anchors and foundations.
 
 ### How a seismic refraction survey works
-A line of 24 geophones is laid along the profile, typically 3–5 m apart. A sledgehammer is struck on a steel plate at several shot points along and beyond the line, and the seismograph records the waves at every geophone. Each shot is repeated and stacked to lift the signal above traffic and wind noise. Waves that refract along faster layers reach distant geophones first; the pattern of first-arrival times reveals each layer's depth and velocity.
+A line of 24 geophones is laid along the profile, typically 3–5 m apart. A sledgehammer is struck on a steel plate at several shot points along and beyond the line, and the seismograph records the waves at every geophone. The pattern of first-arrival times reveals each layer's depth and velocity.
+Each shot is repeated and stacked to lift the signal above traffic and wind noise. Waves that refract along faster layers reach distant geophones first.
 A seismic refraction spread: hammer source, geophone line and the refracted wave paths that reveal each layer.
 
 ### What the velocities tell you
-P-wave velocity rises as the ground gets harder and less fractured. The ranges below are typical guides only; every site is calibrated against geology and, where available, boreholes.
+P-wave velocity rises as the ground gets harder and less fractured. Velocities below about 800 m/s usually mean dry soil, fill or loose colluvium; 800–1,500 m/s compact or saturated soil or highly weathered rock; 1,500–2,500 m/s weathered or fractured rock; and above about 2,500 m/s fresh, competent rock.
+The ranges below are typical guides only; every site is calibrated against geology and, where available, boreholes.
 Seismic refraction in a two-layer model. Beyond the crossover distance, the wave refracted along the faster layer arrives first. The slopes of the travel-time plot give V₁ and V₂, and the intercept gives the depth to the interface. The method needs velocity to increase with depth.
 Typical P-wave velocity | What it usually means | Why it matters
 Below about 800 m/s | Dry soil, fill, loose colluvium | Material most likely to slide; thickness sets nail length and excavation
@@ -2764,6 +2782,7 @@ Water and recharge lines. In Mahendragarh district, part of the Haryana sub-regi
 Highways. We record monthly comparative drone video of highway packages, tied to DGPS ground control, and carry out DPR surveys.
 
 ### What to plan for in Delhi NCR
+In Delhi NCR, plan for airspace permission around Indira Gandhi International Airport, where yellow zones need air traffic control permission and red zones Central Government permission; the monsoon from around 27 June to 25 September; dense winter fog; and Stage III air quality curbs, under which railway, metro and highway projects may continue.
 Airspace. Under the Drone Rules, 2021, the ground up from 5 to 8 km of an operational airport perimeter, and the airspace above 200 feet from 8 to 12 km, is a yellow zone needing air traffic control permission; red zones need Central Government permission (PIB, 2021). This applies around Indira Gandhi International Airport, and the 2018 drone regulations named Vijay Chowk in central Delhi as a no-drone zone (PIB, 2018).
 Monsoon and fog. On India Meteorological Department normals the monsoon reaches New Delhi around 27 June and withdraws around 25 September (IMD). A study in IMD’s journal MAUSAM describes IGI airport as highly susceptible to dense fog in winter, focusing on December and January (MAUSAM).
 Air quality curbs. Under Stage III of the Commission for Air Quality Management’s (CAQM) Graded Response Action Plan, dust-generating construction such as earthwork and piling is restricted across NCR, though railway, metro and highway projects may continue (PIB, 2024).
@@ -2804,6 +2823,7 @@ Where we work
 
 ## Drone survey in Uttar Pradesh
 From highways and metro corridors to power transmission, DATA PKT surveys and maps infrastructure projects across Uttar Pradesh.
+In short: DATA PKT surveys and maps infrastructure projects across Uttar Pradesh, from highways and metro corridors to power transmission. We carry out highway DPR surveys and monthly drone monitoring, metro and railway corridor surveys, Engineering Scale Plans and yard plans, substation and transmission line survey and design, and water resources surveys and bathymetry. Every survey is tied to DGPS ground control and checked against independent checkpoints.
 Since 2020: Drone survey and GIS work across India from Gurugram
 3 NHAI zones: Empanelled for monthly drone survey work
 100+ clients: Public authorities, railways, PSUs and contractors
@@ -2830,6 +2850,7 @@ Railways. For a railway division covering parts of Uttar Pradesh and Madhya Prad
 Highways. We record monthly comparative drone video of national highway improvement projects in the state and carry out DPR surveys.
 
 ### What to plan for in Uttar Pradesh
+In Uttar Pradesh, plan around the monsoon and the flood season, which the UP State Disaster Management Authority gives as 1 June to 31 October, so flood plains and river crossings are easier to survey from November to May. On long corridors, each stretch in a yellow or red zone is cleared before the flight date.
 Monsoon and floods. On India Meteorological Department normals the monsoon reaches Varanasi around 20 June and Lucknow around 23 June, and withdraws from them around 5 October and 3 October (IMD). The UP State Disaster Management Authority’s flood atlas gives the flood season as 1 June to 31 October for the whole state, and names the Ghaghara, Sarda, Gandak and Rapti as the rivers that cause flood damage in the east (UP SDMA flood atlas). Flood plains and river crossings are easier to survey in the dry months, November to May. At substation sites, high flood level (HFL) data goes into the recommended finished ground level.
 Common projects. UPEIDA gives the lengths of the Agra–Lucknow (302 km), Purvanchal (341 km) and Bundelkhand (296 km) expressways and the Meerut–Prayagraj Ganga Expressway (594 km) (UPEIDA). In 2023, eight solar projects totalling 4,995 MW were approved for the Bundelkhand region (PV Tech); once running, plants like these are inspected with drone thermography. Transmission lines, railway yards, and rivers and canals (water resources, bathymetry) are also common survey sites.
 Drone permissions. Under the Drone Rules, 2021, the Ministry of Civil Aviation’s airspace map, published on DGCA’s Digital Sky platform, divides India into green, yellow and red zones. Green zones need no flight permission. Yellow zones, which include the ground up from 5 to 8 km of an operational airport perimeter and the airspace above 200 feet from 8 to 12 km, need air traffic control permission. Red zones need Central Government permission (PIB). We check each site on the map, and on long corridors each stretch in a yellow or red zone is cleared before the flight date.
@@ -2866,6 +2887,7 @@ Where we work
 
 ## Drone survey in Maharashtra and Mumbai
 Railway work is the core of our projects in Maharashtra: surveys, Engineering Scale Plans and yard plans for Mumbai's suburban network and the lines beyond it.
+In short: railway work is the core of our projects in Maharashtra: surveys, Engineering Scale Plans and yard plans for Mumbai's suburban network and the lines beyond it. A drone captures a whole yard or section in one window, which cuts the time staff spend on or beside running lines, and drone LiDAR is used where slopes and vegetation hide the ground. Base surveys suit October to May.
 Since 2020: Drone survey and GIS work across India from Gurugram
 3 NHAI zones: Empanelled for monthly drone survey work
 100+ clients: Public authorities, railways, PSUs and contractors
@@ -2886,6 +2908,7 @@ Busy suburban lines leave short windows for work near the track. A drone capture
 Every survey is tied to DGPS ground control and checked against independent checkpoints, and delivered as drawings, GIS layers and reports in your coordinate system. Read what each deliverable is and what decides the cost.
 
 ### What to plan for in Maharashtra
+In Maharashtra, plan around the monsoon: it reaches Mumbai around 11 June and withdraws around 8 October, so base surveys suit October to May; slopes and drains are flown before and after the rains. Ghat and coastal sections under tree cover are surveyed with drone LiDAR, and railway sites need the division’s permission and a block or flying slot.
 Monsoon. On India Meteorological Department normals the monsoon reaches Mumbai around 11 June and withdraws around 8 October; for Pune the dates are around 10 June and 11 October, and for Nagpur around 15 June and 6 October (IMD). Cloud and rain on the coast and the ghats cut flying days in those months, so base surveys suit October to May. Slopes and drains are the exception: fly them before and after the rains so the change can be measured.
 Terrain. The state runs from the Mumbai region and the Konkan coast, over the Western Ghats, to the Deccan plateau. The Geological Survey of India maps about 29,000 sq km of Maharashtra as landslide-prone (Ministry of Earth Sciences, 2025). On ghat and coastal sections, tree cover and steep cuttings hide the ground from a camera, which is where drone LiDAR is used.
 Common projects. Suburban and mainline railway yards and corridors; metro corridors; the Samruddhi Mahamarg (Nagpur–Mumbai) expressway (Deccan Herald); and the Mumbai–Ahmedabad high-speed rail line, which includes a 21 km tunnel between Bandra-Kurla Complex and Shilphata (NHSRCL).
@@ -2921,6 +2944,7 @@ Where we work
 
 ## Drone survey in Northeast India
 Our first highway drone work, in October 2020, was for NHIDCL projects in Nagaland and Manipur, around Dimapur and Kohima. Hill roads there are where drone and LiDAR surveys save the most time.
+In short: DATA PKT surveys hill highways, terrain under forest cover and landslide-prone slopes in Northeast India, using drones, drone LiDAR, seismic refraction and geological mapping. A drone covers a long stretch quickly, and LiDAR reaches the ground under trees where photos cannot. Most field work fits between late October and May.
 Since 2020: Drone survey and GIS work across India from Gurugram
 3 NHAI zones: Empanelled for monthly drone survey work
 100+ clients: Public authorities, railways, PSUs and contractors
@@ -2946,6 +2970,7 @@ LiDAR under forest. On that corridor the LiDAR was flown 60 to 80 m above ground
 Hill highways. Our first highway drone work, in October 2020, was imagery, video and survey for NHIDCL projects in Nagaland and Manipur. Monthly highway records are tied to DGPS control.
 
 ### What to plan for in Northeast India
+In Northeast India, plan around an early, long monsoon that arrives around 4 or 5 June and withdraws around mid-October, so field work mostly fits late October to May. Plan too for landslide-prone hills, forest cover that hides the ground from photographs, and no-drone zones near the international border, so border sites are checked early.
 An early, long monsoon. On India Meteorological Department normals the monsoon reaches Guwahati, Dimapur and Agartala around 4 June and Shillong, Imphal, Aizawl and Itanagar around 5 June, and withdraws from them around 14 or 15 October (IMD). Most field work fits between late October and May.
 Landslides. The Geological Survey of India has mapped landslide susceptibility at 1:50,000 scale across about 4.3 lakh sq km of landslide-prone hills in parts of 19 states and union territories, including the Tertiary belt of North-eastern India (Ministry of Earth Sciences, 2025).
 Forest cover. In the Forest Survey of India’s 2019 assessment, about 1.71 lakh sq km of the eight north-eastern states’ 2.62 lakh sq km was forest (Lok Sabha answer, 2020). Photographs see the canopy; LiDAR ground classification separates terrain from trees.
@@ -2988,6 +3013,7 @@ Case study · Highways
 
 ## Highway drone monitoring: more than 3 lakh km of data for authorities and contractors
 For highway authorities, highway contractors and private developers, DATA PKT sets DGPS control, flies drone photogrammetry and aerial videography every month, and turns the data into analytics that show progress and problems on the road.
+Published 26 October 2026 · Updated 25 November 2026
 Clients: Highway authorities, highway contractors and private developers
 Services used: Drone photogrammetry, aerial videography, DGPS control and analytics
 Highway data captured: More than 3 lakh km in six years, imagery and videography
@@ -3126,6 +3152,7 @@ Case study · Railways
 
 ## Yard plans and drainage plans for two railway divisions
 For two railway divisions, DATA PKT surveyed station yards with drones and DGPS and turned the data into yard plans and drainage designs: 61 plans submitted in eastern India, and drainage design for 32 yards in Uttar Pradesh and Madhya Pradesh.
+Published 26 October 2026 · Updated 25 November 2026
 Eastern India: 30 yard plans and 31 drainage plans, all submitted
 Uttar Pradesh and Madhya Pradesh: Drainage planning and design for 32 yards
 Method: Drone survey with DGPS control, CAD drafting, field checks
@@ -3245,6 +3272,7 @@ Case study · Power transmission
 
 ## 220/132 kV substation and transmission lines in Uttar Pradesh
 For a railway traction power project in Uttar Pradesh, DATA PKT is carrying out the survey and design of a new 220/132 kV grid substation, the 220 kV and 132 kV lines that feed it, and location plans for 19 sites along the railway.
+Published 26 October 2026 · Updated 25 November 2026
 Location: Uttar Pradesh
 Substation: 220/132 kV grid substation (GSS)
 Lines: 220 kV D/C (32 m ROW) and 132 kV D/C (25 m ROW)
@@ -3386,6 +3414,7 @@ Case study · Water and irrigation
 
 ## Groundwater recharge system for Mahendragarh: survey and design of two canal-fed lines
 In Mahendragarh district, in southern Haryana, DATA PKT is surveying and designing a groundwater recharge system. Two lines, of about 45 km and 15 km, take water from an existing canal or river and carry it to structures that return it to the aquifer.
+Published 26 October 2026 · Updated 25 November 2026
 Location: Mahendragarh (Mahindergarh) district, Haryana
 Purpose: Recharge groundwater with surplus canal or river water
 Network: Two lines, about 45 km and 15 km long
@@ -3530,6 +3559,7 @@ Case study · Landslide and slope stability
 
 ## Slope stability investigation of a 66 km road corridor in Assam
 For a private client, DATA PKT investigated the road-side slopes of a ~66 km hill road corridor in Assam with drone LiDAR, seismic refraction tomography and geological mapping, and delivered a stability report that ranked every stretch and gave the inputs to design its protection.
+Published 2 November 2026 · Updated 25 November 2026
 Location: Road corridor in Assam, Northeast India
 Length: About 66 km of road-side cut and fill slopes
 Client: Private client (name withheld)
@@ -5087,6 +5117,7 @@ Drone Pilot Network
 
 ## Fly with DATAPKT: join our drone pilot network
 We survey highways, railways, power lines and canals across India, and we work with certified drone pilots wherever the projects are. Register once, and we contact you when work comes up near you.
+In short: we work with certified drone pilots wherever our projects are, on photogrammetry, LiDAR and aerial videography for highway, railway, transmission line, power and irrigation projects. Register once, and we contact you when a project comes up in or near your district. Registering with the DATAPKT Drone Pilot Network is free.
 20+: Drone pilots in our in-house team
 3 lakh+ km: Highway data captured in six years
 Since 2020: Survey projects flown across India

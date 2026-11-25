@@ -446,9 +446,9 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
 
         <!-- Motion ai -->
         <!-- <div id="ai"></div> -->
-        <dotlottie-player autoplay loop mode="normal" style="width: 100%" src="./src/aiengine.lottie" aria-hidden="true">
+        <dotlottie-player autoplay loop mode="normal" style="width: 100%" data-src="./src/aiengine.lottie" aria-hidden="true">
         </dotlottie-player>
-        <script>if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){var dpAi=document.querySelector('dotlottie-player[src*="aiengine"]');if(dpAi){dpAi.removeAttribute('autoplay');dpAi.removeAttribute('loop');}}</script>
+        <script>/* AI engine animation (120 KiB) loads only when it nears the viewport; its 16:9 box is reserved now so nothing shifts */(function(){var el=document.querySelector('#ai_engine dotlottie-player[data-src]');if(!el)return;el.style.display='block';el.style.aspectRatio='16 / 9';if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){el.removeAttribute('autoplay');el.removeAttribute('loop');}function go(){var s=el.getAttribute('data-src');if(!s)return;el.removeAttribute('data-src');el.setAttribute('src',s);if(el.hasUpdated&&typeof el.load==='function')el.load(s);}if(!('IntersectionObserver' in window)){go();return;}var io=new IntersectionObserver(function(es){for(var i=0;i<es.length;i++){if(es[i].isIntersecting){io.disconnect();go();return;}}},{rootMargin:'300px 0px'});io.observe(el);})();</script>
         <!-- Motion ai -->
 
 
