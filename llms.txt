@@ -77,6 +77,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 ## Services in depth
 - [Drone survey cost in India](https://datapkt.com/drone-survey-cost.html): sites quoted per acre or hectare, corridors per km; the six factors that decide the price, and what to send for a quote
 - [Free drone GSD calculator](https://datapkt.com/tools/gsd-calculator.html): ground sample distance, image footprint and the flight height for a target GSD, with camera presets
+- [Free checkpoint RMSE calculator](https://datapkt.com/tools/rmse-calculator.html): paste surveyed and map coordinates or residuals to get RMSE in X, Y and Z, horizontal RMSE (RMSEr), mean error per axis and the largest residual
 - [Transmission line and substation survey and design](https://datapkt.com/transmission-line-substation-design.html): alternate routes and feasibility report, drone maps on khasra maps for land acquisition, detailed route survey with tower spotting, substation GAD and SLD
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR, seismic refraction tomography and geological mapping (RMR, GSI, SMR) in one ground model; stability analysis, hazard zonation and slope protection design
 - [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
