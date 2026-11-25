@@ -51,7 +51,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
 - [Engineering Scale Plans and DPR surveys](https://datapkt.com/engineering-scale-planning.html): what an ESP is; ESPs, yard plans and DPR survey data from drone survey on DGPS control, delivered in DWG, SHP, GeoTIFF and LAS
 - [Power and solar](https://datapkt.com/energy.html): drone inspection of transmission and distribution lines, substations, solar plants and wind farms; radiometric thermal and LiDAR; ISO 9712 Level 2 thermographer; clients include NTPC and Adani
-- [Solar plant drone thermography and inspection](https://datapkt.com/thermal-survey.html): radiometric drone thermography of solar PV plants, flown to IEC TS 62446-3 conditions; hotspot, diode and string faults classified and tagged to their place in the plant; ISO 9712 Level 2 thermographer
+- [Drone solar plant inspection and thermography in India](https://datapkt.com/thermal-survey.html): radiometric drone thermography of solar PV plants, flown to IEC TS 62446-3 conditions; hotspot, diode and string faults classified and tagged to their place in the plant; ISO 9712 Level 2 thermographer
 - [LiDAR drone survey](https://datapkt.com/lidar-survey.html): classified point clouds, DTM, DSM and contours for corridors, mines and terrain under vegetation; what sets LiDAR survey cost
 - [Photogrammetry](https://datapkt.com/photogrammetry.html): orthomosaics, DSMs, DTMs, contours and point clouds from drone photos tied to DGPS ground control
 - [Mining](https://datapkt.com/mining.html): stockpile volumes, pit, bench and haul road mapping, and progress monitoring with DTMs, DSMs, 3D models and volume reports
@@ -97,7 +97,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [ESP full form in railways: what is an Engineering Scale Plan?](https://datapkt.com/insights/what-is-an-engineering-scale-plan.html): what an ESP drawing shows, the scales used, who prepares it and how a drone survey produces one
 - [Solar plant drone thermography: what the report should include](https://datapkt.com/insights/solar-plant-drone-thermography-report.html): defect type, location, temperature difference and severity under IEC TS 62446-3
 - [Drone topographic survey for solar power plants: what developers need before design](https://datapkt.com/insights/solar-plant-topographic-survey.html): DTM, contours, obstructions and existing drainage; DGPS ground control and checkpoints; photogrammetry or LiDAR; catchments and flow paths from the DTM; deliverables in DWG, SHP, GeoTIFF and LAS
-- [LiDAR vs photogrammetry: which drone survey do you need?](https://datapkt.com/insights/lidar-vs-photogrammetry.html): accuracy on open ground and under vegetation, cost and deliverables, and which to choose by project type
+- [LiDAR vs photogrammetry: which drone survey to choose](https://datapkt.com/insights/lidar-vs-photogrammetry.html): accuracy on open ground and under vegetation, cost and deliverables, and which to choose by project type
 - [Drone vs manual solar panel inspection: which finds more, faster?](https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html): coverage, speed, what each finds and misses, IEC TS 62446-3 conditions and the drone-first workflow
 - [Highway drone videography for NHAI projects: what the monthly video must show](https://datapkt.com/insights/nhai-highway-drone-videography.html): NHAI's monthly drone video rule, who flies, what each frame must show and Data Lake uploads
 - [Transmission line drone inspection vs foot patrol: what each one catches](https://datapkt.com/insights/transmission-line-drone-inspection.html): drone, foot patrol or helicopter; thermal hotspot severity and tree clearance by voltage
@@ -714,7 +714,7 @@ As CAD drawings in the layers and scale the railway asks for, with PDF prints, t
 
 
 === https://datapkt.com/energy.html ===
-## Drone Survey for the Power Sector
+## Drone survey and inspection for solar, power and transmission
 In short: we inspect and survey power assets by drone: transmission and distribution lines, substations, solar plants and wind farms. Radiometric thermal cameras find hotspots and defects, each tagged to its tower or string, and LiDAR maps corridors for new lines (see our transmission line and solar inspection guides). Our thermal team includes a thermographer certified to ISO 9712 Level 2.
 Our drone team combines drones with advanced imaging capabilities to conduct comprehensive visual inspections of important infrastructure such as transmission and distribution lines, thermal power plants, renewable energy installations, and hydropower projects. These drones use high-resolution, infrared, and thermal sensors to detect potential problems before they escalate, resulting in lower losses, lower maintenance costs, and increased reliability. Real-time defect identification allows for timely repairs and maintenance, reducing downtime and power outages while improving operational efficiency and cost-effectiveness. DATA PKT Infra & Geomatics offers the following services to provide credible industry insights concerning the roads and highways sector. The drones can be used as an ultimate tool in every stage of highway construction.
 Transmission Lines Inspection
@@ -840,7 +840,7 @@ A list of every defect with its type, location, temperature difference and sever
 
 
 === https://datapkt.com/thermal-survey.html ===
-## Solar plant drone thermography and inspection
+## Drone solar plant inspection and thermography in India
 In short: we carry out solar plant drone thermography and thermal surveys of substations and roofs with radiometric cameras. The report classifies each hotspot, cell, diode or string fault and tags it to its place in the plant, so the O&M team can find and fix it (what the report should include). Our thermal team includes a thermographer certified to ISO 9712 Level 2, and our power-sector clients include NTPC and Adani.
 
 ### At a glance
@@ -3926,7 +3926,7 @@ Our thermal team includes a thermographer certified to ISO 9712 Level 2, and our
 Home / Insights / LiDAR vs photogrammetry
 Survey methods
 
-## LiDAR vs photogrammetry: which drone survey do you need?
+## LiDAR vs photogrammetry: which drone survey to choose
 LiDAR or photogrammetry? How each works, accuracy, vegetation, cost and deliverables compared, with the right choice for highways, railways, power lines, mines and hills.
 By the DATA PKT survey and GIS engineering team · Published 27 October 2026 · Updated 13 November 2026 · 12 min read
 Short answer: on open, bare ground the two are close: both reach about 10–15 cm height accuracy with good control, and photogrammetry gives the sharper map for less money. Once vegetation hides the ground, photogrammetry's error tripled to about 36 cm in one study while LiDAR stayed near 11 cm. Choose LiDAR for vegetation, forests, wires and long corridors; photogrammetry for open sites, mines and stockpiles; and both on most highway and railway projects.
@@ -4870,7 +4870,7 @@ A 10-point checklist: DGCA pilots, accuracy reports, sample deliverables, refere
 ### Accuracy and survey methods
 Survey methods
 
-#### LiDAR vs photogrammetry: which drone survey do you need?
+#### LiDAR vs photogrammetry: which drone survey to choose
 Accuracy, vegetation, cost and deliverables compared, and which to choose for highways, railways, power lines and mines.
 Survey methods
 
