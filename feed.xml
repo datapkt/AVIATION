@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-IN">
+  <title>DATA PKT Infra &amp; Geomatics — guides and case studies</title>
+  <id>https://datapkt.com/feed.xml</id>
+  <link rel="self" type="application/atom+xml" href="https://datapkt.com/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://datapkt.com/insights/"/>
+  <updated>2026-11-25T00:00:00+05:30</updated>
+  <author>
+    <name>DATA PKT team</name>
+    <uri>https://datapkt.com/</uri>
+  </author>
+  <entry>
+    <title>Topographic and contour survey by drone: method, accuracy and deliverables</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/topographic-survey-by-drone.html"/>
+    <id>https://datapkt.com/insights/topographic-survey-by-drone.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">How a drone topographic and contour survey is planned, controlled and checked, how to choose the contour interval, and the DTM, CAD and GIS deliverables.</summary>
+  </entry>
+  <entry>
+    <title>Drone topographic survey for solar power plants: what developers need before design</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/solar-plant-topographic-survey.html"/>
+    <id>https://datapkt.com/insights/solar-plant-topographic-survey.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">What a drone topographic survey of a solar plant site must capture before design: DTM, contours, drainage paths, shading objects, control and deliverables.</summary>
+  </entry>
+  <entry>
+    <title>Railway final location survey (FLS) by drone and LiDAR: what it covers</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/railway-final-location-survey.html"/>
+    <id>https://datapkt.com/insights/railway-final-location-survey.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">What a railway final location survey (FLS) must deliver, where it sits after PETS, and how drone photogrammetry and LiDAR with DGPS control produce it.</summary>
+  </entry>
+  <entry>
+    <title>Point cloud classification explained: LAS classes, ground filtering and QC</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/point-cloud-classification.html"/>
+    <id>https://datapkt.com/insights/point-cloud-classification.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">Point cloud classification explained: ASPRS LAS class codes, LiDAR ground filtering and its failure modes, QC checks, and what to specify when outsourcing.</summary>
+  </entry>
+  <entry>
+    <title>Drone survey permissions in India: Digital Sky, airspace zones and what a client should check</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-permissions-india.html"/>
+    <id>https://datapkt.com/insights/drone-survey-permissions-india.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">Drone survey permission in India: UIN, Remote Pilot Certificate, Digital Sky green, yellow and red zones, insurance, geospatial rules and what to ask a vendor.</summary>
+  </entry>
+  <entry>
+    <title>Drone survey and geomatics glossary</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-glossary.html"/>
+    <id>https://datapkt.com/insights/drone-survey-glossary.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">GSD, GCP, DTM vs DSM, RMSE, orthomosaic, LAS files, ESP, OHE, PLS-CADD and seismic refraction: drone survey and geomatics terms in plain English.</summary>
+  </entry>
+  <entry>
+    <title>Bridge inspection by drone in India: what it can and cannot replace</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/bridge-inspection-by-drone.html"/>
+    <id>https://datapkt.com/insights/bridge-inspection-by-drone.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">What a drone can and cannot replace in highway and railway bridge inspection in India: IRC:SP:35, IRBM, RDSO BS-129, method, deliverables and checklist.</summary>
+  </entry>
+  <entry>
+    <title>Slope stability investigation of a 66 km road corridor in Assam</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/slope-stability-investigation-assam.html"/>
+    <id>https://datapkt.com/case-studies/slope-stability-investigation-assam.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">How DATA PKT investigated slopes on a 66 km road in Assam with drone LiDAR, 66 seismic refraction profiles and geological mapping for protection design.</summary>
+  </entry>
+  <entry>
+    <title>Yard plans and drainage plans for two railway divisions</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html"/>
+    <id>https://datapkt.com/case-studies/railway-esp-yard-drainage-plans.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">30 yard plans and 31 drainage plans for a railway division in eastern India, and drainage design for 32 more yards in UP and MP.</summary>
+  </entry>
+  <entry>
+    <title>Highway drone monitoring: more than 3 lakh km of data for authorities and contractors</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/highway-drone-monitoring.html"/>
+    <id>https://datapkt.com/case-studies/highway-drone-monitoring.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">How our teams capture about 35 km of highway imagery a day per team: DGPS-controlled drone photogrammetry, videography and analytics behind 3 lakh+ km of data.</summary>
+  </entry>
+  <entry>
+    <title>Groundwater recharge system for Mahendragarh: survey and design of two canal-fed lines</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/groundwater-recharge-mahendragarh.html"/>
+    <id>https://datapkt.com/case-studies/groundwater-recharge-mahendragarh.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">Survey and design of a groundwater recharge system in Mahendragarh, Haryana: two lines of about 45 km and 15 km from an existing canal or river.</summary>
+  </entry>
+  <entry>
+    <title>220/132 kV substation and transmission lines in Uttar Pradesh</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html"/>
+    <id>https://datapkt.com/case-studies/220-132-kv-substation-transmission-lines.html</id>
+    <published>2026-11-25T00:00:00+05:30</published>
+    <updated>2026-11-25T00:00:00+05:30</updated>
+    <summary type="text">Survey and design of a 220/132 kV substation in Uttar Pradesh: transmission lines with three alternate routes each and drone maps on khasra maps.</summary>
+  </entry>
+  <entry>
+    <title>Drone vs manual solar panel inspection: which finds more, faster?</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html"/>
+    <id>https://datapkt.com/insights/drone-vs-manual-solar-panel-inspection.html</id>
+    <published>2026-11-23T00:00:00+05:30</published>
+    <updated>2026-11-24T00:00:00+05:30</updated>
+    <summary type="text">Drone thermal vs manual solar panel inspection: coverage, speed, what each finds, IEC TS 62446-3 conditions and the drone-first workflow for O&amp;M teams.</summary>
+  </entry>
+  <entry>
+    <title>What is an Engineering Scale Plan (ESP) in railway projects?</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/what-is-an-engineering-scale-plan.html"/>
+    <id>https://datapkt.com/insights/what-is-an-engineering-scale-plan.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-11-24T00:00:00+05:30</updated>
+    <summary type="text">ESP full form in railways: Engineering Scale Plan. What an ESP drawing must show, the scales used, who prepares it and how a drone survey produces one.</summary>
+  </entry>
+  <entry>
+    <title>Solar plant drone thermography: what the inspection report should include</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/solar-plant-drone-thermography-report.html"/>
+    <id>https://datapkt.com/insights/solar-plant-drone-thermography-report.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-11-24T00:00:00+05:30</updated>
+    <summary type="text">A checklist for solar PV drone thermography: flight conditions, IEC TS 62446-3, defect types, severity and what a usable inspection report contains.</summary>
+  </entry>
+  <entry>
+    <title>How accurate is a drone survey? GSD, GCPs and RTK explained</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html"/>
+    <id>https://datapkt.com/insights/drone-survey-accuracy-gsd-gcp-rtk.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-11-24T00:00:00+05:30</updated>
+    <summary type="text">What decides drone survey accuracy: ground sample distance, ground control points, checkpoints, and RTK or PPK positioning, explained for project engineers.</summary>
+  </entry>
+  <entry>
+    <title>Transmission line drone inspection vs foot patrol: what each one catches</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/transmission-line-drone-inspection.html"/>
+    <id>https://datapkt.com/insights/transmission-line-drone-inspection.html</id>
+    <published>2026-11-23T00:00:00+05:30</published>
+    <updated>2026-11-23T00:00:00+05:30</updated>
+    <summary type="text">Drone, foot patrol or helicopter for transmission line inspection: what each finds, thermal hotspot severity, tree clearance by voltage and how to plan it.</summary>
+  </entry>
+  <entry>
+    <title>Railway drone inspection: track, OHE, bridges and yards</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/railway-drone-inspection.html"/>
+    <id>https://datapkt.com/insights/railway-drone-inspection.html</id>
+    <published>2026-11-23T00:00:00+05:30</published>
+    <updated>2026-11-23T00:00:00+05:30</updated>
+    <summary type="text">How drones inspect Indian Railways assets: OHE thermal checks, track surroundings, bridges under RDSO BS-129, yards and ESPs, and how to plan a railway flight.</summary>
+  </entry>
+  <entry>
+    <title>Highway drone videography for NHAI projects: what the monthly video must show</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/nhai-highway-drone-videography.html"/>
+    <id>https://datapkt.com/insights/nhai-highway-drone-videography.html</id>
+    <published>2026-11-23T00:00:00+05:30</published>
+    <updated>2026-11-23T00:00:00+05:30</updated>
+    <summary type="text">NHAI's monthly drone video rule explained: who flies, what each frame must show, Data Lake uploads, planning long corridors and using videos as evidence.</summary>
+  </entry>
+  <entry>
+    <title>LiDAR vs photogrammetry: which drone survey do you need?</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/lidar-vs-photogrammetry.html"/>
+    <id>https://datapkt.com/insights/lidar-vs-photogrammetry.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-11-13T00:00:00+05:30</updated>
+    <summary type="text">LiDAR vs photogrammetry compared: accuracy, vegetation, cost and deliverables, and which to choose for highways, railways, power lines and mines.</summary>
+  </entry>
+  <entry>
+    <title>Landslide survey in India: methods, standards and what it costs</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/landslide-survey-india.html"/>
+    <id>https://datapkt.com/insights/landslide-survey-india.html</id>
+    <published>2026-11-02T00:00:00+05:30</published>
+    <updated>2026-11-02T00:00:00+05:30</updated>
+    <summary type="text">How a landslide survey is done in India: drone LiDAR, seismic refraction, geological mapping, stability analysis, IS codes and what decides the cost.</summary>
+  </entry>
+  <entry>
+    <title>Drone survey for highway DPRs: what consultants need</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-for-highway-dpr.html"/>
+    <id>https://datapkt.com/insights/drone-survey-for-highway-dpr.html</id>
+    <published>2026-10-27T00:00:00+05:30</published>
+    <updated>2026-10-27T00:00:00+05:30</updated>
+    <summary type="text">What a highway DPR survey must deliver under IRC:SP:19, what a drone survey does well, what still needs DGPS and total station, and what to scope.</summary>
+  </entry>
+  <entry>
+    <title>How to choose a drone survey company in India: a 10-point checklist</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html"/>
+    <id>https://datapkt.com/insights/how-to-choose-a-drone-survey-company.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-10-26T00:00:00+05:30</updated>
+    <summary type="text">A 10-point checklist for hiring a drone survey company in India: DGCA pilots, accuracy reports, sample deliverables, references and data ownership.</summary>
+  </entry>
+  <entry>
+    <title>Drone survey vs DGPS and total station: which should you use?</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html"/>
+    <id>https://datapkt.com/insights/drone-survey-vs-dgps-total-station.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-10-26T00:00:00+05:30</updated>
+    <summary type="text">When a drone survey beats DGPS and total station, when it does not, and why most infrastructure surveys combine all three.</summary>
+  </entry>
+  <entry>
+    <title>Drone survey deliverables explained: orthomosaic, DSM, DTM, contours and point clouds</title>
+    <link rel="alternate" type="text/html" href="https://datapkt.com/insights/drone-survey-deliverables-explained.html"/>
+    <id>https://datapkt.com/insights/drone-survey-deliverables-explained.html</id>
+    <published>2026-10-26T00:00:00+05:30</published>
+    <updated>2026-10-26T00:00:00+05:30</updated>
+    <summary type="text">Orthomosaic, DSM, DTM, contours, point cloud and CAD: what each drone survey deliverable is for, and the file formats (GeoTIFF, LAS, DWG, SHP, KMZ).</summary>
+  </entry>
+</feed>

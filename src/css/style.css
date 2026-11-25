@@ -308,7 +308,9 @@ ul {
   background: #bc2c3c;
 }
 
-.client-logos label {
+.client-logos label,
+
+.client-logos > span {
   display: inline-block;
   vertical-align: top;
   margin: 0 9% 0 0;
@@ -317,7 +319,9 @@ ul {
   height: 50px;
 }
 
-.client-logos label:last-child {
+.client-logos label:last-child,
+
+.client-logos > span:last-child {
   margin: 0;
 }
 
@@ -651,7 +655,7 @@ ul {
 }
 
 .industries .ind-names .indus-name2 i.mining {
-  background: url(../images/industry-minning.png) no-repeat center center;
+  background: url(../images/industry-minning-v2.webp) no-repeat center center;
   background-size: auto 240px;
 }
 
@@ -1138,7 +1142,9 @@ ul {
     padding: 20px 0;
   }
 
-  .client-logos label {
+  .client-logos label,
+
+  .client-logos > span {
     margin: 0 4% 6% 0;
     height: 40px;
     width: 70px;
@@ -1508,7 +1514,8 @@ ul {
 }
 
 @media(max-width:791px) {
-  .client-logos label {
+  .client-logos label,
+  .client-logos > span {
     margin: 0;
     background-size: auto 50px !important;
   }

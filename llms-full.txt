@@ -45,6 +45,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 ## Key pages
 - [Home](https://datapkt.com/): drone survey, LiDAR, photogrammetry, thermal inspection and DPR inputs across India; company numbers and FAQs
 - [About](https://datapkt.com/about.html): company facts (founded 14 September 2020, NHAI empanelment in three zones, DIPP recognition), how a project runs, sectors and clients
+- [Editorial standards](https://datapkt.com/editorial-standards.html): how the guides are written: team byline, outside facts linked to sources, standards named by number and edition, only approved company figures, clients named only where permitted, published and updated dates, no sponsored content, no published prices, and how to report an error
 - [Services](https://datapkt.com/services.html): every service on one page, grouped into survey and mapping, infrastructure (highways, railways and ESPs, transmission design, slope stability), inspection (solar thermography, power), sectors, and tools and guides
 - [Highways and roads](https://datapkt.com/highways-and-roadways.html): NHAI's monthly drone video rule and our empanelment for it; drone and DGPS survey for highway DPRs, progress monitoring, videography and road mapping; 3 lakh+ km of highway data in six years
 - [Railways and metro](https://datapkt.com/railways-and-metro.html): pre-construction and DPR surveys, Engineering Scale Plans of yards, progress monitoring and inspection of track, bridges and structures; 30 yard plans and 31 drainage plans for one division
@@ -70,6 +71,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [GIS mapping and data processing](https://datapkt.com/gis-mapping-services.html): in-house GIS team; GIS layers from drone and LiDAR data, khasra and forest map overlays, GIS to CAD, remote GIS processing and offshore seats offered to firms outside India
 - [Case studies](https://datapkt.com/case-studies/): highway monitoring, railway yard and drainage plans, substation and transmission lines, groundwater recharge, slope stability in Assam
 - [Insights and guides](https://datapkt.com/insights/): drone survey accuracy, costs, deliverables, LiDAR, ESPs, solar thermography, inspection guides and landslide surveys
+- [Atom feed of guides and case studies](https://datapkt.com/feed.xml): new and updated insights guides and case studies, newest first
 - [Drone pilot network](https://datapkt.com/drone-pilot-network.html): how certified drone pilots register to fly highway, railway, transmission, power and irrigation projects with DATAPKT
 - [Contact](https://datapkt.com/contact.html): phone, email and address, and what to include in an enquiry (KML or chainage, area, outputs, accuracy, deadline)
 - [Privacy and cookies](https://datapkt.com/privacy.html): how the website uses enquiry details and analytics cookies
@@ -183,6 +185,9 @@ Lepton Software (BharatNet), Theme Engineering Services, Consulting Engineers Gr
 
 ### Fly with us
 We work with a network of drone pilots across India. If you are a certified pilot and want to work on survey projects, join the DATA PKT Drone Pilot Network.
+
+### How we write our guides
+Our guides are written by the DATA PKT team, with outside figures linked to their sources and company figures limited to those approved for publication. Read our editorial standards.
 Have a survey or mapping project?
 
 ### Frequently asked questions
@@ -4816,7 +4821,7 @@ Insights
 
 ## Practical guides to drone survey, mapping and GIS
 Plain answers to the questions engineers, project managers and plant owners ask us about drone surveys, LiDAR, thermography, costs and deliverables.
-These guides come from our day-to-day survey work on highways, railways, power lines and water projects. Each one answers a question clients ask before a survey starts: which method to use, how accurate the result will be, what the deliverables are, what it costs and what to put in the scope. New to drone surveys? Begin with the three guides below.
+These guides come from our day-to-day survey work on highways, railways, power lines and water projects. Each one answers a question clients ask before a survey starts: which method to use, how accurate the result will be, what the deliverables are, what it costs and what to put in the scope. New to drone surveys? Begin with the three guides below. How we write these guides.
 
 ### Start here
 Survey accuracy
@@ -6273,3 +6278,41 @@ Use the GSD calculator before the flight, to choose the camera and flight height
 
 Q: What do I need for the RMSE calculator?
 The surveyed coordinates of your independent checkpoints and the same points measured on the map or model, or the residuals for each point. Checkpoints should not be used as ground control in processing.
+
+
+=== https://datapkt.com/editorial-standards.html ===
+Home / About / Editorial standards
+About DATA PKT
+
+## Editorial standards: how we write our guides
+How the guides, case studies and service pages on datapkt.com are written, sourced, dated and corrected.
+By the DATA PKT team · Published 25 November 2026
+In short: our guides are written by the DATA PKT team from our survey, GIS and inspection work. Facts and figures from outside sources link to the source, standards are named by number, and company figures are only those the company has approved for publication. Clients are named only where they have allowed it. Each guide shows its published date, and an updated date when its content changes. Nothing on the site is paid for by a third party. To report an error, email consult@datapkt.com.
+
+### Who writes the guides
+The guides in Insights are written by the DATA PKT team: the pilots, surveyors, GIS analysts and engineers who run our projects. Each guide carries a team byline, such as "By the DATA PKT survey and GIS engineering team". We do not publish the names of individual staff on the website.
+The guides answer questions clients ask us before a survey starts: which method to use, how accurate the result will be, what the deliverables are and what to put in the scope. Where a guide explains how we do something, it describes how our own projects run.
+
+### How we cite sources
+Facts and figures that come from outside DATA PKT, such as a rule from the drone regulations, a value from a standard, a research result or a manufacturer's specification, are linked to where they come from. Most guides end with a numbered Sources list, and the figure in the text points to its entry, for example [1]. Shorter guides that rely on one or two sources link them in the text.
+We prefer primary sources: the Gazette or ministry release, the standard itself, the published study or the manufacturer's own page.
+
+### How we name standards
+Standards are named by their number, with the edition or year where it matters, so readers can find the exact document. For example: ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 2 (2023), and IEC TS 62446-3:2017 for thermographic inspection of PV plants. Indian standards and circulars are named by their IS number or circular number and date.
+
+### Company figures and client names
+Figures about DATA PKT itself, such as kilometres of highway data captured, team size or plans delivered, are limited to figures the company has approved for publication.
+Client names appear on the site only where we are permitted to name them. Our case studies describe the work, the method and the outputs; they do not name the client, division or site unless we are permitted to, and their text does not give contract values or site coordinates. Where a client cannot be named, the case study says so; one, for example, lists its client as "Private client (name withheld)".
+
+### Dates and updates
+Each guide shows the date it was first published. When we change the content of a guide, for example to add a section, correct a figure or reflect a new rule, we update it and show the "Updated" date beside the published date. The same dates are recorded in the page's structured data.
+
+### No paid placements or sponsored content
+We do not accept payment to feature, link to or recommend a product, manufacturer or company in our guides. There is no sponsored content on datapkt.com. Where a guide names equipment, it is to explain a specification.
+
+### Why we do not publish prices
+We do not publish prices or price bands. A survey's cost depends on its location, the area or corridor length, the accuracy needed and the deliverables, so we quote per project. Our survey cost page explains what sets the cost; to get a quote, send us the site and the outputs you need.
+
+### How to report an error
+If you find a mistake on any page, or a source that has changed, email consult@datapkt.com with the page address and what needs correcting. We check the point against the source and, where the page is wrong, correct it and change its "Updated" date.
+Have a question a guide does not answer?
