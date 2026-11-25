@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://datapkt.com/</loc><lastmod>2026-11-02</lastmod><priority>1.0</priority></url>
   <url><loc>https://datapkt.com/about.html</loc><lastmod>2026-11-24</lastmod><priority>0.8</priority></url>
+  <url><loc>https://datapkt.com/services.html</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://datapkt.com/contact.html</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://datapkt.com/highways-and-roadways.html</loc><lastmod>2026-11-24</lastmod><priority>0.9</priority></url>
   <url><loc>https://datapkt.com/railways-and-metro.html</loc><lastmod>2026-11-24</lastmod><priority>0.9</priority></url>
@@ -58,10 +59,10 @@
   <url><loc>https://datapkt.com/insights/point-cloud-classification.html</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
   <url><loc>https://datapkt.com/tools/gsd-calculator.html</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
   <url><loc>https://datapkt.com/gis-mapping-services.html</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
-  <url><loc>https://datapkt.com/transmission-line-substation-design.html</loc><lastmod>2026-11-24</lastmod><priority>0.8</priority></url>
+  <url><loc>https://datapkt.com/transmission-line-substation-design.html</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://datapkt.com/drone-pilot-network.html</loc><lastmod>2026-11-24</lastmod><priority>0.8</priority></url>
-  <url><loc>https://datapkt.com/landslide-slope-stability.html</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
-  <url><loc>https://datapkt.com/seismic-refraction-survey.html</loc><lastmod>2026-11-02</lastmod><priority>0.8</priority></url>
+  <url><loc>https://datapkt.com/landslide-slope-stability.html</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://datapkt.com/seismic-refraction-survey.html</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://datapkt.com/insights/drone-survey-for-highway-dpr.html</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority></url>
   <url><loc>https://datapkt.com/privacy.html</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority></url>
 </urlset>
