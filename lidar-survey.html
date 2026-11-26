@@ -88,6 +88,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
                                             href="environmental.html">Environmental Survey</a></li>
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="transmission-line-drone-inspection.html">Transmission Line Inspection</a></li>
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
                                 </ul>
                             </li>
@@ -198,6 +199,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item"
                                             href="environmental.html">Environmental Survey</a></li>
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="transmission-line-substation-design.html">Transmission &amp; Substation Design</a></li>
+                                    <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="transmission-line-drone-inspection.html">Transmission Line Inspection</a></li>
                                     <li style="  font-size: 18px; font-size: 16px;"><a class="dropdown-item" href="landslide-slope-stability.html">Landslide &amp; Slope Stability</a></li>
                                 </ul>
                             </li>
@@ -341,6 +343,17 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
                     potential to provide extremely accurate and detailed topography data that is useful for a wide
                     range of applications across various sectors. The following are potential deliverables we
                     provide:</p>
+            </div>
+            <div class="px-4 pb-4 dp-prose" style="max-width:none;text-align:left">
+                    <div class="dp-tscroll" tabindex="0" role="region" aria-label="LiDAR survey deliverables and formats"><table class="dp-lvp-table"><thead><tr><th scope="col">Deliverable</th><th scope="col">What it shows</th><th scope="col">Format</th></tr></thead><tbody>
+                    <tr><th scope="row">Classified point cloud</th><td>Every laser return as a 3D point, classified as ground, vegetation, buildings or wires</td><td>LAS, LAZ</td></tr>
+                    <tr><th scope="row">DTM</th><td>The bare ground, with buildings and vegetation removed</td><td>GeoTIFF</td></tr>
+                    <tr><th scope="row">DSM</th><td>The ground together with everything on it, such as buildings and trees</td><td>GeoTIFF</td></tr>
+                    <tr><th scope="row">Contours and cross-sections</th><td>Lines of equal height and sections cut from the terrain model</td><td>DWG, DXF, SHP</td></tr>
+                    <tr><th scope="row">Orthomosaic</th><td>A measurable true-colour map from the camera flown with the scanner</td><td>GeoTIFF; KMZ for quick viewing</td></tr>
+                    <tr><th scope="row">Volume calculations</th><td>Stockpile and earthwork volumes measured from the point cloud</td><td>Agreed per project</td></tr>
+                    <tr><th scope="row">Accuracy report</th><td>Checkpoint errors (RMSE) in X, Y and Z</td><td>PDF</td></tr>
+                    </tbody></table></div>
             </div>
 
             <div class="row align-items-start">
@@ -696,7 +709,7 @@ gtag('consent','default',{analytics_storage:dpC==='no'?'denied':'granted',ad_sto
       <div class="dp-wrap">
         <h2 id="faq-title">Frequently asked questions</h2>
         <details><summary>What is a drone LiDAR survey?</summary><p>LiDAR sends laser pulses from the drone and measures their return to build a dense 3D point cloud of the ground and everything on it. Because some pulses pass through gaps in vegetation, LiDAR can map the ground surface under trees.</p></details>
-        <details><summary>When should I choose LiDAR over photogrammetry?</summary><p>Choose LiDAR for corridors and sites with vegetation, for power lines and for very detailed terrain. Photogrammetry is usually more economical for open ground and gives a true-colour orthomosaic. Many projects use both.</p></details>
+        <details><summary>When should I choose LiDAR over photogrammetry?</summary><p>Choose LiDAR for corridors and sites with vegetation, for power lines and for very detailed terrain. Photogrammetry is usually more economical for open ground and gives a true-colour orthomosaic. <a href="insights/lidar-vs-photogrammetry.html">Many projects use both.</a></p></details>
         <details><summary>What deliverables come from a LiDAR survey?</summary><p>A classified point cloud (ground, vegetation, buildings, wires), a digital terrain model, a digital surface model, contours and cross-sections, in formats ready for CAD and GIS.</p></details>
         <details><summary>How accurate is drone LiDAR?</summary><p>Accuracy depends on the sensor, flying height and ground control. Survey-grade drone LiDAR checked against ground control typically reaches a few centimetres vertically on hard surfaces.</p></details>
         <details><summary>What does a LiDAR drone survey cost in India?</summary><p>It depends on the job, so each survey is quoted for its site. A corridor is priced per km and a compact site per hectare or acre. The price then moves with the point density needed, the ground control, how much vegetation has to be classified out, and the deliverables, from a ground model alone to full CAD drawings.</p></details>
