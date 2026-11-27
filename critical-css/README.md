@@ -12,3 +12,13 @@ Steps (from a checkout of the site):
 5. Run the full QA with `EXPECT_DIFF='[]' bash qa/run_qa.sh <site> <out>`: every page must stay pixel-identical, and FIRST PAINT must pass
 
 Read each script's header before running it; paths may need adjusting to the checkout location.
+
+## Layout-shift checks beyond cls.py (added PR58, 28 Nov 2026)
+
+`cls.py` loads the HTML in one piece, so it misses shifts that only happen when the HTML arrives in chunks (as on a real phone). PR57 caused CLS 0.041 on highways-and-roadways.html that way: a `<style>` block near the end of `<body>` set `button{margin:10px}`; the critical CSS had it, but the full sheets (bootstrap `button{margin:0}`) applied before the parser reached that block, so the navbar shrank and grew back. Fix used: a copy of the page's body `<style>` blocks in `<head>` right after the 4 stylesheet links (`<style id="dp-late">`), so the cascade is the same at every loading stage.
+
+- `serve_chunk.js`: static server that streams .html in pieces (`CHUNK`, `PAUSE`) and can delay .css (`CSSDELAY`). Example: `CSSDELAY=500 PAUSE=250 node serve_chunk.js <site> 8835`
+- `clsfont.py`: layout-shift trace in 412x823 mobile emulation with sources. `NOFONT=1 NOTHROTTLE=1 python3 clsfont.py 8835 <pages>` isolates CSS-caused shifts. Without `NOFONT` it also serves Montserrat from the local system TTF after `DELAY` ms; set `FONTCONFIG_FILE` to a fontconfig file that rejects the family Montserrat (use a `<rejectfont><pattern>` on family; a glob on the file path does not work because the file name contains `[wght]`), otherwise the system copy is used and no swap happens.
+- `heldcmp.py`: compares element boxes in the first screen, critical-only (4 sheets held) vs final, at 412x823 mobile, with cookie banner and WhatsApp button included (the QA first-paint check hides those). `HOLDIMG=1` also holds images.
+
+Note: if a page has `<style>` blocks inside `<body>`, check it with serve_chunk.js + clsfont.py after any critical-CSS change.
