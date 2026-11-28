@@ -10,7 +10,7 @@
 - In-house GIS team working in ArcGIS, QGIS and AutoCAD
 - Thermal team includes a thermographer certified to ISO 9712 Level 2
 - Power-sector clients include NTPC and Adani
-- 100+ clients since 2020: public authorities, railways, PSUs and contractors
+- 60+ railway Engineering Scale Plans, yard plans and drainage plans submitted; 32 more yards in progress
 
 ## What we do
 - Drone and DGPS topographic surveys for highways, roads and expressways
@@ -86,7 +86,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Landslide and slope stability investigation and protection design](https://datapkt.com/landslide-slope-stability.html): drone LiDAR, seismic refraction tomography and geological mapping (RMR, GSI, SMR) in one ground model; stability analysis, hazard zonation and slope protection design
 - [Seismic refraction survey and tomography (SRT)](https://datapkt.com/seismic-refraction-survey.html): soil thickness, depth to rock and weak zones for slopes, roads, tunnels, dams and foundations, read with drone LiDAR
 
-## Where we work
+## Regional pages
 - [Where we work](https://datapkt.com/where-we-work.html): regions we survey across India from Gurugram, plus remote GIS processing offered to clients outside India (all projects so far in India)
 - [Drone survey company in Delhi NCR](https://datapkt.com/drone-survey-delhi-ncr.html): drone survey, LiDAR and GIS in Delhi, Gurugram, Faridabad, Noida and Manesar; clients include DMRC, DSIIDC, MCG and FMDA
 - [Drone survey in Uttar Pradesh](https://datapkt.com/drone-survey-uttar-pradesh.html): drone survey, transmission line and substation design, and railway and metro mapping in Uttar Pradesh
@@ -123,7 +123,7 @@ Projects across India from our Gurugram office. Remote GIS data processing is of
 - [Slope stability investigation of a 66 km road corridor in Assam](https://datapkt.com/case-studies/slope-stability-investigation-assam.html): drone LiDAR, 66 seismic refraction profiles and geological mapping combined for stability analysis and protection design
 - [Solar PV thermography in Tamil Nadu: what data QC catches before the report](https://datapkt.com/case-studies/solar-pv-thermography-data-qc.html): drone thermal (radiometric IR) and RGB data from a solar PV plant of about 340 MWp, checked against IEC TS 62446-3 conditions, overlap and positioning before analysis; what DATA PKT now specifies in every solar flight brief
 
-## Clients (100+ since 2020)
+## Clients
 National Highways Authority of India (NHAI), NHIDCL, Border Roads Organisation (BRO), Indian Railways (Central Railway, Eastern Railway, North Central Railway), Delhi Metro Rail Corporation (DMRC), Uttar Pradesh Metro Rail Corporation (UPMRC), Mumbai Railway Vikas Corporation (MRVC), IRCON International, Konkan Railway, Delhi State Industrial and Infrastructure Development Corporation (DSIIDC, formerly DSIDC), Faridabad Metropolitan Development Authority (FMDA), Municipal Corporation of Gurugram (MCG), Municipal Corporation Manesar, Eastern Coalfields, Hindustan Copper, ONGC, Indian Oil, NTPC, Adani, GAIL, Bharat Petroleum, Hindustan Petroleum, AFCONS, Agroh Infrastructure, AIDPL, AL Enterprise, Allone Infra, Ambey Infra Projects, Ananta Construction, Apco Infratech, Atcon India, Atlas Constructions, Avantex Infra, Baba Construction, Bhangla Construction Co., Bharat Construction, BRN Infra (N G Projects), BRS Infra Height, C.E. Testing Co., Ceigall India, CIDPL-SCPL JV, Consulting Engineers Group, DCC Infra Projects, Dev Yash Projects, DMR Builders, DPS Contractors, Dronmaps, E5 Infrastructure, ECSO Global, Fortune Group, FP India PMC, Furlong Infra, G R Infraprojects, Gargsons Estate, Garud Survey, Gawar Construction, Gayatri Projects, Goodland Surveys, Grander Infra, Gurbachan Singh Contractor, H.G. Infra Engineering, Hardik Construction, Hillways Construction Company, IRB Infrastructure (Modern Road Makers), J Infratech, Jagdish Saran, Jandu Construction, JSC IA Vozrozhdenie India, Kaluwala Construction, KCC Buildcon, Keystone, KMC Constructions, Lepton Software (BharatNet), LN Malviya Infra, Marc Technocrats, Mayasheel Construction, MIC Mahamarg Infra Consultants, MRG Constructions-VS Saini JV, Namaha Engineering, Newcon Engineers, Nitin Sai Construction, NKC Projects, Om Construction, OSS Construction, PNC Infratech, Preeti Buildcon, Prem Kumar Bansal Projects, Prinav GIS Technologies, PS Infracorp, R&C Infraengineers, Rajvir & Company, Ramky-ECI JV, Rathee Buildway, RCL, Reliance Industries, Shanti Road Construction, Shivam Enterprises, Shree Riddhi Siddhi Buildwell, Simplex Infrastructures, SKS Infra, Skylark Infra, SP Singla Constructions, SPG Infracon, SPS Technocrafts, SS Builders, SSB Infratech, Stroyproekt, Suraj Construction, Surya International, Tecqza Software, Theme Engineering Services, Theta Enerlytics, Thoughts Consultants, TMAP Projects, Tomar Construction, Upright Projects, Vijay Construction, Vishesh Infrastructure, VRC Constructions (India).
 
 ## More
