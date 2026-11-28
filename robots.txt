@@ -1,9 +1,6 @@
 # datapkt.com: search engines and AI assistants are welcome to read this site.
 User-agent: *
 Allow: /
-Disallow: /vscode/
-Disallow: /others/
-Disallow: /send.php
 
 User-agent: Googlebot
 Allow: /
